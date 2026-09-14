@@ -5,9 +5,9 @@ import {
   ArrowUpRight,
   Info,
   Layers3,
-  Pause,
   RotateCcw,
-  RotateCw,
+  Undo2,
+  Redo2,
   Search,
   X,
 } from "lucide-react";
@@ -39,6 +39,7 @@ const initial: SceneState = {
   view: "three-quarter",
   rotate: false,
   reset: 0,
+  hidden: [],
 };
 const views: { id: View; label: string; description: string }[] = [
   { id: "three-quarter", label: "斜前", description: "从斜前方查看人体" },
@@ -58,6 +59,10 @@ export default function Home() {
   const [details, setDetails] = useState(false);
   const [about, setAbout] = useState(false);
   const [query, setQuery] = useState("");
+  const [hideHistory, setHideHistory] = useState<{ past: string[][]; future: string[][] }>({
+    past: [],
+    future: [],
+  });
   const [chosen, setChosen] = useState<Concept | null>(null);
   const [notice, setNotice] = useState(() => {
     try {
@@ -132,10 +137,12 @@ export default function Home() {
   );
   const selectedParts = state.selected.map((id) => parts.get(id)).filter((p) => !!p);
   const visibleCount =
-    atlas?.parts.filter((p) =>
-      state.isolate
-        ? state.selected.includes(p.id)
-        : state.visible.includes(p.system) || state.selected.includes(p.id),
+    atlas?.parts.filter(
+      (p) =>
+        !state.hidden.includes(p.id) &&
+        (state.isolate
+          ? state.selected.includes(p.id)
+          : state.visible.includes(p.system) || state.selected.includes(p.id)),
     ).length ?? 0;
   const choose = useCallback((c: Concept) => {
     setChosen(c);
@@ -156,7 +163,35 @@ export default function Home() {
     setChosen(null);
     setState((s) => ({ ...s, visible, selected: [], isolate: false }));
   };
+  const hideSelected = () => {
+    setHideHistory((h) => ({ past: [...h.past, state.hidden], future: [] }));
+    setState((s) => ({
+      ...s,
+      hidden: [...new Set([...s.hidden, ...s.selected])],
+      selected: [],
+      isolate: false,
+    }));
+    setChosen(null);
+    setDetails(false);
+  };
+  const undoHide = () => {
+    const previous = hideHistory.past.at(-1);
+    if (!previous) return;
+    setHideHistory((h) => ({ past: h.past.slice(0, -1), future: [state.hidden, ...h.future] }));
+    setState((s) => ({ ...s, hidden: previous, selected: [], isolate: false }));
+    setChosen(null);
+    setDetails(false);
+  };
+  const redoHide = () => {
+    const next = hideHistory.future[0];
+    if (!next) return;
+    setHideHistory((h) => ({ past: [...h.past, state.hidden], future: h.future.slice(1) }));
+    setState((s) => ({ ...s, hidden: next, selected: [], isolate: false }));
+    setChosen(null);
+    setDetails(false);
+  };
   const reset = () => {
+    setHideHistory({ past: [], future: [] });
     setState((s) => ({ ...initial, reset: s.reset + 1 }));
     setChosen(null);
     setDetails(false);
@@ -213,8 +248,7 @@ export default function Home() {
           </Badge>
         </h1>
         <div className="identity-meta">
-          {atlas ? `${atlas.parts.length.toLocaleString()} 个三维结构` : "正在读取结构目录"}{" "}
-          <span>·</span> BodyParts3D
+          {atlas ? `${atlas.parts.length.toLocaleString()} 个三维结构` : "正在读取结构目录"}
         </div>
       </header>
       <nav className="top-actions" aria-label="探索面板">
@@ -230,7 +264,7 @@ export default function Home() {
           <span>查找结构</span>
           <kbd>/</kbd>
         </Button>
-        <Button variant="ghost" className="icon-button" aria-label="关于本图谱" onClick={openAbout}>
+        <Button variant="ghost" className="icon-button" aria-label="个人信息" onClick={openAbout}>
           <Info size={18} />
         </Button>
       </nav>
@@ -285,21 +319,21 @@ export default function Home() {
           <i />
           <Button
             variant="ghost"
-            disabled={state.explode >= 0.4}
-            aria-label={state.rotate ? "暂停旋转" : "旋转人体"}
-            title="自动旋转"
-            className={state.rotate ? "active" : ""}
-            onClick={() => setState((s) => ({ ...s, rotate: !s.rotate }))}
+            aria-label="撤销隐藏"
+            title="撤销隐藏"
+            disabled={!hideHistory.past.length}
+            onClick={undoHide}
           >
-            {state.rotate ? <Pause size={17} /> : <RotateCw size={18} />}
+            <Undo2 size={18} />
           </Button>
           <Button
             variant="ghost"
-            aria-label="重置视角和图层"
-            title="重置视角和图层"
-            onClick={reset}
+            aria-label="重做隐藏"
+            title="重做隐藏"
+            disabled={!hideHistory.future.length}
+            onClick={redoHide}
           >
-            <RotateCcw size={17} />
+            <Redo2 size={18} />
           </Button>
         </nav>
       </TooltipProvider>
@@ -358,19 +392,24 @@ export default function Home() {
           </div>
           <p className="gesture-hint">
             {state.explode >= 0.8
-              ? "拖动平移 · 点击结构查看详情"
-              : "拖动旋转 · 缩放查看 · 点击选择"}
+              ? "左键拖动平移 · 滚轮缩放 · 点击选择"
+              : "左键平移 · 右键旋转 · 滚轮缩放"}
           </p>
         </div>
-        <Button variant="ghost" className="dock-reset" onClick={reset} aria-label="组合并重置">
+        <Button
+          variant="ghost"
+          className="dock-reset"
+          onClick={reset}
+          aria-label="组合并重置"
+          title="重置视角、图层并恢复所有已隐藏结构"
+        >
           <RotateCcw size={18} />
           <span>重置</span>
         </Button>
       </div>
       <footer className="studio-footer">
         <span>
-          {state.explode >= 0.8 ? "拖动平移" : "拖动旋转视角"} <b>·</b> 滚轮 / 双指缩放 <b>·</b>{" "}
-          点击结构查看详情
+          左键平移 <b>·</b> 右键旋转 <b>·</b> 滚轮 / 双指缩放 <b>·</b> 点击结构查看详情
         </span>
         <Button variant="ghost" onClick={openAbout}>
           来源与致谢 <ArrowUpRight size={12} />
@@ -406,7 +445,7 @@ export default function Home() {
         chosen={chosen}
         selectedParts={selectedParts}
         state={state}
-        choosePart={choosePart}
+        onHide={hideSelected}
         onToggleIsolate={() => setState((s) => ({ ...s, isolate: !s.isolate, explode: 0 }))}
         onClear={() => {
           setState((s) => ({ ...s, selected: [], isolate: false }));
@@ -414,7 +453,7 @@ export default function Home() {
           setDetails(false);
         }}
       />
-      <AboutSheet atlas={atlas} about={about} setAbout={setAbout} />
+      <AboutSheet about={about} setAbout={setAbout} />
     </main>
   );
 }

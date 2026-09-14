@@ -52,7 +52,7 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
     el.appendChild(renderer.domElement);
     renderer.domElement.setAttribute(
       "aria-label",
-      "可交互的人体解剖模型。拖动可旋转视角，捏合或滚动可缩放，点击结构可查看详情。",
+      "可交互的人体解剖模型。左键拖动可平移，右键拖动绕人体中心轴旋转，捏合或滚动可缩放，点击结构可查看详情。",
     );
     const scene = new T.Scene(),
       camera = new T.PerspectiveCamera(34, 1, 0.005, 100),
@@ -60,6 +60,8 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
     camera.position.set(1.4, 1.05, 3.6);
     controls.target.set(0, 0.85, 0);
     controls.enableDamping = true;
+    controls.zoomToCursor = true;
+    controls.mouseButtons = { LEFT: T.MOUSE.PAN, MIDDLE: undefined, RIGHT: undefined };
     controls.dampingFactor = 0.085;
     controls.minDistance = 0.07;
     controls.maxDistance = 40;
@@ -226,7 +228,7 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
         );
         shader.fragmentShader = shader.fragmentShader.replace(
           "#include <color_fragment>",
-          "#include <color_fragment>\ndiffuseColor.rgb = mix(diffuseColor.rgb, vec3(0.42, 0.85, 0.78), partSelected * 0.75);",
+          "#include <color_fragment>\ndiffuseColor.rgb = mix(diffuseColor.rgb, vec3(0.36, 0.015, 0.95), partSelected);",
         );
       };
       materials.push(m);
@@ -360,11 +362,24 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
       tap = new PointerTap(),
       worldBox = new T.Box3(),
       hitPoint = new T.Vector3();
+    let rotationPointer: { id: number; x: number } | null = null;
+    const rotationAxis = new T.Vector3(0, 1, 0);
+    const bodyCenter = new T.Vector3(0, 0.85, 0);
     const down = (e: PointerEvent) => {
+      if (e.button === 2) rotationPointer = { id: e.pointerId, x: e.clientX };
       hover.hidden = true;
       tap.down(e.pointerId, e.clientX, e.clientY, e.pointerType === "touch" ? 12 : 5);
     };
+    const contextMenu = (e: MouseEvent) => e.preventDefault();
     const move = (e: PointerEvent) => {
+      if (rotationPointer?.id === e.pointerId) {
+        const angle = (-(e.clientX - rotationPointer.x) * Math.PI * 2) / el.clientWidth;
+        camera.position.sub(bodyCenter).applyAxisAngle(rotationAxis, angle).add(bodyCenter);
+        controls.target.sub(bodyCenter).applyAxisAngle(rotationAxis, angle).add(bodyCenter);
+        rotationPointer.x = e.clientX;
+        controls.update();
+        dirty = true;
+      }
       tap.move(e.pointerId, e.clientX, e.clientY);
       if (e.buttons || amount < 0.5 || e.pointerType === "touch") {
         hover.hidden = true;
@@ -375,17 +390,20 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
         y = e.clientY - rect.top,
         index = findTarget(x, y, 12);
       hover.hidden = index < 0;
-      renderer.domElement.style.cursor = index < 0 ? "grab" : "pointer";
       if (index >= 0) {
         hover.textContent = atlas.parts[index].name;
         hover.style.left = `${Math.max(8, Math.min(x + 14, el.clientWidth - 260))}px`;
         hover.style.top = `${Math.max(8, Math.min(y + 18, el.clientHeight - 55))}px`;
       }
     };
-    const cancel = (e: PointerEvent) => tap.cancel(e.pointerId);
+    const cancel = (e: PointerEvent) => {
+      tap.cancel(e.pointerId);
+      if (rotationPointer?.id === e.pointerId) rotationPointer = null;
+    };
     const up = (e: PointerEvent) => {
+      if (rotationPointer?.id === e.pointerId) rotationPointer = null;
       const validTap = tap.up(e.pointerId, e.clientX, e.clientY);
-      if (!validTap || !ready) return;
+      if (!validTap || !ready || (e.pointerType !== "touch" && e.button !== 0)) return;
       const rect = renderer.domElement.getBoundingClientRect();
       pointer.set(
         ((e.clientX - rect.left) / rect.width) * 2 - 1,
@@ -427,6 +445,7 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
     renderer.domElement.addEventListener("pointermove", move);
     renderer.domElement.addEventListener("pointerup", up);
     renderer.domElement.addEventListener("pointercancel", cancel);
+    renderer.domElement.addEventListener("contextmenu", contextMenu);
     let inspectorRevision = 0;
     const inspectorObserver = new ResizeObserver(() => {
       inspectorRevision++;
@@ -440,6 +459,7 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
       const dt = Math.min(clock.getDelta(), 0.05),
         s = latest.current;
       const changed =
+        lastState?.hidden !== s.hidden ||
         lastState?.visible !== s.visible ||
         lastState?.selected !== s.selected ||
         lastState?.isolate !== s.isolate;
@@ -450,9 +470,12 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
       }
       if (changed || moving || lastExtent < 0) {
         const visible = new Set(s.visible),
-          selection = new Set(s.selected);
-        const visibleParts = atlas.parts.filter((p) =>
-          s.isolate ? selection.has(p.id) : visible.has(p.system) || selection.has(p.id),
+          selection = new Set(s.selected),
+          hidden = new Set(s.hidden);
+        const visibleParts = atlas.parts.filter(
+          (p) =>
+            !hidden.has(p.id) &&
+            (s.isolate ? selection.has(p.id) : visible.has(p.system) || selection.has(p.id)),
         );
         const nextLayoutKey =
           visibleParts.map((p) => p.id).join(",") + ":" + camera.aspect.toFixed(3);
@@ -491,7 +514,14 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
           }
           const selected = selection.has(p.id);
           data.set(
-            [dx, dy, dz, (s.isolate ? selected : visible.has(p.system) || selected) ? 1 : 0],
+            [
+              dx,
+              dy,
+              dz,
+              !hidden.has(p.id) && (s.isolate ? selected : visible.has(p.system) || selected)
+                ? 1
+                : 0,
+            ],
             i * 4,
           );
           selectedData[i * 4] = selected ? 255 : 0;
@@ -609,7 +639,6 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
         lastIsolate = isolateKey;
       }
       controls.enableRotate = amount < 0.8;
-      controls.mouseButtons.LEFT = amount < 0.8 ? T.MOUSE.ROTATE : T.MOUSE.PAN;
       controls.touches.ONE = amount < 0.8 ? T.TOUCH.ROTATE : T.TOUCH.PAN;
       ground.visible =
         platform.visible =
@@ -696,6 +725,7 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
       markerGeometry.dispose();
       markerMaterial.dispose();
       hover.remove();
+      renderer.domElement.removeEventListener("contextmenu", contextMenu);
       renderer.dispose();
       renderer.domElement.remove();
     };

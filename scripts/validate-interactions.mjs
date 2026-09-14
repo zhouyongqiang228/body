@@ -39,3 +39,20 @@ tap.down(1,10,10,5);tap.cancel(1);assert.equal(tap.up(1,10,10),false);
 tap.down(1,10,10,5);assert.equal(tap.up(1,10,10),true);
 assert.equal(createExplosionLayout([]).cells.size,0);
 console.log('Tap, drag, multitouch, cancellation, and empty-view checks passed.');
+
+const catalog = JSON.parse(await readFile(new URL('../public/models/atlas.json', import.meta.url)));
+const descriptions = JSON.parse(await readFile(new URL('../app/data/structure-descriptions.json', import.meta.url)));
+for (const concept of catalog.concepts) {
+  assert.equal(descriptions[concept.id]?.name, concept.name, `Description identity: ${concept.id}`);
+  assert.ok(descriptions[concept.id].description.length >= 40, `Detailed text missing: ${concept.id}`);
+}
+for (const part of catalog.parts) assert.ok(descriptions[part.conceptId], `Mesh description: ${part.id}`);
+const {structureTitle} = await import('../app/structure-descriptions.ts');
+assert.deepEqual(structureTitle('左股骨'), {name:'股骨', side:'左'});
+assert.deepEqual(structureTitle('右侧第1肋'), {name:'第1肋', side:'右'});
+assert.deepEqual(structureTitle('左侧脑室'), {name:'侧脑室', side:'左'});
+assert.deepEqual(structureTitle('胸腺右叶'), {name:'胸腺叶', side:'右'});
+assert.ok(descriptions.FMA24475.description.includes('髋臼'));
+assert.ok(descriptions.FMA23131.description.includes('肘关节'));
+assert.ok(descriptions.FMA7196.description.includes('白髓'));
+console.log(`All ${catalog.concepts.length} concept descriptions and all mesh mappings verified.`);

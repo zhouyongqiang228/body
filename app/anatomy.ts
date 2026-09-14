@@ -153,6 +153,7 @@ export interface SceneState {
   view: View;
   rotate: boolean;
   reset: number;
+  hidden: string[];
 }
 export const DEFAULT_VISIBLE: SystemId[] = [
   "cardiac",
@@ -217,22 +218,3 @@ export const SEARCH_ALIASES: Record<string, string> = {
   tongue: "舌",
   skin: "皮肤",
 };
-export const EXPLANATIONS: Record<string, string> = {
-  心脏: "位于胸腔内的肌性泵。右心将血液泵往肺部，左心则将血液泵入体循环。",
-  心: "位于胸腔内的肌性泵。右心将血液泵往肺部，左心则将血液泵入体循环。",
-  肝脏: "位于膈肌右侧下方的大型器官。它处理吸收的营养物质、生成胆汁，并合成多种随血液运输的蛋白质。",
-  肝: "位于膈肌右侧下方的大型器官。它处理吸收的营养物质、生成胆汁，并合成多种随血液运输的蛋白质。",
-  脑: "神经系统的中枢器官。彼此连接的脑区共同支持感知、运动、记忆、语言以及机体功能调节。",
-  胃: "位于食管与小肠之间的肌性囊状器官。它储存食物，并将食物与胃酸和消化酶混合后排入十二指肠。",
-  脾: "位于左上腹部的淋巴器官。它滤过血液、清除衰老血细胞，并参与免疫应答。",
-  胰腺: "兼具消化和内分泌功能的腹部器官。它向小肠提供消化酶，并释放胰岛素、胰高血糖素等激素。",
-  胰: "兼具消化和内分泌功能的腹部器官。它向小肠提供消化酶，并释放胰岛素、胰高血糖素等激素。",
-  膀胱: "位于骨盆内的肌性储尿器官，储存由肾脏经输尿管输送而来的尿液。",
-  泌尿膀胱: "位于骨盆内的肌性储尿器官，储存由肾脏经输尿管输送而来的尿液。",
-  气管: "连接喉与支气管的主要气道。其软骨支架在呼吸过程中维持气道开放。",
-  膈肌: "分隔胸腔与腹腔的穹隆形宽阔肌肉。收缩时扩大胸腔容积，帮助空气吸入肺内。",
-};
-export function explanation(name: string, system: SystemId) {
-  const key = SEARCH_ALIASES[name.toLowerCase()] ?? name.toLowerCase();
-  return EXPLANATIONS[key] ?? SYSTEMS.find((s) => s.id === system)?.description ?? "";
-}
