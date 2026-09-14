@@ -36,10 +36,19 @@ npm run dev
 
 ```sh
 npm run check
-node scripts/validate-atlas.mjs
-node scripts/validate-interactions.mjs
+npm run validate:atlas
+npm run validate:interactions
 npm run build
 ```
+
+浏览器回归测试首次运行前安装 Chromium：
+
+```sh
+npx playwright install chromium
+npm run test:e2e
+```
+
+测试会自动启动独立的本地服务器，覆盖桌面与手机尺寸、搜索键盘操作、图层与隔离、模型加载失败重试，以及 WebGL 初始化失败与会话中断。截图和失败时的追踪文件位于 `test-results/`。
 
 验证内容包括网格缓冲区、名称和概念归属、桌面端与移动端宽高比下不重叠的分散布局、搜索与查看契约，以及点击与拖动的区分。浏览器交互检查已覆盖选择、系统控件、搜索、隔离、旋转，以及 390×844、320×568 和 844×390 布局。手机控件不会遮挡分散展示的部件；隔离结构会适配详情面板上方或旁侧的可用空间。尚未测试实体设备性能和真实多点触控硬件。
 

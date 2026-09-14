@@ -27,6 +27,23 @@ jobs:
           cache: npm
       - name: 安装依赖
         run: npm ci
+      - name: 检查类型与解剖数据
+        run: |
+          npm run check
+          npm run validate:atlas
+          npm run validate:interactions
+      - name: 安装浏览器测试环境
+        run: npx playwright install --with-deps chromium
+      - name: 验证浏览器交互
+        run: npm run test:e2e
+        env:
+          GITHUB_REPOSITORY: ''
+      - name: 保存浏览器测试结果
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-test-results
+          path: test-results/
       - name: 构建静态网站
         run: npm run build
       - name: 配置 GitHub Pages
