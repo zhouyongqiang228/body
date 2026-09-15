@@ -1451,3 +1451,7 @@ h1 .edition {
 }
 
 .structure-side { font-size: 12px; font-weight: 400; color: #68727d; margin-left: 8px; white-space: nowrap; }
+.abdominal-layers { border-top: 1px solid #dce1e4; padding: 10px 12px; font-size: 12px; }
+.abdominal-layers summary { cursor: pointer; font-weight: 600; }
+.abdominal-layers .system-row { min-height: 34px; justify-content: space-between; }
+.abdominal-layers small { color: #68727d; }

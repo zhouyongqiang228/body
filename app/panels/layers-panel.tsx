@@ -10,6 +10,8 @@ interface Props {
   visibleCount: number;
   onVisible: (ids: SystemId[]) => void;
   onClose: () => void;
+  abdominalLayers?: { name: string; checked: boolean }[];
+  onAbdominalLayer?: (name: string, shown: boolean) => void;
 }
 const organs: SystemId[] = [
   "cardiac",
@@ -19,7 +21,7 @@ const organs: SystemId[] = [
   "endocrine",
   "reproductive",
 ];
-export function LayersPanel({ open, visible, counts, visibleCount, onVisible, onClose }: Props) {
+export function LayersPanel({ open, visible, counts, visibleCount, onVisible, onClose, abdominalLayers, onAbdominalLayer }: Props) {
   const systems = SYSTEMS.filter((s) => counts[s.id] > 0);
   const presets = [
     { label: "全部", ids: systems.map((s) => s.id) },
@@ -82,6 +84,17 @@ export function LayersPanel({ open, visible, counts, visibleCount, onVisible, on
           </div>
         ))}
       </div>
+      {!!abdominalLayers?.length && (
+        <details className="abdominal-layers">
+          <summary>腹壁肌层</summary>
+          {abdominalLayers.map((layer, i) => (
+            <div className="system-row" key={layer.name}>
+              <span>{layer.name}<small> · {['浅层', '中层', '深层'][i]}</small></span>
+              <Switch checked={layer.checked} onCheckedChange={checked => onAbdominalLayer?.(layer.name, checked)} aria-label={`显示${layer.name}`} />
+            </div>
+          ))}
+        </details>
+      )}
       <div className="panel-foot">
         <span>当前显示 {visibleCount.toLocaleString()} 个结构</span>
         <Button variant="ghost" onClick={() => onVisible([])}>

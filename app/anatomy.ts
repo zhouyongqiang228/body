@@ -127,6 +127,7 @@ export interface Part {
   vertexCount: number;
   indexCount: number;
   bounds: [number[], number[]];
+  source?: { dataset: string; license: string; file: string; mesh: string; id: number; sha256: string; phase: number };
 }
 export interface Concept {
   id: string;
@@ -173,6 +174,15 @@ export const DEFAULT_VISIBLE: SystemId[] = [
 ];
 /** 常用英文检索词仅用于兼容输入，不会在界面中展示。 */
 export const SEARCH_ALIASES: Record<string, string> = {
+  tfcc: "tfcc",
+  temporalis: "颞肌",
+  masseter: "咬肌",
+  "external oblique": "腹外斜肌",
+  "internal oblique": "腹内斜肌",
+  "transversus abdominis": "腹横肌",
+  meniscus: "半月板",
+  acl: "前交叉韧带",
+  pcl: "后交叉韧带",
   heart: "心脏",
   brain: "脑",
   liver: "肝脏",

@@ -1,0 +1,7503 @@
+{
+  "source": "Z-Anatomy",
+  "repository": "https://github.com/LluisV/Z-Anatomy",
+  "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+  "sourcePath": "Resources/Models/FBX/Joints100.fbx",
+  "license": "CC-BY-SA-4.0",
+  "licenseFile": "https://github.com/LluisV/Z-Anatomy/blob/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/License.txt",
+  "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+  "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+  "meshCount": 416,
+  "stage": "source inventory only; not registered to BodyParts3D or imported into the atlas",
+  "meshes": [
+    {
+      "name": "Cricopharyngeal_ligamentr",
+      "originalName": "Cricopharyngeal ligament.r",
+      "sourceId": 607556851,
+      "triangles": 3119,
+      "bounds": [
+        [
+          -0.9472611546516418,
+          146.1458740234375,
+          0.6919595003128052
+        ],
+        [
+          -0.07837511599063873,
+          147.4268798828125,
+          2.503618001937866
+        ]
+      ]
+    },
+    {
+      "name": "Cricopharyngeal_ligamentl",
+      "originalName": "Cricopharyngeal ligament.l",
+      "sourceId": 866614393,
+      "triangles": 3119,
+      "bounds": [
+        [
+          0.07837355136871338,
+          146.1458740234375,
+          0.6919595003128052
+        ],
+        [
+          0.9472596049308777,
+          147.4268798828125,
+          2.503618001937866
+        ]
+      ]
+    },
+    {
+      "name": "Quadrangular_membranel",
+      "originalName": "Quadrangular membrane.l",
+      "sourceId": 173526332,
+      "triangles": 4592,
+      "bounds": [
+        [
+          0.5112237334251404,
+          148.5626678466797,
+          0.2910037636756897
+        ],
+        [
+          2.1110832691192627,
+          150.71983337402344,
+          3.1370205879211426
+        ]
+      ]
+    },
+    {
+      "name": "Quadrangular_membraner",
+      "originalName": "Quadrangular membrane.r",
+      "sourceId": 862251111,
+      "triangles": 4592,
+      "bounds": [
+        [
+          -2.1110851764678955,
+          148.5626678466797,
+          0.2910037636756897
+        ],
+        [
+          -0.5112256407737732,
+          150.71983337402344,
+          3.1370205879211426
+        ]
+      ]
+    },
+    {
+      "name": "Median_cricothyroid_ligament",
+      "originalName": "Median cricothyroid ligament",
+      "sourceId": 768464752,
+      "triangles": 1958,
+      "bounds": [
+        [
+          -0.26498323678970337,
+          146.13037109375,
+          1.892946720123291
+        ],
+        [
+          0.2649816572666168,
+          147.4203643798828,
+          2.673046827316284
+        ]
+      ]
+    },
+    {
+      "name": "Lateral_thyrohyoid_ligamentl",
+      "originalName": "Lateral thyrohyoid ligament.l",
+      "sourceId": 82833931,
+      "triangles": 912,
+      "bounds": [
+        [
+          1.6759145259857178,
+          150.30029296875,
+          -0.522820234298706
+        ],
+        [
+          2.0377509593963623,
+          151.35910034179688,
+          -0.0714748203754425
+        ]
+      ]
+    },
+    {
+      "name": "Median_thyrohyoid_ligament",
+      "originalName": "Median thyrohyoid ligament",
+      "sourceId": 131139700,
+      "triangles": 2771,
+      "bounds": [
+        [
+          -0.917397141456604,
+          147.56301879882812,
+          2.773763418197632
+        ],
+        [
+          0.9173951745033264,
+          149.3260040283203,
+          3.5247626304626465
+        ]
+      ]
+    },
+    {
+      "name": "Lateral_thyrohyoid_ligamentr",
+      "originalName": "Lateral thyrohyoid ligament.r",
+      "sourceId": 544404642,
+      "triangles": 912,
+      "bounds": [
+        [
+          -2.037752866744995,
+          150.30029296875,
+          -0.5228202939033508
+        ],
+        [
+          -1.6759164333343506,
+          151.35910034179688,
+          -0.07147481292486191
+        ]
+      ]
+    },
+    {
+      "name": "Sacrospinous_ligamentl",
+      "originalName": "Sacrospinous ligament.l",
+      "sourceId": 3687383,
+      "triangles": 280,
+      "bounds": [
+        [
+          0.9028999209403992,
+          86.57520294189453,
+          -7.596465110778809
+        ],
+        [
+          4.308298110961914,
+          91.00403594970703,
+          -4.903227806091309
+        ]
+      ]
+    },
+    {
+      "name": "Iliolumbar_ligamentr",
+      "originalName": "Iliolumbar ligament.r",
+      "sourceId": 146670435,
+      "triangles": 112,
+      "bounds": [
+        [
+          -8.504044532775879,
+          99.33780670166016,
+          -4.785277366638184
+        ],
+        [
+          -3.7365047931671143,
+          102.20044708251953,
+          -2.6305713653564453
+        ]
+      ]
+    },
+    {
+      "name": "Sacrotuberous_ligamentr",
+      "originalName": "Sacrotuberous ligament.r",
+      "sourceId": 558314782,
+      "triangles": 654,
+      "bounds": [
+        [
+          -5.991579055786133,
+          81.09889221191406,
+          -7.252786159515381
+        ],
+        [
+          -0.8767724633216858,
+          89.91365814208984,
+          -5.135267734527588
+        ]
+      ]
+    },
+    {
+      "name": "Sacrotuberous_ligamentl",
+      "originalName": "Sacrotuberous ligament.l",
+      "sourceId": 658294237,
+      "triangles": 654,
+      "bounds": [
+        [
+          1.1290631294250488,
+          81.01681518554688,
+          -7.643719673156738
+        ],
+        [
+          5.7728753089904785,
+          89.95869445800781,
+          -5.18853235244751
+        ]
+      ]
+    },
+    {
+      "name": "Obturator_membraner",
+      "originalName": "Obturator membrane.r",
+      "sourceId": 665079841,
+      "triangles": 1072,
+      "bounds": [
+        [
+          -5.277394771575928,
+          81.94007873535156,
+          -2.628432035446167
+        ],
+        [
+          -2.480985403060913,
+          85.26373291015625,
+          2.2050046920776367
+        ]
+      ]
+    },
+    {
+      "name": "Sacrospinous_ligamentr",
+      "originalName": "Sacrospinous ligament.r",
+      "sourceId": 674690912,
+      "triangles": 280,
+      "bounds": [
+        [
+          -4.58465576171875,
+          86.6297607421875,
+          -7.12923002243042
+        ],
+        [
+          -0.7932140231132507,
+          91.02577209472656,
+          -5.083738327026367
+        ]
+      ]
+    },
+    {
+      "name": "Obturator_membranel",
+      "originalName": "Obturator membrane.l",
+      "sourceId": 733738753,
+      "triangles": 1072,
+      "bounds": [
+        [
+          2.48100209236145,
+          81.94007873535156,
+          -2.628431797027588
+        ],
+        [
+          5.277411460876465,
+          85.26373291015625,
+          2.2050046920776367
+        ]
+      ]
+    },
+    {
+      "name": "Iliolumbar_ligamentl",
+      "originalName": "Iliolumbar ligament.l",
+      "sourceId": 950493039,
+      "triangles": 112,
+      "bounds": [
+        [
+          3.7365214824676514,
+          99.33780670166016,
+          -4.785277366638184
+        ],
+        [
+          8.504060745239258,
+          102.20044708251953,
+          -2.6305716037750244
+        ]
+      ]
+    },
+    {
+      "name": "Pubic_symphysis",
+      "originalName": "Pubic symphysis",
+      "sourceId": 454478537,
+      "triangles": 416,
+      "bounds": [
+        [
+          -1.715837836265564,
+          83.48834991455078,
+          2.9761903285980225
+        ],
+        [
+          1.715843915939331,
+          85.40935516357422,
+          5.5709943771362305
+        ]
+      ]
+    },
+    {
+      "name": "Inferior_pubic_ligament",
+      "originalName": "Inferior pubic ligament",
+      "sourceId": 168892356,
+      "triangles": 96,
+      "bounds": [
+        [
+          -1.6476571559906006,
+          83.47620391845703,
+          4.074575424194336
+        ],
+        [
+          1.6476634740829468,
+          84.09336853027344,
+          5.2185869216918945
+        ]
+      ]
+    },
+    {
+      "name": "Superior_pubic_ligament",
+      "originalName": "Superior pubic ligament",
+      "sourceId": 523321524,
+      "triangles": 96,
+      "bounds": [
+        [
+          -1.5514554977416992,
+          85.21192169189453,
+          4.242565155029297
+        ],
+        [
+          1.551461935043335,
+          85.50472259521484,
+          5.519964694976807
+        ]
+      ]
+    },
+    {
+      "name": "Interpubic_disc",
+      "originalName": "Interpubic disc",
+      "sourceId": 907110535,
+      "triangles": 416,
+      "bounds": [
+        [
+          -0.4623161256313324,
+          83.70390319824219,
+          3.3211264610290527
+        ],
+        [
+          0.4623224139213562,
+          85.14545440673828,
+          5.187654972076416
+        ]
+      ]
+    },
+    {
+      "name": "Triradiate_cartilager",
+      "originalName": "Triradiate cartilage.r",
+      "sourceId": 602898162,
+      "triangles": 1604,
+      "bounds": [
+        [
+          -8.749258041381836,
+          84.84375762939453,
+          -4.406181812286377
+        ],
+        [
+          -4.967293739318848,
+          88.44123077392578,
+          2.376847505569458
+        ]
+      ]
+    },
+    {
+      "name": "Triradiate_cartilagel",
+      "originalName": "Triradiate cartilage.l",
+      "sourceId": 721140889,
+      "triangles": 1604,
+      "bounds": [
+        [
+          4.9672980308532715,
+          84.84375762939453,
+          -4.406182289123535
+        ],
+        [
+          8.749262809753418,
+          88.44123077392578,
+          2.376847505569458
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_sacro-iliac_ligamentl",
+      "originalName": "Anterior sacro-iliac ligament.l",
+      "sourceId": 225744266,
+      "triangles": 504,
+      "bounds": [
+        [
+          3.4942827224731445,
+          91.29800415039062,
+          -3.8252975940704346
+        ],
+        [
+          7.514378070831299,
+          97.63182830810547,
+          -0.6791471838951111
+        ]
+      ]
+    },
+    {
+      "name": "Interosseous_sacro-iliac_ligamentl",
+      "originalName": "Interosseous sacro-iliac ligament.l",
+      "sourceId": 333652481,
+      "triangles": 200,
+      "bounds": [
+        [
+          3.568114757537842,
+          91.474365234375,
+          -7.368906021118164
+        ],
+        [
+          5.141062259674072,
+          96.88460540771484,
+          -4.99760627746582
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_sacro-iliac_ligamentr",
+      "originalName": "Posterior sacro-iliac ligament.r",
+      "sourceId": 344659359,
+      "triangles": 5456,
+      "bounds": [
+        [
+          -6.135868549346924,
+          87.90653228759766,
+          -9.211684226989746
+        ],
+        [
+          -1.031266689300537,
+          97.41912841796875,
+          -4.86741828918457
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_sacro-iliac_ligamentl",
+      "originalName": "Posterior sacro-iliac ligament.l",
+      "sourceId": 512292313,
+      "triangles": 5456,
+      "bounds": [
+        [
+          1.0312550067901611,
+          87.90653228759766,
+          -9.211684226989746
+        ],
+        [
+          6.135857105255127,
+          97.41912841796875,
+          -4.86741828918457
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_sacro-iliac_ligamentr",
+      "originalName": "Anterior sacro-iliac ligament.r",
+      "sourceId": 530915538,
+      "triangles": 504,
+      "bounds": [
+        [
+          -7.51439094543457,
+          91.29800415039062,
+          -3.8252975940704346
+        ],
+        [
+          -3.494295358657837,
+          97.63182830810547,
+          -0.6791472434997559
+        ]
+      ]
+    },
+    {
+      "name": "Interosseous_sacro-iliac_ligamentr",
+      "originalName": "Interosseous sacro-iliac ligament.r",
+      "sourceId": 923086234,
+      "triangles": 200,
+      "bounds": [
+        [
+          -5.141074180603027,
+          91.474365234375,
+          -7.368906021118164
+        ],
+        [
+          -3.568127155303955,
+          96.88460540771484,
+          -4.99760627746582
+        ]
+      ]
+    },
+    {
+      "name": "Transverse_tibiofibular_ligamentr",
+      "originalName": "Transverse tibiofibular ligament.r",
+      "sourceId": 126098189,
+      "triangles": 104,
+      "bounds": [
+        [
+          -9.565937995910645,
+          8.204721450805664,
+          -5.88996696472168
+        ],
+        [
+          -5.6414408683776855,
+          8.822781562805176,
+          -4.854051113128662
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_tibiofibular_ligamentl",
+      "originalName": "Posterior tibiofibular ligament.l",
+      "sourceId": 184571685,
+      "triangles": 248,
+      "bounds": [
+        [
+          8.088325500488281,
+          8.346638679504395,
+          -6.171500205993652
+        ],
+        [
+          9.726489067077637,
+          10.386768341064453,
+          -5.416902542114258
+        ]
+      ]
+    },
+    {
+      "name": "Transverse_tibiofibular_ligamentl",
+      "originalName": "Transverse tibiofibular ligament.l",
+      "sourceId": 201611229,
+      "triangles": 104,
+      "bounds": [
+        [
+          5.641443252563477,
+          8.204721450805664,
+          -5.88996696472168
+        ],
+        [
+          9.565940856933594,
+          8.822781562805176,
+          -4.854051113128662
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_tibiofibular_ligamentr",
+      "originalName": "Posterior tibiofibular ligament.r",
+      "sourceId": 614802793,
+      "triangles": 248,
+      "bounds": [
+        [
+          -9.726485252380371,
+          8.346638679504395,
+          -6.171500205993652
+        ],
+        [
+          -8.088321685791016,
+          10.386768341064453,
+          -5.416902542114258
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_tibiofibular_ligamentl",
+      "originalName": "Anterior tibiofibular ligament.l",
+      "sourceId": 774696201,
+      "triangles": 248,
+      "bounds": [
+        [
+          9.660481452941895,
+          7.376689434051514,
+          -4.142922878265381
+        ],
+        [
+          10.67318344116211,
+          10.033895492553711,
+          -2.5161736011505127
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_tibiofibular_ligamentr",
+      "originalName": "Anterior tibiofibular ligament.r",
+      "sourceId": 995232359,
+      "triangles": 248,
+      "bounds": [
+        [
+          -10.673179626464844,
+          7.376689434051514,
+          -4.142922878265381
+        ],
+        [
+          -9.660477638244629,
+          10.033895492553711,
+          -2.5161736011505127
+        ]
+      ]
+    },
+    {
+      "name": "Interosseous_membrane_of_legl",
+      "originalName": "Interosseous membrane of leg.l",
+      "sourceId": 445746087,
+      "triangles": 12642,
+      "bounds": [
+        [
+          8.796782493591309,
+          10.323620796203613,
+          -4.240540981292725
+        ],
+        [
+          11.049419403076172,
+          39.59366989135742,
+          -2.102843999862671
+        ]
+      ]
+    },
+    {
+      "name": "Interosseous_membrane_of_legr",
+      "originalName": "Interosseous membrane of leg.r",
+      "sourceId": 740033544,
+      "triangles": 12642,
+      "bounds": [
+        [
+          -11.049418449401855,
+          10.323620796203613,
+          -4.240541458129883
+        ],
+        [
+          -8.796781539916992,
+          39.59366989135742,
+          -2.102843761444092
+        ]
+      ]
+    },
+    {
+      "name": "Superficial_part_of_tibial_collateral_ligamentl",
+      "originalName": "Superficial part of tibial collateral ligament.l",
+      "sourceId": 12008623,
+      "triangles": 152,
+      "bounds": [
+        [
+          3.2355153560638428,
+          39.275917053222656,
+          -3.539318084716797
+        ],
+        [
+          6.517767429351807,
+          45.45100402832031,
+          -1.291387677192688
+        ]
+      ]
+    },
+    {
+      "name": "Meniscopatellar_ligamentl",
+      "originalName": "Meniscopatellar ligament.l",
+      "sourceId": 41585614,
+      "triangles": 152,
+      "bounds": [
+        [
+          5.85651969909668,
+          43.11155700683594,
+          -1.8726590871810913
+        ],
+        [
+          10.567022323608398,
+          44.386146545410156,
+          1.0336018800735474
+        ]
+      ]
+    },
+    {
+      "name": "Transverse_ligament_of_kneer",
+      "originalName": "Transverse ligament of knee.r",
+      "sourceId": 49279403,
+      "triangles": 431,
+      "bounds": [
+        [
+          -8.485365867614746,
+          42.834373474121094,
+          -2.2824835777282715
+        ],
+        [
+          -5.636087417602539,
+          43.44629669189453,
+          -1.0551180839538574
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_meniscotibial_ligament_(Lateral_meniscus)l",
+      "originalName": "Anterior meniscotibial ligament (Lateral meniscus).l",
+      "sourceId": 55836746,
+      "triangles": 248,
+      "bounds": [
+        [
+          7.390902042388916,
+          42.88876724243164,
+          -3.373605251312256
+        ],
+        [
+          8.0100736618042,
+          43.19431686401367,
+          -2.2422432899475098
+        ]
+      ]
+    },
+    {
+      "name": "Popliteofibular_ligamentr",
+      "originalName": "Popliteofibular ligament.r",
+      "sourceId": 85929803,
+      "triangles": 896,
+      "bounds": [
+        [
+          -11.779669761657715,
+          40.75947570800781,
+          -6.317038536071777
+        ],
+        [
+          -9.039170265197754,
+          43.75931167602539,
+          -4.84011697769165
+        ]
+      ]
+    },
+    {
+      "name": "Deep_part_of_tibial_collateral_ligamentr",
+      "originalName": "Deep part of tibial collateral ligament.r",
+      "sourceId": 137191166,
+      "triangles": 256,
+      "bounds": [
+        [
+          -6.683595657348633,
+          39.1580810546875,
+          -3.8943428993225098
+        ],
+        [
+          -3.2858710289001465,
+          45.43589782714844,
+          -1.3111588954925537
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_meniscotibial_ligament_(Medial_meniscus)r",
+      "originalName": "Posterior meniscotibial ligament (Medial meniscus).r",
+      "sourceId": 146002912,
+      "triangles": 304,
+      "bounds": [
+        [
+          -7.46307897567749,
+          42.322792053222656,
+          -5.902210235595703
+        ],
+        [
+          -6.110979080200195,
+          43.23741912841797,
+          -3.8992021083831787
+        ]
+      ]
+    },
+    {
+      "name": "Arcuate_popliteal_ligamentr",
+      "originalName": "Arcuate popliteal ligament.r",
+      "sourceId": 179388422,
+      "triangles": 1288,
+      "bounds": [
+        [
+          -11.635804176330566,
+          40.74008560180664,
+          -5.989774703979492
+        ],
+        [
+          -6.977038383483887,
+          47.88920974731445,
+          -3.7877414226531982
+        ]
+      ]
+    },
+    {
+      "name": "Superficial_part_of_tibial_collateral_ligamentr",
+      "originalName": "Superficial part of tibial collateral ligament.r",
+      "sourceId": 193731724,
+      "triangles": 496,
+      "bounds": [
+        [
+          -6.514543056488037,
+          39.261131286621094,
+          -3.541924476623535
+        ],
+        [
+          -3.2231545448303223,
+          45.4547004699707,
+          -1.2811802625656128
+        ]
+      ]
+    },
+    {
+      "name": "Lateral_meniscusl",
+      "originalName": "Lateral meniscus.l",
+      "sourceId": 205965981,
+      "triangles": 468,
+      "bounds": [
+        [
+          7.625482559204102,
+          42.431236267089844,
+          -4.871334552764893
+        ],
+        [
+          11.008551597595215,
+          43.96277618408203,
+          -0.9988252520561218
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_meniscotibial_ligament_(Medial_meniscus)l",
+      "originalName": "Posterior meniscotibial ligament (Medial meniscus).l",
+      "sourceId": 270216939,
+      "triangles": 304,
+      "bounds": [
+        [
+          6.1109724044799805,
+          42.322792053222656,
+          -5.902210235595703
+        ],
+        [
+          7.463072299957275,
+          43.23741912841797,
+          -3.8992021083831787
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_cruciate_ligamentr",
+      "originalName": "Anterior cruciate ligament.r",
+      "sourceId": 279508809,
+      "triangles": 1576,
+      "bounds": [
+        [
+          -8.810312271118164,
+          42.6848258972168,
+          -4.628480911254883
+        ],
+        [
+          -6.692408561706543,
+          45.65576934814453,
+          -2.1681625843048096
+        ]
+      ]
+    },
+    {
+      "name": "Deep_part_of_tibial_collateral_ligamentl",
+      "originalName": "Deep part of tibial collateral ligament.l",
+      "sourceId": 320737222,
+      "triangles": 256,
+      "bounds": [
+        [
+          3.2858643531799316,
+          39.1580810546875,
+          -3.8943426609039307
+        ],
+        [
+          6.683589458465576,
+          45.43589782714844,
+          -1.311160683631897
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_meniscotibial_ligament_(Medial_meniscus)r",
+      "originalName": "Anterior meniscotibial ligament (Medial meniscus).r",
+      "sourceId": 350294630,
+      "triangles": 128,
+      "bounds": [
+        [
+          -7.082197189331055,
+          42.9724235534668,
+          -2.5091795921325684
+        ],
+        [
+          -6.077481746673584,
+          43.42792510986328,
+          -1.7759438753128052
+        ]
+      ]
+    },
+    {
+      "name": "Fibular_collateral_ligamentr",
+      "originalName": "Fibular collateral ligament.r",
+      "sourceId": 353278166,
+      "triangles": 80,
+      "bounds": [
+        [
+          -12.029065132141113,
+          40.7285270690918,
+          -4.38060188293457
+        ],
+        [
+          -11.149443626403809,
+          45.98135757446289,
+          -3.5607993602752686
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_knee_jointr",
+      "originalName": "Articular capsule of knee joint.r",
+      "sourceId": 356912233,
+      "triangles": 2944,
+      "bounds": [
+        [
+          -11.504074096679688,
+          41.25912857055664,
+          -6.398866176605225
+        ],
+        [
+          -3.631315231323242,
+          49.84880065917969,
+          1.2107346057891846
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_cruciate_ligamentl",
+      "originalName": "Anterior cruciate ligament.l",
+      "sourceId": 389538142,
+      "triangles": 1576,
+      "bounds": [
+        [
+          6.692401885986328,
+          42.6848258972168,
+          -4.628480911254883
+        ],
+        [
+          8.81030559539795,
+          45.65576934814453,
+          -2.1681625843048096
+        ]
+      ]
+    },
+    {
+      "name": "Medial_meniscusr",
+      "originalName": "Medial meniscus.r",
+      "sourceId": 392921810,
+      "triangles": 284,
+      "bounds": [
+        [
+          -6.736771583557129,
+          41.92045974731445,
+          -6.127352237701416
+        ],
+        [
+          -4.155374050140381,
+          43.41496276855469,
+          -1.6577868461608887
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_knee_jointl",
+      "originalName": "Articular capsule of knee joint.l",
+      "sourceId": 403329975,
+      "triangles": 2944,
+      "bounds": [
+        [
+          3.6313085556030273,
+          41.25912857055664,
+          -6.398866176605225
+        ],
+        [
+          11.504067420959473,
+          49.84880065917969,
+          1.2107346057891846
+        ]
+      ]
+    },
+    {
+      "name": "Popliteofibular_ligamentl",
+      "originalName": "Popliteofibular ligament.l",
+      "sourceId": 436217604,
+      "triangles": 896,
+      "bounds": [
+        [
+          9.039163589477539,
+          40.75947570800781,
+          -6.317038536071777
+        ],
+        [
+          11.7796630859375,
+          43.75931167602539,
+          -4.84011697769165
+        ]
+      ]
+    },
+    {
+      "name": "Fibular_collateral_ligamentl",
+      "originalName": "Fibular collateral ligament.l",
+      "sourceId": 446376984,
+      "triangles": 80,
+      "bounds": [
+        [
+          11.149436950683594,
+          40.7285270690918,
+          -4.38060188293457
+        ],
+        [
+          12.029058456420898,
+          45.98135757446289,
+          -3.5607993602752686
+        ]
+      ]
+    },
+    {
+      "name": "Transverse_ligament_of_kneel",
+      "originalName": "Transverse ligament of knee.l",
+      "sourceId": 460055024,
+      "triangles": 431,
+      "bounds": [
+        [
+          5.636080741882324,
+          42.834373474121094,
+          -2.2824833393096924
+        ],
+        [
+          8.485359191894531,
+          43.44629669189453,
+          -1.055118203163147
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_meniscotibial_ligament_(Lateral_meniscus)r",
+      "originalName": "Anterior meniscotibial ligament (Lateral meniscus).r",
+      "sourceId": 574045296,
+      "triangles": 248,
+      "bounds": [
+        [
+          -8.010080337524414,
+          42.88876724243164,
+          -3.373605251312256
+        ],
+        [
+          -7.390908718109131,
+          43.19431686401367,
+          -2.2422432899475098
+        ]
+      ]
+    },
+    {
+      "name": "Meniscopatellar_ligamentr",
+      "originalName": "Meniscopatellar ligament.r",
+      "sourceId": 656266195,
+      "triangles": 152,
+      "bounds": [
+        [
+          -10.567028999328613,
+          43.11155700683594,
+          -1.8726593255996704
+        ],
+        [
+          -5.8565263748168945,
+          44.386146545410156,
+          1.033601999282837
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_meniscotibial_ligament_(Lateral_meniscus)r",
+      "originalName": "Posterior meniscotibial ligament (Lateral meniscus).r",
+      "sourceId": 659815217,
+      "triangles": 192,
+      "bounds": [
+        [
+          -8.707581520080566,
+          42.988182067871094,
+          -4.200316429138184
+        ],
+        [
+          -7.623096466064453,
+          43.3757209777832,
+          -3.395407199859619
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_cruciate_ligamentr",
+      "originalName": "Posterior cruciate ligament.r",
+      "sourceId": 675812189,
+      "triangles": 788,
+      "bounds": [
+        [
+          -8.454248428344727,
+          41.43087387084961,
+          -5.4904608726501465
+        ],
+        [
+          -6.121533393859863,
+          45.224830627441406,
+          -3.627974510192871
+        ]
+      ]
+    },
+    {
+      "name": "Lateral_meniscusr",
+      "originalName": "Lateral meniscus.r",
+      "sourceId": 678781775,
+      "triangles": 468,
+      "bounds": [
+        [
+          -11.00855827331543,
+          42.431236267089844,
+          -4.871334552764893
+        ],
+        [
+          -7.625489234924316,
+          43.96277618408203,
+          -0.998825192451477
+        ]
+      ]
+    },
+    {
+      "name": "Arcuate_popliteal_ligamentl",
+      "originalName": "Arcuate popliteal ligament.l",
+      "sourceId": 695395614,
+      "triangles": 1288,
+      "bounds": [
+        [
+          6.977031707763672,
+          40.74008560180664,
+          -5.989774703979492
+        ],
+        [
+          11.635797500610352,
+          47.88920974731445,
+          -3.7877414226531982
+        ]
+      ]
+    },
+    {
+      "name": "Infrapatellar_fat_padl",
+      "originalName": "Infrapatellar fat pad.l",
+      "sourceId": 695489803,
+      "triangles": 768,
+      "bounds": [
+        [
+          7.459754943847656,
+          42.493289947509766,
+          -2.4681808948516846
+        ],
+        [
+          8.815926551818848,
+          43.958160400390625,
+          -0.015117624774575233
+        ]
+      ]
+    },
+    {
+      "name": "Oblique_popliteal_ligamentr",
+      "originalName": "Oblique popliteal ligament.r",
+      "sourceId": 711785439,
+      "triangles": 368,
+      "bounds": [
+        [
+          -9.73892593383789,
+          41.10624694824219,
+          -6.5459418296813965
+        ],
+        [
+          -5.381175518035889,
+          48.21220016479492,
+          -3.503101110458374
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_cruciate_ligamentl",
+      "originalName": "Posterior cruciate ligament.l",
+      "sourceId": 737636048,
+      "triangles": 788,
+      "bounds": [
+        [
+          6.121526718139648,
+          41.43087387084961,
+          -5.4904608726501465
+        ],
+        [
+          8.454241752624512,
+          45.224830627441406,
+          -3.627974510192871
+        ]
+      ]
+    },
+    {
+      "name": "Medial_meniscusl",
+      "originalName": "Medial meniscus.l",
+      "sourceId": 828042845,
+      "triangles": 284,
+      "bounds": [
+        [
+          4.155367374420166,
+          41.92045974731445,
+          -6.127352237701416
+        ],
+        [
+          6.736764907836914,
+          43.41496276855469,
+          -1.6577868461608887
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_meniscotibial_ligament_(Medial_meniscus)l",
+      "originalName": "Anterior meniscotibial ligament (Medial meniscus).l",
+      "sourceId": 892757908,
+      "triangles": 128,
+      "bounds": [
+        [
+          6.077475070953369,
+          42.9724235534668,
+          -2.5091795921325684
+        ],
+        [
+          7.08219051361084,
+          43.42792510986328,
+          -1.7759439945220947
+        ]
+      ]
+    },
+    {
+      "name": "Infrapatellar_fat_padr",
+      "originalName": "Infrapatellar fat pad.r",
+      "sourceId": 899021983,
+      "triangles": 768,
+      "bounds": [
+        [
+          -8.659200668334961,
+          42.38304901123047,
+          -2.4307706356048584
+        ],
+        [
+          -7.494001388549805,
+          44.04559326171875,
+          -0.06007026880979538
+        ]
+      ]
+    },
+    {
+      "name": "Oblique_popliteal_ligamentl",
+      "originalName": "Oblique popliteal ligament.l",
+      "sourceId": 936165558,
+      "triangles": 368,
+      "bounds": [
+        [
+          5.381168842315674,
+          41.10624694824219,
+          -6.5459418296813965
+        ],
+        [
+          9.738919258117676,
+          48.21220016479492,
+          -3.503101348876953
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_meniscotibial_ligament_(Lateral_meniscus)l",
+      "originalName": "Posterior meniscotibial ligament (Lateral meniscus).l",
+      "sourceId": 956355716,
+      "triangles": 192,
+      "bounds": [
+        [
+          7.623089790344238,
+          42.988182067871094,
+          -4.200316429138184
+        ],
+        [
+          8.707574844360352,
+          43.3757209777832,
+          -3.395407199859619
+        ]
+      ]
+    },
+    {
+      "name": "Metatarsal_interosseous_ligamentsl",
+      "originalName": "Metatarsal interosseous ligaments.l",
+      "sourceId": 140732315,
+      "triangles": 48,
+      "bounds": [
+        [
+          8.05190372467041,
+          3.443390369415283,
+          0.8974711298942566
+        ],
+        [
+          11.02013111114502,
+          5.366372585296631,
+          3.392554759979248
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_metatarsal_ligamentsl",
+      "originalName": "Plantar metatarsal ligaments.l",
+      "sourceId": 162318255,
+      "triangles": 48,
+      "bounds": [
+        [
+          8.005946159362793,
+          2.7807018756866455,
+          0.5325875282287598
+        ],
+        [
+          10.51127815246582,
+          4.5135111808776855,
+          2.8597400188446045
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_metatarsal_ligamentsl",
+      "originalName": "Dorsal metatarsal ligaments.l",
+      "sourceId": 250618568,
+      "triangles": 56,
+      "bounds": [
+        [
+          7.782482147216797,
+          3.8055880069732666,
+          0.5770843029022217
+        ],
+        [
+          11.460416793823242,
+          6.018980979919434,
+          3.77014422416687
+        ]
+      ]
+    },
+    {
+      "name": "Intersesamoid_ligamentl",
+      "originalName": "Intersesamoid ligament.l",
+      "sourceId": 515445586,
+      "triangles": 56,
+      "bounds": [
+        [
+          7.214395999908447,
+          1.0385541915893555,
+          6.635232448577881
+        ],
+        [
+          8.102518081665039,
+          1.4116181135177612,
+          7.45078182220459
+        ]
+      ]
+    },
+    {
+      "name": "Intersesamoid_ligamentr",
+      "originalName": "Intersesamoid ligament.r",
+      "sourceId": 536305954,
+      "triangles": 56,
+      "bounds": [
+        [
+          -8.102524757385254,
+          1.0385539531707764,
+          6.635233402252197
+        ],
+        [
+          -7.214402675628662,
+          1.4116177558898926,
+          7.4507832527160645
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_metatarsal_ligamentsr",
+      "originalName": "Plantar metatarsal ligaments.r",
+      "sourceId": 647393838,
+      "triangles": 48,
+      "bounds": [
+        [
+          -10.511286735534668,
+          2.7807013988494873,
+          0.5325878262519836
+        ],
+        [
+          -8.00595474243164,
+          4.513510227203369,
+          2.8597402572631836
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_metatarsal_ligamentsr",
+      "originalName": "Dorsal metatarsal ligaments.r",
+      "sourceId": 706278781,
+      "triangles": 56,
+      "bounds": [
+        [
+          -11.460424423217773,
+          3.8055875301361084,
+          0.5770845413208008
+        ],
+        [
+          -7.782490253448486,
+          6.018980503082275,
+          3.770144462585449
+        ]
+      ]
+    },
+    {
+      "name": "Metatarsal_interosseous_ligamentsr",
+      "originalName": "Metatarsal interosseous ligaments.r",
+      "sourceId": 891588806,
+      "triangles": 48,
+      "bounds": [
+        [
+          -11.020136833190918,
+          3.443389892578125,
+          0.8974713683128357
+        ],
+        [
+          -8.051909446716309,
+          5.366372108459473,
+          3.392554998397827
+        ]
+      ]
+    },
+    {
+      "name": "Collateral_interphalangeal_ligaments_of_footl",
+      "originalName": "Collateral interphalangeal ligaments of foot.l",
+      "sourceId": 191702881,
+      "triangles": 2696,
+      "bounds": [
+        [
+          6.874943256378174,
+          1.0312429666519165,
+          7.422765731811523
+        ],
+        [
+          14.676795959472656,
+          1.957226037979126,
+          12.865811347961426
+        ]
+      ]
+    },
+    {
+      "name": "Collateral_interphalangeal_ligaments_of_footr",
+      "originalName": "Collateral interphalangeal ligaments of foot.r",
+      "sourceId": 194780309,
+      "triangles": 2696,
+      "bounds": [
+        [
+          -14.67680549621582,
+          1.0312429666519165,
+          7.422765731811523
+        ],
+        [
+          -6.8749542236328125,
+          1.957226037979126,
+          12.865811347961426
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_proximal_interphalangeal_joints_of_footr",
+      "originalName": "Articular capsules of proximal interphalangeal joints of foot.r",
+      "sourceId": 198825488,
+      "triangles": 1464,
+      "bounds": [
+        [
+          -14.532828330993652,
+          0.9440050721168518,
+          7.458387851715088
+        ],
+        [
+          -9.363471031188965,
+          2.200760841369629,
+          11.54269790649414
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_interphalangeal_ligamentsl",
+      "originalName": "Plantar interphalangeal ligaments.l",
+      "sourceId": 405502069,
+      "triangles": 1616,
+      "bounds": [
+        [
+          7.097853183746338,
+          0.868200957775116,
+          7.39451789855957
+        ],
+        [
+          14.398161888122559,
+          1.6682168245315552,
+          12.834870338439941
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_distal_interphalangeal_joints_of_footr",
+      "originalName": "Articular capsules of distal interphalangeal joints of foot.r",
+      "sourceId": 522864495,
+      "triangles": 1424,
+      "bounds": [
+        [
+          -14.658356666564941,
+          0.9025077819824219,
+          8.36382007598877
+        ],
+        [
+          -9.747382164001465,
+          1.768632411956787,
+          12.876290321350098
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_interphalangeal_ligamentsr",
+      "originalName": "Plantar interphalangeal ligaments.r",
+      "sourceId": 671133189,
+      "triangles": 1616,
+      "bounds": [
+        [
+          -14.398173332214355,
+          0.868200957775116,
+          7.39451789855957
+        ],
+        [
+          -7.097865104675293,
+          1.6682168245315552,
+          12.834870338439941
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_distal_interphalangeal_joints_of_footl",
+      "originalName": "Articular capsules of distal interphalangeal joints of foot.l",
+      "sourceId": 676274584,
+      "triangles": 1424,
+      "bounds": [
+        [
+          9.747371673583984,
+          0.9025077223777771,
+          8.36382007598877
+        ],
+        [
+          14.658346176147461,
+          1.768632411956787,
+          12.876290321350098
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_proximal_interphalangeal_joints_of_footl",
+      "originalName": "Articular capsules of proximal interphalangeal joints of foot.l",
+      "sourceId": 706555955,
+      "triangles": 1464,
+      "bounds": [
+        [
+          9.363459587097168,
+          0.944005012512207,
+          7.458387851715088
+        ],
+        [
+          14.532817840576172,
+          2.200760841369629,
+          11.54269790649414
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_interphalangeal_joint_of_great_toel",
+      "originalName": "Articular capsule of interphalangeal joint of great toe.l",
+      "sourceId": 944872985,
+      "triangles": 384,
+      "bounds": [
+        [
+          6.871240139007568,
+          0.9545470476150513,
+          9.94083309173584
+        ],
+        [
+          8.981163024902344,
+          2.3402159214019775,
+          11.872831344604492
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_interphalangeal_joint_of_great_toer",
+      "originalName": "Articular capsule of interphalangeal joint of great toe.r",
+      "sourceId": 951292263,
+      "triangles": 384,
+      "bounds": [
+        [
+          -8.981175422668457,
+          0.9545470476150513,
+          9.94083309173584
+        ],
+        [
+          -6.87125301361084,
+          2.3402159214019775,
+          11.872831344604492
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_metatarsophalangeal_ligamentsr",
+      "originalName": "Plantar metatarsophalangeal ligaments.r",
+      "sourceId": 65797189,
+      "triangles": 880,
+      "bounds": [
+        [
+          -13.629182815551758,
+          0.8734480738639832,
+          4.341046333312988
+        ],
+        [
+          -6.806427478790283,
+          2.3134872913360596,
+          8.740546226501465
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_metatarsophalangeal_ligamentsl",
+      "originalName": "Plantar metatarsophalangeal ligaments.l",
+      "sourceId": 131130727,
+      "triangles": 880,
+      "bounds": [
+        [
+          6.806417942047119,
+          0.8734477758407593,
+          4.341046333312988
+        ],
+        [
+          13.62917423248291,
+          2.3134870529174805,
+          8.740546226501465
+        ]
+      ]
+    },
+    {
+      "name": "Collateral_metatarsophalangeal_ligamentsr",
+      "originalName": "Collateral metatarsophalangeal ligaments.r",
+      "sourceId": 235399302,
+      "triangles": 1616,
+      "bounds": [
+        [
+          -14.084187507629395,
+          1.2428706884384155,
+          4.727719783782959
+        ],
+        [
+          -5.872348308563232,
+          3.1296935081481934,
+          8.970800399780273
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_metatarsophalangeal_jointsr",
+      "originalName": "Articular capsules of metatarsophalangeal joints.r",
+      "sourceId": 360059433,
+      "triangles": 1752,
+      "bounds": [
+        [
+          -14.021297454833984,
+          0.9064610600471497,
+          4.611119270324707
+        ],
+        [
+          -5.945581436157227,
+          3.3750386238098145,
+          9.154991149902344
+        ]
+      ]
+    },
+    {
+      "name": "Deep_transverse_metatarsal_ligamentl",
+      "originalName": "Deep transverse metatarsal ligament.l",
+      "sourceId": 524420736,
+      "triangles": 152,
+      "bounds": [
+        [
+          7.794106960296631,
+          0.9444959163665771,
+          5.627498149871826
+        ],
+        [
+          13.202983856201172,
+          1.603684425354004,
+          8.506342887878418
+        ]
+      ]
+    },
+    {
+      "name": "Deep_transverse_metatarsal_ligamentr",
+      "originalName": "Deep transverse metatarsal ligament.r",
+      "sourceId": 689114574,
+      "triangles": 152,
+      "bounds": [
+        [
+          -13.202993392944336,
+          0.944496214389801,
+          5.627498149871826
+        ],
+        [
+          -7.794117450714111,
+          1.603684663772583,
+          8.506342887878418
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_metatarsophalangeal_jointsl",
+      "originalName": "Articular capsules of metatarsophalangeal joints.l",
+      "sourceId": 958921164,
+      "triangles": 1752,
+      "bounds": [
+        [
+          5.945570945739746,
+          0.906460702419281,
+          4.611119270324707
+        ],
+        [
+          14.02128791809082,
+          3.3750383853912354,
+          9.154991149902344
+        ]
+      ]
+    },
+    {
+      "name": "Collateral_metatarsophalangeal_ligamentsl",
+      "originalName": "Collateral metatarsophalangeal ligaments.l",
+      "sourceId": 989180074,
+      "triangles": 1616,
+      "bounds": [
+        [
+          5.872337818145752,
+          1.2428704500198364,
+          4.727719783782959
+        ],
+        [
+          14.08417797088623,
+          3.1296932697296143,
+          8.970800399780273
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_tarsometatarsal_ligamentsl",
+      "originalName": "Dorsal tarsometatarsal ligaments.l",
+      "sourceId": 411288834,
+      "triangles": 390,
+      "bounds": [
+        [
+          7.025752544403076,
+          3.4910600185394287,
+          -0.5520734786987305
+        ],
+        [
+          11.44010066986084,
+          6.550171852111816,
+          3.5509204864501953
+        ]
+      ]
+    },
+    {
+      "name": "Cuneometatarsal_interosseous_ligamentsl",
+      "originalName": "Cuneometatarsal interosseous ligaments.l",
+      "sourceId": 429846679,
+      "triangles": 36,
+      "bounds": [
+        [
+          7.113959312438965,
+          4.524528980255127,
+          1.5144457817077637
+        ],
+        [
+          9.593905448913574,
+          5.553935527801514,
+          2.702096700668335
+        ]
+      ]
+    },
+    {
+      "name": "Cuneometatarsal_interosseous_ligamentsr",
+      "originalName": "Cuneometatarsal interosseous ligaments.r",
+      "sourceId": 607693348,
+      "triangles": 36,
+      "bounds": [
+        [
+          -9.593914031982422,
+          4.524527549743652,
+          1.5144457817077637
+        ],
+        [
+          -7.113968372344971,
+          5.553934574127197,
+          2.702096700668335
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_tarsometatarsal_ligamentsr",
+      "originalName": "Dorsal tarsometatarsal ligaments.r",
+      "sourceId": 640549422,
+      "triangles": 390,
+      "bounds": [
+        [
+          -11.440110206604004,
+          3.4910595417022705,
+          -0.5520735383033752
+        ],
+        [
+          -7.02576208114624,
+          6.550171375274658,
+          3.5509204864501953
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_tarsometatarsal_ligamentsr",
+      "originalName": "Plantar tarsometatarsal ligaments.r",
+      "sourceId": 889909977,
+      "triangles": 100,
+      "bounds": [
+        [
+          -10.804527282714844,
+          2.5962719917297363,
+          -0.7422100305557251
+        ],
+        [
+          -6.8200297355651855,
+          4.863159656524658,
+          2.57424259185791
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_tarsometatarsal_ligamentsl",
+      "originalName": "Plantar tarsometatarsal ligaments.l",
+      "sourceId": 959542256,
+      "triangles": 100,
+      "bounds": [
+        [
+          6.82002067565918,
+          2.5962724685668945,
+          -0.7422099709510803
+        ],
+        [
+          10.80451774597168,
+          4.863160133361816,
+          2.57424259185791
+        ]
+      ]
+    },
+    {
+      "name": "Intercuneiform_interosseous_ligamentsl",
+      "originalName": "Intercuneiform interosseous ligaments.l",
+      "sourceId": 3094752,
+      "triangles": 24,
+      "bounds": [
+        [
+          7.475076675415039,
+          5.147195339202881,
+          0.6619713306427002
+        ],
+        [
+          9.260880470275879,
+          6.306552886962891,
+          1.8818373680114746
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_cuneocuboid_ligamentl",
+      "originalName": "Plantar cuneocuboid ligament.l",
+      "sourceId": 23594582,
+      "triangles": 96,
+      "bounds": [
+        [
+          8.647744178771973,
+          3.8760812282562256,
+          0.13434605300426483
+        ],
+        [
+          9.285460472106934,
+          4.134918689727783,
+          0.9829002022743225
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_cuneonavicular_ligamentsr",
+      "originalName": "Plantar cuneonavicular ligaments.r",
+      "sourceId": 37391829,
+      "triangles": 52,
+      "bounds": [
+        [
+          -8.50522518157959,
+          4.184214115142822,
+          -0.568806529045105
+        ],
+        [
+          -6.234897136688232,
+          5.416720867156982,
+          0.42695632576942444
+        ]
+      ]
+    },
+    {
+      "name": "Calcaneonavicular_ligamentr",
+      "originalName": "Calcaneonavicular ligament.r",
+      "sourceId": 48009778,
+      "triangles": 96,
+      "bounds": [
+        [
+          -9.303444862365723,
+          5.584033489227295,
+          -2.147597312927246
+        ],
+        [
+          -8.333571434020996,
+          6.443268299102783,
+          -0.9693979024887085
+        ]
+      ]
+    },
+    {
+      "name": "Medial_talocalcaneal_ligamentl",
+      "originalName": "Medial talocalcaneal ligament.l",
+      "sourceId": 70821380,
+      "triangles": 136,
+      "bounds": [
+        [
+          5.424221038818359,
+          5.177623271942139,
+          -5.284813404083252
+        ],
+        [
+          5.914636611938477,
+          6.244664192199707,
+          -3.807206153869629
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_calcaneocuboid_ligamentr",
+      "originalName": "Plantar calcaneocuboid ligament.r",
+      "sourceId": 111407357,
+      "triangles": 136,
+      "bounds": [
+        [
+          -9.66821002960205,
+          2.7851510047912598,
+          -3.1627414226531982
+        ],
+        [
+          -7.964097023010254,
+          3.3784165382385254,
+          -1.6936956644058228
+        ]
+      ]
+    },
+    {
+      "name": "Lateral_talocalcaneal_ligamentl",
+      "originalName": "Lateral talocalcaneal ligament.l",
+      "sourceId": 112489081,
+      "triangles": 56,
+      "bounds": [
+        [
+          9.17839527130127,
+          4.518332481384277,
+          -6.024255275726318
+        ],
+        [
+          9.532751083374023,
+          5.813045501708984,
+          -4.408933639526367
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_talocalcaneal_ligamentr",
+      "originalName": "Anterior talocalcaneal ligament.r",
+      "sourceId": 153736207,
+      "triangles": 104,
+      "bounds": [
+        [
+          -9.281020164489746,
+          5.393540859222412,
+          -3.6388185024261475
+        ],
+        [
+          -8.504569053649902,
+          6.925678730010986,
+          -1.800781488418579
+        ]
+      ]
+    },
+    {
+      "name": "Talocalcaneal_interosseous_ligamentl",
+      "originalName": "Talocalcaneal interosseous ligament.l",
+      "sourceId": 209617020,
+      "triangles": 424,
+      "bounds": [
+        [
+          6.385971546173096,
+          4.893228054046631,
+          -4.223739147186279
+        ],
+        [
+          8.481461524963379,
+          6.2052083015441895,
+          -3.083937406539917
+        ]
+      ]
+    },
+    {
+      "name": "Intercuneiform_interosseous_ligamentsr",
+      "originalName": "Intercuneiform interosseous ligaments.r",
+      "sourceId": 210106391,
+      "triangles": 24,
+      "bounds": [
+        [
+          -9.260887145996094,
+          5.147195339202881,
+          0.6619713306427002
+        ],
+        [
+          -7.475083827972412,
+          6.306552886962891,
+          1.8818373680114746
+        ]
+      ]
+    },
+    {
+      "name": "Calcaneocuboid_ligamentr",
+      "originalName": "Calcaneocuboid ligament.r",
+      "sourceId": 221730568,
+      "triangles": 32,
+      "bounds": [
+        [
+          -9.731466293334961,
+          5.682808876037598,
+          -2.1914455890655518
+        ],
+        [
+          -8.877017974853516,
+          5.88019323348999,
+          -1.4445037841796875
+        ]
+      ]
+    },
+    {
+      "name": "Talonavicular_ligamentr",
+      "originalName": "Talonavicular ligament.r",
+      "sourceId": 234256381,
+      "triangles": 136,
+      "bounds": [
+        [
+          -8.013702392578125,
+          7.029690742492676,
+          -1.4555785655975342
+        ],
+        [
+          -6.547235012054443,
+          7.851080894470215,
+          -0.3300609290599823
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_talocalcaneal_ligamentl",
+      "originalName": "Posterior talocalcaneal ligament.l",
+      "sourceId": 243899103,
+      "triangles": 80,
+      "bounds": [
+        [
+          5.710795879364014,
+          4.616446495056152,
+          -6.3245463371276855
+        ],
+        [
+          6.575877666473389,
+          6.049071788787842,
+          -5.406111240386963
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_cuboideonavicular_ligamentl",
+      "originalName": "Dorsal cuboideonavicular ligament.l",
+      "sourceId": 260559836,
+      "triangles": 12,
+      "bounds": [
+        [
+          8.885740280151367,
+          5.670266151428223,
+          -1.7076849937438965
+        ],
+        [
+          9.598179817199707,
+          6.330319404602051,
+          -0.7870880961418152
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_intercuneiform_ligamentsr",
+      "originalName": "Plantar intercuneiform ligaments.r",
+      "sourceId": 319519232,
+      "triangles": 24,
+      "bounds": [
+        [
+          -8.640952110290527,
+          4.413738250732422,
+          0.6371853947639465
+        ],
+        [
+          -7.3916497230529785,
+          4.973846435546875,
+          1.3627727031707764
+        ]
+      ]
+    },
+    {
+      "name": "Lateral_talocalcaneal_ligamentr",
+      "originalName": "Lateral talocalcaneal ligament.r",
+      "sourceId": 326248986,
+      "triangles": 56,
+      "bounds": [
+        [
+          -9.532758712768555,
+          4.518332481384277,
+          -6.024255275726318
+        ],
+        [
+          -9.1784029006958,
+          5.813045501708984,
+          -4.408933639526367
+        ]
+      ]
+    },
+    {
+      "name": "Talocalcaneal_interosseous_ligamentr",
+      "originalName": "Talocalcaneal interosseous ligament.r",
+      "sourceId": 343680498,
+      "triangles": 424,
+      "bounds": [
+        [
+          -8.48146915435791,
+          4.893228054046631,
+          -4.223739147186279
+        ],
+        [
+          -6.385978698730469,
+          6.2052083015441895,
+          -3.083937406539917
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_calcaneonavicular_ligamentl",
+      "originalName": "Plantar calcaneonavicular ligament.l",
+      "sourceId": 350318730,
+      "triangles": 32,
+      "bounds": [
+        [
+          6.199645519256592,
+          4.882169723510742,
+          -3.0201120376586914
+        ],
+        [
+          7.139221668243408,
+          5.360545635223389,
+          -0.9279544949531555
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_cuneocuboid_ligamentr",
+      "originalName": "Plantar cuneocuboid ligament.r",
+      "sourceId": 354693950,
+      "triangles": 96,
+      "bounds": [
+        [
+          -9.285468101501465,
+          3.8760812282562256,
+          0.13434605300426483
+        ],
+        [
+          -8.647750854492188,
+          4.134918689727783,
+          0.9829002022743225
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_intercuneiform_ligamentsr",
+      "originalName": "Dorsal intercuneiform ligaments.r",
+      "sourceId": 363047048,
+      "triangles": 24,
+      "bounds": [
+        [
+          -9.650346755981445,
+          6.277866840362549,
+          0.48338669538497925
+        ],
+        [
+          -7.423485279083252,
+          6.91881799697876,
+          2.069432258605957
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_cuboideonavicular_ligamentr",
+      "originalName": "Plantar cuboideonavicular ligament.r",
+      "sourceId": 365528985,
+      "triangles": 12,
+      "bounds": [
+        [
+          -8.238338470458984,
+          4.720233917236328,
+          -1.221505045890808
+        ],
+        [
+          -7.541599273681641,
+          5.333579063415527,
+          -0.46180298924446106
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_cuboideonavicular_ligamentl",
+      "originalName": "Plantar cuboideonavicular ligament.l",
+      "sourceId": 398335169,
+      "triangles": 12,
+      "bounds": [
+        [
+          7.541592121124268,
+          4.720233917236328,
+          -1.221505045890808
+        ],
+        [
+          8.23833179473877,
+          5.333579063415527,
+          -0.46180298924446106
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_cuboideonavicular_ligamentr",
+      "originalName": "Dorsal cuboideonavicular ligament.r",
+      "sourceId": 488840894,
+      "triangles": 12,
+      "bounds": [
+        [
+          -9.598186492919922,
+          5.670266151428223,
+          -1.7076849937438965
+        ],
+        [
+          -8.885746955871582,
+          6.330319404602051,
+          -0.7870880961418152
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_cuneonavicular_ligamentsl",
+      "originalName": "Dorsal cuneonavicular ligaments.l",
+      "sourceId": 508865324,
+      "triangles": 60,
+      "bounds": [
+        [
+          6.507615566253662,
+          6.310755252838135,
+          -0.8015221357345581
+        ],
+        [
+          9.648470878601074,
+          7.32305908203125,
+          1.3197892904281616
+        ]
+      ]
+    },
+    {
+      "name": "Calcaneocuboid_ligamentl",
+      "originalName": "Calcaneocuboid ligament.l",
+      "sourceId": 518666047,
+      "triangles": 32,
+      "bounds": [
+        [
+          8.877010345458984,
+          5.682808876037598,
+          -2.1914455890655518
+        ],
+        [
+          9.73145866394043,
+          5.88019323348999,
+          -1.4445037841796875
+        ]
+      ]
+    },
+    {
+      "name": "Cuneocuboid_interosseous_ligamentr",
+      "originalName": "Cuneocuboid interosseous ligament.r",
+      "sourceId": 532281409,
+      "triangles": 80,
+      "bounds": [
+        [
+          -9.519221305847168,
+          4.515608310699463,
+          0.18624481558799744
+        ],
+        [
+          -9.13672924041748,
+          4.9157304763793945,
+          0.4323410093784332
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_talocalcaneal_ligamentr",
+      "originalName": "Posterior talocalcaneal ligament.r",
+      "sourceId": 556937348,
+      "triangles": 80,
+      "bounds": [
+        [
+          -6.5758867263793945,
+          4.616446495056152,
+          -6.3245463371276855
+        ],
+        [
+          -5.7108049392700195,
+          6.049071788787842,
+          -5.406111240386963
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_cuneonavicular_ligamentsr",
+      "originalName": "Dorsal cuneonavicular ligaments.r",
+      "sourceId": 580947968,
+      "triangles": 60,
+      "bounds": [
+        [
+          -9.648478507995605,
+          6.310755252838135,
+          -0.8015221357345581
+        ],
+        [
+          -6.507622241973877,
+          7.32305908203125,
+          1.3197892904281616
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_calcaneocuboid_ligamentl",
+      "originalName": "Plantar calcaneocuboid ligament.l",
+      "sourceId": 634328433,
+      "triangles": 136,
+      "bounds": [
+        [
+          7.9640889167785645,
+          2.7851510047912598,
+          -3.1627414226531982
+        ],
+        [
+          9.66820240020752,
+          3.3784165382385254,
+          -1.6936956644058228
+        ]
+      ]
+    },
+    {
+      "name": "Talonavicular_ligamentl",
+      "originalName": "Talonavicular ligament.l",
+      "sourceId": 661028444,
+      "triangles": 136,
+      "bounds": [
+        [
+          6.54722785949707,
+          7.029690742492676,
+          -1.4555785655975342
+        ],
+        [
+          8.01369571685791,
+          7.851080894470215,
+          -0.3300609290599823
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_cuneocuboid_ligamentr",
+      "originalName": "Dorsal cuneocuboid ligament.r",
+      "sourceId": 667507066,
+      "triangles": 12,
+      "bounds": [
+        [
+          -10.504465103149414,
+          5.187834739685059,
+          -0.5793642401695251
+        ],
+        [
+          -9.829976081848145,
+          6.157322883605957,
+          0.6492786407470703
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_cuneocuboid_ligamentl",
+      "originalName": "Dorsal cuneocuboid ligament.l",
+      "sourceId": 701681122,
+      "triangles": 12,
+      "bounds": [
+        [
+          9.829968452453613,
+          5.187834739685059,
+          -0.5793642401695251
+        ],
+        [
+          10.504456520080566,
+          6.157322883605957,
+          0.6492786407470703
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_cuneonavicular_ligamentsl",
+      "originalName": "Plantar cuneonavicular ligaments.l",
+      "sourceId": 727286724,
+      "triangles": 52,
+      "bounds": [
+        [
+          6.234888076782227,
+          4.184214115142822,
+          -0.568806529045105
+        ],
+        [
+          8.505215644836426,
+          5.416720867156982,
+          0.42695632576942444
+        ]
+      ]
+    },
+    {
+      "name": "Medial_talocalcaneal_ligamentr",
+      "originalName": "Medial talocalcaneal ligament.r",
+      "sourceId": 731883379,
+      "triangles": 136,
+      "bounds": [
+        [
+          -5.914645671844482,
+          5.177623271942139,
+          -5.284813404083252
+        ],
+        [
+          -5.424230098724365,
+          6.244664192199707,
+          -3.807206153869629
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_calcaneocuboid_ligamentl",
+      "originalName": "Dorsal calcaneocuboid ligament.l",
+      "sourceId": 759985662,
+      "triangles": 12,
+      "bounds": [
+        [
+          10.080367088317871,
+          4.548526763916016,
+          -3.153796434402466
+        ],
+        [
+          10.439818382263184,
+          5.2943115234375,
+          -2.084660768508911
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_calcaneonavicular_ligamentr",
+      "originalName": "Plantar calcaneonavicular ligament.r",
+      "sourceId": 786338318,
+      "triangles": 32,
+      "bounds": [
+        [
+          -7.139228343963623,
+          4.882169723510742,
+          -3.0201120376586914
+        ],
+        [
+          -6.199652194976807,
+          5.360545635223389,
+          -0.9279544353485107
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_calcaneocuboid_ligamentr",
+      "originalName": "Dorsal calcaneocuboid ligament.r",
+      "sourceId": 805349247,
+      "triangles": 12,
+      "bounds": [
+        [
+          -10.439826965332031,
+          4.548526763916016,
+          -3.153796434402466
+        ],
+        [
+          -10.080375671386719,
+          5.2943115234375,
+          -2.084660768508911
+        ]
+      ]
+    },
+    {
+      "name": "Cuneocuboid_interosseous_ligamentl",
+      "originalName": "Cuneocuboid interosseous ligament.l",
+      "sourceId": 831740073,
+      "triangles": 80,
+      "bounds": [
+        [
+          9.136722564697266,
+          4.515608310699463,
+          0.18624481558799744
+        ],
+        [
+          9.519213676452637,
+          4.9157304763793945,
+          0.4323410093784332
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_intercuneiform_ligamentsl",
+      "originalName": "Dorsal intercuneiform ligaments.l",
+      "sourceId": 837228093,
+      "triangles": 24,
+      "bounds": [
+        [
+          7.423476219177246,
+          6.277866840362549,
+          0.48338669538497925
+        ],
+        [
+          9.650338172912598,
+          6.91881799697876,
+          2.069432258605957
+        ]
+      ]
+    },
+    {
+      "name": "Calcaneonavicular_ligamentl",
+      "originalName": "Calcaneonavicular ligament.l",
+      "sourceId": 870138646,
+      "triangles": 96,
+      "bounds": [
+        [
+          8.333563804626465,
+          5.584033489227295,
+          -2.147597312927246
+        ],
+        [
+          9.303436279296875,
+          6.443268299102783,
+          -0.9693979024887085
+        ]
+      ]
+    },
+    {
+      "name": "Long_plantar_ligamentl",
+      "originalName": "Long plantar ligament.l",
+      "sourceId": 878766565,
+      "triangles": 3486,
+      "bounds": [
+        [
+          6.448594093322754,
+          1.9086123704910278,
+          -6.719271183013916
+        ],
+        [
+          11.529707908630371,
+          4.446625232696533,
+          3.263542890548706
+        ]
+      ]
+    },
+    {
+      "name": "Plantar_intercuneiform_ligamentsl",
+      "originalName": "Plantar intercuneiform ligaments.l",
+      "sourceId": 930571000,
+      "triangles": 24,
+      "bounds": [
+        [
+          7.391640663146973,
+          4.413738250732422,
+          0.6371853947639465
+        ],
+        [
+          8.64094352722168,
+          4.973846435546875,
+          1.3627727031707764
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_talocalcaneal_ligamentl",
+      "originalName": "Anterior talocalcaneal ligament.l",
+      "sourceId": 958107139,
+      "triangles": 104,
+      "bounds": [
+        [
+          8.504561424255371,
+          5.393540859222412,
+          -3.6388185024261475
+        ],
+        [
+          9.281012535095215,
+          6.925678730010986,
+          -1.800781488418579
+        ]
+      ]
+    },
+    {
+      "name": "Long_plantar_ligamentr",
+      "originalName": "Long plantar ligament.r",
+      "sourceId": 992347697,
+      "triangles": 3486,
+      "bounds": [
+        [
+          -11.529715538024902,
+          1.9086124897003174,
+          -6.719271183013916
+        ],
+        [
+          -6.448601245880127,
+          4.446624755859375,
+          3.263543128967285
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_hip_jointr",
+      "originalName": "Articular capsule of hip joint.r",
+      "sourceId": 50434999,
+      "triangles": 1120,
+      "bounds": [
+        [
+          -12.058208465576172,
+          81.023193359375,
+          -3.451331377029419
+        ],
+        [
+          -6.6487016677856445,
+          88.88822174072266,
+          2.2784652709960938
+        ]
+      ]
+    },
+    {
+      "name": "Frenula_capsulaer",
+      "originalName": "Frenula capsulae.r",
+      "sourceId": 62637128,
+      "triangles": 864,
+      "bounds": [
+        [
+          -12.002148628234863,
+          80.86520385742188,
+          -2.3790106773376465
+        ],
+        [
+          -8.289813041687012,
+          85.02861785888672,
+          1.291612148284912
+        ]
+      ]
+    },
+    {
+      "name": "Transverse_acetabular_ligamentr",
+      "originalName": "Transverse acetabular ligament.r",
+      "sourceId": 67141269,
+      "triangles": 568,
+      "bounds": [
+        [
+          -7.230306148529053,
+          84.23580169677734,
+          -2.318746566772461
+        ],
+        [
+          -5.426148891448975,
+          85.59477996826172,
+          1.9214320182800293
+        ]
+      ]
+    },
+    {
+      "name": "Pubofemoral_ligamentl",
+      "originalName": "Pubofemoral ligament.l",
+      "sourceId": 78988440,
+      "triangles": 392,
+      "bounds": [
+        [
+          5.924552917480469,
+          80.65067291259766,
+          -1.8053730726242065
+        ],
+        [
+          9.349637985229492,
+          85.11540222167969,
+          1.5357294082641602
+        ]
+      ]
+    },
+    {
+      "name": "Acetabular_labruml",
+      "originalName": "Acetabular labrum.l",
+      "sourceId": 81695462,
+      "triangles": 1408,
+      "bounds": [
+        [
+          6.65216588973999,
+          84.1065673828125,
+          -3.45133113861084
+        ],
+        [
+          10.183192253112793,
+          88.88822174072266,
+          2.278461456298828
+        ]
+      ]
+    },
+    {
+      "name": "Pubofemoral_ligamentr",
+      "originalName": "Pubofemoral ligament.r",
+      "sourceId": 142701643,
+      "triangles": 392,
+      "bounds": [
+        [
+          -9.349634170532227,
+          80.65067291259766,
+          -1.805373191833496
+        ],
+        [
+          -5.924548625946045,
+          85.11540222167969,
+          1.5357295274734497
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_hip_jointl",
+      "originalName": "Articular capsule of hip joint.l",
+      "sourceId": 289058344,
+      "triangles": 1120,
+      "bounds": [
+        [
+          6.6487040519714355,
+          81.023193359375,
+          -3.451331377029419
+        ],
+        [
+          12.058211326599121,
+          88.88822174072266,
+          2.2784650325775146
+        ]
+      ]
+    },
+    {
+      "name": "Transverse_part_of_iliofemoral_ligamentr",
+      "originalName": "Transverse part of iliofemoral ligament.r",
+      "sourceId": 318012956,
+      "triangles": 464,
+      "bounds": [
+        [
+          -11.895625114440918,
+          83.59082794189453,
+          0.3973698019981384
+        ],
+        [
+          -9.379142761230469,
+          88.73689270019531,
+          1.7038466930389404
+        ]
+      ]
+    },
+    {
+      "name": "Zona_orbicularisl",
+      "originalName": "Zona orbicularis.l",
+      "sourceId": 328261259,
+      "triangles": 4736,
+      "bounds": [
+        [
+          9.02175235748291,
+          80.81123352050781,
+          -2.4155428409576416
+        ],
+        [
+          12.110404014587402,
+          85.30883026123047,
+          0.5504648089408875
+        ]
+      ]
+    },
+    {
+      "name": "Descending_part_of_iliofemoral_ligamentr",
+      "originalName": "Descending part of iliofemoral ligament.r",
+      "sourceId": 347770529,
+      "triangles": 608,
+      "bounds": [
+        [
+          -10.078749656677246,
+          81.06470489501953,
+          -0.6715140342712402
+        ],
+        [
+          -9.203803062438965,
+          88.57384490966797,
+          1.7902542352676392
+        ]
+      ]
+    },
+    {
+      "name": "Ligament_of_head_of_femurr",
+      "originalName": "Ligament of head of femur.r",
+      "sourceId": 355794469,
+      "triangles": 780,
+      "bounds": [
+        [
+          -6.85788106918335,
+          84.28180694580078,
+          -1.683207631111145
+        ],
+        [
+          -5.486973762512207,
+          86.7270278930664,
+          1.572144627571106
+        ]
+      ]
+    },
+    {
+      "name": "Transverse_part_of_iliofemoral_ligamentl",
+      "originalName": "Transverse part of iliofemoral ligament.l",
+      "sourceId": 435759169,
+      "triangles": 464,
+      "bounds": [
+        [
+          9.37914752960205,
+          83.59082794189453,
+          0.3973698616027832
+        ],
+        [
+          11.8956298828125,
+          88.73689270019531,
+          1.7038465738296509
+        ]
+      ]
+    },
+    {
+      "name": "Zona_orbicularisr",
+      "originalName": "Zona orbicularis.r",
+      "sourceId": 503151816,
+      "triangles": 4736,
+      "bounds": [
+        [
+          -12.110400199890137,
+          80.81123352050781,
+          -2.4155428409576416
+        ],
+        [
+          -9.021748542785645,
+          85.30883026123047,
+          0.5504648089408875
+        ]
+      ]
+    },
+    {
+      "name": "Acetabular_labrumr",
+      "originalName": "Acetabular labrum.r",
+      "sourceId": 548917746,
+      "triangles": 1408,
+      "bounds": [
+        [
+          -10.183187484741211,
+          84.1065673828125,
+          -3.45133113861084
+        ],
+        [
+          -6.652160167694092,
+          88.88822174072266,
+          2.278461456298828
+        ]
+      ]
+    },
+    {
+      "name": "Ischiofemoral_ligamentl",
+      "originalName": "Ischiofemoral ligament.l",
+      "sourceId": 586831962,
+      "triangles": 672,
+      "bounds": [
+        [
+          7.567119598388672,
+          84.54512023925781,
+          -3.516770839691162
+        ],
+        [
+          12.05937385559082,
+          86.20698547363281,
+          -0.4293380081653595
+        ]
+      ]
+    },
+    {
+      "name": "Frenula_capsulael",
+      "originalName": "Frenula capsulae.l",
+      "sourceId": 622767461,
+      "triangles": 864,
+      "bounds": [
+        [
+          8.289815902709961,
+          80.86520385742188,
+          -2.3790106773376465
+        ],
+        [
+          12.002151489257812,
+          85.02861785888672,
+          1.291612148284912
+        ]
+      ]
+    },
+    {
+      "name": "Ischiofemoral_ligamentr",
+      "originalName": "Ischiofemoral ligament.r",
+      "sourceId": 731742504,
+      "triangles": 672,
+      "bounds": [
+        [
+          -12.059370040893555,
+          84.54512023925781,
+          -3.516770839691162
+        ],
+        [
+          -7.567115783691406,
+          86.20698547363281,
+          -0.4293380081653595
+        ]
+      ]
+    },
+    {
+      "name": "Transverse_acetabular_ligamentl",
+      "originalName": "Transverse acetabular ligament.l",
+      "sourceId": 785322160,
+      "triangles": 568,
+      "bounds": [
+        [
+          5.426153659820557,
+          84.23580169677734,
+          -2.318746566772461
+        ],
+        [
+          7.230310916900635,
+          85.59477996826172,
+          1.9214320182800293
+        ]
+      ]
+    },
+    {
+      "name": "Descending_part_of_iliofemoral_ligamentl",
+      "originalName": "Descending part of iliofemoral ligament.l",
+      "sourceId": 802258361,
+      "triangles": 608,
+      "bounds": [
+        [
+          9.203805923461914,
+          81.06470489501953,
+          -0.6715139150619507
+        ],
+        [
+          10.078752517700195,
+          88.57384490966797,
+          1.7902541160583496
+        ]
+      ]
+    },
+    {
+      "name": "Ligament_of_head_of_femurl",
+      "originalName": "Ligament of head of femur.l",
+      "sourceId": 994182022,
+      "triangles": 780,
+      "bounds": [
+        [
+          5.486977577209473,
+          84.28180694580078,
+          -1.683207631111145
+        ],
+        [
+          6.857885360717773,
+          86.7270278930664,
+          1.572144627571106
+        ]
+      ]
+    },
+    {
+      "name": "Calcaneofibular_ligamentr",
+      "originalName": "Calcaneofibular ligament.r",
+      "sourceId": 285034228,
+      "triangles": 32,
+      "bounds": [
+        [
+          -10.4652738571167,
+          5.293601989746094,
+          -6.176450729370117
+        ],
+        [
+          -8.65932559967041,
+          6.568776607513428,
+          -5.552179336547852
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_talofibular_ligamentl",
+      "originalName": "Posterior talofibular ligament.l",
+      "sourceId": 303453332,
+      "triangles": 32,
+      "bounds": [
+        [
+          8.545062065124512,
+          6.02030611038208,
+          -5.96077299118042
+        ],
+        [
+          10.317394256591797,
+          6.928829193115234,
+          -5.351098537445068
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_talofibular_ligamentr",
+      "originalName": "Anterior talofibular ligament.r",
+      "sourceId": 413029801,
+      "triangles": 32,
+      "bounds": [
+        [
+          -10.152464866638184,
+          6.039002895355225,
+          -4.075155735015869
+        ],
+        [
+          -9.060295104980469,
+          7.152034282684326,
+          -3.2952706813812256
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_talofibular_ligamentl",
+      "originalName": "Anterior talofibular ligament.l",
+      "sourceId": 426512078,
+      "triangles": 32,
+      "bounds": [
+        [
+          9.060275077819824,
+          6.039003372192383,
+          -4.075155735015869
+        ],
+        [
+          10.152444839477539,
+          7.152034282684326,
+          -3.2952704429626465
+        ]
+      ]
+    },
+    {
+      "name": "Calcaneofibular_ligamentl",
+      "originalName": "Calcaneofibular ligament.l",
+      "sourceId": 799722469,
+      "triangles": 32,
+      "bounds": [
+        [
+          8.659305572509766,
+          5.2936015129089355,
+          -6.176450729370117
+        ],
+        [
+          10.465253829956055,
+          6.568777084350586,
+          -5.552179336547852
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_talofibular_ligamentr",
+      "originalName": "Posterior talofibular ligament.r",
+      "sourceId": 947478872,
+      "triangles": 32,
+      "bounds": [
+        [
+          -10.317413330078125,
+          6.02030611038208,
+          -5.96077299118042
+        ],
+        [
+          -8.54508113861084,
+          6.928829193115234,
+          -5.351098537445068
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_tibiotalar_ligamentr",
+      "originalName": "Posterior tibiotalar ligament.r",
+      "sourceId": 62709733,
+      "triangles": 56,
+      "bounds": [
+        [
+          -5.609392166137695,
+          6.683460235595703,
+          -4.664008617401123
+        ],
+        [
+          -5.222671985626221,
+          8.06450366973877,
+          -3.306501865386963
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_tibiotalar_ligamentl",
+      "originalName": "Posterior tibiotalar ligament.l",
+      "sourceId": 92401131,
+      "triangles": 56,
+      "bounds": [
+        [
+          5.22265100479126,
+          6.683459281921387,
+          -4.664008617401123
+        ],
+        [
+          5.609371185302734,
+          8.064502716064453,
+          -3.306501865386963
+        ]
+      ]
+    },
+    {
+      "name": "Tibiocalcaneal_ligamentr",
+      "originalName": "Tibiocalcaneal ligament.r",
+      "sourceId": 268562447,
+      "triangles": 56,
+      "bounds": [
+        [
+          -5.965561389923096,
+          5.377577781677246,
+          -4.095574855804443
+        ],
+        [
+          -5.0333051681518555,
+          8.125950813293457,
+          -2.679628849029541
+        ]
+      ]
+    },
+    {
+      "name": "Tibiocalcaneal_ligamentl",
+      "originalName": "Tibiocalcaneal ligament.l",
+      "sourceId": 398901750,
+      "triangles": 56,
+      "bounds": [
+        [
+          5.0332841873168945,
+          5.377577304840088,
+          -4.095574378967285
+        ],
+        [
+          5.965540885925293,
+          8.125950813293457,
+          -2.67962908744812
+        ]
+      ]
+    },
+    {
+      "name": "Tibionavicular_ligamentl",
+      "originalName": "Tibionavicular ligament.l",
+      "sourceId": 703349257,
+      "triangles": 232,
+      "bounds": [
+        [
+          5.402746200561523,
+          5.663593292236328,
+          -3.1932625770568848
+        ],
+        [
+          6.028938293457031,
+          8.60898208618164,
+          -1.7889792919158936
+        ]
+      ]
+    },
+    {
+      "name": "Tibionavicular_ligamentr",
+      "originalName": "Tibionavicular ligament.r",
+      "sourceId": 744517071,
+      "triangles": 232,
+      "bounds": [
+        [
+          -6.028956413269043,
+          5.663593769073486,
+          -3.1932623386383057
+        ],
+        [
+          -5.402764797210693,
+          8.60898208618164,
+          -1.7889792919158936
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_ligament_of_fibular_headr",
+      "originalName": "Anterior ligament of fibular head.r",
+      "sourceId": 183900872,
+      "triangles": 104,
+      "bounds": [
+        [
+          -11.95522403717041,
+          39.38947296142578,
+          -3.4803390502929688
+        ],
+        [
+          -10.424091339111328,
+          41.38227462768555,
+          -2.3978638648986816
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_superior_tibiofibular_jointl",
+      "originalName": "Articular capsule of superior tibiofibular joint.l",
+      "sourceId": 348814483,
+      "triangles": 560,
+      "bounds": [
+        [
+          9.705540657043457,
+          39.218387603759766,
+          -5.001372814178467
+        ],
+        [
+          11.942197799682617,
+          41.922401428222656,
+          -2.4317612648010254
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_ligament_of_fibular_headl",
+      "originalName": "Posterior ligament of fibular head.l",
+      "sourceId": 352937667,
+      "triangles": 176,
+      "bounds": [
+        [
+          9.625448226928711,
+          39.692138671875,
+          -5.032654762268066
+        ],
+        [
+          11.661555290222168,
+          41.88283920288086,
+          -3.867218017578125
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_superior_tibiofibular_jointr",
+      "originalName": "Articular capsule of superior tibiofibular joint.r",
+      "sourceId": 475030279,
+      "triangles": 560,
+      "bounds": [
+        [
+          -11.942205429077148,
+          39.218387603759766,
+          -5.001372814178467
+        ],
+        [
+          -9.705548286437988,
+          41.922401428222656,
+          -2.4317615032196045
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_ligament_of_fibular_headl",
+      "originalName": "Anterior ligament of fibular head.l",
+      "sourceId": 483851839,
+      "triangles": 104,
+      "bounds": [
+        [
+          10.424084663391113,
+          39.38947296142578,
+          -3.4803390502929688
+        ],
+        [
+          11.955217361450195,
+          41.38227462768555,
+          -2.3978638648986816
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_ligament_of_fibular_headr",
+      "originalName": "Posterior ligament of fibular head.r",
+      "sourceId": 669929147,
+      "triangles": 176,
+      "bounds": [
+        [
+          -11.6615629196167,
+          39.692138671875,
+          -5.032654762268066
+        ],
+        [
+          -9.625454902648926,
+          41.88283920288086,
+          -3.867218017578125
+        ]
+      ]
+    },
+    {
+      "name": "Cross_Section_X",
+      "originalName": "Cross Section X",
+      "sourceId": 424492818,
+      "triangles": 0,
+      "bounds": [
+        [
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Lateral_temporomandibular_ligamentr",
+      "originalName": "Lateral temporomandibular ligament.r",
+      "sourceId": 42482977,
+      "triangles": 76,
+      "bounds": [
+        [
+          4.624044895172119,
+          155.74127197265625,
+          0.7246172428131104
+        ],
+        [
+          6.0191755294799805,
+          157.90968322753906,
+          2.0145645141601562
+        ]
+      ]
+    },
+    {
+      "name": "Lateral_temporomandibular_ligamentl",
+      "originalName": "Lateral temporomandibular ligament.l",
+      "sourceId": 54861668,
+      "triangles": 76,
+      "bounds": [
+        [
+          -6.019180774688721,
+          155.74127197265625,
+          0.7246172428131104
+        ],
+        [
+          -4.624050617218018,
+          157.90968322753906,
+          2.0145645141601562
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_temporomandibular_jointr",
+      "originalName": "Articular capsule of temporomandibular joint.r",
+      "sourceId": 85522490,
+      "triangles": 1800,
+      "bounds": [
+        [
+          -5.743846416473389,
+          156.66883850097656,
+          0.09660715609788895
+        ],
+        [
+          -3.4583914279937744,
+          157.95870971679688,
+          1.565217137336731
+        ]
+      ]
+    },
+    {
+      "name": "Articular_disc_of_temporomandibular_jointr",
+      "originalName": "Articular disc of temporomandibular joint.r",
+      "sourceId": 142259007,
+      "triangles": 288,
+      "bounds": [
+        [
+          -5.4419331550598145,
+          156.8117218017578,
+          0.09921367466449738
+        ],
+        [
+          -3.5103166103363037,
+          158.15882873535156,
+          1.4926832914352417
+        ]
+      ]
+    },
+    {
+      "name": "Articular_disc_of_temporomandibular_jointl",
+      "originalName": "Articular disc of temporomandibular joint.l",
+      "sourceId": 784975251,
+      "triangles": 288,
+      "bounds": [
+        [
+          3.51031231880188,
+          156.8117218017578,
+          0.09921366721391678
+        ],
+        [
+          5.441928386688232,
+          158.15882873535156,
+          1.4926832914352417
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_temporomandibular_jointl",
+      "originalName": "Articular capsule of temporomandibular joint.l",
+      "sourceId": 938671767,
+      "triangles": 1800,
+      "bounds": [
+        [
+          3.458385944366455,
+          156.66883850097656,
+          0.09660716354846954
+        ],
+        [
+          5.74384069442749,
+          157.95870971679688,
+          1.5652170181274414
+        ]
+      ]
+    },
+    {
+      "name": "Stylomandibular_ligamentr",
+      "originalName": "Stylomandibular ligament.r",
+      "sourceId": 209434093,
+      "triangles": 44,
+      "bounds": [
+        [
+          -4.073156356811523,
+          152.8476104736328,
+          -0.05066229775547981
+        ],
+        [
+          -3.683562994003296,
+          155.76365661621094,
+          1.0963802337646484
+        ]
+      ]
+    },
+    {
+      "name": "Stylomandibular_ligamentl",
+      "originalName": "Stylomandibular ligament.l",
+      "sourceId": 278434516,
+      "triangles": 44,
+      "bounds": [
+        [
+          3.6835618019104004,
+          152.8476104736328,
+          -0.050662338733673096
+        ],
+        [
+          4.073154926300049,
+          155.76365661621094,
+          1.096380352973938
+        ]
+      ]
+    },
+    {
+      "name": "Sphenomandibular_ligamentr",
+      "originalName": "Sphenomandibular ligament.r",
+      "sourceId": 439010911,
+      "triangles": 288,
+      "bounds": [
+        [
+          -4.199142932891846,
+          154.36253356933594,
+          0.8137811422348022
+        ],
+        [
+          -3.1238322257995605,
+          156.9386749267578,
+          2.237522602081299
+        ]
+      ]
+    },
+    {
+      "name": "Pterygospinous_ligamentl",
+      "originalName": "Pterygospinous ligament.l",
+      "sourceId": 441176954,
+      "triangles": 12,
+      "bounds": [
+        [
+          2.812495231628418,
+          156.4364013671875,
+          0.8865256309509277
+        ],
+        [
+          3.1253840923309326,
+          156.94729614257812,
+          2.216660261154175
+        ]
+      ]
+    },
+    {
+      "name": "Pterygospinous_ligamentr",
+      "originalName": "Pterygospinous ligament.r",
+      "sourceId": 568958399,
+      "triangles": 12,
+      "bounds": [
+        [
+          -3.1253840923309326,
+          156.4364013671875,
+          0.886525571346283
+        ],
+        [
+          -2.812495470046997,
+          156.94729614257812,
+          2.216660261154175
+        ]
+      ]
+    },
+    {
+      "name": "Stylohyoid_ligamentl",
+      "originalName": "Stylohyoid ligament.l",
+      "sourceId": 839942431,
+      "triangles": 624,
+      "bounds": [
+        [
+          1.4542489051818848,
+          150.4002685546875,
+          -0.0035649167839437723
+        ],
+        [
+          3.947542190551758,
+          155.09930419921875,
+          3.2096216678619385
+        ]
+      ]
+    },
+    {
+      "name": "Stylohyoid_ligamentr",
+      "originalName": "Stylohyoid ligament.r",
+      "sourceId": 902663006,
+      "triangles": 624,
+      "bounds": [
+        [
+          -3.947542428970337,
+          150.4002685546875,
+          -0.003564842976629734
+        ],
+        [
+          -1.4542490243911743,
+          155.09930419921875,
+          3.2096214294433594
+        ]
+      ]
+    },
+    {
+      "name": "Sphenomandibular_ligamentl",
+      "originalName": "Sphenomandibular ligament.l",
+      "sourceId": 997831815,
+      "triangles": 288,
+      "bounds": [
+        [
+          3.123833417892456,
+          154.36253356933594,
+          0.8137811422348022
+        ],
+        [
+          4.199143886566162,
+          156.9386749267578,
+          2.237522602081299
+        ]
+      ]
+    },
+    {
+      "name": "Cross_Section_Y",
+      "originalName": "Cross Section Y",
+      "sourceId": 788273065,
+      "triangles": 0,
+      "bounds": [
+        [
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Interosseous_membrane_of_forearmr",
+      "originalName": "Interosseous membrane of forearm.r",
+      "sourceId": 66248089,
+      "triangles": 2766,
+      "bounds": [
+        [
+          -25.891489028930664,
+          87.25725555419922,
+          -3.2485904693603516
+        ],
+        [
+          -23.6444034576416,
+          103.4049072265625,
+          1.7249021530151367
+        ]
+      ]
+    },
+    {
+      "name": "Oblique_cordr",
+      "originalName": "Oblique cord.r",
+      "sourceId": 135719051,
+      "triangles": 12,
+      "bounds": [
+        [
+          -23.622642517089844,
+          104.20657348632812,
+          -2.9626269340515137
+        ],
+        [
+          -22.458528518676758,
+          107.01681518554688,
+          -2.2717092037200928
+        ]
+      ]
+    },
+    {
+      "name": "Interosseous_membrane_of_forearml",
+      "originalName": "Interosseous membrane of forearm.l",
+      "sourceId": 673049133,
+      "triangles": 2766,
+      "bounds": [
+        [
+          23.64440155029297,
+          87.25730895996094,
+          -3.248591423034668
+        ],
+        [
+          25.89148712158203,
+          103.40496063232422,
+          1.7249019145965576
+        ]
+      ]
+    },
+    {
+      "name": "Oblique_cordl",
+      "originalName": "Oblique cord.l",
+      "sourceId": 969586720,
+      "triangles": 12,
+      "bounds": [
+        [
+          22.458524703979492,
+          104.20663452148438,
+          -2.962628126144409
+        ],
+        [
+          23.622638702392578,
+          107.01687622070312,
+          -2.2717103958129883
+        ]
+      ]
+    },
+    {
+      "name": "Quadrate_ligamentl",
+      "originalName": "Quadrate ligament.l",
+      "sourceId": 8037465,
+      "triangles": 12,
+      "bounds": [
+        [
+          22.6943302154541,
+          106.85789489746094,
+          -3.4921536445617676
+        ],
+        [
+          23.231040954589844,
+          107.81383514404297,
+          -3.0078794956207275
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_elbow_jointl",
+      "originalName": "Articular capsule of elbow joint.l",
+      "sourceId": 141466139,
+      "triangles": 1728,
+      "bounds": [
+        [
+          18.89351463317871,
+          108.0333023071289,
+          -5.814211368560791
+        ],
+        [
+          25.007816314697266,
+          113.35426330566406,
+          -1.5864059925079346
+        ]
+      ]
+    },
+    {
+      "name": "Annular_ligament_of_radiusl",
+      "originalName": "Annular ligament of radius.l",
+      "sourceId": 237453416,
+      "triangles": 376,
+      "bounds": [
+        [
+          22.547122955322266,
+          107.22174835205078,
+          -4.202090263366699
+        ],
+        [
+          25.009214401245117,
+          108.96467590332031,
+          -1.9961386919021606
+        ]
+      ]
+    },
+    {
+      "name": "Radial_collateral_ligamentl",
+      "originalName": "Radial collateral ligament.l",
+      "sourceId": 398195796,
+      "triangles": 96,
+      "bounds": [
+        [
+          24.583951950073242,
+          108.65194702148438,
+          -4.253507614135742
+        ],
+        [
+          25.0373477935791,
+          111.47563171386719,
+          -2.3792734146118164
+        ]
+      ]
+    },
+    {
+      "name": "Quadrate_ligamentr",
+      "originalName": "Quadrate ligament.r",
+      "sourceId": 413224043,
+      "triangles": 12,
+      "bounds": [
+        [
+          -23.217079162597656,
+          106.8600082397461,
+          -3.4974987506866455
+        ],
+        [
+          -22.691028594970703,
+          107.81257629394531,
+          -2.9999208450317383
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_elbow_jointr",
+      "originalName": "Articular capsule of elbow joint.r",
+      "sourceId": 569988606,
+      "triangles": 1728,
+      "bounds": [
+        [
+          -25.0078125,
+          108.03329467773438,
+          -5.814210891723633
+        ],
+        [
+          -18.893510818481445,
+          113.35426330566406,
+          -1.5864059925079346
+        ]
+      ]
+    },
+    {
+      "name": "Ulnar_collateral_ligamentr",
+      "originalName": "Ulnar collateral ligament.r",
+      "sourceId": 590000818,
+      "triangles": 152,
+      "bounds": [
+        [
+          -23.556482315063477,
+          107.92908477783203,
+          -3.2794125080108643
+        ],
+        [
+          -18.90700912475586,
+          110.28628540039062,
+          -1.5332496166229248
+        ]
+      ]
+    },
+    {
+      "name": "Radial_collateral_ligamentr",
+      "originalName": "Radial collateral ligament.r",
+      "sourceId": 657138113,
+      "triangles": 96,
+      "bounds": [
+        [
+          -25.03734588623047,
+          108.65194702148438,
+          -4.253507614135742
+        ],
+        [
+          -24.58395004272461,
+          111.47563171386719,
+          -2.3792734146118164
+        ]
+      ]
+    },
+    {
+      "name": "Annular_ligament_of_radiusr",
+      "originalName": "Annular ligament of radius.r",
+      "sourceId": 878872661,
+      "triangles": 376,
+      "bounds": [
+        [
+          -25.022777557373047,
+          107.23133850097656,
+          -4.203291416168213
+        ],
+        [
+          -22.52582359313965,
+          108.95803833007812,
+          -1.9953142404556274
+        ]
+      ]
+    },
+    {
+      "name": "Ulnar_collateral_ligamentl",
+      "originalName": "Ulnar collateral ligament.l",
+      "sourceId": 911773834,
+      "triangles": 152,
+      "bounds": [
+        [
+          18.907011032104492,
+          107.92908477783203,
+          -3.2794127464294434
+        ],
+        [
+          23.556482315063477,
+          110.28628540039062,
+          -1.5332496166229248
+        ]
+      ]
+    },
+    {
+      "name": "Articular_disc_of_distal_radio-ulnar_jointr",
+      "originalName": "Articular disc of distal radio-ulnar joint.r",
+      "sourceId": 283420712,
+      "triangles": 28,
+      "bounds": [
+        [
+          -25.87063980102539,
+          85.90640258789062,
+          0.9759475588798523
+        ],
+        [
+          -24.428577423095703,
+          86.54426574707031,
+          2.162343740463257
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_radio-ulnar_ligamentr",
+      "originalName": "Palmar radio-ulnar ligament.r",
+      "sourceId": 340094425,
+      "triangles": 80,
+      "bounds": [
+        [
+          -25.933818817138672,
+          86.74044036865234,
+          1.4976774454116821
+        ],
+        [
+          -24.055513381958008,
+          87.54846954345703,
+          2.4248740673065186
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_radio-ulnar_ligamentr",
+      "originalName": "Dorsal radio-ulnar ligament.r",
+      "sourceId": 342768763,
+      "triangles": 12,
+      "bounds": [
+        [
+          -26.000089645385742,
+          86.31283569335938,
+          0.6600465774536133
+        ],
+        [
+          -24.88368797302246,
+          87.26451873779297,
+          0.9934663772583008
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_radio-ulnar_ligamentl",
+      "originalName": "Dorsal radio-ulnar ligament.l",
+      "sourceId": 437991591,
+      "triangles": 12,
+      "bounds": [
+        [
+          24.883678436279297,
+          86.31283569335938,
+          0.6600465774536133
+        ],
+        [
+          26.000080108642578,
+          87.26451873779297,
+          0.9934664368629456
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_radio-ulnar_ligamentl",
+      "originalName": "Palmar radio-ulnar ligament.l",
+      "sourceId": 512570977,
+      "triangles": 80,
+      "bounds": [
+        [
+          23.966035842895508,
+          86.72603607177734,
+          1.671348214149475
+        ],
+        [
+          25.88547134399414,
+          87.53876495361328,
+          2.3665647506713867
+        ]
+      ]
+    },
+    {
+      "name": "Articular_disc_of_distal_radio-ulnar_jointl",
+      "originalName": "Articular disc of distal radio-ulnar joint.l",
+      "sourceId": 833274808,
+      "triangles": 28,
+      "bounds": [
+        [
+          24.428565979003906,
+          85.90640258789062,
+          0.9759475588798523
+        ],
+        [
+          25.870628356933594,
+          86.54426574707031,
+          2.162343740463257
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_proximal_interphalangeal_jointsl",
+      "originalName": "Articular capsules of proximal interphalangeal joints.l",
+      "sourceId": 72849039,
+      "triangles": 1392,
+      "bounds": [
+        [
+          22.740966796875,
+          72.4555435180664,
+          4.63930606842041
+        ],
+        [
+          31.609298706054688,
+          75.83454895019531,
+          6.795784950256348
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_distal_interphalangeal_jointsl",
+      "originalName": "Articular capsules of distal interphalangeal joints.l",
+      "sourceId": 119863534,
+      "triangles": 1504,
+      "bounds": [
+        [
+          22.543184280395508,
+          70.58291625976562,
+          5.264917373657227
+        ],
+        [
+          33.07495880126953,
+          79.76792907714844,
+          8.571551322937012
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_distal_interphalangeal_jointsr",
+      "originalName": "Articular capsules of distal interphalangeal joints.r",
+      "sourceId": 179884510,
+      "triangles": 1504,
+      "bounds": [
+        [
+          -33.074947357177734,
+          70.58291625976562,
+          5.264917850494385
+        ],
+        [
+          -22.54317283630371,
+          79.76792907714844,
+          8.571551322937012
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_interphalangeal_ligamentsr",
+      "originalName": "Palmar interphalangeal ligaments.r",
+      "sourceId": 253985813,
+      "triangles": 864,
+      "bounds": [
+        [
+          -32.33285140991211,
+          71.12577056884766,
+          5.264569282531738
+        ],
+        [
+          -22.73672103881836,
+          79.46363067626953,
+          8.614604949951172
+        ]
+      ]
+    },
+    {
+      "name": "Collateral_interphalangeal_ligaments_of_handr",
+      "originalName": "Collateral interphalangeal ligaments of hand.r",
+      "sourceId": 345447910,
+      "triangles": 1968,
+      "bounds": [
+        [
+          -33.01743698120117,
+          70.63273620605469,
+          4.737816333770752
+        ],
+        [
+          -22.534439086914062,
+          79.81283569335938,
+          8.548566818237305
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_interphalangeal_ligamentsl",
+      "originalName": "Palmar interphalangeal ligaments.l",
+      "sourceId": 620818505,
+      "triangles": 864,
+      "bounds": [
+        [
+          22.736732482910156,
+          71.12577056884766,
+          5.264569282531738
+        ],
+        [
+          32.332862854003906,
+          79.46363067626953,
+          8.614604949951172
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_proximal_interphalangeal_jointsr",
+      "originalName": "Articular capsules of proximal interphalangeal joints.r",
+      "sourceId": 641137408,
+      "triangles": 1392,
+      "bounds": [
+        [
+          -31.60928726196289,
+          72.4555435180664,
+          4.63930606842041
+        ],
+        [
+          -22.740955352783203,
+          75.83454895019531,
+          6.795784950256348
+        ]
+      ]
+    },
+    {
+      "name": "Collateral_interphalangeal_ligaments_of_handl",
+      "originalName": "Collateral interphalangeal ligaments of hand.l",
+      "sourceId": 648363252,
+      "triangles": 1968,
+      "bounds": [
+        [
+          22.534452438354492,
+          70.63273620605469,
+          4.737816333770752
+        ],
+        [
+          33.01744842529297,
+          79.81283569335938,
+          8.548566818237305
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_carpometacarpal_ligamentsl",
+      "originalName": "Palmar carpometacarpal ligaments.l",
+      "sourceId": 221301572,
+      "triangles": 416,
+      "bounds": [
+        [
+          24.865819931030273,
+          83.25554656982422,
+          2.219964027404785
+        ],
+        [
+          29.157243728637695,
+          84.7734603881836,
+          3.5429909229278564
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_carpometacarpal_ligamentsl",
+      "originalName": "Dorsal carpometacarpal ligaments.l",
+      "sourceId": 359473278,
+      "triangles": 148,
+      "bounds": [
+        [
+          24.45836639404297,
+          82.99283599853516,
+          1.0872328281402588
+        ],
+        [
+          29.13412094116211,
+          84.85059356689453,
+          2.6715455055236816
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_carpometacarpal_ligamentsr",
+      "originalName": "Dorsal carpometacarpal ligaments.r",
+      "sourceId": 818917166,
+      "triangles": 148,
+      "bounds": [
+        [
+          -29.134111404418945,
+          82.99283599853516,
+          1.0872325897216797
+        ],
+        [
+          -24.458358764648438,
+          84.85059356689453,
+          2.6715471744537354
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_carpometacarpal_ligamentsr",
+      "originalName": "Palmar carpometacarpal ligaments.r",
+      "sourceId": 895347341,
+      "triangles": 416,
+      "bounds": [
+        [
+          -29.15723419189453,
+          83.25554656982422,
+          2.219963312149048
+        ],
+        [
+          -24.865812301635742,
+          84.7734603881836,
+          3.542992353439331
+        ]
+      ]
+    },
+    {
+      "name": "Collateral_metacarpophalangeal_ligamentsl",
+      "originalName": "Collateral metacarpophalangeal ligaments.l",
+      "sourceId": 234449678,
+      "triangles": 1040,
+      "bounds": [
+        [
+          23.021053314208984,
+          76.40428924560547,
+          3.1264634132385254
+        ],
+        [
+          32.362510681152344,
+          82.55984497070312,
+          5.508657932281494
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_metacarpophalangeal_jointsr",
+      "originalName": "Articular capsules of metacarpophalangeal joints.r",
+      "sourceId": 341786242,
+      "triangles": 1568,
+      "bounds": [
+        [
+          -32.29277038574219,
+          76.36640930175781,
+          2.7534186840057373
+        ],
+        [
+          -23.051895141601562,
+          82.5098648071289,
+          5.614622592926025
+        ]
+      ]
+    },
+    {
+      "name": "Collateral_metacarpophalangeal_ligamentsr",
+      "originalName": "Collateral metacarpophalangeal ligaments.r",
+      "sourceId": 397747422,
+      "triangles": 1040,
+      "bounds": [
+        [
+          -32.36250686645508,
+          76.40428924560547,
+          3.1264634132385254
+        ],
+        [
+          -23.021047592163086,
+          82.55984497070312,
+          5.508657932281494
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsules_of_metacarpophalangeal_jointsl",
+      "originalName": "Articular capsules of metacarpophalangeal joints.l",
+      "sourceId": 401058588,
+      "triangles": 1568,
+      "bounds": [
+        [
+          23.05190658569336,
+          76.36640930175781,
+          2.7534189224243164
+        ],
+        [
+          32.292781829833984,
+          82.5098648071289,
+          5.614622592926025
+        ]
+      ]
+    },
+    {
+      "name": "Deep_transverse_metacarpal_ligamentr",
+      "originalName": "Deep transverse metacarpal ligament.r",
+      "sourceId": 607265478,
+      "triangles": 60,
+      "bounds": [
+        [
+          -28.936153411865234,
+          77.1106948852539,
+          4.123649597167969
+        ],
+        [
+          -24.36280059814453,
+          78.77163696289062,
+          4.620613098144531
+        ]
+      ]
+    },
+    {
+      "name": "Deep_transverse_metacarpal_ligamentl",
+      "originalName": "Deep transverse metacarpal ligament.l",
+      "sourceId": 681606021,
+      "triangles": 60,
+      "bounds": [
+        [
+          24.362808227539062,
+          77.1106948852539,
+          4.123649597167969
+        ],
+        [
+          28.936161041259766,
+          78.77163696289062,
+          4.620613098144531
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_metacarpal_ligamentsr",
+      "originalName": "Palmar metacarpal ligaments.r",
+      "sourceId": 140542557,
+      "triangles": 48,
+      "bounds": [
+        [
+          -28.625905990600586,
+          82.72808837890625,
+          2.3394320011138916
+        ],
+        [
+          -25.22964096069336,
+          83.69844055175781,
+          3.1968743801116943
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_metacarpal_ligamentsr",
+      "originalName": "Dorsal metacarpal ligaments.r",
+      "sourceId": 270332318,
+      "triangles": 48,
+      "bounds": [
+        [
+          -28.981529235839844,
+          82.37913513183594,
+          1.4021188020706177
+        ],
+        [
+          -24.874013900756836,
+          83.59827423095703,
+          2.5172219276428223
+        ]
+      ]
+    },
+    {
+      "name": "Interosseous_metacarpal_ligamentsl",
+      "originalName": "Interosseous metacarpal ligaments.l",
+      "sourceId": 436540571,
+      "triangles": 48,
+      "bounds": [
+        [
+          25.096450805664062,
+          82.60623931884766,
+          1.9272478818893433
+        ],
+        [
+          28.654008865356445,
+          83.59215545654297,
+          2.892146587371826
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_metacarpal_ligamentsl",
+      "originalName": "Palmar metacarpal ligaments.l",
+      "sourceId": 473838282,
+      "triangles": 48,
+      "bounds": [
+        [
+          25.229652404785156,
+          82.72808837890625,
+          2.33943247795105
+        ],
+        [
+          28.625917434692383,
+          83.69844055175781,
+          3.1968729496002197
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_metacarpal_ligamentsl",
+      "originalName": "Dorsal metacarpal ligaments.l",
+      "sourceId": 560355901,
+      "triangles": 48,
+      "bounds": [
+        [
+          24.8740234375,
+          82.37913513183594,
+          1.4021192789077759
+        ],
+        [
+          28.981536865234375,
+          83.59827423095703,
+          2.5172204971313477
+        ]
+      ]
+    },
+    {
+      "name": "Interosseous_metacarpal_ligamentsr",
+      "originalName": "Interosseous metacarpal ligaments.r",
+      "sourceId": 563410096,
+      "triangles": 48,
+      "bounds": [
+        [
+          -28.65399742126465,
+          82.60623931884766,
+          1.927248239517212
+        ],
+        [
+          -25.096439361572266,
+          83.59215545654297,
+          2.8921477794647217
+        ]
+      ]
+    },
+    {
+      "name": "Trapeziotrapezoidal_interosseous_ligamentl",
+      "originalName": "Trapeziotrapezoidal interosseous ligament.l",
+      "sourceId": 41804588,
+      "triangles": 12,
+      "bounds": [
+        [
+          27.607189178466797,
+          84.33081817626953,
+          2.1771299839019775
+        ],
+        [
+          27.921524047851562,
+          84.55155181884766,
+          2.565047264099121
+        ]
+      ]
+    },
+    {
+      "name": "Triquetrocapitate_ligamentr",
+      "originalName": "Triquetrocapitate ligament.r",
+      "sourceId": 60838700,
+      "triangles": 20,
+      "bounds": [
+        [
+          -26.136310577392578,
+          84.2826156616211,
+          2.1690850257873535
+        ],
+        [
+          -24.772165298461914,
+          85.00435638427734,
+          2.4886932373046875
+        ]
+      ]
+    },
+    {
+      "name": "Pisotriquetral_ligamentl",
+      "originalName": "Pisotriquetral ligament.l",
+      "sourceId": 70613403,
+      "triangles": 264,
+      "bounds": [
+        [
+          23.977853775024414,
+          84.08133697509766,
+          2.6073875427246094
+        ],
+        [
+          24.731449127197266,
+          85.0095443725586,
+          3.0586578845977783
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_lunotriquetral_ligamentl",
+      "originalName": "Palmar lunotriquetral ligament.l",
+      "sourceId": 72780811,
+      "triangles": 12,
+      "bounds": [
+        [
+          24.3802490234375,
+          85.19835662841797,
+          1.9800634384155273
+        ],
+        [
+          24.80673599243164,
+          85.5372314453125,
+          2.3142974376678467
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_ulnocarpal_ligamentr",
+      "originalName": "Dorsal ulnocarpal ligament.r",
+      "sourceId": 84837254,
+      "triangles": 120,
+      "bounds": [
+        [
+          -25.922321319580078,
+          84.75032806396484,
+          0.8864824771881104
+        ],
+        [
+          -24.20764923095703,
+          85.88884735107422,
+          1.4188222885131836
+        ]
+      ]
+    },
+    {
+      "name": "Scaphocapitate_ligamentl",
+      "originalName": "Scaphocapitate ligament.l",
+      "sourceId": 97402623,
+      "triangles": 12,
+      "bounds": [
+        [
+          26.452518463134766,
+          85.26058959960938,
+          2.1540679931640625
+        ],
+        [
+          26.924772262573242,
+          85.7979507446289,
+          2.3285880088806152
+        ]
+      ]
+    },
+    {
+      "name": "Trapezoideocapitate_interosseous_ligamentl",
+      "originalName": "Trapezoideocapitate interosseous ligament.l",
+      "sourceId": 100222477,
+      "triangles": 12,
+      "bounds": [
+        [
+          26.996417999267578,
+          83.8371353149414,
+          1.5869747400283813
+        ],
+        [
+          27.361351013183594,
+          83.90723419189453,
+          2.0957579612731934
+        ]
+      ]
+    },
+    {
+      "name": "Pisometacarpal_ligamentr",
+      "originalName": "Pisometacarpal ligament.r",
+      "sourceId": 112070449,
+      "triangles": 12,
+      "bounds": [
+        [
+          -24.678804397583008,
+          83.44351959228516,
+          2.5169076919555664
+        ],
+        [
+          -24.220670700073242,
+          84.2127456665039,
+          3.043215036392212
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_scaphotriquetral_ligamentl",
+      "originalName": "Palmar scaphotriquetral ligament.l",
+      "sourceId": 144565321,
+      "triangles": 256,
+      "bounds": [
+        [
+          24.70616340637207,
+          85.01744842529297,
+          2.035841941833496
+        ],
+        [
+          26.67601203918457,
+          85.75067901611328,
+          2.6877055168151855
+        ]
+      ]
+    },
+    {
+      "name": "Trapezoideocapitate_interosseous_ligamentr",
+      "originalName": "Trapezoideocapitate interosseous ligament.r",
+      "sourceId": 146289442,
+      "triangles": 12,
+      "bounds": [
+        [
+          -27.36134147644043,
+          83.8371353149414,
+          1.5869747400283813
+        ],
+        [
+          -26.996408462524414,
+          83.90723419189453,
+          2.0957579612731934
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_intercarpal_ligamentsl",
+      "originalName": "Dorsal intercarpal ligaments.l",
+      "sourceId": 156661646,
+      "triangles": 440,
+      "bounds": [
+        [
+          24.40041160583496,
+          83.55963134765625,
+          0.9157391786575317
+        ],
+        [
+          28.29462242126465,
+          85.27960205078125,
+          2.0388336181640625
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_scaphotriquetral_ligamentl",
+      "originalName": "Dorsal scaphotriquetral ligament.l",
+      "sourceId": 595562646,
+      "triangles": 104,
+      "bounds": [
+        [
+          24.63138198852539,
+          84.6089859008789,
+          0.9225730299949646
+        ],
+        [
+          26.722976684570312,
+          85.34671020507812,
+          1.5467926263809204
+        ]
+      ]
+    },
+    {
+      "name": "Triquetrohamate_ligamentr",
+      "originalName": "Triquetrohamate ligament.r",
+      "sourceId": 160503274,
+      "triangles": 12,
+      "bounds": [
+        [
+          -25.23877716064453,
+          83.98133087158203,
+          2.393327474594116
+        ],
+        [
+          -24.630409240722656,
+          84.5537109375,
+          2.7289295196533203
+        ]
+      ]
+    },
+    {
+      "name": "Lunotriquetral_interosseous_ligamentl",
+      "originalName": "Lunotriquetral interosseous ligament.l",
+      "sourceId": 186541027,
+      "triangles": 12,
+      "bounds": [
+        [
+          24.788034439086914,
+          84.99651336669922,
+          1.8340978622436523
+        ],
+        [
+          25.00795555114746,
+          85.21333312988281,
+          2.097170829772949
+        ]
+      ]
+    },
+    {
+      "name": "Triquetrocapitate_ligamentl",
+      "originalName": "Triquetrocapitate ligament.l",
+      "sourceId": 277107877,
+      "triangles": 20,
+      "bounds": [
+        [
+          24.772171020507812,
+          84.2826156616211,
+          2.1690850257873535
+        ],
+        [
+          26.136316299438477,
+          85.00435638427734,
+          2.4886932373046875
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_scaphotriquetral_ligamentr",
+      "originalName": "Palmar scaphotriquetral ligament.r",
+      "sourceId": 345117320,
+      "triangles": 256,
+      "bounds": [
+        [
+          -26.676002502441406,
+          85.01744842529297,
+          2.035842180252075
+        ],
+        [
+          -24.70615577697754,
+          85.75067901611328,
+          2.6877055168151855
+        ]
+      ]
+    },
+    {
+      "name": "Scaphotrapeziotrapezoidal_ligamentl",
+      "originalName": "Scaphotrapeziotrapezoidal ligament.l",
+      "sourceId": 394924583,
+      "triangles": 144,
+      "bounds": [
+        [
+          27.126920700073242,
+          84.3847427368164,
+          2.2855021953582764
+        ],
+        [
+          27.52570152282715,
+          85.24754333496094,
+          2.783435106277466
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_capitohamate_ligamentr",
+      "originalName": "Palmar capitohamate ligament.r",
+      "sourceId": 397211831,
+      "triangles": 12,
+      "bounds": [
+        [
+          -26.32814598083496,
+          83.70055389404297,
+          2.130713701248169
+        ],
+        [
+          -25.83489990234375,
+          84.24411010742188,
+          2.245701313018799
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_ulnocarpal_ligamentl",
+      "originalName": "Dorsal ulnocarpal ligament.l",
+      "sourceId": 410475776,
+      "triangles": 120,
+      "bounds": [
+        [
+          24.20765495300293,
+          84.75032806396484,
+          0.8864824771881104
+        ],
+        [
+          25.92232894897461,
+          85.88884735107422,
+          1.4188222885131836
+        ]
+      ]
+    },
+    {
+      "name": "Pisotriquetral_ligamentr",
+      "originalName": "Pisotriquetral ligament.r",
+      "sourceId": 423852924,
+      "triangles": 264,
+      "bounds": [
+        [
+          -24.7314395904541,
+          84.08133697509766,
+          2.6073875427246094
+        ],
+        [
+          -23.97784423828125,
+          85.0095443725586,
+          3.0586578845977783
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_lunotriquetral_ligamentr",
+      "originalName": "Palmar lunotriquetral ligament.r",
+      "sourceId": 468534518,
+      "triangles": 12,
+      "bounds": [
+        [
+          -24.806726455688477,
+          85.19835662841797,
+          1.9800634384155273
+        ],
+        [
+          -24.380239486694336,
+          85.5372314453125,
+          2.3142974376678467
+        ]
+      ]
+    },
+    {
+      "name": "Scaphocapitate_ligamentr",
+      "originalName": "Scaphocapitate ligament.r",
+      "sourceId": 593153940,
+      "triangles": 12,
+      "bounds": [
+        [
+          -26.945512771606445,
+          85.25959014892578,
+          2.1052443981170654
+        ],
+        [
+          -26.463266372680664,
+          85.78244018554688,
+          2.3674182891845703
+        ]
+      ]
+    },
+    {
+      "name": "Scapholunate_interosseous_ligamentr",
+      "originalName": "Scapholunate interosseous ligament.r",
+      "sourceId": 619879102,
+      "triangles": 12,
+      "bounds": [
+        [
+          -25.866527557373047,
+          85.58025360107422,
+          1.2448537349700928
+        ],
+        [
+          -25.654071807861328,
+          85.85807800292969,
+          1.5604091882705688
+        ]
+      ]
+    },
+    {
+      "name": "Pisohamate_ligamentl",
+      "originalName": "Pisohamate ligament.l",
+      "sourceId": 629212070,
+      "triangles": 12,
+      "bounds": [
+        [
+          24.63129425048828,
+          84.1501235961914,
+          2.929335355758667
+        ],
+        [
+          25.132173538208008,
+          84.45214080810547,
+          3.048048496246338
+        ]
+      ]
+    },
+    {
+      "name": "Capitohamate_interosseous_ligamentl",
+      "originalName": "Capitohamate interosseous ligament.l",
+      "sourceId": 654473200,
+      "triangles": 12,
+      "bounds": [
+        [
+          25.763286590576172,
+          84.178955078125,
+          1.217002034187317
+        ],
+        [
+          26.002084732055664,
+          84.24199676513672,
+          1.6751912832260132
+        ]
+      ]
+    },
+    {
+      "name": "Trapeziotrapezoidal_interosseous_ligamentr",
+      "originalName": "Trapeziotrapezoidal interosseous ligament.r",
+      "sourceId": 655446711,
+      "triangles": 12,
+      "bounds": [
+        [
+          -27.921520233154297,
+          84.33081817626953,
+          2.1771299839019775
+        ],
+        [
+          -27.6071834564209,
+          84.55155181884766,
+          2.565047264099121
+        ]
+      ]
+    },
+    {
+      "name": "Radiate_carpal_ligamentr",
+      "originalName": "Radiate carpal ligament.r",
+      "sourceId": 661482051,
+      "triangles": 408,
+      "bounds": [
+        [
+          -27.5346622467041,
+          83.24303436279297,
+          2.0548532009124756
+        ],
+        [
+          -25.5234317779541,
+          85.75625610351562,
+          3.0204837322235107
+        ]
+      ]
+    },
+    {
+      "name": "Ulnar_collateral_ligament_of_wrist_jointr",
+      "originalName": "Ulnar collateral ligament of wrist joint.r",
+      "sourceId": 667088472,
+      "triangles": 128,
+      "bounds": [
+        [
+          -24.51495361328125,
+          84.37498474121094,
+          1.128848671913147
+        ],
+        [
+          -23.964563369750977,
+          85.9597396850586,
+          3.015448570251465
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_trapezoideocapitate_ligamentr",
+      "originalName": "Palmar trapezoideocapitate ligament.r",
+      "sourceId": 731225725,
+      "triangles": 12,
+      "bounds": [
+        [
+          -27.31561851501465,
+          83.85918426513672,
+          2.504709482192993
+        ],
+        [
+          -26.82847785949707,
+          84.34322357177734,
+          2.6666018962860107
+        ]
+      ]
+    },
+    {
+      "name": "Radial_collateral_ligament_of_wrist_jointr",
+      "originalName": "Radial collateral ligament of wrist joint.r",
+      "sourceId": 746239986,
+      "triangles": 144,
+      "bounds": [
+        [
+          -28.680185317993164,
+          85.01689147949219,
+          1.676369309425354
+        ],
+        [
+          -28.109643936157227,
+          86.01466369628906,
+          2.4660799503326416
+        ]
+      ]
+    },
+    {
+      "name": "Scaphotrapeziotrapezoidal_ligamentr",
+      "originalName": "Scaphotrapeziotrapezoidal ligament.r",
+      "sourceId": 754578652,
+      "triangles": 144,
+      "bounds": [
+        [
+          -27.525691986083984,
+          84.3847427368164,
+          2.2855021953582764
+        ],
+        [
+          -27.12691307067871,
+          85.24754333496094,
+          2.783435106277466
+        ]
+      ]
+    },
+    {
+      "name": "Radiate_carpal_ligamentl",
+      "originalName": "Radiate carpal ligament.l",
+      "sourceId": 808209827,
+      "triangles": 408,
+      "bounds": [
+        [
+          25.523439407348633,
+          83.24303436279297,
+          2.0548532009124756
+        ],
+        [
+          27.534671783447266,
+          85.75625610351562,
+          3.0204837322235107
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_intercarpal_ligamentsr",
+      "originalName": "Dorsal intercarpal ligaments.r",
+      "sourceId": 844395848,
+      "triangles": 440,
+      "bounds": [
+        [
+          -28.294618606567383,
+          83.55963134765625,
+          0.9157391786575317
+        ],
+        [
+          -24.400405883789062,
+          85.27960205078125,
+          2.0388336181640625
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_scaphotriquetral_ligamentr",
+      "originalName": "Dorsal scaphotriquetral ligament.r",
+      "sourceId": 647524794,
+      "triangles": 104,
+      "bounds": [
+        [
+          -26.722978591918945,
+          84.6089859008789,
+          0.9225730895996094
+        ],
+        [
+          -24.63138198852539,
+          85.34671020507812,
+          1.5467926263809204
+        ]
+      ]
+    },
+    {
+      "name": "Pisometacarpal_ligamentl",
+      "originalName": "Pisometacarpal ligament.l",
+      "sourceId": 844825872,
+      "triangles": 12,
+      "bounds": [
+        [
+          24.177993774414062,
+          83.45417022705078,
+          2.4905645847320557
+        ],
+        [
+          24.700590133666992,
+          84.19093322753906,
+          3.0702717304229736
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_capitohamate_ligamentl",
+      "originalName": "Palmar capitohamate ligament.l",
+      "sourceId": 885814421,
+      "triangles": 12,
+      "bounds": [
+        [
+          25.83490562438965,
+          83.70055389404297,
+          2.130713701248169
+        ],
+        [
+          26.328149795532227,
+          84.24411010742188,
+          2.245701551437378
+        ]
+      ]
+    },
+    {
+      "name": "Palmar_trapezoideocapitate_ligamentl",
+      "originalName": "Palmar trapezoideocapitate ligament.l",
+      "sourceId": 898600263,
+      "triangles": 12,
+      "bounds": [
+        [
+          26.828489303588867,
+          83.85918426513672,
+          2.504709482192993
+        ],
+        [
+          27.315629959106445,
+          84.34322357177734,
+          2.6666018962860107
+        ]
+      ]
+    },
+    {
+      "name": "Scapholunate_interosseous_ligamentl",
+      "originalName": "Scapholunate interosseous ligament.l",
+      "sourceId": 914386139,
+      "triangles": 12,
+      "bounds": [
+        [
+          25.654081344604492,
+          85.58025360107422,
+          1.2448537349700928
+        ],
+        [
+          25.86653709411621,
+          85.85807800292969,
+          1.5604091882705688
+        ]
+      ]
+    },
+    {
+      "name": "Capitohamate_interosseous_ligamentr",
+      "originalName": "Capitohamate interosseous ligament.r",
+      "sourceId": 947255308,
+      "triangles": 12,
+      "bounds": [
+        [
+          -26.0020751953125,
+          84.178955078125,
+          1.217002034187317
+        ],
+        [
+          -25.763277053833008,
+          84.24199676513672,
+          1.6751912832260132
+        ]
+      ]
+    },
+    {
+      "name": "Pisohamate_ligamentr",
+      "originalName": "Pisohamate ligament.r",
+      "sourceId": 949747202,
+      "triangles": 12,
+      "bounds": [
+        [
+          -25.132164001464844,
+          84.1501235961914,
+          2.929335355758667
+        ],
+        [
+          -24.63128662109375,
+          84.45214080810547,
+          3.048048496246338
+        ]
+      ]
+    },
+    {
+      "name": "Lunotriquetral_interosseous_ligamentr",
+      "originalName": "Lunotriquetral interosseous ligament.r",
+      "sourceId": 958342336,
+      "triangles": 12,
+      "bounds": [
+        [
+          -25.007949829101562,
+          84.99651336669922,
+          1.8340978622436523
+        ],
+        [
+          -24.788028717041016,
+          85.21333312988281,
+          2.097170829772949
+        ]
+      ]
+    },
+    {
+      "name": "Triquetrohamate_ligamentl",
+      "originalName": "Triquetrohamate ligament.l",
+      "sourceId": 995538616,
+      "triangles": 12,
+      "bounds": [
+        [
+          24.630416870117188,
+          83.98133087158203,
+          2.393327474594116
+        ],
+        [
+          25.238784790039062,
+          84.5537109375,
+          2.7289295196533203
+        ]
+      ]
+    },
+    {
+      "name": "Superior_glenohumeral_ligamentl",
+      "originalName": "Superior glenohumeral ligament.l",
+      "sourceId": 43325654,
+      "triangles": 200,
+      "bounds": [
+        [
+          14.0275297164917,
+          138.76248168945312,
+          -3.377929925918579
+        ],
+        [
+          16.959232330322266,
+          140.40794372558594,
+          -0.5523214340209961
+        ]
+      ]
+    },
+    {
+      "name": "Glenoid_labruml",
+      "originalName": "Glenoid labrum.l",
+      "sourceId": 48977721,
+      "triangles": 848,
+      "bounds": [
+        [
+          13.95361614227295,
+          135.9988555908203,
+          -4.850276947021484
+        ],
+        [
+          15.857175827026367,
+          139.5777587890625,
+          -2.3284780979156494
+        ]
+      ]
+    },
+    {
+      "name": "Coracohumeral_ligamentl",
+      "originalName": "Coracohumeral ligament.l",
+      "sourceId": 140384984,
+      "triangles": 200,
+      "bounds": [
+        [
+          13.83806037902832,
+          139.11428833007812,
+          -2.224228858947754
+        ],
+        [
+          18.495155334472656,
+          140.88121032714844,
+          -0.1501259058713913
+        ]
+      ]
+    },
+    {
+      "name": "Transverse_humeral_ligamentl",
+      "originalName": "Transverse humeral ligament.l",
+      "sourceId": 296175598,
+      "triangles": 136,
+      "bounds": [
+        [
+          17.502559661865234,
+          137.9622344970703,
+          -1.2177563905715942
+        ],
+        [
+          18.776941299438477,
+          139.74855041503906,
+          -0.44061461091041565
+        ]
+      ]
+    },
+    {
+      "name": "Inferior_glenohumeral_ligamentr",
+      "originalName": "Inferior glenohumeral ligament.r",
+      "sourceId": 303605000,
+      "triangles": 320,
+      "bounds": [
+        [
+          -16.262907028198242,
+          136.63243103027344,
+          -2.6026978492736816
+        ],
+        [
+          -13.876138687133789,
+          138.55731201171875,
+          -0.9883204102516174
+        ]
+      ]
+    },
+    {
+      "name": "Coracohumeral_ligamentr",
+      "originalName": "Coracohumeral ligament.r",
+      "sourceId": 348735722,
+      "triangles": 200,
+      "bounds": [
+        [
+          -18.49515151977539,
+          139.11428833007812,
+          -2.224228858947754
+        ],
+        [
+          -13.838056564331055,
+          140.88121032714844,
+          -0.1501259207725525
+        ]
+      ]
+    },
+    {
+      "name": "Superior_glenohumeral_ligamentr",
+      "originalName": "Superior glenohumeral ligament.r",
+      "sourceId": 538546670,
+      "triangles": 200,
+      "bounds": [
+        [
+          -16.959226608276367,
+          138.76248168945312,
+          -3.377929925918579
+        ],
+        [
+          -14.0275239944458,
+          140.40794372558594,
+          -0.5523214340209961
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_glenohumeral_jointr",
+      "originalName": "Articular capsule of glenohumeral joint.r",
+      "sourceId": 558719528,
+      "triangles": 3232,
+      "bounds": [
+        [
+          -18.653390884399414,
+          134.9820098876953,
+          -5.164841651916504
+        ],
+        [
+          -13.93041706085205,
+          140.81692504882812,
+          -0.4992882013320923
+        ]
+      ]
+    },
+    {
+      "name": "Glenoid_labrumr",
+      "originalName": "Glenoid labrum.r",
+      "sourceId": 679717148,
+      "triangles": 848,
+      "bounds": [
+        [
+          -15.857171058654785,
+          135.9988555908203,
+          -4.850276947021484
+        ],
+        [
+          -13.953611373901367,
+          139.5777587890625,
+          -2.3284783363342285
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_glenohumeral_jointl",
+      "originalName": "Articular capsule of glenohumeral joint.l",
+      "sourceId": 697105266,
+      "triangles": 3232,
+      "bounds": [
+        [
+          13.930418968200684,
+          134.9820098876953,
+          -5.164841651916504
+        ],
+        [
+          18.653392791748047,
+          140.81692504882812,
+          -0.4992882311344147
+        ]
+      ]
+    },
+    {
+      "name": "Transverse_humeral_ligamentr",
+      "originalName": "Transverse humeral ligament.r",
+      "sourceId": 910581941,
+      "triangles": 464,
+      "bounds": [
+        [
+          -18.75727081298828,
+          137.98899841308594,
+          -1.2148635387420654
+        ],
+        [
+          -17.52353858947754,
+          139.73886108398438,
+          -0.4370797872543335
+        ]
+      ]
+    },
+    {
+      "name": "Inferior_glenohumeral_ligamentl",
+      "originalName": "Inferior glenohumeral ligament.l",
+      "sourceId": 963848373,
+      "triangles": 320,
+      "bounds": [
+        [
+          13.876143455505371,
+          136.63243103027344,
+          -2.6026978492736816
+        ],
+        [
+          16.26291275024414,
+          138.55731201171875,
+          -0.9883204102516174
+        ]
+      ]
+    },
+    {
+      "name": "Middle_glenohumeral_ligamentr",
+      "originalName": "Middle glenohumeral ligament.r",
+      "sourceId": 982736080,
+      "triangles": 280,
+      "bounds": [
+        [
+          -16.460729598999023,
+          138.16725158691406,
+          -2.7508108615875244
+        ],
+        [
+          -13.767584800720215,
+          139.68746948242188,
+          -0.458099365234375
+        ]
+      ]
+    },
+    {
+      "name": "Middle_glenohumeral_ligamentl",
+      "originalName": "Middle glenohumeral ligament.l",
+      "sourceId": 984239897,
+      "triangles": 280,
+      "bounds": [
+        [
+          13.767586708068848,
+          138.16725158691406,
+          -2.7508108615875244
+        ],
+        [
+          16.460731506347656,
+          139.68746948242188,
+          -0.4580993354320526
+        ]
+      ]
+    },
+    {
+      "name": "Ulnocapitate_ligamentr",
+      "originalName": "Ulnocapitate ligament.r",
+      "sourceId": 29406840,
+      "triangles": 128,
+      "bounds": [
+        [
+          -26.820087432861328,
+          83.94805145263672,
+          1.560724139213562
+        ],
+        [
+          -24.14647102355957,
+          87.815185546875,
+          2.7527120113372803
+        ]
+      ]
+    },
+    {
+      "name": "Ulnotriquetral_ligamentr",
+      "originalName": "Ulnotriquetral ligament.r",
+      "sourceId": 38623813,
+      "triangles": 56,
+      "bounds": [
+        [
+          -24.354944229125977,
+          85.05826568603516,
+          1.221769094467163
+        ],
+        [
+          -24.01202392578125,
+          86.60050964355469,
+          2.0516698360443115
+        ]
+      ]
+    },
+    {
+      "name": "Ulnolunate_ligamentr",
+      "originalName": "Ulnolunate ligament.r",
+      "sourceId": 86665965,
+      "triangles": 104,
+      "bounds": [
+        [
+          -26.42035484313965,
+          85.69035339355469,
+          1.6593176126480103
+        ],
+        [
+          -24.1464786529541,
+          87.81517791748047,
+          2.2762532234191895
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_radiocarpal_jointl",
+      "originalName": "Articular capsule of radiocarpal joint.l",
+      "sourceId": 222858263,
+      "triangles": 1342,
+      "bounds": [
+        [
+          23.83660125732422,
+          82.12205505371094,
+          0.5778911113739014
+        ],
+        [
+          29.330232620239258,
+          88.2352294921875,
+          3.6070327758789062
+        ]
+      ]
+    },
+    {
+      "name": "Ulnar_collateral_ligament_of_wrist_jointl",
+      "originalName": "Ulnar collateral ligament of wrist joint.l",
+      "sourceId": 226430965,
+      "triangles": 128,
+      "bounds": [
+        [
+          23.964561462402344,
+          84.37499237060547,
+          1.1288470029830933
+        ],
+        [
+          24.514951705932617,
+          85.95974731445312,
+          3.015446424484253
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_radiocarpal_ligamentr",
+      "originalName": "Dorsal radiocarpal ligament.r",
+      "sourceId": 277396982,
+      "triangles": 247,
+      "bounds": [
+        [
+          -27.799850463867188,
+          84.69331359863281,
+          0.8153044581413269
+        ],
+        [
+          -24.425199508666992,
+          86.14501190185547,
+          1.5055603981018066
+        ]
+      ]
+    },
+    {
+      "name": "Radiocapitate_ligamentl",
+      "originalName": "Radiocapitate ligament.l",
+      "sourceId": 342667392,
+      "triangles": 12,
+      "bounds": [
+        [
+          26.390851974487305,
+          84.35079193115234,
+          2.332965850830078
+        ],
+        [
+          27.60966682434082,
+          86.6644515991211,
+          2.629178524017334
+        ]
+      ]
+    },
+    {
+      "name": "Ulnopisiform_ligament",
+      "originalName": "Ulnopisiform ligament",
+      "sourceId": 369316540,
+      "triangles": 12,
+      "bounds": [
+        [
+          -24.324209213256836,
+          84.8419418334961,
+          1.51974356174469
+        ],
+        [
+          -24.02207374572754,
+          87.11167907714844,
+          2.992013931274414
+        ]
+      ]
+    },
+    {
+      "name": "Radiocapitate_ligamentr",
+      "originalName": "Radiocapitate ligament.r",
+      "sourceId": 376689043,
+      "triangles": 12,
+      "bounds": [
+        [
+          -27.609664916992188,
+          84.35079193115234,
+          2.3329663276672363
+        ],
+        [
+          -26.390850067138672,
+          86.6644515991211,
+          2.629178762435913
+        ]
+      ]
+    },
+    {
+      "name": "Radioscaphocapitate_ligamentr",
+      "originalName": "Radioscaphocapitate ligament.r",
+      "sourceId": 397723587,
+      "triangles": 20,
+      "bounds": [
+        [
+          -27.93854522705078,
+          85.16512298583984,
+          2.176143169403076
+        ],
+        [
+          -26.626949310302734,
+          86.68341064453125,
+          2.394510269165039
+        ]
+      ]
+    },
+    {
+      "name": "Radioscaphocapitate_ligamentl",
+      "originalName": "Radioscaphocapitate ligament.l",
+      "sourceId": 417369549,
+      "triangles": 20,
+      "bounds": [
+        [
+          26.626951217651367,
+          85.16512298583984,
+          2.176143169403076
+        ],
+        [
+          27.938547134399414,
+          86.68341064453125,
+          2.394510269165039
+        ]
+      ]
+    },
+    {
+      "name": "Radial_collateral_ligament_of_wrist_jointl",
+      "originalName": "Radial collateral ligament of wrist joint.l",
+      "sourceId": 567328192,
+      "triangles": 144,
+      "bounds": [
+        [
+          28.109642028808594,
+          85.01689910888672,
+          1.6763678789138794
+        ],
+        [
+          28.68018341064453,
+          86.01466369628906,
+          2.466078281402588
+        ]
+      ]
+    },
+    {
+      "name": "Ulnopisiform_ligamentl",
+      "originalName": "Ulnopisiform ligament.l",
+      "sourceId": 764673020,
+      "triangles": 12,
+      "bounds": [
+        [
+          23.906436920166016,
+          84.74982452392578,
+          1.6823610067367554
+        ],
+        [
+          24.441537857055664,
+          87.21932220458984,
+          2.7535552978515625
+        ]
+      ]
+    },
+    {
+      "name": "Dorsal_radiocarpal_ligamentl",
+      "originalName": "Dorsal radiocarpal ligament.l",
+      "sourceId": 766963602,
+      "triangles": 247,
+      "bounds": [
+        [
+          24.425201416015625,
+          84.69331359863281,
+          0.8153042197227478
+        ],
+        [
+          27.79985237121582,
+          86.14501190185547,
+          1.5055601596832275
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_radiocarpal_jointr",
+      "originalName": "Articular capsule of radiocarpal joint.r",
+      "sourceId": 773412423,
+      "triangles": 1342,
+      "bounds": [
+        [
+          -29.330228805541992,
+          82.12205505371094,
+          0.5778913497924805
+        ],
+        [
+          -23.836597442626953,
+          88.2352294921875,
+          3.6070330142974854
+        ]
+      ]
+    },
+    {
+      "name": "Ulnotriquetral_ligamentl",
+      "originalName": "Ulnotriquetral ligament.l",
+      "sourceId": 851077264,
+      "triangles": 56,
+      "bounds": [
+        [
+          23.985610961914062,
+          85.058837890625,
+          1.3030825853347778
+        ],
+        [
+          24.39726448059082,
+          86.59056854248047,
+          1.8903100490570068
+        ]
+      ]
+    },
+    {
+      "name": "Ulnolunate_ligamentl",
+      "originalName": "Ulnolunate ligament.l",
+      "sourceId": 873373310,
+      "triangles": 104,
+      "bounds": [
+        [
+          24.120363235473633,
+          85.72161102294922,
+          1.5384968519210815
+        ],
+        [
+          26.379623413085938,
+          87.85594940185547,
+          2.3756604194641113
+        ]
+      ]
+    },
+    {
+      "name": "Ulnocapitate_ligamentl",
+      "originalName": "Ulnocapitate ligament.l",
+      "sourceId": 941335205,
+      "triangles": 128,
+      "bounds": [
+        [
+          24.064285278320312,
+          83.9817886352539,
+          1.645205020904541
+        ],
+        [
+          26.774080276489258,
+          87.9233627319336,
+          2.543588638305664
+        ]
+      ]
+    },
+    {
+      "name": "Superior_transverse_scapular_ligamentl",
+      "originalName": "Superior transverse scapular ligament.l",
+      "sourceId": 151671336,
+      "triangles": 12,
+      "bounds": [
+        [
+          10.317331314086914,
+          139.1609344482422,
+          -5.4539361000061035
+        ],
+        [
+          11.37119197845459,
+          139.91053771972656,
+          -3.84307861328125
+        ]
+      ]
+    },
+    {
+      "name": "Inferior_transverse_scapular_ligamentr",
+      "originalName": "Inferior transverse scapular ligament.r",
+      "sourceId": 544097772,
+      "triangles": 12,
+      "bounds": [
+        [
+          -15.301496505737305,
+          137.88461303710938,
+          -6.327995777130127
+        ],
+        [
+          -13.96129322052002,
+          138.6294708251953,
+          -4.826035976409912
+        ]
+      ]
+    },
+    {
+      "name": "Coraco-acromial_ligamentl",
+      "originalName": "Coraco-acromial ligament.l",
+      "sourceId": 629211521,
+      "triangles": 12,
+      "bounds": [
+        [
+          13.1757173538208,
+          139.95135498046875,
+          -3.090742349624634
+        ],
+        [
+          16.391773223876953,
+          141.53225708007812,
+          -0.6475374698638916
+        ]
+      ]
+    },
+    {
+      "name": "Coraco-acromial_ligamentr",
+      "originalName": "Coraco-acromial ligament.r",
+      "sourceId": 758236691,
+      "triangles": 12,
+      "bounds": [
+        [
+          -16.39176368713379,
+          139.95135498046875,
+          -3.0907421112060547
+        ],
+        [
+          -13.175707817077637,
+          141.53225708007812,
+          -0.6475375294685364
+        ]
+      ]
+    },
+    {
+      "name": "Inferior_transverse_scapular_ligamentl",
+      "originalName": "Inferior transverse scapular ligament.l",
+      "sourceId": 826670459,
+      "triangles": 12,
+      "bounds": [
+        [
+          13.9613037109375,
+          137.88461303710938,
+          -6.327995777130127
+        ],
+        [
+          15.301506996154785,
+          138.6294708251953,
+          -4.826035976409912
+        ]
+      ]
+    },
+    {
+      "name": "Superior_transverse_scapular_ligamentr",
+      "originalName": "Superior transverse scapular ligament.r",
+      "sourceId": 905353925,
+      "triangles": 12,
+      "bounds": [
+        [
+          -11.371183395385742,
+          139.1609344482422,
+          -5.4539361000061035
+        ],
+        [
+          -10.31732177734375,
+          139.91053771972656,
+          -3.84307861328125
+        ]
+      ]
+    },
+    {
+      "name": "Costoclavicular_ligamentr",
+      "originalName": "Costoclavicular ligament.r",
+      "sourceId": 70507211,
+      "triangles": 12,
+      "bounds": [
+        [
+          -3.6729846000671387,
+          138.93678283691406,
+          3.4427409172058105
+        ],
+        [
+          -2.4196677207946777,
+          140.06475830078125,
+          4.358774662017822
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_sternoclavicular_ligamentl",
+      "originalName": "Anterior sternoclavicular ligament.l",
+      "sourceId": 100370336,
+      "triangles": 320,
+      "bounds": [
+        [
+          1.1343045234680176,
+          139.1964569091797,
+          4.450470924377441
+        ],
+        [
+          2.7449493408203125,
+          141.38621520996094,
+          5.574822902679443
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_sternoclavicular_ligamentl",
+      "originalName": "Posterior sternoclavicular ligament.l",
+      "sourceId": 102156026,
+      "triangles": 136,
+      "bounds": [
+        [
+          1.685290813446045,
+          138.41925048828125,
+          2.0940816402435303
+        ],
+        [
+          2.4947662353515625,
+          140.5028839111328,
+          4.334770679473877
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_sternoclavicular_ligamentr",
+      "originalName": "Anterior sternoclavicular ligament.r",
+      "sourceId": 154391768,
+      "triangles": 320,
+      "bounds": [
+        [
+          -2.7449541091918945,
+          139.1964569091797,
+          4.450470924377441
+        ],
+        [
+          -1.1343092918395996,
+          141.38621520996094,
+          5.574823379516602
+        ]
+      ]
+    },
+    {
+      "name": "Articular_disc_of_sternoclavicular_jointl",
+      "originalName": "Articular disc of sternoclavicular joint.l",
+      "sourceId": 225728651,
+      "triangles": 176,
+      "bounds": [
+        [
+          0.9198700785636902,
+          139.04981994628906,
+          2.282818555831909
+        ],
+        [
+          2.4759511947631836,
+          141.03677368164062,
+          5.384390354156494
+        ]
+      ]
+    },
+    {
+      "name": "Interclavicular_ligamentr",
+      "originalName": "Interclavicular ligament.r",
+      "sourceId": 305910308,
+      "triangles": 80,
+      "bounds": [
+        [
+          -1.6316133737564087,
+          139.81527709960938,
+          2.852954387664795
+        ],
+        [
+          0.0003774744109250605,
+          140.9539337158203,
+          4.277679443359375
+        ]
+      ]
+    },
+    {
+      "name": "Articular_disc_of_sternoclavicular_jointr",
+      "originalName": "Articular disc of sternoclavicular joint.r",
+      "sourceId": 352611094,
+      "triangles": 176,
+      "bounds": [
+        [
+          -2.4759559631347656,
+          139.04981994628906,
+          2.282818555831909
+        ],
+        [
+          -0.9198747873306274,
+          141.03677368164062,
+          5.384390354156494
+        ]
+      ]
+    },
+    {
+      "name": "Costoclavicular_ligamentl",
+      "originalName": "Costoclavicular ligament.l",
+      "sourceId": 560557652,
+      "triangles": 12,
+      "bounds": [
+        [
+          2.4885356426239014,
+          138.9931182861328,
+          3.2952077388763428
+        ],
+        [
+          3.7601101398468018,
+          139.9243927001953,
+          4.686705589294434
+        ]
+      ]
+    },
+    {
+      "name": "Interclavicular_ligamentl",
+      "originalName": "Interclavicular ligament.l",
+      "sourceId": 823105999,
+      "triangles": 80,
+      "bounds": [
+        [
+          -0.00038220544229261577,
+          139.81527709960938,
+          2.852954626083374
+        ],
+        [
+          1.6316086053848267,
+          140.9539337158203,
+          4.277679443359375
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_sternoclavicular_ligamentr",
+      "originalName": "Posterior sternoclavicular ligament.r",
+      "sourceId": 942468122,
+      "triangles": 136,
+      "bounds": [
+        [
+          -3.0155067443847656,
+          138.53440856933594,
+          2.67753529548645
+        ],
+        [
+          -1.119491457939148,
+          140.5267333984375,
+          3.9575836658477783
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_sternoclavicular_jointr",
+      "originalName": "Articular capsule of sternoclavicular joint.r",
+      "sourceId": 962560331,
+      "triangles": 1008,
+      "bounds": [
+        [
+          -3.006258010864258,
+          138.4891357421875,
+          2.3474674224853516
+        ],
+        [
+          -0.6446067094802856,
+          141.6121368408203,
+          5.423112392425537
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_sternoclavicular_jointl",
+      "originalName": "Articular capsule of sternoclavicular joint.l",
+      "sourceId": 972030145,
+      "triangles": 1008,
+      "bounds": [
+        [
+          0.6446019411087036,
+          138.4891357421875,
+          2.3474676609039307
+        ],
+        [
+          3.006253242492676,
+          141.6121368408203,
+          5.423112392425537
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_acromioclavicular_jointr",
+      "originalName": "Articular capsule of acromioclavicular joint.r",
+      "sourceId": 64020006,
+      "triangles": 1152,
+      "bounds": [
+        [
+          -16.158950805664062,
+          140.79685974121094,
+          -5.25990104675293
+        ],
+        [
+          -13.456840515136719,
+          142.4089813232422,
+          -2.3436224460601807
+        ]
+      ]
+    },
+    {
+      "name": "Conoid_ligamentr",
+      "originalName": "Conoid ligament.r",
+      "sourceId": 111050045,
+      "triangles": 56,
+      "bounds": [
+        [
+          -11.514312744140625,
+          139.28607177734375,
+          -3.5543344020843506
+        ],
+        [
+          -10.155546188354492,
+          141.53407287597656,
+          -1.8578214645385742
+        ]
+      ]
+    },
+    {
+      "name": "Acromioclavicular_ligamentr",
+      "originalName": "Acromioclavicular ligament.r",
+      "sourceId": 210835309,
+      "triangles": 320,
+      "bounds": [
+        [
+          -16.271743774414062,
+          141.521484375,
+          -4.853311538696289
+        ],
+        [
+          -13.90820026397705,
+          142.46923828125,
+          -3.2191739082336426
+        ]
+      ]
+    },
+    {
+      "name": "Conoid_ligamentl",
+      "originalName": "Conoid ligament.l",
+      "sourceId": 231693523,
+      "triangles": 56,
+      "bounds": [
+        [
+          10.15554141998291,
+          139.28607177734375,
+          -3.554334878921509
+        ],
+        [
+          11.514307975769043,
+          141.53407287597656,
+          -1.857820987701416
+        ]
+      ]
+    },
+    {
+      "name": "Trapezoid_ligamentl",
+      "originalName": "Trapezoid ligament.l",
+      "sourceId": 390409868,
+      "triangles": 56,
+      "bounds": [
+        [
+          11.602117538452148,
+          139.67510986328125,
+          -2.6032979488372803
+        ],
+        [
+          13.270059585571289,
+          141.95530700683594,
+          -1.1041057109832764
+        ]
+      ]
+    },
+    {
+      "name": "Trapezoid_ligamentr",
+      "originalName": "Trapezoid ligament.r",
+      "sourceId": 434424601,
+      "triangles": 56,
+      "bounds": [
+        [
+          -13.270064353942871,
+          139.67510986328125,
+          -2.6032981872558594
+        ],
+        [
+          -11.60212230682373,
+          141.95530700683594,
+          -1.1041053533554077
+        ]
+      ]
+    },
+    {
+      "name": "Articular_disc_of_acromioclavicular_jointl",
+      "originalName": "Articular disc of acromioclavicular joint.l",
+      "sourceId": 599401262,
+      "triangles": 176,
+      "bounds": [
+        [
+          14.44870662689209,
+          140.77752685546875,
+          -5.178746223449707
+        ],
+        [
+          15.620107650756836,
+          142.18312072753906,
+          -2.3547873497009277
+        ]
+      ]
+    },
+    {
+      "name": "Articular_disc_of_acromioclavicular_jointr",
+      "originalName": "Articular disc of acromioclavicular joint.r",
+      "sourceId": 858616769,
+      "triangles": 176,
+      "bounds": [
+        [
+          -15.620112419128418,
+          140.77752685546875,
+          -5.178745746612549
+        ],
+        [
+          -14.448711395263672,
+          142.18312072753906,
+          -2.354787588119507
+        ]
+      ]
+    },
+    {
+      "name": "Acromioclavicular_ligamentl",
+      "originalName": "Acromioclavicular ligament.l",
+      "sourceId": 907936540,
+      "triangles": 320,
+      "bounds": [
+        [
+          13.908194541931152,
+          141.52149963378906,
+          -4.853311538696289
+        ],
+        [
+          16.271738052368164,
+          142.46923828125,
+          -3.2191739082336426
+        ]
+      ]
+    },
+    {
+      "name": "Articular_capsule_of_acromioclavicular_jointl",
+      "originalName": "Articular capsule of acromioclavicular joint.l",
+      "sourceId": 913567264,
+      "triangles": 1152,
+      "bounds": [
+        [
+          13.456835746765137,
+          140.79685974121094,
+          -5.25990104675293
+        ],
+        [
+          16.158946990966797,
+          142.4089813232422,
+          -2.3436224460601807
+        ]
+      ]
+    },
+    {
+      "name": "Intercornual_ligamentl",
+      "originalName": "Intercornual ligament.l",
+      "sourceId": 20294018,
+      "triangles": 56,
+      "bounds": [
+        [
+          0.9248021245002747,
+          85.46675872802734,
+          -9.007222175598145
+        ],
+        [
+          1.3377010822296143,
+          87.59024047851562,
+          -8.309746742248535
+        ]
+      ]
+    },
+    {
+      "name": "Intercornual_ligamentr",
+      "originalName": "Intercornual ligament.r",
+      "sourceId": 62484428,
+      "triangles": 56,
+      "bounds": [
+        [
+          -1.337705135345459,
+          85.46675109863281,
+          -9.007208824157715
+        ],
+        [
+          -0.924806535243988,
+          87.59024047851562,
+          -8.309732437133789
+        ]
+      ]
+    },
+    {
+      "name": "Intertransverse_ligamentsl",
+      "originalName": "Intertransverse ligaments.l",
+      "sourceId": 235240003,
+      "triangles": 11440,
+      "bounds": [
+        [
+          1.7384470701217651,
+          97.40151977539062,
+          -8.704806327819824
+        ],
+        [
+          5.171381950378418,
+          153.8998565673828,
+          -1.0055127143859863
+        ]
+      ]
+    },
+    {
+      "name": "Supraspinous_ligament",
+      "originalName": "Supraspinous ligament",
+      "sourceId": 312229617,
+      "triangles": 872,
+      "bounds": [
+        [
+          -0.3858072757720947,
+          100.4949951171875,
+          -10.204397201538086
+        ],
+        [
+          0.38580387830734253,
+          145.0591278076172,
+          -6.5376763343811035
+        ]
+      ]
+    },
+    {
+      "name": "Posterior_longitudinal_ligament",
+      "originalName": "Posterior longitudinal ligament",
+      "sourceId": 337173200,
+      "triangles": 7536,
+      "bounds": [
+        [
+          -1.379868984222412,
+          95.82990264892578,
+          -6.870835304260254
+        ],
+        [
+          1.379866123199463,
+          152.80560302734375,
+          -1.4663316011428833
+        ]
+      ]
+    },
+    {
+      "name": "Intertransverse_ligamentsr",
+      "originalName": "Intertransverse ligaments.r",
+      "sourceId": 450163529,
+      "triangles": 11440,
+      "bounds": [
+        [
+          -5.171383380889893,
+          97.40151977539062,
+          -8.704805374145508
+        ],
+        [
+          -1.7384459972381592,
+          153.8998565673828,
+          -1.005506157875061
+        ]
+      ]
+    },
+    {
+      "name": "Nuchal_ligament",
+      "originalName": "Nuchal ligament",
+      "sourceId": 480569025,
+      "triangles": 645,
+      "bounds": [
+        [
+          -0.02498568594455719,
+          144.87667846679688,
+          -9.582816123962402
+        ],
+        [
+          0.02501547336578369,
+          158.728515625,
+          -4.501699924468994
+        ]
+      ]
+    },
+    {
+      "name": "Interspinous_ligaments",
+      "originalName": "Interspinous ligaments",
+      "sourceId": 671920604,
+      "triangles": 584,
+      "bounds": [
+        [
+          -0.02498990297317505,
+          95.71590423583984,
+          -10.099198341369629
+        ],
+        [
+          0.025167422369122505,
+          153.83506774902344,
+          -3.247734785079956
+        ]
+      ]
+    },
+    {
+      "name": "Anterior_longitudinal_ligament",
+      "originalName": "Anterior longitudinal ligament",
+      "sourceId": 688915021,
+      "triangles": 4928,
+      "bounds": [
+        [
+          -1.9535982608795166,
+          92.91191101074219,
+          -4.5091023445129395
+        ],
+        [
+          1.9536234140396118,
+          154.0599822998047,
+          2.008676528930664
+        ]
+      ]
+    },
+    {
+      "name": "Ligamenta_flava",
+      "originalName": "Ligamenta flava",
+      "sourceId": 699782944,
+      "triangles": 4728,
+      "bounds": [
+        [
+          -1.330891728401184,
+          97.9898452758789,
+          -8.209659576416016
+        ],
+        [
+          1.2827507257461548,
+          153.7682647705078,
+          -2.4139761924743652
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T8-T9",
+      "originalName": "Intervertebral disc T8-T9",
+      "sourceId": 26009026,
+      "triangles": 2890,
+      "bounds": [
+        [
+          -1.9107693433761597,
+          124.67665100097656,
+          -6.158159255981445
+        ],
+        [
+          1.9107731580734253,
+          126.01398468017578,
+          -2.6159183979034424
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_C5-C6",
+      "originalName": "Nucleus pulposus C5-C6",
+      "sourceId": 33784654,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.2485017627477646,
+          146.72850036621094,
+          -1.2554692029953003
+        ],
+        [
+          0.2485063672065735,
+          147.2255096435547,
+          -0.7584609389305115
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_C6-C7",
+      "originalName": "Intervertebral disc C6-C7",
+      "sourceId": 46457052,
+      "triangles": 834,
+      "bounds": [
+        [
+          -1.5225659608840942,
+          145.01272583007812,
+          -2.263087034225464
+        ],
+        [
+          1.5225703716278076,
+          146.142822265625,
+          -0.6080241799354553
+        ]
+      ]
+    },
+    {
+      "name": "Sacrococcygeal_symphysis",
+      "originalName": "Sacrococcygeal symphysis",
+      "sourceId": 64919434,
+      "triangles": 188,
+      "bounds": [
+        [
+          -1.0734771490097046,
+          86.09278106689453,
+          -8.538290023803711
+        ],
+        [
+          1.0734831094741821,
+          86.62854766845703,
+          -7.471889972686768
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T4-T5",
+      "originalName": "Nucleus pulposus T4-T5",
+      "sourceId": 143401963,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.32141047716140747,
+          135.82521057128906,
+          -5.403783798217773
+        ],
+        [
+          0.32141441106796265,
+          136.46803283691406,
+          -4.760958671569824
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T5-T6",
+      "originalName": "Intervertebral disc T5-T6",
+      "sourceId": 156376014,
+      "triangles": 1738,
+      "bounds": [
+        [
+          -1.6037594079971313,
+          133.01638793945312,
+          -6.554743766784668
+        ],
+        [
+          1.6037629842758179,
+          134.08555603027344,
+          -3.404062509536743
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T6-T7",
+      "originalName": "Nucleus pulposus T6-T7",
+      "sourceId": 215317329,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.31137651205062866,
+          130.46615600585938,
+          -5.762118816375732
+        ],
+        [
+          0.31138038635253906,
+          131.0889129638672,
+          -5.13936185836792
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T3-T4",
+      "originalName": "Intervertebral disc T3-T4",
+      "sourceId": 237050998,
+      "triangles": 1360,
+      "bounds": [
+        [
+          -1.6634495258331299,
+          137.75050354003906,
+          -5.410897254943848
+        ],
+        [
+          1.6634533405303955,
+          139.0169677734375,
+          -2.7984800338745117
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_C6-C7",
+      "originalName": "Nucleus pulposus C6-C7",
+      "sourceId": 246284458,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.1769746094942093,
+          145.38238525390625,
+          -1.7765334844589233
+        ],
+        [
+          0.17697906494140625,
+          145.73634338378906,
+          -1.4225797653198242
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T12-L1",
+      "originalName": "Intervertebral disc T12-L1",
+      "sourceId": 257732755,
+      "triangles": 3328,
+      "bounds": [
+        [
+          -2.223331928253174,
+          112.33586883544922,
+          -3.2719032764434814
+        ],
+        [
+          2.2233362197875977,
+          114.15290832519531,
+          0.6963596940040588
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T9-T10",
+      "originalName": "Intervertebral disc T9-T10",
+      "sourceId": 314155652,
+      "triangles": 1248,
+      "bounds": [
+        [
+          -1.8522024154663086,
+          121.720947265625,
+          -5.532275676727295
+        ],
+        [
+          1.8522064685821533,
+          123.21878814697266,
+          -2.0685536861419678
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_C2-C3",
+      "originalName": "Nucleus pulposus C2-C3",
+      "sourceId": 324930762,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.20768001675605774,
+          151.60098266601562,
+          -1.2140525579452515
+        ],
+        [
+          0.20768460631370544,
+          152.01634216308594,
+          -0.7986878752708435
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T1-T2",
+      "originalName": "Nucleus pulposus T1-T2",
+      "sourceId": 354327901,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.18864178657531738,
+          142.35218811035156,
+          -2.972931146621704
+        ],
+        [
+          0.18864603340625763,
+          142.72947692871094,
+          -2.5956432819366455
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_C3-C4",
+      "originalName": "Nucleus pulposus C3-C4",
+      "sourceId": 360960001,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.14939887821674347,
+          150.00241088867188,
+          -1.1221328973770142
+        ],
+        [
+          0.1494034230709076,
+          150.30120849609375,
+          -0.8233304619789124
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T10-T11",
+      "originalName": "Intervertebral disc T10-T11",
+      "sourceId": 376696853,
+      "triangles": 2870,
+      "bounds": [
+        [
+          -2.0302417278289795,
+          118.80866241455078,
+          -4.876519203186035
+        ],
+        [
+          2.030245780944824,
+          120.3986587524414,
+          -1.2042962312698364
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_L3-L4",
+      "originalName": "Intervertebral disc L3-L4",
+      "sourceId": 428692198,
+      "triangles": 3116,
+      "bounds": [
+        [
+          -2.306765556335449,
+          102.36237335205078,
+          -1.9005376100540161
+        ],
+        [
+          2.306769847869873,
+          103.63978576660156,
+          1.8598301410675049
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_L5-S1",
+      "originalName": "Nucleus pulposus L5-S1",
+      "sourceId": 434998601,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.7009857892990112,
+          95.61589050292969,
+          -2.480506658554077
+        ],
+        [
+          0.7009905576705933,
+          97.01786804199219,
+          -1.0785300731658936
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T7-T8",
+      "originalName": "Nucleus pulposus T7-T8",
+      "sourceId": 451387892,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.3781905472278595,
+          127.69962310791016,
+          -5.388357639312744
+        ],
+        [
+          0.37819454073905945,
+          128.4560089111328,
+          -4.631972312927246
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_L5-S1",
+      "originalName": "Intervertebral disc L5-S1",
+      "sourceId": 470269079,
+      "triangles": 3586,
+      "bounds": [
+        [
+          -2.5343117713928223,
+          94.71112823486328,
+          -3.543572187423706
+        ],
+        [
+          2.534316062927246,
+          97.6407241821289,
+          0.5063249468803406
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_L3-L4",
+      "originalName": "Nucleus pulposus L3-L4",
+      "sourceId": 526004812,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.3138822615146637,
+          102.77161407470703,
+          -0.42868855595588684
+        ],
+        [
+          0.3138870596885681,
+          103.39938354492188,
+          0.1990809291601181
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_C3-C4",
+      "originalName": "Intervertebral disc C3-C4",
+      "sourceId": 534598663,
+      "triangles": 688,
+      "bounds": [
+        [
+          -1.2119243144989014,
+          149.85983276367188,
+          -1.591840386390686
+        ],
+        [
+          1.2119287252426147,
+          150.72341918945312,
+          -0.005699941888451576
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T11-T12",
+      "originalName": "Intervertebral disc T11-T12",
+      "sourceId": 567438495,
+      "triangles": 3392,
+      "bounds": [
+        [
+          -2.1136021614074707,
+          115.60970306396484,
+          -4.181288719177246
+        ],
+        [
+          2.1136062145233154,
+          117.413330078125,
+          -0.14730919897556305
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_C7-T1",
+      "originalName": "Nucleus pulposus C7-T1",
+      "sourceId": 594991312,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.12709097564220428,
+          143.95297241210938,
+          -2.2443149089813232
+        ],
+        [
+          0.1270952969789505,
+          144.20716857910156,
+          -1.9901286363601685
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T9-T10",
+      "originalName": "Nucleus pulposus T9-T10",
+      "sourceId": 597863066,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.3228592276573181,
+          122.09783172607422,
+          -4.276609897613525
+        ],
+        [
+          0.32286337018013,
+          122.7435531616211,
+          -3.630887031555176
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T5-T6",
+      "originalName": "Nucleus pulposus T5-T6",
+      "sourceId": 642006629,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.2750150263309479,
+          133.2122802734375,
+          -5.565249443054199
+        ],
+        [
+          0.2750189006328583,
+          133.76231384277344,
+          -5.0152153968811035
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T8-T9",
+      "originalName": "Nucleus pulposus T8-T9",
+      "sourceId": 647297395,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.35987403988838196,
+          124.9182357788086,
+          -4.956339359283447
+        ],
+        [
+          0.3598780930042267,
+          125.63799285888672,
+          -4.236587047576904
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_L1-L2",
+      "originalName": "Nucleus pulposus L1-L2",
+      "sourceId": 656699437,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.397804856300354,
+          109.48786163330078,
+          -1.114656686782837
+        ],
+        [
+          0.39780962467193604,
+          110.28347778320312,
+          -0.3190420866012573
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_C4-C5",
+      "originalName": "Nucleus pulposus C4-C5",
+      "sourceId": 669399971,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.1561756283044815,
+          148.41336059570312,
+          -0.9765530824661255
+        ],
+        [
+          0.1561802178621292,
+          148.7257080078125,
+          -0.6641972064971924
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T11-T12",
+      "originalName": "Nucleus pulposus T11-T12",
+      "sourceId": 675046114,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.35140690207481384,
+          116.15174865722656,
+          -2.7529749870300293
+        ],
+        [
+          0.3514113128185272,
+          116.85456848144531,
+          -2.050156593322754
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_C5-C6",
+      "originalName": "Intervertebral disc C5-C6",
+      "sourceId": 721298926,
+      "triangles": 968,
+      "bounds": [
+        [
+          -1.5645197629928589,
+          146.44488525390625,
+          -1.7882192134857178
+        ],
+        [
+          1.5645242929458618,
+          147.627685546875,
+          -0.2990659773349762
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_L4-L5",
+      "originalName": "Nucleus pulposus L4-L5",
+      "sourceId": 722952461,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.6216156482696533,
+          99.18750762939453,
+          -1.0548489093780518
+        ],
+        [
+          0.6216205954551697,
+          100.43074798583984,
+          0.18838758766651154
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_L2-L3",
+      "originalName": "Intervertebral disc L2-L3",
+      "sourceId": 729585787,
+      "triangles": 3388,
+      "bounds": [
+        [
+          -2.2967493534088135,
+          106.12633514404297,
+          -1.9726643562316895
+        ],
+        [
+          2.2967538833618164,
+          107.15130615234375,
+          1.8528246879577637
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T12-L1",
+      "originalName": "Nucleus pulposus T12-L1",
+      "sourceId": 730400645,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.4438713788986206,
+          112.78497314453125,
+          -2.0712356567382812
+        ],
+        [
+          0.4438759982585907,
+          113.67272186279297,
+          -1.183488130569458
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T10-T11",
+      "originalName": "Nucleus pulposus T10-T11",
+      "sourceId": 736658987,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.34129825234413147,
+          119.2437515258789,
+          -3.6072347164154053
+        ],
+        [
+          0.3413025438785553,
+          119.92635345458984,
+          -2.924633741378784
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T2-T3",
+      "originalName": "Nucleus pulposus T2-T3",
+      "sourceId": 738044402,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.3109470009803772,
+          140.31378173828125,
+          -3.8590009212493896
+        ],
+        [
+          0.31095120310783386,
+          140.93568420410156,
+          -3.237102508544922
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T1-T2",
+      "originalName": "Intervertebral disc T1-T2",
+      "sourceId": 765814143,
+      "triangles": 1252,
+      "bounds": [
+        [
+          -1.6803622245788574,
+          141.93899536132812,
+          -3.5834059715270996
+        ],
+        [
+          1.6803662776947021,
+          143.02674865722656,
+          -1.5727537870407104
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_L2-L3",
+      "originalName": "Nucleus pulposus L2-L3",
+      "sourceId": 786058577,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.47208696603775024,
+          106.1426010131836,
+          -0.7088115811347961
+        ],
+        [
+          0.4720918834209442,
+          107.08677673339844,
+          0.23536749184131622
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_C4-C5",
+      "originalName": "Intervertebral disc C4-C5",
+      "sourceId": 850084904,
+      "triangles": 856,
+      "bounds": [
+        [
+          -1.367000937461853,
+          148.036376953125,
+          -1.5989078283309937
+        ],
+        [
+          1.3670053482055664,
+          149.1995391845703,
+          -0.1036517545580864
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_C7-T1",
+      "originalName": "Intervertebral disc C7-T1",
+      "sourceId": 870052609,
+      "triangles": 1168,
+      "bounds": [
+        [
+          -1.6975513696670532,
+          143.60581970214844,
+          -2.8244359493255615
+        ],
+        [
+          1.6975555419921875,
+          144.83094787597656,
+          -1.0590391159057617
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T6-T7",
+      "originalName": "Intervertebral disc T6-T7",
+      "sourceId": 870190976,
+      "triangles": 2388,
+      "bounds": [
+        [
+          -1.6965084075927734,
+          130.383544921875,
+          -6.847786903381348
+        ],
+        [
+          1.69651198387146,
+          131.32565307617188,
+          -3.334109306335449
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_L1-L2",
+      "originalName": "Intervertebral disc L1-L2",
+      "sourceId": 870671064,
+      "triangles": 3132,
+      "bounds": [
+        [
+          -2.158039093017578,
+          109.28326416015625,
+          -2.3864681720733643
+        ],
+        [
+          2.158043622970581,
+          110.81107330322266,
+          1.4285047054290771
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T7-T8",
+      "originalName": "Intervertebral disc T7-T8",
+      "sourceId": 901519716,
+      "triangles": 2658,
+      "bounds": [
+        [
+          -1.7884782552719116,
+          127.39759826660156,
+          -6.657227993011475
+        ],
+        [
+          1.7884818315505981,
+          128.69505310058594,
+          -2.9885897636413574
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_L4-L5",
+      "originalName": "Intervertebral disc L4-L5",
+      "sourceId": 924727129,
+      "triangles": 3286,
+      "bounds": [
+        [
+          -2.535301446914673,
+          98.65235900878906,
+          -2.457834005355835
+        ],
+        [
+          2.535305976867676,
+          100.61485290527344,
+          1.417384147644043
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T4-T5",
+      "originalName": "Intervertebral disc T4-T5",
+      "sourceId": 924907460,
+      "triangles": 1630,
+      "bounds": [
+        [
+          -1.6060349941253662,
+          135.44509887695312,
+          -6.233219623565674
+        ],
+        [
+          1.6060386896133423,
+          136.77044677734375,
+          -3.2583024501800537
+        ]
+      ]
+    },
+    {
+      "name": "Nucleus_pulposus_T3-T4",
+      "originalName": "Nucleus pulposus T3-T4",
+      "sourceId": 936792029,
+      "triangles": 960,
+      "bounds": [
+        [
+          -0.22859856486320496,
+          138.18580627441406,
+          -4.609646797180176
+        ],
+        [
+          0.2286025583744049,
+          138.64300537109375,
+          -4.1524457931518555
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_C2-C3",
+      "originalName": "Intervertebral disc C2-C3",
+      "sourceId": 974723385,
+      "triangles": 848,
+      "bounds": [
+        [
+          -1.1963517665863037,
+          151.42120361328125,
+          -1.758638620376587
+        ],
+        [
+          1.196356177330017,
+          152.23106384277344,
+          0.0033705730456858873
+        ]
+      ]
+    },
+    {
+      "name": "Intervertebral_disc_T2-T3",
+      "originalName": "Intervertebral disc T2-T3",
+      "sourceId": 994644527,
+      "triangles": 1324,
+      "bounds": [
+        [
+          -1.7218254804611206,
+          139.81045532226562,
+          -4.401656150817871
+        ],
+        [
+          1.7218294143676758,
+          141.14414978027344,
+          -2.1435790061950684
+        ]
+      ]
+    },
+    {
+      "name": "Costotransverse_ligamentl",
+      "originalName": "Costotransverse ligament.l",
+      "sourceId": 619439848,
+      "triangles": 396,
+      "bounds": [
+        [
+          1.3454838991165161,
+          117.76371765136719,
+          -7.993270397186279
+        ],
+        [
+          3.3563151359558105,
+          144.47760009765625,
+          -2.6742429733276367
+        ]
+      ]
+    },
+    {
+      "name": "Costotransverse_ligamentr",
+      "originalName": "Costotransverse ligament.r",
+      "sourceId": 824933115,
+      "triangles": 396,
+      "bounds": [
+        [
+          -3.356309413909912,
+          117.76371765136719,
+          -7.9932708740234375
+        ],
+        [
+          -1.3454781770706177,
+          144.47760009765625,
+          -2.6742429733276367
+        ]
+      ]
+    },
+    {
+      "name": "Radiate_ligament_of_head_of_ribl",
+      "originalName": "Radiate ligament of head of rib.l",
+      "sourceId": 440463671,
+      "triangles": 3450,
+      "bounds": [
+        [
+          1.2399966716766357,
+          113.81912231445312,
+          -6.388091087341309
+        ],
+        [
+          2.503323554992676,
+          144.30728149414062,
+          -1.5321824550628662
+        ]
+      ]
+    },
+    {
+      "name": "Intra-articular_ligament_of_head_of_rib",
+      "originalName": "Intra-articular ligament of head of rib",
+      "sourceId": 610593206,
+      "triangles": 108,
+      "bounds": [
+        [
+          1.3022569417953491,
+          122.22892761230469,
+          -6.726044178009033
+        ],
+        [
+          2.0523831844329834,
+          142.61614990234375,
+          -2.8129019737243652
+        ]
+      ]
+    },
+    {
+      "name": "Intra-articular_ligament_of_head_of_ribr",
+      "originalName": "Intra-articular ligament of head of rib.r",
+      "sourceId": 763566636,
+      "triangles": 108,
+      "bounds": [
+        [
+          -2.052377462387085,
+          122.22892761230469,
+          -6.726044654846191
+        ],
+        [
+          -1.3022512197494507,
+          142.61614990234375,
+          -2.812901735305786
+        ]
+      ]
+    },
+    {
+      "name": "Radiate_ligament_of_head_of_ribr",
+      "originalName": "Radiate ligament of head of rib.r",
+      "sourceId": 958171188,
+      "triangles": 3450,
+      "bounds": [
+        [
+          -2.5033178329467773,
+          113.81912231445312,
+          -6.388091087341309
+        ],
+        [
+          -1.2399910688400269,
+          144.30728149414062,
+          -1.532181978225708
+        ]
+      ]
+    },
+    {
+      "name": "External_intercostal_membraner",
+      "originalName": "External intercostal membrane.r",
+      "sourceId": 28944512,
+      "triangles": 6736,
+      "bounds": [
+        [
+          -13.139262199401855,
+          107.83232879638672,
+          1.7808679342269897
+        ],
+        [
+          -1.7162636518478394,
+          135.55633544921875,
+          11.261377334594727
+        ]
+      ]
+    },
+    {
+      "name": "Internal_intercostal_membraner",
+      "originalName": "Internal intercostal membrane.r",
+      "sourceId": 670224697,
+      "triangles": 4720,
+      "bounds": [
+        [
+          -9.452017784118652,
+          114.33882904052734,
+          -9.275373458862305
+        ],
+        [
+          -2.774129629135132,
+          142.408935546875,
+          -2.726938486099243
+        ]
+      ]
+    },
+    {
+      "name": "External_intercostal_membranel",
+      "originalName": "External intercostal membrane.l",
+      "sourceId": 717535205,
+      "triangles": 6736,
+      "bounds": [
+        [
+          1.7162554264068604,
+          107.83232879638672,
+          1.7808682918548584
+        ],
+        [
+          13.139253616333008,
+          135.55633544921875,
+          11.261377334594727
+        ]
+      ]
+    },
+    {
+      "name": "Internal_intercostal_membranel",
+      "originalName": "Internal intercostal membrane.l",
+      "sourceId": 771892782,
+      "triangles": 4720,
+      "bounds": [
+        [
+          2.7741215229034424,
+          114.33882904052734,
+          -9.275373458862305
+        ],
+        [
+          9.452009201049805,
+          142.408935546875,
+          -2.726938009262085
+        ]
+      ]
+    },
+    {
+      "name": "Cross_Section_Z",
+      "originalName": "Cross Section Z",
+      "sourceId": 951164984,
+      "triangles": 0,
+      "bounds": [
+        [
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  ],
+  "boundsDefinition": "Own mesh vertices transformed by FBX matrixWorld; excludes child annotation and attachment meshes."
+}

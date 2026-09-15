@@ -128,22 +128,14 @@ export function SearchPanel({ atlas, query, onQuery, onChoose, onClose }: Props)
               </ComboboxItem>
             )}
           </ComboboxList>
+          <div className="search-summary">
+            <span role="status">
+              {!atlas ? "目录加载中" : raw ? `找到 ${matches.length} 项${matches.length > 80 ? "，显示前 80 项" : ""}` : "常用结构"}
+            </span>
+            {query && <Button variant="ghost" onClick={clear}>清空搜索</Button>}
+          </div>
         </ComboboxContent>
       </Combobox>
-      <div className="search-summary">
-        <span role="status">
-          {!atlas
-            ? "目录加载中"
-            : raw
-              ? `找到 ${matches.length} 项${matches.length > 80 ? "，显示前 80 项" : ""}`
-              : "常用结构"}
-        </span>
-        {query && (
-          <Button variant="ghost" onClick={clear}>
-            清空搜索
-          </Button>
-        )}
-      </div>
       <p className="search-note">↑↓ 选择 · Enter 查看 · Esc 关闭</p>
     </section>
   );

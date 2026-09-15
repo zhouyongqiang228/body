@@ -1,5 +1,5 @@
 {
-  "version": "BodyParts3D 4.0",
+  "version": "BodyParts3D 4.0 + Z-Anatomy supplement 1",
   "parts": [
     {
       "id": "FJ1252",
@@ -1430,7 +1430,7 @@
       "indexCount": 1338,
       "bounds": [
         [
-          2.0299800000000002e-05,
+          0.000020299800000000002,
           1.5963912,
           0.0021539999999999893
         ],
@@ -6078,24 +6078,62 @@
       "name": "腹白线",
       "conceptId": "FMA11336",
       "system": "connective",
-      "chunk": 1,
-      "positions": 3481780,
-      "normals": 3485200,
-      "indices": 3486912,
-      "vertexCount": 285,
-      "indexCount": 1308,
+      "chunk": 16,
+      "positions": 44424,
+      "normals": 46476,
+      "indices": 47504,
+      "vertexCount": 171,
+      "indexCount": 1014,
       "bounds": [
         [
-          -0.009308780000000001,
-          0.8661812000000001,
-          0.012241000000000002
+          -0.008289474993944168,
+          0.879876434803009,
+          0.02450461871922016
         ],
         [
-          0.008187010000000002,
-          1.2559411999999999,
-          0.112147
+          0.009122050367295742,
+          1.248667597770691,
+          0.109552301466465
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Linea_alba",
+        "id": 300128838,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "abdomen",
+        "maximumDisplacementMm": 41.60918473716358,
+        "meanDisplacementMm": 24.253453466960536
+      },
+      "originalPart": {
+        "id": "FJ1448",
+        "name": "腹白线",
+        "conceptId": "FMA11336",
+        "system": "connective",
+        "chunk": 1,
+        "positions": 3481780,
+        "normals": 3485200,
+        "indices": 3486912,
+        "vertexCount": 285,
+        "indexCount": 1308,
+        "bounds": [
+          [
+            -0.009308780000000001,
+            0.8661812000000001,
+            0.012241000000000002
+          ],
+          [
+            0.008187010000000002,
+            1.2559411999999999,
+            0.112147
+          ]
+        ]
+      }
     },
     {
       "id": "FJ1449M",
@@ -6222,48 +6260,124 @@
       "name": "右腹外斜肌",
       "conceptId": "FMA13336",
       "system": "muscular",
-      "chunk": 2,
-      "positions": 981728,
-      "normals": 1187468,
-      "indices": 1290340,
-      "vertexCount": 17145,
-      "indexCount": 73800,
+      "chunk": 15,
+      "positions": 1863560,
+      "normals": 2041292,
+      "indices": 2130160,
+      "vertexCount": 14811,
+      "indexCount": 88866,
       "bounds": [
         [
-          -0.140823,
-          0.8717372,
-          -0.06297920000000001
+          -0.13670384883880615,
+          0.8992255926132202,
+          -0.06002069637179375
         ],
         [
-          -0.00344858,
-          1.2896911999999998,
-          0.11876599999999998
+          -0.004976539872586727,
+          1.286505937576294,
+          0.11854198575019836
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "External_abdominal_oblique_muscler",
+        "id": 891520675,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "abdomen",
+        "maximumDisplacementMm": 40.49612154864144,
+        "meanDisplacementMm": 24.517971453526254
+      },
+      "originalPart": {
+        "id": "FJ1452",
+        "name": "右腹外斜肌",
+        "conceptId": "FMA13336",
+        "system": "muscular",
+        "chunk": 2,
+        "positions": 981728,
+        "normals": 1187468,
+        "indices": 1290340,
+        "vertexCount": 17145,
+        "indexCount": 73800,
+        "bounds": [
+          [
+            -0.140823,
+            0.8717372,
+            -0.06297920000000001
+          ],
+          [
+            -0.00344858,
+            1.2896911999999998,
+            0.11876599999999998
+          ]
+        ]
+      }
     },
     {
       "id": "FJ1452M",
       "name": "左腹外斜肌",
       "conceptId": "FMA13337",
       "system": "muscular",
-      "chunk": 2,
-      "positions": 1585540,
-      "normals": 1790932,
-      "indices": 1893628,
-      "vertexCount": 17116,
-      "indexCount": 73800,
+      "chunk": 15,
+      "positions": 1241496,
+      "normals": 1419228,
+      "indices": 1508096,
+      "vertexCount": 14811,
+      "indexCount": 88866,
       "bounds": [
         [
-          0.00344857,
-          0.8717362000000001,
-          -0.06297920000000001
+          0.004291285760700703,
+          0.8991824984550476,
+          -0.0600120835006237
         ],
         [
-          0.140823,
-          1.2896911999999998,
-          0.11876599999999998
+          0.13544557988643646,
+          1.2858259677886963,
+          0.11854764819145203
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "External_abdominal_oblique_musclel",
+        "id": 173741986,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "abdomen",
+        "maximumDisplacementMm": 40.458496222966104,
+        "meanDisplacementMm": 24.326951896997322
+      },
+      "originalPart": {
+        "id": "FJ1452M",
+        "name": "左腹外斜肌",
+        "conceptId": "FMA13337",
+        "system": "muscular",
+        "chunk": 2,
+        "positions": 1585540,
+        "normals": 1790932,
+        "indices": 1893628,
+        "vertexCount": 17116,
+        "indexCount": 73800,
+        "bounds": [
+          [
+            0.00344857,
+            0.8717362000000001,
+            -0.06297920000000001
+          ],
+          [
+            0.140823,
+            1.2896911999999998,
+            0.11876599999999998
+          ]
+        ]
+      }
     },
     {
       "id": "FJ1453M",
@@ -8661,7 +8775,7 @@
         [
           -0.06318220000000001,
           1.4029112,
-          -4.529999999999812e-05
+          -0.00004529999999999812
         ]
       ]
     },
@@ -8685,7 +8799,7 @@
         [
           0.166117,
           1.4029112,
-          -4.500000000000337e-05
+          -0.00004500000000000337
         ]
       ]
     },
@@ -10291,7 +10405,7 @@
           -0.0877463
         ],
         [
-          -7.73067e-05,
+          -0.0000773067,
           1.5135312,
           -0.05654750000000001
         ]
@@ -10310,7 +10424,7 @@
       "indexCount": 2040,
       "bounds": [
         [
-          7.73067e-05,
+          0.0000773067,
           1.4073212,
           -0.0877463
         ],
@@ -11174,7 +11288,7 @@
       "indexCount": 2130,
       "bounds": [
         [
-          -3.4127e-05,
+          -0.000034127,
           1.5434811999999998,
           -0.0826885
         ],
@@ -12787,7 +12901,7 @@
           -0.044727300000000005
         ],
         [
-          -7.40064e-05,
+          -0.0000740064,
           1.6715612,
           0.009541999999999995
         ]
@@ -12806,7 +12920,7 @@
       "indexCount": 1002,
       "bounds": [
         [
-          7.40043e-05,
+          0.0000740043,
           1.6636511999999999,
           -0.044727300000000005
         ],
@@ -15806,7 +15920,7 @@
       "indexCount": 4440,
       "bounds": [
         [
-          4.1231200000000006e-05,
+          0.000041231200000000006,
           1.6086912,
           -0.0692726
         ],
@@ -16574,7 +16688,7 @@
       "indexCount": 1614,
       "bounds": [
         [
-          -2.64154e-06,
+          -0.00000264154,
           1.5983112,
           0.002141000000000004
         ],
@@ -16598,7 +16712,7 @@
       "indexCount": 3270,
       "bounds": [
         [
-          -2.05644e-05,
+          -0.0000205644,
           1.6141112,
           -0.0303866
         ],
@@ -16814,7 +16928,7 @@
       "indexCount": 4164,
       "bounds": [
         [
-          -9.246880000000001e-05,
+          -0.00009246880000000001,
           1.6201812,
           -0.038193200000000004
         ],
@@ -34720,7 +34834,7 @@
         [
           0.000760697,
           1.5391112,
-          9.999999999998899e-05
+          0.00009999999999998899
         ],
         [
           0.016656900000000002,
@@ -35008,7 +35122,7 @@
         [
           -0.0179738,
           1.5391012,
-          9.999999999998899e-05
+          0.00009999999999998899
         ],
         [
           -0.00206905,
@@ -37893,7 +38007,7 @@
         [
           0.054747500000000004,
           1.4340512,
-          8.299999999999974e-05
+          0.00008299999999999974
         ]
       ]
     },
@@ -53344,7 +53458,7 @@
         [
           -0.11078400000000001,
           1.2323511999999999,
-          8.099999999999774e-05
+          0.00008099999999999774
         ],
         [
           -0.0223616,
@@ -53493,7 +53607,7 @@
         [
           -0.109002,
           1.2461111999999999,
-          -2.790000000001125e-05
+          -0.00002790000000001125
         ]
       ]
     },
@@ -53616,6 +53730,4804 @@
           0.028789999999999982
         ]
       ]
+    },
+    {
+      "id": "ZA_M_162944253",
+      "name": "左颞肌",
+      "conceptId": "ZA_M_162944253",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 0,
+      "normals": 61512,
+      "indices": 92268,
+      "vertexCount": 5126,
+      "indexCount": 30780,
+      "bounds": [
+        [
+          0.03729258105158806,
+          1.5501092672348022,
+          -0.0645010694861412
+        ],
+        [
+          0.07684092223644257,
+          1.669918179512024,
+          0.05327070504426956
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Temporalis_musclel",
+        "id": 162944253,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 15.118183633757054,
+        "meanDisplacementMm": 13.439866266860331
+      }
+    },
+    {
+      "id": "ZA_M_952924065",
+      "name": "右颞肌",
+      "conceptId": "ZA_M_952924065",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 215388,
+      "normals": 276900,
+      "indices": 307656,
+      "vertexCount": 5126,
+      "indexCount": 30780,
+      "bounds": [
+        [
+          -0.07802314311265945,
+          1.549984097480774,
+          -0.06476547569036484
+        ],
+        [
+          -0.03881743550300598,
+          1.6697208881378174,
+          0.053073957562446594
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Temporalis_muscler",
+        "id": 952924065,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 15.32049389970607,
+        "meanDisplacementMm": 13.609558128009859
+      }
+    },
+    {
+      "id": "ZA_M_268652398",
+      "name": "左咬肌浅部",
+      "conceptId": "ZA_M_268652398",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 430776,
+      "normals": 439200,
+      "indices": 443412,
+      "vertexCount": 702,
+      "indexCount": 4212,
+      "bounds": [
+        [
+          0.035648781806230545,
+          1.5150283575057983,
+          0.004115101881325245
+        ],
+        [
+          0.062458716332912445,
+          1.5793430805206299,
+          0.04533573240041733
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Superficial_part_of_masseterl",
+        "id": 268652398,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.65685971823096,
+        "meanDisplacementMm": 12.973771072445098
+      }
+    },
+    {
+      "id": "ZA_M_695240571",
+      "name": "右咬肌浅部",
+      "conceptId": "ZA_M_695240571",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 460260,
+      "normals": 468684,
+      "indices": 472896,
+      "vertexCount": 702,
+      "indexCount": 4212,
+      "bounds": [
+        [
+          -0.06392071396112442,
+          1.51491379737854,
+          0.003929558675736189
+        ],
+        [
+          -0.037167392671108246,
+          1.5791455507278442,
+          0.045136112719774246
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Superficial_part_of_masseterr",
+        "id": 695240571,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.819490440105332,
+        "meanDisplacementMm": 13.154295098410891
+      }
+    },
+    {
+      "id": "ZA_M_533962729",
+      "name": "左咬肌深部",
+      "conceptId": "ZA_M_533962729",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 489744,
+      "normals": 495708,
+      "indices": 498692,
+      "vertexCount": 497,
+      "indexCount": 2982,
+      "bounds": [
+        [
+          0.034301456063985825,
+          1.5162522792816162,
+          -0.0033493719529360533
+        ],
+        [
+          0.06159421429038048,
+          1.583730697631836,
+          0.0314815416932106
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Deep_part_of_masseterl",
+        "id": 533962729,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.68689428307245,
+        "meanDisplacementMm": 13.331146922948848
+      }
+    },
+    {
+      "id": "ZA_M_331223255",
+      "name": "右咬肌深部",
+      "conceptId": "ZA_M_331223255",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 510620,
+      "normals": 516584,
+      "indices": 519568,
+      "vertexCount": 497,
+      "indexCount": 2982,
+      "bounds": [
+        [
+          -0.06299028545618057,
+          1.516139268875122,
+          -0.0035609863698482513
+        ],
+        [
+          -0.035791587084531784,
+          1.5835418701171875,
+          0.03133939579129219
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Deep_part_of_masseterr",
+        "id": 331223255,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.850925743843636,
+        "meanDisplacementMm": 13.508661435016133
+      }
+    },
+    {
+      "id": "ZA_M_826208578",
+      "name": "左翼内肌",
+      "conceptId": "ZA_M_826208578",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 531496,
+      "normals": 534484,
+      "indices": 535980,
+      "vertexCount": 249,
+      "indexCount": 1488,
+      "bounds": [
+        [
+          0.013910274021327496,
+          1.5298171043395996,
+          -0.002030774485319853
+        ],
+        [
+          0.0366097018122673,
+          1.580913782119751,
+          0.02978864125907421
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Medial_pterygoid_musclel",
+        "id": 826208578,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.761507061240689,
+        "meanDisplacementMm": 13.345398737741522
+      }
+    },
+    {
+      "id": "ZA_M_871676841",
+      "name": "右翼内肌",
+      "conceptId": "ZA_M_871676841",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 541932,
+      "normals": 544920,
+      "indices": 546416,
+      "vertexCount": 249,
+      "indexCount": 1488,
+      "bounds": [
+        [
+          -0.037967510521411896,
+          1.5297058820724487,
+          -0.002167009050026536
+        ],
+        [
+          -0.0153512516990304,
+          1.5808544158935547,
+          0.029685556888580322
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Medial_pterygoid_muscler",
+        "id": 871676841,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.899001536514392,
+        "meanDisplacementMm": 13.450869452656434
+      }
+    },
+    {
+      "id": "ZA_M_825659527",
+      "name": "左翼外肌上头",
+      "conceptId": "ZA_M_825659527",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 552368,
+      "normals": 553748,
+      "indices": 554440,
+      "vertexCount": 115,
+      "indexCount": 678,
+      "bounds": [
+        [
+          0.021172380074858665,
+          1.5738574266433716,
+          -0.0026917383074760437
+        ],
+        [
+          0.042608872056007385,
+          1.589294672012329,
+          0.020521629601716995
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Superior_head_of_lateral_pterygoid_musclel",
+        "id": 825659527,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.610417313259271,
+        "meanDisplacementMm": 13.360180735698652
+      }
+    },
+    {
+      "id": "ZA_M_336574972",
+      "name": "右翼外肌上头",
+      "conceptId": "ZA_M_336574972",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 557152,
+      "normals": 558532,
+      "indices": 559224,
+      "vertexCount": 115,
+      "indexCount": 678,
+      "bounds": [
+        [
+          -0.04396332427859306,
+          1.5737407207489014,
+          -0.00285514909774065
+        ],
+        [
+          -0.022595776244997978,
+          1.5892165899276733,
+          0.02042277343571186
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Superior_head_of_lateral_pterygoid_muscler",
+        "id": 336574972,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.7474720815739,
+        "meanDisplacementMm": 13.473123853670202
+      }
+    },
+    {
+      "id": "ZA_M_907972935",
+      "name": "左翼外肌下头",
+      "conceptId": "ZA_M_907972935",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 561936,
+      "normals": 563904,
+      "indices": 564888,
+      "vertexCount": 164,
+      "indexCount": 978,
+      "bounds": [
+        [
+          0.024946335703134537,
+          1.5592344999313354,
+          -0.0050643440335989
+        ],
+        [
+          0.04276487976312637,
+          1.5823280811309814,
+          0.01821002922952175
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Inferior_head_of_lateral_pterygoid_musclel",
+        "id": 907972935,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.674703317757658,
+        "meanDisplacementMm": 13.34829868965108
+      }
+    },
+    {
+      "id": "ZA_M_312701766",
+      "name": "右翼外肌下头",
+      "conceptId": "ZA_M_312701766",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 568800,
+      "normals": 570768,
+      "indices": 571752,
+      "vertexCount": 164,
+      "indexCount": 978,
+      "bounds": [
+        [
+          -0.044110026210546494,
+          1.559147596359253,
+          -0.00521901436150074
+        ],
+        [
+          -0.026347484439611435,
+          1.582199215888977,
+          0.018101919442415237
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Inferior_head_of_lateral_pterygoid_muscler",
+        "id": 312701766,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.807748897473664,
+        "meanDisplacementMm": 13.46064854050272
+      }
+    },
+    {
+      "id": "ZA_M_796791312",
+      "name": "左口轮匝肌",
+      "conceptId": "ZA_M_796791312",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 575664,
+      "normals": 586944,
+      "indices": 592584,
+      "vertexCount": 940,
+      "indexCount": 5640,
+      "bounds": [
+        [
+          -0.0008271533297374845,
+          1.5118560791015625,
+          0.05599335581064224
+        ],
+        [
+          0.03158245235681534,
+          1.5589994192123413,
+          0.08463595807552338
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Orbicularis_oris_musclel",
+        "id": 796791312,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.182638898368232,
+        "meanDisplacementMm": 11.775630473149164
+      }
+    },
+    {
+      "id": "ZA_M_434972166",
+      "name": "右口轮匝肌",
+      "conceptId": "ZA_M_434972166",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 615144,
+      "normals": 626424,
+      "indices": 632064,
+      "vertexCount": 940,
+      "indexCount": 5640,
+      "bounds": [
+        [
+          -0.033204108476638794,
+          1.5118558406829834,
+          0.055874522775411606
+        ],
+        [
+          -0.0008889930322766304,
+          1.5589817762374878,
+          0.08462905138731003
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Orbicularis_oris_muscler",
+        "id": 434972166,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.293304568617762,
+        "meanDisplacementMm": 11.827919925714069
+      }
+    },
+    {
+      "id": "ZA_M_957288105",
+      "name": "左颊肌",
+      "conceptId": "ZA_M_957288105",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 654624,
+      "normals": 659952,
+      "indices": 662616,
+      "vertexCount": 444,
+      "indexCount": 2652,
+      "bounds": [
+        [
+          0.020239247009158134,
+          1.5178974866867065,
+          0.029965050518512726
+        ],
+        [
+          0.035365037620067596,
+          1.55527925491333,
+          0.05980047211050987
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Bucinatorl",
+        "id": 957288105,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.825894992805518,
+        "meanDisplacementMm": 12.451219608325408
+      }
+    },
+    {
+      "id": "ZA_M_489981318",
+      "name": "右颊肌",
+      "conceptId": "ZA_M_489981318",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 673224,
+      "normals": 678552,
+      "indices": 681216,
+      "vertexCount": 444,
+      "indexCount": 2652,
+      "bounds": [
+        [
+          -0.03690701723098755,
+          1.517825961112976,
+          0.029842259362339973
+        ],
+        [
+          -0.02184433676302433,
+          1.5551788806915283,
+          0.05968158319592476
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Bucinatorr",
+        "id": 489981318,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.942063265609953,
+        "meanDisplacementMm": 12.5687579209226
+      }
+    },
+    {
+      "id": "ZA_M_131002877",
+      "name": "左枕额肌额腹",
+      "conceptId": "ZA_M_131002877",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 691824,
+      "normals": 727020,
+      "indices": 744620,
+      "vertexCount": 2933,
+      "indexCount": 17622,
+      "bounds": [
+        [
+          -0.0007911402499303222,
+          1.6109249591827393,
+          0.032363131642341614
+        ],
+        [
+          0.05818551406264305,
+          1.683401107788086,
+          0.08038167655467987
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Frontalis_musclel",
+        "id": 131002877,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.146291540589836,
+        "meanDisplacementMm": 12.368803719578818
+      }
+    },
+    {
+      "id": "ZA_M_517073369",
+      "name": "右枕额肌额腹",
+      "conceptId": "ZA_M_517073369",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 815108,
+      "normals": 850304,
+      "indices": 867904,
+      "vertexCount": 2933,
+      "indexCount": 17622,
+      "bounds": [
+        [
+          -0.059699445962905884,
+          1.6108955144882202,
+          0.0321459099650383
+        ],
+        [
+          -0.000868969305884093,
+          1.6833070516586304,
+          0.08036647737026215
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Frontalis_muscler",
+        "id": 517073369,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 13.233034805168069,
+        "meanDisplacementMm": 12.427937756259901
+      }
+    },
+    {
+      "id": "ZA_M_181104823",
+      "name": "左枕额肌枕腹",
+      "conceptId": "ZA_M_181104823",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 938392,
+      "normals": 953956,
+      "indices": 961740,
+      "vertexCount": 1297,
+      "indexCount": 7806,
+      "bounds": [
+        [
+          0.014530806802213192,
+          1.588634967803955,
+          -0.12090209871530533
+        ],
+        [
+          0.0614144541323185,
+          1.6228759288787842,
+          -0.07301310449838638
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Occipitalis_musclel",
+        "id": 181104823,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 16.81963644339187,
+        "meanDisplacementMm": 16.27837048580923
+      }
+    },
+    {
+      "id": "ZA_M_509132682",
+      "name": "右枕额肌枕腹",
+      "conceptId": "ZA_M_509132682",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 992964,
+      "normals": 1008528,
+      "indices": 1016312,
+      "vertexCount": 1297,
+      "indexCount": 7806,
+      "bounds": [
+        [
+          -0.062416139990091324,
+          1.58858323097229,
+          -0.12097052484750748
+        ],
+        [
+          -0.015397866256535053,
+          1.6227529048919678,
+          -0.07324027270078659
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Occipitalis_muscler",
+        "id": 509132682,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 16.88019547797132,
+        "meanDisplacementMm": 16.413838795951133
+      }
+    },
+    {
+      "id": "ZA_M_667750948",
+      "name": "左眼轮匝肌眶部",
+      "conceptId": "ZA_M_667750948",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 1047536,
+      "normals": 1061876,
+      "indices": 1069048,
+      "vertexCount": 1195,
+      "indexCount": 7170,
+      "bounds": [
+        [
+          0.00833576824516058,
+          1.5726995468139648,
+          0.044548969715833664
+        ],
+        [
+          0.05300508439540863,
+          1.624368667602539,
+          0.0774012878537178
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Orbital_part_of_orbicularis_oculil",
+        "id": 667750948,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.398876752339126,
+        "meanDisplacementMm": 12.074302633058444
+      }
+    },
+    {
+      "id": "ZA_M_46005575",
+      "name": "右眼轮匝肌眶部",
+      "conceptId": "ZA_M_46005575",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 1097728,
+      "normals": 1112068,
+      "indices": 1119240,
+      "vertexCount": 1195,
+      "indexCount": 7170,
+      "bounds": [
+        [
+          -0.05455895885825157,
+          1.5725959539413452,
+          0.044345270842313766
+        ],
+        [
+          -0.009983975440263748,
+          1.6242669820785522,
+          0.077317014336586
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Orbital_part_of_orbicularis_oculir",
+        "id": 46005575,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.552976977529386,
+        "meanDisplacementMm": 12.165979437725781
+      }
+    },
+    {
+      "id": "ZA_M_200305276",
+      "name": "左眼轮匝肌睑部",
+      "conceptId": "ZA_M_200305276",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 1147920,
+      "normals": 1152900,
+      "indices": 1155392,
+      "vertexCount": 415,
+      "indexCount": 2490,
+      "bounds": [
+        [
+          0.012040780857205391,
+          1.584906816482544,
+          0.053011830896139145
+        ],
+        [
+          0.04594167694449425,
+          1.6099886894226074,
+          0.0709819346666336
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Palpebral_part_of_orbicularis_oculil",
+        "id": 200305276,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.213789108225436,
+        "meanDisplacementMm": 12.019211688926013
+      }
+    },
+    {
+      "id": "ZA_M_114442261",
+      "name": "右眼轮匝肌睑部",
+      "conceptId": "ZA_M_114442261",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 1165352,
+      "normals": 1170332,
+      "indices": 1172824,
+      "vertexCount": 415,
+      "indexCount": 2490,
+      "bounds": [
+        [
+          -0.04752540960907936,
+          1.5848089456558228,
+          0.052835218608379364
+        ],
+        [
+          -0.013659986667335033,
+          1.6098899841308594,
+          0.07086166739463806
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Palpebral_part_of_orbicularis_oculir",
+        "id": 114442261,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.344642603658146,
+        "meanDisplacementMm": 12.106964573082555
+      }
+    },
+    {
+      "id": "ZA_M_290510213",
+      "name": "左颧大肌",
+      "conceptId": "ZA_M_290510213",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 1182784,
+      "normals": 1187548,
+      "indices": 1189932,
+      "vertexCount": 397,
+      "indexCount": 2394,
+      "bounds": [
+        [
+          0.02547493577003479,
+          1.5279183387756348,
+          0.03889969736337662
+        ],
+        [
+          0.05514727160334587,
+          1.5843526124954224,
+          0.06491202116012573
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Zygomaticus_major_musclel",
+        "id": 290510213,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.508376184370983,
+        "meanDisplacementMm": 12.181907303907865
+      }
+    },
+    {
+      "id": "ZA_M_121742891",
+      "name": "右颧大肌",
+      "conceptId": "ZA_M_121742891",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 1199508,
+      "normals": 1204272,
+      "indices": 1206656,
+      "vertexCount": 397,
+      "indexCount": 2394,
+      "bounds": [
+        [
+          -0.056673094630241394,
+          1.5278234481811523,
+          0.03868322819471359
+        ],
+        [
+          -0.02712063118815422,
+          1.5841904878616333,
+          0.06480586528778076
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Zygomaticus_major_muscler",
+        "id": 121742891,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.690412596331035,
+        "meanDisplacementMm": 12.312324302478872
+      }
+    },
+    {
+      "id": "ZA_M_510329294",
+      "name": "左颧小肌",
+      "conceptId": "ZA_M_510329294",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 1216232,
+      "normals": 1218848,
+      "indices": 1220156,
+      "vertexCount": 218,
+      "indexCount": 1296,
+      "bounds": [
+        [
+          0.011994792148470879,
+          1.5512996912002563,
+          0.04904722049832344
+        ],
+        [
+          0.04994751885533333,
+          1.5828192234039307,
+          0.07400727272033691
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Zygomaticus_minor_musclel",
+        "id": 510329294,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.26613122320109,
+        "meanDisplacementMm": 11.905412789028459
+      }
+    },
+    {
+      "id": "ZA_M_381066825",
+      "name": "右颧小肌",
+      "conceptId": "ZA_M_381066825",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 1225340,
+      "normals": 1227956,
+      "indices": 1229264,
+      "vertexCount": 218,
+      "indexCount": 1296,
+      "bounds": [
+        [
+          -0.05152492597699165,
+          1.5512433052062988,
+          0.04885105788707733
+        ],
+        [
+          -0.01367762591689825,
+          1.582667589187622,
+          0.07395458221435547
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Zygomaticus_minor_muscler",
+        "id": 381066825,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.423401908236201,
+        "meanDisplacementMm": 11.9976760628889
+      }
+    },
+    {
+      "id": "ZA_M_826115562",
+      "name": "左颏肌",
+      "conceptId": "ZA_M_826115562",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 1234448,
+      "normals": 1235468,
+      "indices": 1235980,
+      "vertexCount": 85,
+      "indexCount": 498,
+      "bounds": [
+        [
+          -0.00005168648203834891,
+          1.5008474588394165,
+          0.06368573009967804
+        ],
+        [
+          0.0137628810480237,
+          1.516141653060913,
+          0.07089579850435257
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Mentalis_musclel",
+        "id": 826115562,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.125221129251543,
+        "meanDisplacementMm": 12.032616663825745
+      }
+    },
+    {
+      "id": "ZA_M_662526822",
+      "name": "右颏肌",
+      "conceptId": "ZA_M_662526822",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 1237972,
+      "normals": 1238992,
+      "indices": 1239504,
+      "vertexCount": 85,
+      "indexCount": 498,
+      "bounds": [
+        [
+          -0.015419171191751957,
+          1.5008286237716675,
+          0.06362989544868469
+        ],
+        [
+          -0.0016342501621693373,
+          1.5161136388778687,
+          0.07088521122932434
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Mentalis_muscler",
+        "id": 662526822,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "head",
+        "maximumDisplacementMm": 12.172341872503136,
+        "meanDisplacementMm": 12.062882311857543
+      }
+    },
+    {
+      "id": "ZA_M_642806399",
+      "name": "左腹内斜肌",
+      "conceptId": "ZA_M_642806399",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 2485624,
+      "normals": 2658556,
+      "indices": 2745024,
+      "vertexCount": 14411,
+      "indexCount": 86607,
+      "bounds": [
+        [
+          0.0024272585287690163,
+          0.8883447051048279,
+          -0.059157416224479675
+        ],
+        [
+          0.12257302552461624,
+          1.2529664039611816,
+          0.11551718413829803
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Internal_abdominal_oblique_musclel",
+        "id": 642806399,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "abdomen",
+        "maximumDisplacementMm": 41.25288776215753,
+        "meanDisplacementMm": 26.20972417532552
+      }
+    },
+    {
+      "id": "ZA_M_272619451",
+      "name": "右腹内斜肌",
+      "conceptId": "ZA_M_272619451",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 3091452,
+      "normals": 3264384,
+      "indices": 3350852,
+      "vertexCount": 14411,
+      "indexCount": 86607,
+      "bounds": [
+        [
+          -0.12335774302482605,
+          0.8883775472640991,
+          -0.05916627123951912
+        ],
+        [
+          -0.0031255215872079134,
+          1.2530148029327393,
+          0.11551207304000854
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Internal_abdominal_oblique_muscler",
+        "id": 272619451,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "abdomen",
+        "maximumDisplacementMm": 41.28036021611501,
+        "meanDisplacementMm": 26.41206326411853
+      }
+    },
+    {
+      "id": "ZA_M_881393607",
+      "name": "左腹横肌",
+      "conceptId": "ZA_M_881393607",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 3697280,
+      "normals": 3903248,
+      "indices": 4006232,
+      "vertexCount": 17164,
+      "indexCount": 102984,
+      "bounds": [
+        [
+          0.00306806992739439,
+          0.8799589276313782,
+          -0.0670599713921547
+        ],
+        [
+          0.12771685421466827,
+          1.266728162765503,
+          0.09904564917087555
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Transversus_abdominis_musclel",
+        "id": 881393607,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "abdomen",
+        "maximumDisplacementMm": 41.701832095591456,
+        "meanDisplacementMm": 22.808318020684997
+      }
+    },
+    {
+      "id": "ZA_M_795120383",
+      "name": "右腹横肌",
+      "conceptId": "ZA_M_795120383",
+      "system": "muscular",
+      "chunk": 15,
+      "positions": 4418168,
+      "normals": 4624136,
+      "indices": 4727120,
+      "vertexCount": 17164,
+      "indexCount": 102984,
+      "bounds": [
+        [
+          -0.12901349365711212,
+          0.8800439834594727,
+          -0.06706681102514267
+        ],
+        [
+          -0.0037669378798455,
+          1.267320990562439,
+          0.09904412180185318
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Transversus_abdominis_muscler",
+        "id": 795120383,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "abdomen",
+        "maximumDisplacementMm": 41.77414854897849,
+        "meanDisplacementMm": 23.055189352172814
+      }
+    },
+    {
+      "id": "ZA_M_752705330",
+      "name": "左腹股沟韧带",
+      "conceptId": "ZA_M_752705330",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 0,
+      "normals": 6360,
+      "indices": 9540,
+      "vertexCount": 530,
+      "indexCount": 3168,
+      "bounds": [
+        [
+          0.018319377675652504,
+          0.8785253763198853,
+          0.032821204513311386
+        ],
+        [
+          0.11907675117254257,
+          0.9833043217658997,
+          0.04491714760661125
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Inguinal_ligamentl",
+        "id": 752705330,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "abdomen",
+        "maximumDisplacementMm": 41.87073053959974,
+        "meanDisplacementMm": 37.33854839016275
+      }
+    },
+    {
+      "id": "ZA_M_206659969",
+      "name": "右腹股沟韧带",
+      "conceptId": "ZA_M_206659969",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 22212,
+      "normals": 28572,
+      "indices": 31752,
+      "vertexCount": 530,
+      "indexCount": 3168,
+      "bounds": [
+        [
+          -0.11986444145441055,
+          0.8786354064941406,
+          0.03281785920262337
+        ],
+        [
+          -0.018840832635760307,
+          0.9839467406272888,
+          0.04490312188863754
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Inguinal_ligamentr",
+        "id": 206659969,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "abdomen",
+        "maximumDisplacementMm": 41.96648526238819,
+        "meanDisplacementMm": 37.67093098305411
+      }
+    },
+    {
+      "id": "ZA_M_707966283",
+      "name": "左尺侧腕伸肌腱鞘",
+      "conceptId": "ZA_M_707966283",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 51560,
+      "normals": 57344,
+      "indices": 60236,
+      "vertexCount": 482,
+      "indexCount": 2880,
+      "bounds": [
+        [
+          0.23169100284576416,
+          0.8744441270828247,
+          0.0006379762780852616
+        ],
+        [
+          0.23864077031612396,
+          0.897688627243042,
+          0.017533088102936745
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Tendon_sheath_of_extensor_carpi_ulnarisl",
+        "id": 707966283,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_l",
+        "maximumDisplacementMm": 28.771026133750215,
+        "meanDisplacementMm": 28.063318018724843
+      }
+    },
+    {
+      "id": "ZA_M_721817264",
+      "name": "右尺侧腕伸肌腱鞘",
+      "conceptId": "ZA_M_721817264",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 71756,
+      "normals": 77540,
+      "indices": 80432,
+      "vertexCount": 482,
+      "indexCount": 2880,
+      "bounds": [
+        [
+          -0.23857304453849792,
+          0.8744787573814392,
+          0.00002292149656568654
+        ],
+        [
+          -0.23159220814704895,
+          0.8984978199005127,
+          0.017360324040055275
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Tendon_sheath_of_extensor_carpi_ulnarisr",
+        "id": 721817264,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_r",
+        "maximumDisplacementMm": 28.84377828283743,
+        "meanDisplacementMm": 28.4669336158415
+      }
+    },
+    {
+      "id": "ZA_M_971929399",
+      "name": "左腕伸肌支持带",
+      "conceptId": "ZA_M_971929399",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 91952,
+      "normals": 94184,
+      "indices": 95300,
+      "vertexCount": 186,
+      "indexCount": 1104,
+      "bounds": [
+        [
+          0.22891904413700104,
+          0.8651635646820068,
+          -0.0021382507402449846
+        ],
+        [
+          0.28412100672721863,
+          0.9030354022979736,
+          0.019832780584692955
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Extensor_retinaculum_of_wristl",
+        "id": 971929399,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_l",
+        "maximumDisplacementMm": 29.407166022296472,
+        "meanDisplacementMm": 28.58174131315125
+      }
+    },
+    {
+      "id": "ZA_M_330125342",
+      "name": "右腕伸肌支持带",
+      "conceptId": "ZA_M_330125342",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 99716,
+      "normals": 101948,
+      "indices": 103064,
+      "vertexCount": 186,
+      "indexCount": 1104,
+      "bounds": [
+        [
+          -0.28474780917167664,
+          0.8649135231971741,
+          -0.002630889881402254
+        ],
+        [
+          -0.22882261872291565,
+          0.9039371013641357,
+          0.01978067122399807
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Extensor_retinaculum_of_wristr",
+        "id": 330125342,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_r",
+        "maximumDisplacementMm": 29.37971397270102,
+        "meanDisplacementMm": 28.850108613074795
+      }
+    },
+    {
+      "id": "ZA_M_925501647",
+      "name": "左髌内侧支持带",
+      "conceptId": "ZA_M_925501647",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 107480,
+      "normals": 108608,
+      "indices": 109172,
+      "vertexCount": 94,
+      "indexCount": 552,
+      "bounds": [
+        [
+          0.028212349861860275,
+          0.4575537443161011,
+          -0.013440110720694065
+        ],
+        [
+          0.06325044482946396,
+          0.4730678200721741,
+          0.020962325856089592
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Medial_patellar_retinaculuml",
+        "id": 925501647,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_l",
+        "maximumDisplacementMm": 28.37366999144744,
+        "meanDisplacementMm": 25.14398193651599
+      }
+    },
+    {
+      "id": "ZA_M_344109556",
+      "name": "右髌内侧支持带",
+      "conceptId": "ZA_M_344109556",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 111380,
+      "normals": 112508,
+      "indices": 113072,
+      "vertexCount": 94,
+      "indexCount": 552,
+      "bounds": [
+        [
+          -0.06343494355678558,
+          0.4576680362224579,
+          -0.01392881665378809
+        ],
+        [
+          -0.028263084590435028,
+          0.47328123450279236,
+          0.020531868562102318
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Medial_patellar_retinaculumr",
+        "id": 344109556,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_r",
+        "maximumDisplacementMm": 28.124358268495996,
+        "meanDisplacementMm": 24.91878070487169
+      }
+    },
+    {
+      "id": "ZA_M_391652619",
+      "name": "左髌外侧支持带",
+      "conceptId": "ZA_M_391652619",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 115280,
+      "normals": 116192,
+      "indices": 116648,
+      "vertexCount": 76,
+      "indexCount": 444,
+      "bounds": [
+        [
+          0.0999312549829483,
+          0.4509722590446472,
+          -0.034844499081373215
+        ],
+        [
+          0.10971890389919281,
+          0.47507941722869873,
+          0.010721025988459587
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Lateral_patellar_retinaculuml",
+        "id": 391652619,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_l",
+        "maximumDisplacementMm": 19.047018792692924,
+        "meanDisplacementMm": 17.339823153519745
+      }
+    },
+    {
+      "id": "ZA_M_497593817",
+      "name": "右髌外侧支持带",
+      "conceptId": "ZA_M_497593817",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 118424,
+      "normals": 119336,
+      "indices": 119792,
+      "vertexCount": 76,
+      "indexCount": 444,
+      "bounds": [
+        [
+          -0.1085943654179573,
+          0.45093852281570435,
+          -0.03444555774331093
+        ],
+        [
+          -0.09972244501113892,
+          0.4750427007675171,
+          0.010719501413404942
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Lateral_patellar_retinaculumr",
+        "id": 497593817,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_r",
+        "maximumDisplacementMm": 19.54838553464275,
+        "meanDisplacementMm": 17.61888674553613
+      }
+    },
+    {
+      "id": "ZA_M_943998138_patellar",
+      "name": "左髌韧带",
+      "conceptId": "ZA_M_943998138_patellar",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 121568,
+      "normals": 127304,
+      "indices": 130172,
+      "vertexCount": 478,
+      "indexCount": 2556,
+      "bounds": [
+        [
+          0.06755398213863373,
+          0.3888739347457886,
+          0.00518792262300849
+        ],
+        [
+          0.09990578889846802,
+          0.44945335388183594,
+          0.016551945358514786
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Rectus_femoris_musclel",
+        "id": 943998138,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1,
+        "derivation": {
+          "method": "Tendon material faces distal to source patellar-ligament origin marker; triangles clipped at marker maximum Y.",
+          "marker": "Patellar_ligamentol",
+          "ceilingMeters": 0.4327673316001892
+        }
+      },
+      "registration": {
+        "region": "knee_l",
+        "maximumDisplacementMm": 20.255130124078388,
+        "meanDisplacementMm": 18.177439966718275
+      }
+    },
+    {
+      "id": "ZA_M_771346357_patellar",
+      "name": "右髌韧带",
+      "conceptId": "ZA_M_771346357_patellar",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 140396,
+      "normals": 146132,
+      "indices": 149000,
+      "vertexCount": 478,
+      "indexCount": 2556,
+      "bounds": [
+        [
+          -0.0997202917933464,
+          0.38873907923698425,
+          0.0050284480676054955
+        ],
+        [
+          -0.06778522580862045,
+          0.4495106637477875,
+          0.01606282778084278
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Rectus_femoris_muscler",
+        "id": 771346357,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "phase": 1,
+        "derivation": {
+          "method": "Tendon material faces distal to source patellar-ligament origin marker; triangles clipped at marker maximum Y.",
+          "marker": "Patellar_ligamentor",
+          "ceilingMeters": 0.4327673614025116
+        }
+      },
+      "registration": {
+        "region": "knee_r",
+        "maximumDisplacementMm": 19.947832958266105,
+        "meanDisplacementMm": 18.03325591283435
+      }
+    },
+    {
+      "id": "ZA_J_828042845",
+      "name": "左内侧半月板",
+      "conceptId": "ZA_J_828042845",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 159224,
+      "normals": 160952,
+      "indices": 161816,
+      "vertexCount": 144,
+      "indexCount": 852,
+      "bounds": [
+        [
+          0.03747059032320976,
+          0.43970659375190735,
+          -0.04324154928326607
+        ],
+        [
+          0.06190246716141701,
+          0.45188483595848083,
+          -0.0018369536846876144
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Medial_meniscusl",
+        "id": 828042845,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_l",
+        "maximumDisplacementMm": 29.306469402301808,
+        "meanDisplacementMm": 26.360907336608847
+      }
+    },
+    {
+      "id": "ZA_J_392921810",
+      "name": "右内侧半月板",
+      "conceptId": "ZA_J_392921810",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 165224,
+      "normals": 166952,
+      "indices": 167816,
+      "vertexCount": 144,
+      "indexCount": 852,
+      "bounds": [
+        [
+          -0.061882730573415756,
+          0.43975916504859924,
+          -0.04340798780322075
+        ],
+        [
+          -0.03757109120488167,
+          0.45196229219436646,
+          -0.002274313708767295
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Medial_meniscusr",
+        "id": 392921810,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_r",
+        "maximumDisplacementMm": 29.093711823717438,
+        "meanDisplacementMm": 26.173985718129586
+      }
+    },
+    {
+      "id": "ZA_J_205965981",
+      "name": "左外侧半月板",
+      "conceptId": "ZA_J_205965981",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 171224,
+      "normals": 174056,
+      "indices": 175472,
+      "vertexCount": 236,
+      "indexCount": 1404,
+      "bounds": [
+        [
+          0.07252907007932663,
+          0.4432542622089386,
+          -0.03959557041525841
+        ],
+        [
+          0.10472357273101807,
+          0.45661047101020813,
+          -0.0027761529199779034
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Lateral_meniscusl",
+        "id": 205965981,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_l",
+        "maximumDisplacementMm": 22.371864709063743,
+        "meanDisplacementMm": 19.80621635618714
+      }
+    },
+    {
+      "id": "ZA_J_678781775",
+      "name": "右外侧半月板",
+      "conceptId": "ZA_J_678781775",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 181088,
+      "normals": 183920,
+      "indices": 185336,
+      "vertexCount": 236,
+      "indexCount": 1404,
+      "bounds": [
+        [
+          -0.10405543446540833,
+          0.44317686557769775,
+          -0.03942819684743881
+        ],
+        [
+          -0.07238434255123138,
+          0.45655903220176697,
+          -0.0029206040780991316
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Lateral_meniscusr",
+        "id": 678781775,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_r",
+        "maximumDisplacementMm": 22.497368214752594,
+        "meanDisplacementMm": 19.894844916047116
+      }
+    },
+    {
+      "id": "ZA_J_389538142",
+      "name": "左前交叉韧带",
+      "conceptId": "ZA_J_389538142",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 190952,
+      "normals": 195704,
+      "indices": 198080,
+      "vertexCount": 396,
+      "indexCount": 4728,
+      "bounds": [
+        [
+          0.0632980689406395,
+          0.44522860646247864,
+          -0.03490128368139267
+        ],
+        [
+          0.08182862401008606,
+          0.47433266043663025,
+          -0.009661083109676838
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Anterior_cruciate_ligamentl",
+        "id": 389538142,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_l",
+        "maximumDisplacementMm": 24.08509574652604,
+        "meanDisplacementMm": 22.812626613724966
+      }
+    },
+    {
+      "id": "ZA_J_279508809",
+      "name": "右前交叉韧带",
+      "conceptId": "ZA_J_279508809",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 216992,
+      "normals": 221744,
+      "indices": 224120,
+      "vertexCount": 396,
+      "indexCount": 4728,
+      "bounds": [
+        [
+          -0.08103278279304504,
+          0.44525474309921265,
+          -0.034762341529130936
+        ],
+        [
+          -0.06328984349966049,
+          0.47438573837280273,
+          -0.009925466030836105
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Anterior_cruciate_ligamentr",
+        "id": 279508809,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_r",
+        "maximumDisplacementMm": 24.163437425828537,
+        "meanDisplacementMm": 22.911743355506886
+      }
+    },
+    {
+      "id": "ZA_J_737636048",
+      "name": "左后交叉韧带",
+      "conceptId": "ZA_J_737636048",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 243032,
+      "normals": 247784,
+      "indices": 250160,
+      "vertexCount": 396,
+      "indexCount": 2364,
+      "bounds": [
+        [
+          0.05563521385192871,
+          0.434258371591568,
+          -0.041390612721443176
+        ],
+        [
+          0.0788147822022438,
+          0.47068676352500916,
+          -0.02129838615655899
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Posterior_cruciate_ligamentl",
+        "id": 737636048,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_l",
+        "maximumDisplacementMm": 25.774315009991415,
+        "meanDisplacementMm": 23.88793293324774
+      }
+    },
+    {
+      "id": "ZA_J_675812189",
+      "name": "右后交叉韧带",
+      "conceptId": "ZA_J_675812189",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 259616,
+      "normals": 264368,
+      "indices": 266744,
+      "vertexCount": 396,
+      "indexCount": 2364,
+      "bounds": [
+        [
+          -0.07844707369804382,
+          0.43421274423599243,
+          -0.04140106961131096
+        ],
+        [
+          -0.055184029042720795,
+          0.47079628705978394,
+          -0.021492276340723038
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Posterior_cruciate_ligamentr",
+        "id": 675812189,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_r",
+        "maximumDisplacementMm": 25.859255797313203,
+        "meanDisplacementMm": 23.97551521804055
+      }
+    },
+    {
+      "id": "ZA_J_12008623",
+      "name": "左膝内侧副韧带浅部",
+      "conceptId": "ZA_J_12008623",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 276200,
+      "normals": 277136,
+      "indices": 277604,
+      "vertexCount": 78,
+      "indexCount": 456,
+      "bounds": [
+        [
+          0.028431905433535576,
+          0.41199520230293274,
+          -0.014643507078289986
+        ],
+        [
+          0.06364303082227707,
+          0.4727236032485962,
+          0.0002666394575498998
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Superficial_part_of_tibial_collateral_ligamentl",
+        "id": 12008623,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_l",
+        "maximumDisplacementMm": 28.620941190855984,
+        "meanDisplacementMm": 26.40597033482579
+      }
+    },
+    {
+      "id": "ZA_J_193731724",
+      "name": "右膝内侧副韧带浅部",
+      "conceptId": "ZA_J_193731724",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 279428,
+      "normals": 282428,
+      "indices": 283928,
+      "vertexCount": 250,
+      "indexCount": 1488,
+      "bounds": [
+        [
+          -0.06428758054971695,
+          0.41183438897132874,
+          -0.01512138731777668
+        ],
+        [
+          -0.028321558609604836,
+          0.4730362892150879,
+          -0.00015872415679041296
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Superficial_part_of_tibial_collateral_ligamentr",
+        "id": 193731724,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_r",
+        "maximumDisplacementMm": 28.38608885555407,
+        "meanDisplacementMm": 26.123953511463647
+      }
+    },
+    {
+      "id": "ZA_J_320737222",
+      "name": "左膝内侧副韧带深部",
+      "conceptId": "ZA_J_320737222",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 289880,
+      "normals": 291464,
+      "indices": 292256,
+      "vertexCount": 132,
+      "indexCount": 768,
+      "bounds": [
+        [
+          0.028920821845531464,
+          0.41080811619758606,
+          -0.019098171964287758
+        ],
+        [
+          0.06523589789867401,
+          0.4725882411003113,
+          -0.0002830401936080307
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Deep_part_of_tibial_collateral_ligamentl",
+        "id": 320737222,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_l",
+        "maximumDisplacementMm": 28.523304925680172,
+        "meanDisplacementMm": 26.578995404913663
+      }
+    },
+    {
+      "id": "ZA_J_137191166",
+      "name": "右膝内侧副韧带深部",
+      "conceptId": "ZA_J_137191166",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 295328,
+      "normals": 296912,
+      "indices": 297704,
+      "vertexCount": 132,
+      "indexCount": 768,
+      "bounds": [
+        [
+          -0.06587650626897812,
+          0.4107770621776581,
+          -0.019566675648093224
+        ],
+        [
+          -0.02896876446902752,
+          0.4727976322174072,
+          -0.0008051437907852232
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Deep_part_of_tibial_collateral_ligamentr",
+        "id": 137191166,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_r",
+        "maximumDisplacementMm": 28.274310327432428,
+        "meanDisplacementMm": 26.260478304574114
+      }
+    },
+    {
+      "id": "ZA_J_446376984",
+      "name": "左膝外侧副韧带",
+      "conceptId": "ZA_J_446376984",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 300776,
+      "normals": 301280,
+      "indices": 301532,
+      "vertexCount": 42,
+      "indexCount": 240,
+      "bounds": [
+        [
+          0.10420552641153336,
+          0.4257184863090515,
+          -0.03904194012284279
+        ],
+        [
+          0.11485622078180313,
+          0.47714856266975403,
+          -0.03239986300468445
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Fibular_collateral_ligamentl",
+        "id": 446376984,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_l",
+        "maximumDisplacementMm": 20.02729966607892,
+        "meanDisplacementMm": 19.48713677520421
+      }
+    },
+    {
+      "id": "ZA_J_353278166",
+      "name": "右膝外侧副韧带",
+      "conceptId": "ZA_J_353278166",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 302492,
+      "normals": 302996,
+      "indices": 303248,
+      "vertexCount": 42,
+      "indexCount": 240,
+      "bounds": [
+        [
+          -0.11429469287395477,
+          0.4255411922931671,
+          -0.0386669859290123
+        ],
+        [
+          -0.10291787981987,
+          0.477123886346817,
+          -0.03215727582573891
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Fibular_collateral_ligamentr",
+        "id": 353278166,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 1
+      },
+      "registration": {
+        "region": "knee_r",
+        "maximumDisplacementMm": 20.142526711279128,
+        "meanDisplacementMm": 19.80474438829886
+      }
+    },
+    {
+      "id": "ZA_J_833274808",
+      "name": "左三角纤维软骨盘",
+      "conceptId": "ZA_J_833274808",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 304208,
+      "normals": 304400,
+      "indices": 304496,
+      "vertexCount": 16,
+      "indexCount": 84,
+      "bounds": [
+        [
+          0.23655979335308075,
+          0.8860353827476501,
+          0.011312398128211498
+        ],
+        [
+          0.2503414452075958,
+          0.8921237587928772,
+          0.022633865475654602
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_disc_of_distal_radio-ulnar_jointl",
+        "id": 833274808,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_l",
+        "maximumDisplacementMm": 28.24440993481529,
+        "meanDisplacementMm": 28.09229526376489
+      }
+    },
+    {
+      "id": "ZA_J_283420712",
+      "name": "右三角纤维软骨盘",
+      "conceptId": "ZA_J_283420712",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 304832,
+      "normals": 305024,
+      "indices": 305120,
+      "vertexCount": 16,
+      "indexCount": 84,
+      "bounds": [
+        [
+          -0.2505411207675934,
+          0.8864306211471558,
+          0.011048865504562855
+        ],
+        [
+          -0.23652708530426025,
+          0.8926631808280945,
+          0.022506192326545715
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_disc_of_distal_radio-ulnar_jointr",
+        "id": 283420712,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_r",
+        "maximumDisplacementMm": 28.62096528577141,
+        "meanDisplacementMm": 28.493089012656174
+      }
+    },
+    {
+      "id": "ZA_J_512570977",
+      "name": "左掌侧桡尺韧带",
+      "conceptId": "ZA_J_512570977",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 305456,
+      "normals": 305960,
+      "indices": 306212,
+      "vertexCount": 42,
+      "indexCount": 240,
+      "bounds": [
+        [
+          0.23205088078975677,
+          0.8938412070274353,
+          0.018205467611551285
+        ],
+        [
+          0.25042855739593506,
+          0.9013568758964539,
+          0.024712296202778816
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Palmar_radio-ulnar_ligamentl",
+        "id": 512570977,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_l",
+        "maximumDisplacementMm": 27.89024209960748,
+        "meanDisplacementMm": 27.446917202582416
+      }
+    },
+    {
+      "id": "ZA_J_340094425",
+      "name": "右掌侧桡尺韧带",
+      "conceptId": "ZA_J_340094425",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 307172,
+      "normals": 307676,
+      "indices": 307928,
+      "vertexCount": 42,
+      "indexCount": 240,
+      "bounds": [
+        [
+          -0.25121864676475525,
+          0.8944594860076904,
+          0.016138341277837753
+        ],
+        [
+          -0.2329748421907425,
+          0.9022912979125977,
+          0.025039833039045334
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Palmar_radio-ulnar_ligamentr",
+        "id": 340094425,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_r",
+        "maximumDisplacementMm": 28.338853539268673,
+        "meanDisplacementMm": 28.08456621719566
+      }
+    },
+    {
+      "id": "ZA_J_437991591",
+      "name": "左背侧桡尺韧带",
+      "conceptId": "ZA_J_437991591",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 308888,
+      "normals": 308984,
+      "indices": 309032,
+      "vertexCount": 8,
+      "indexCount": 36,
+      "bounds": [
+        [
+          0.24090038239955902,
+          0.8899410367012024,
+          0.00838525127619505
+        ],
+        [
+          0.25154781341552734,
+          0.8987963199615479,
+          0.011593411676585674
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Dorsal_radio-ulnar_ligamentl",
+        "id": 437991591,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_l",
+        "maximumDisplacementMm": 28.13294004373755,
+        "meanDisplacementMm": 27.769775862521655
+      }
+    },
+    {
+      "id": "ZA_J_342768763",
+      "name": "右背侧桡尺韧带",
+      "conceptId": "ZA_J_342768763",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 309176,
+      "normals": 309272,
+      "indices": 309320,
+      "vertexCount": 8,
+      "indexCount": 36,
+      "bounds": [
+        [
+          -0.25180214643478394,
+          0.8904645442962646,
+          0.007999683730304241
+        ],
+        [
+          -0.24094384908676147,
+          0.899601399898529,
+          0.01124522928148508
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Dorsal_radio-ulnar_ligamentr",
+        "id": 342768763,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_r",
+        "maximumDisplacementMm": 28.57268020514261,
+        "meanDisplacementMm": 28.343528170742303
+      }
+    },
+    {
+      "id": "ZA_J_873373310",
+      "name": "左尺月韧带",
+      "conceptId": "ZA_J_873373310",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 309464,
+      "normals": 310112,
+      "indices": 310436,
+      "vertexCount": 54,
+      "indexCount": 312,
+      "bounds": [
+        [
+          0.23352305591106415,
+          0.8844526410102844,
+          0.016618605703115463
+        ],
+        [
+          0.25524070858955383,
+          0.9043350219726562,
+          0.024804789572954178
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ulnolunate_ligamentl",
+        "id": 873373310,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_l",
+        "maximumDisplacementMm": 28.57125005563089,
+        "meanDisplacementMm": 27.76067930297219
+      }
+    },
+    {
+      "id": "ZA_J_86665965",
+      "name": "右尺月韧带",
+      "conceptId": "ZA_J_86665965",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 311684,
+      "normals": 312332,
+      "indices": 312656,
+      "vertexCount": 54,
+      "indexCount": 312,
+      "bounds": [
+        [
+          -0.2558799982070923,
+          0.8844565749168396,
+          0.017688514664769173
+        ],
+        [
+          -0.23386898636817932,
+          0.9048849940299988,
+          0.02363407425582409
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ulnolunate_ligamentr",
+        "id": 86665965,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_r",
+        "maximumDisplacementMm": 28.796130179167275,
+        "meanDisplacementMm": 28.27430745740838
+      }
+    },
+    {
+      "id": "ZA_J_851077264",
+      "name": "左尺三角韧带",
+      "conceptId": "ZA_J_851077264",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 313904,
+      "normals": 314264,
+      "indices": 314444,
+      "vertexCount": 30,
+      "indexCount": 168,
+      "bounds": [
+        [
+          0.2322932630777359,
+          0.8780652284622192,
+          0.014581776224076748
+        ],
+        [
+          0.23629717528820038,
+          0.8924180865287781,
+          0.02006017602980137
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ulnotriquetral_ligamentl",
+        "id": 851077264,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_l",
+        "maximumDisplacementMm": 28.552339481337743,
+        "meanDisplacementMm": 28.13074103970813
+      }
+    },
+    {
+      "id": "ZA_J_38623813",
+      "name": "右尺三角韧带",
+      "conceptId": "ZA_J_38623813",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 315116,
+      "normals": 315476,
+      "indices": 315656,
+      "vertexCount": 30,
+      "indexCount": 168,
+      "bounds": [
+        [
+          -0.2357877939939499,
+          0.8781970143318176,
+          0.01346882525831461
+        ],
+        [
+          -0.23251263797283173,
+          0.8930982351303101,
+          0.0214715376496315
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ulnotriquetral_ligamentr",
+        "id": 38623813,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_r",
+        "maximumDisplacementMm": 28.704496017342205,
+        "meanDisplacementMm": 28.46269044584781
+      }
+    },
+    {
+      "id": "ZA_J_914386139",
+      "name": "左舟月骨间韧带",
+      "conceptId": "ZA_J_914386139",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 316328,
+      "normals": 316424,
+      "indices": 316472,
+      "vertexCount": 8,
+      "indexCount": 36,
+      "bounds": [
+        [
+          0.24829331040382385,
+          0.8830750584602356,
+          0.013832304626703262
+        ],
+        [
+          0.2503270208835602,
+          0.8856730461120605,
+          0.016830263659358025
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Scapholunate_interosseous_ligamentl",
+        "id": 914386139,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_l",
+        "maximumDisplacementMm": 28.53970702339747,
+        "meanDisplacementMm": 28.450323470142354
+      }
+    },
+    {
+      "id": "ZA_J_619879102",
+      "name": "右舟月骨间韧带",
+      "conceptId": "ZA_J_619879102",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 316616,
+      "normals": 316712,
+      "indices": 316760,
+      "vertexCount": 8,
+      "indexCount": 36,
+      "bounds": [
+        [
+          -0.25048306584358215,
+          0.8833622336387634,
+          0.013644175603985786
+        ],
+        [
+          -0.2484220564365387,
+          0.8860353231430054,
+          0.016687069088220596
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Scapholunate_interosseous_ligamentr",
+        "id": 619879102,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_r",
+        "maximumDisplacementMm": 28.774939398064262,
+        "meanDisplacementMm": 28.717509226626493
+      }
+    },
+    {
+      "id": "ZA_J_186541027",
+      "name": "左月三角骨间韧带",
+      "conceptId": "ZA_J_186541027",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 316904,
+      "normals": 317000,
+      "indices": 317048,
+      "vertexCount": 8,
+      "indexCount": 36,
+      "bounds": [
+        [
+          0.24003955721855164,
+          0.8775269985198975,
+          0.019467955455183983
+        ],
+        [
+          0.24213406443595886,
+          0.8795754909515381,
+          0.02196413464844227
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Lunotriquetral_interosseous_ligamentl",
+        "id": 186541027,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_l",
+        "maximumDisplacementMm": 28.681859348889514,
+        "meanDisplacementMm": 28.63197062401131
+      }
+    },
+    {
+      "id": "ZA_J_958342336",
+      "name": "右月三角骨间韧带",
+      "conceptId": "ZA_J_958342336",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 317192,
+      "normals": 317288,
+      "indices": 317336,
+      "vertexCount": 8,
+      "indexCount": 36,
+      "bounds": [
+        [
+          -0.2421458512544632,
+          0.8776302337646484,
+          0.019352082163095474
+        ],
+        [
+          -0.23999978601932526,
+          0.8797363638877869,
+          0.021892311051487923
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Lunotriquetral_interosseous_ligamentr",
+        "id": 958342336,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "wrist_r",
+        "maximumDisplacementMm": 28.78618810019233,
+        "meanDisplacementMm": 28.759291261929384
+      }
+    },
+    {
+      "id": "ZA_J_629211521",
+      "name": "左喙肩韧带",
+      "conceptId": "ZA_J_629211521",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 317480,
+      "normals": 317576,
+      "indices": 317624,
+      "vertexCount": 8,
+      "indexCount": 36,
+      "bounds": [
+        [
+          0.12550783157348633,
+          1.4070618152618408,
+          -0.02771029807627201
+        ],
+        [
+          0.15644150972366333,
+          1.4246493577957153,
+          -0.004903072025626898
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Coraco-acromial_ligamentl",
+        "id": 629211521,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_l",
+        "maximumDisplacementMm": 12.513926497491562,
+        "meanDisplacementMm": 11.143961907327963
+      }
+    },
+    {
+      "id": "ZA_J_758236691",
+      "name": "右喙肩韧带",
+      "conceptId": "ZA_J_758236691",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 317768,
+      "normals": 317864,
+      "indices": 317912,
+      "vertexCount": 8,
+      "indexCount": 36,
+      "bounds": [
+        [
+          -0.15695087611675262,
+          1.4071991443634033,
+          -0.02800651267170906
+        ],
+        [
+          -0.1261703372001648,
+          1.4247432947158813,
+          -0.005045217927545309
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Coraco-acromial_ligamentr",
+        "id": 758236691,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_r",
+        "maximumDisplacementMm": 12.249478850334782,
+        "meanDisplacementMm": 10.836015538337177
+      }
+    },
+    {
+      "id": "ZA_J_140384984",
+      "name": "左喙肱韧带",
+      "conceptId": "ZA_J_140384984",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 318056,
+      "normals": 319280,
+      "indices": 319892,
+      "vertexCount": 102,
+      "indexCount": 600,
+      "bounds": [
+        [
+          0.13249289989471436,
+          1.3998812437057495,
+          -0.01983138732612133
+        ],
+        [
+          0.17781467735767365,
+          1.4186360836029053,
+          -0.0003268230939283967
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Coracohumeral_ligamentl",
+        "id": 140384984,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_l",
+        "maximumDisplacementMm": 13.622014432323118,
+        "meanDisplacementMm": 11.571537586290832
+      }
+    },
+    {
+      "id": "ZA_J_348735722",
+      "name": "右喙肱韧带",
+      "conceptId": "ZA_J_348735722",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 322292,
+      "normals": 323516,
+      "indices": 324128,
+      "vertexCount": 102,
+      "indexCount": 600,
+      "bounds": [
+        [
+          -0.17810975015163422,
+          1.400044560432434,
+          -0.02013843134045601
+        ],
+        [
+          -0.13309460878372192,
+          1.4187870025634766,
+          -0.0004424465587362647
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Coracohumeral_ligamentr",
+        "id": 348735722,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_r",
+        "maximumDisplacementMm": 13.561890150753353,
+        "meanDisplacementMm": 11.428689152964981
+      }
+    },
+    {
+      "id": "ZA_J_43325654",
+      "name": "左盂肱上韧带",
+      "conceptId": "ZA_J_43325654",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 326528,
+      "normals": 327752,
+      "indices": 328364,
+      "vertexCount": 102,
+      "indexCount": 600,
+      "bounds": [
+        [
+          0.13416901230812073,
+          1.3973644971847534,
+          -0.030458373948931694
+        ],
+        [
+          0.16347679495811462,
+          1.4128154516220093,
+          -0.004225621931254864
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Superior_glenohumeral_ligamentl",
+        "id": 43325654,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_l",
+        "maximumDisplacementMm": 11.837553146755523,
+        "meanDisplacementMm": 11.22913372583971
+      }
+    },
+    {
+      "id": "ZA_J_538546670",
+      "name": "右盂肱上韧带",
+      "conceptId": "ZA_J_538546670",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 330764,
+      "normals": 331988,
+      "indices": 332600,
+      "vertexCount": 102,
+      "indexCount": 600,
+      "bounds": [
+        [
+          -0.16383293271064758,
+          1.3975608348846436,
+          -0.030667761340737343
+        ],
+        [
+          -0.13466495275497437,
+          1.4129359722137451,
+          -0.004397328477352858
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Superior_glenohumeral_ligamentr",
+        "id": 538546670,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_r",
+        "maximumDisplacementMm": 11.798826445525298,
+        "meanDisplacementMm": 11.046529378789982
+      }
+    },
+    {
+      "id": "ZA_J_984239897",
+      "name": "左盂肱中韧带",
+      "conceptId": "ZA_J_984239897",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 335000,
+      "normals": 336704,
+      "indices": 337556,
+      "vertexCount": 142,
+      "indexCount": 840,
+      "bounds": [
+        [
+          0.1322161704301834,
+          1.3913183212280273,
+          -0.024609792977571487
+        ],
+        [
+          0.15888680517673492,
+          1.405447006225586,
+          -0.0033776769414544106
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Middle_glenohumeral_ligamentl",
+        "id": 984239897,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_l",
+        "maximumDisplacementMm": 11.347931439454214,
+        "meanDisplacementMm": 10.81714546139154
+      }
+    },
+    {
+      "id": "ZA_J_982736080",
+      "name": "右盂肱中韧带",
+      "conceptId": "ZA_J_982736080",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 340916,
+      "normals": 342620,
+      "indices": 343472,
+      "vertexCount": 142,
+      "indexCount": 840,
+      "bounds": [
+        [
+          -0.1592424511909485,
+          1.39152193069458,
+          -0.02479579858481884
+        ],
+        [
+          -0.13265113532543182,
+          1.4055794477462769,
+          -0.0035219802521169186
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Middle_glenohumeral_ligamentr",
+        "id": 982736080,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_r",
+        "maximumDisplacementMm": 11.326677006422793,
+        "meanDisplacementMm": 10.693423031932996
+      }
+    },
+    {
+      "id": "ZA_J_963848373",
+      "name": "左盂肱下韧带",
+      "conceptId": "ZA_J_963848373",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 346832,
+      "normals": 348776,
+      "indices": 349748,
+      "vertexCount": 162,
+      "indexCount": 960,
+      "bounds": [
+        [
+          0.13347934186458588,
+          1.3763431310653687,
+          -0.02333882823586464
+        ],
+        [
+          0.15785616636276245,
+          1.3941960334777832,
+          -0.008366510272026062
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Inferior_glenohumeral_ligamentl",
+        "id": 963848373,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_l",
+        "maximumDisplacementMm": 11.53037646263077,
+        "meanDisplacementMm": 10.674968859110063
+      }
+    },
+    {
+      "id": "ZA_J_303605000",
+      "name": "右盂肱下韧带",
+      "conceptId": "ZA_J_303605000",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 353588,
+      "normals": 355532,
+      "indices": 356504,
+      "vertexCount": 162,
+      "indexCount": 960,
+      "bounds": [
+        [
+          -0.15805502235889435,
+          1.376549243927002,
+          -0.023465298116207123
+        ],
+        [
+          -0.1339021772146225,
+          1.394331693649292,
+          -0.008476306684315205
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Inferior_glenohumeral_ligamentr",
+        "id": 303605000,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_r",
+        "maximumDisplacementMm": 11.632009068336268,
+        "meanDisplacementMm": 10.670224746250693
+      }
+    },
+    {
+      "id": "ZA_J_48977721",
+      "name": "左肩关节盂唇",
+      "conceptId": "ZA_J_48977721",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 360344,
+      "normals": 365432,
+      "indices": 367976,
+      "vertexCount": 424,
+      "indexCount": 2544,
+      "bounds": [
+        [
+          0.13445788621902466,
+          1.370347261428833,
+          -0.04440009221434593
+        ],
+        [
+          0.15366540849208832,
+          1.4048171043395996,
+          -0.02083071880042553
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Glenoid_labruml",
+        "id": 48977721,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_l",
+        "maximumDisplacementMm": 12.744870890120827,
+        "meanDisplacementMm": 11.569430164635923
+      }
+    },
+    {
+      "id": "ZA_J_679717148",
+      "name": "右肩关节盂唇",
+      "conceptId": "ZA_J_679717148",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 378152,
+      "normals": 383240,
+      "indices": 385784,
+      "vertexCount": 424,
+      "indexCount": 2544,
+      "bounds": [
+        [
+          -0.15376900136470795,
+          1.3705321550369263,
+          -0.04462166130542755
+        ],
+        [
+          -0.13489274680614471,
+          1.4049254655838013,
+          -0.020948121324181557
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Glenoid_labrumr",
+        "id": 679717148,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "shoulder_r",
+        "maximumDisplacementMm": 12.746277233465262,
+        "meanDisplacementMm": 11.517343513057716
+      }
+    },
+    {
+      "id": "ZA_J_237453416",
+      "name": "左桡骨环状韧带",
+      "conceptId": "ZA_J_237453416",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 395960,
+      "normals": 398240,
+      "indices": 399380,
+      "vertexCount": 190,
+      "indexCount": 1128,
+      "bounds": [
+        [
+          0.21820148825645447,
+          1.0929772853851318,
+          -0.03806273639202118
+        ],
+        [
+          0.2421620637178421,
+          1.1095736026763916,
+          -0.017175115644931793
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Annular_ligament_of_radiusl",
+        "id": 237453416,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "elbow_l",
+        "maximumDisplacementMm": 22.320575154701636,
+        "meanDisplacementMm": 21.905101306241484
+      }
+    },
+    {
+      "id": "ZA_J_878872661",
+      "name": "右桡骨环状韧带",
+      "conceptId": "ZA_J_878872661",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 403892,
+      "normals": 406172,
+      "indices": 407312,
+      "vertexCount": 190,
+      "indexCount": 1128,
+      "bounds": [
+        [
+          -0.24234408140182495,
+          1.0929793119430542,
+          -0.03833019733428955
+        ],
+        [
+          -0.21802394092082977,
+          1.109230637550354,
+          -0.017348647117614746
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Annular_ligament_of_radiusr",
+        "id": 878872661,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "elbow_r",
+        "maximumDisplacementMm": 22.206483986242542,
+        "meanDisplacementMm": 21.687045047407363
+      }
+    },
+    {
+      "id": "ZA_J_911773834",
+      "name": "左肘尺侧副韧带",
+      "conceptId": "ZA_J_911773834",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 411824,
+      "normals": 412760,
+      "indices": 413228,
+      "vertexCount": 78,
+      "indexCount": 456,
+      "bounds": [
+        [
+          0.1830580085515976,
+          1.0998523235321045,
+          -0.028819642961025238
+        ],
+        [
+          0.22793208062648773,
+          1.1225751638412476,
+          -0.012541190721094608
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ulnar_collateral_ligamentl",
+        "id": 911773834,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "elbow_l",
+        "maximumDisplacementMm": 21.902442157667856,
+        "meanDisplacementMm": 21.428324021095143
+      }
+    },
+    {
+      "id": "ZA_J_590000818",
+      "name": "右肘尺侧副韧带",
+      "conceptId": "ZA_J_590000818",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 415052,
+      "normals": 415988,
+      "indices": 416456,
+      "vertexCount": 78,
+      "indexCount": 456,
+      "bounds": [
+        [
+          -0.22801868617534637,
+          1.0996558666229248,
+          -0.028448699042201042
+        ],
+        [
+          -0.18288418650627136,
+          1.1224253177642822,
+          -0.012409191578626633
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ulnar_collateral_ligamentr",
+        "id": 590000818,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "elbow_r",
+        "maximumDisplacementMm": 21.748349103453233,
+        "meanDisplacementMm": 21.207082023835866
+      }
+    },
+    {
+      "id": "ZA_J_398195796",
+      "name": "左肘桡侧副韧带",
+      "conceptId": "ZA_J_398195796",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 418280,
+      "normals": 418880,
+      "indices": 419180,
+      "vertexCount": 50,
+      "indexCount": 288,
+      "bounds": [
+        [
+          0.23805424571037292,
+          1.1066092252731323,
+          -0.03856465592980385
+        ],
+        [
+          0.242418110370636,
+          1.1337777376174927,
+          -0.020899157971143723
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Radial_collateral_ligamentl",
+        "id": 398195796,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "elbow_l",
+        "maximumDisplacementMm": 21.865401443431683,
+        "meanDisplacementMm": 21.416271549851423
+      }
+    },
+    {
+      "id": "ZA_J_657138113",
+      "name": "右肘桡侧副韧带",
+      "conceptId": "ZA_J_657138113",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 420332,
+      "normals": 420932,
+      "indices": 421232,
+      "vertexCount": 50,
+      "indexCount": 288,
+      "bounds": [
+        [
+          -0.24247552454471588,
+          1.1065198183059692,
+          -0.03872312232851982
+        ],
+        [
+          -0.23806530237197876,
+          1.1338013410568237,
+          -0.021193774417042732
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Radial_collateral_ligamentr",
+        "id": 657138113,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "elbow_r",
+        "maximumDisplacementMm": 21.7170185143087,
+        "meanDisplacementMm": 21.320320128598645
+      }
+    },
+    {
+      "id": "ZA_J_435759169",
+      "name": "左髂股韧带横部",
+      "conceptId": "ZA_J_435759169",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 422384,
+      "normals": 425192,
+      "indices": 426596,
+      "vertexCount": 234,
+      "indexCount": 1392,
+      "bounds": [
+        [
+          0.09888949245214462,
+          0.8646605014801025,
+          -0.012934288941323757
+        ],
+        [
+          0.12467974424362183,
+          0.9158861637115479,
+          0.0007297334377653897
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Transverse_part_of_iliofemoral_ligamentl",
+        "id": 435759169,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_l",
+        "maximumDisplacementMm": 33.817975465467605,
+        "meanDisplacementMm": 33.60776032893811
+      }
+    },
+    {
+      "id": "ZA_J_318012956",
+      "name": "右髂股韧带横部",
+      "conceptId": "ZA_J_318012956",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 432164,
+      "normals": 434972,
+      "indices": 436376,
+      "vertexCount": 234,
+      "indexCount": 1392,
+      "bounds": [
+        [
+          -0.12318779528141022,
+          0.8654122948646545,
+          -0.010628938674926758
+        ],
+        [
+          -0.09803120791912079,
+          0.9162836074829102,
+          0.0018037306144833565
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Transverse_part_of_iliofemoral_ligamentr",
+        "id": 318012956,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_r",
+        "maximumDisplacementMm": 33.21222669854747,
+        "meanDisplacementMm": 33.08975317071644
+      }
+    },
+    {
+      "id": "ZA_J_802258361",
+      "name": "左髂股韧带降部",
+      "conceptId": "ZA_J_802258361",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 441944,
+      "normals": 445616,
+      "indices": 447452,
+      "vertexCount": 306,
+      "indexCount": 1824,
+      "bounds": [
+        [
+          0.09712259471416473,
+          0.8396238684654236,
+          -0.023089883849024773
+        ],
+        [
+          0.10604962706565857,
+          0.9143794178962708,
+          0.001618972048163414
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Descending_part_of_iliofemoral_ligamentl",
+        "id": 802258361,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_l",
+        "maximumDisplacementMm": 33.789108382466324,
+        "meanDisplacementMm": 33.6656660690763
+      }
+    },
+    {
+      "id": "ZA_J_347770529",
+      "name": "右髂股韧带降部",
+      "conceptId": "ZA_J_347770529",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 454748,
+      "normals": 458420,
+      "indices": 460256,
+      "vertexCount": 306,
+      "indexCount": 1824,
+      "bounds": [
+        [
+          -0.10488229990005493,
+          0.840366780757904,
+          -0.020702285692095757
+        ],
+        [
+          -0.09621051698923111,
+          0.9147260189056396,
+          0.0027789068408310413
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Descending_part_of_iliofemoral_ligamentr",
+        "id": 347770529,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_r",
+        "maximumDisplacementMm": 33.29901725625917,
+        "meanDisplacementMm": 33.16713452189818
+      }
+    },
+    {
+      "id": "ZA_J_78988440",
+      "name": "左耻股韧带",
+      "conceptId": "ZA_J_78988440",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 467552,
+      "normals": 469928,
+      "indices": 471116,
+      "vertexCount": 198,
+      "indexCount": 1176,
+      "bounds": [
+        [
+          0.06306722015142441,
+          0.8353955149650574,
+          -0.03427628427743912
+        ],
+        [
+          0.09802059829235077,
+          0.8805452585220337,
+          -0.00022334499226417392
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Pubofemoral_ligamentl",
+        "id": 78988440,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_l",
+        "maximumDisplacementMm": 33.660298295598366,
+        "meanDisplacementMm": 33.50972404051934
+      }
+    },
+    {
+      "id": "ZA_J_142701643",
+      "name": "右耻股韧带",
+      "conceptId": "ZA_J_142701643",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 475820,
+      "normals": 478196,
+      "indices": 479384,
+      "vertexCount": 198,
+      "indexCount": 1176,
+      "bounds": [
+        [
+          -0.09669721126556396,
+          0.8361985087394714,
+          -0.031705617904663086
+        ],
+        [
+          -0.06254782527685165,
+          0.8806507587432861,
+          0.0006110836984589696
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Pubofemoral_ligamentr",
+        "id": 142701643,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_r",
+        "maximumDisplacementMm": 33.19411722203026,
+        "meanDisplacementMm": 33.028473969638846
+      }
+    },
+    {
+      "id": "ZA_J_586831962",
+      "name": "左坐股韧带",
+      "conceptId": "ZA_J_586831962",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 484088,
+      "normals": 488144,
+      "indices": 490172,
+      "vertexCount": 338,
+      "indexCount": 2016,
+      "bounds": [
+        [
+          0.07904373854398727,
+          0.8738517165184021,
+          -0.05082259699702263
+        ],
+        [
+          0.1261003315448761,
+          0.8901739716529846,
+          -0.02126673050224781
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ischiofemoral_ligamentl",
+        "id": 586831962,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_l",
+        "maximumDisplacementMm": 33.47693653319537,
+        "meanDisplacementMm": 32.868984433731946
+      }
+    },
+    {
+      "id": "ZA_J_731742504",
+      "name": "右坐股韧带",
+      "conceptId": "ZA_J_731742504",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 498236,
+      "normals": 502292,
+      "indices": 504320,
+      "vertexCount": 338,
+      "indexCount": 2016,
+      "bounds": [
+        [
+          -0.12462940812110901,
+          0.8745050430297852,
+          -0.04878673329949379
+        ],
+        [
+          -0.07820427417755127,
+          0.8909553289413452,
+          -0.01887536235153675
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ischiofemoral_ligamentr",
+        "id": 731742504,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_r",
+        "maximumDisplacementMm": 32.86448990599446,
+        "meanDisplacementMm": 32.38880122505479
+      }
+    },
+    {
+      "id": "ZA_J_994182022",
+      "name": "左股骨头韧带",
+      "conceptId": "ZA_J_994182022",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 512384,
+      "normals": 517532,
+      "indices": 520108,
+      "vertexCount": 429,
+      "indexCount": 2340,
+      "bounds": [
+        [
+          0.058216266334056854,
+          0.8717793822288513,
+          -0.03219899535179138
+        ],
+        [
+          0.07284243404865265,
+          0.896010160446167,
+          0.00003170556738041341
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ligament_of_head_of_femurl",
+        "id": 994182022,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_l",
+        "maximumDisplacementMm": 33.540414243595386,
+        "meanDisplacementMm": 32.99357737586716
+      }
+    },
+    {
+      "id": "ZA_J_355794469",
+      "name": "右股骨头韧带",
+      "conceptId": "ZA_J_355794469",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 529468,
+      "normals": 534616,
+      "indices": 537192,
+      "vertexCount": 429,
+      "indexCount": 2340,
+      "bounds": [
+        [
+          -0.07221326977014542,
+          0.8721445202827454,
+          -0.030692487955093384
+        ],
+        [
+          -0.05781490355730057,
+          0.896278977394104,
+          0.0009070282685570419
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ligament_of_head_of_femurr",
+        "id": 355794469,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_r",
+        "maximumDisplacementMm": 33.17905955080198,
+        "meanDisplacementMm": 32.6732426358159
+      }
+    },
+    {
+      "id": "ZA_J_81695462",
+      "name": "左髋臼唇",
+      "conceptId": "ZA_J_81695462",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 546552,
+      "normals": 555000,
+      "indices": 559224,
+      "vertexCount": 704,
+      "indexCount": 4224,
+      "bounds": [
+        [
+          0.07016710937023163,
+          0.8701236844062805,
+          -0.0501554012298584
+        ],
+        [
+          0.10661129653453827,
+          0.9172155857086182,
+          0.0068746935576200485
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Acetabular_labruml",
+        "id": 81695462,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_l",
+        "maximumDisplacementMm": 33.668658322793696,
+        "meanDisplacementMm": 33.028176174911714
+      }
+    },
+    {
+      "id": "ZA_J_548917746",
+      "name": "右髋臼唇",
+      "conceptId": "ZA_J_548917746",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 576120,
+      "normals": 584568,
+      "indices": 588792,
+      "vertexCount": 704,
+      "indexCount": 4224,
+      "bounds": [
+        [
+          -0.10563715547323227,
+          0.8704855442047119,
+          -0.04812413826584816
+        ],
+        [
+          -0.06947451829910278,
+          0.9176904559135437,
+          0.0076449220068752766
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Acetabular_labrumr",
+        "id": 548917746,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "hip_r",
+        "maximumDisplacementMm": 33.30980713967102,
+        "meanDisplacementMm": 32.64763964748025
+      }
+    },
+    {
+      "id": "ZA_J_426512078",
+      "name": "左距腓前韧带",
+      "conceptId": "ZA_J_426512078",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 605688,
+      "normals": 605904,
+      "indices": 606012,
+      "vertexCount": 18,
+      "indexCount": 96,
+      "bounds": [
+        [
+          0.08791542798280716,
+          0.05772394686937332,
+          -0.03320566192269325
+        ],
+        [
+          0.09830813109874725,
+          0.0692288875579834,
+          -0.023302102461457253
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Anterior_talofibular_ligamentl",
+        "id": 426512078,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_l",
+        "maximumDisplacementMm": 10.609371735257545,
+        "meanDisplacementMm": 9.35208927652451
+      }
+    },
+    {
+      "id": "ZA_J_413029801",
+      "name": "右距腓前韧带",
+      "conceptId": "ZA_J_413029801",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 606396,
+      "normals": 606612,
+      "indices": 606720,
+      "vertexCount": 18,
+      "indexCount": 96,
+      "bounds": [
+        [
+          -0.097786083817482,
+          0.057441454380750656,
+          -0.0329584926366806
+        ],
+        [
+          -0.0875723585486412,
+          0.068747878074646,
+          -0.023192858323454857
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Anterior_talofibular_ligamentr",
+        "id": 413029801,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_r",
+        "maximumDisplacementMm": 10.882797272590881,
+        "meanDisplacementMm": 9.757153262932174
+      }
+    },
+    {
+      "id": "ZA_J_303453332",
+      "name": "左距腓后韧带",
+      "conceptId": "ZA_J_303453332",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 607104,
+      "normals": 607320,
+      "indices": 607428,
+      "vertexCount": 18,
+      "indexCount": 96,
+      "bounds": [
+        [
+          0.07956487685441971,
+          0.058217551559209824,
+          -0.051826734095811844
+        ],
+        [
+          0.09648614376783371,
+          0.06737184524536133,
+          -0.041951145976781845
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Posterior_talofibular_ligamentl",
+        "id": 303453332,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_l",
+        "maximumDisplacementMm": 13.351808322353254,
+        "meanDisplacementMm": 11.877536507977865
+      }
+    },
+    {
+      "id": "ZA_J_947478872",
+      "name": "右距腓后韧带",
+      "conceptId": "ZA_J_947478872",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 607812,
+      "normals": 608028,
+      "indices": 608136,
+      "vertexCount": 18,
+      "indexCount": 96,
+      "bounds": [
+        [
+          -0.09540402889251709,
+          0.057618774473667145,
+          -0.05124003067612648
+        ],
+        [
+          -0.07885301858186722,
+          0.0667567253112793,
+          -0.04159906506538391
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Posterior_talofibular_ligamentr",
+        "id": 947478872,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_r",
+        "maximumDisplacementMm": 14.10959472964517,
+        "meanDisplacementMm": 12.864260875806231
+      }
+    },
+    {
+      "id": "ZA_J_799722469",
+      "name": "左跟腓韧带",
+      "conceptId": "ZA_J_799722469",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 608520,
+      "normals": 608736,
+      "indices": 608844,
+      "vertexCount": 18,
+      "indexCount": 96,
+      "bounds": [
+        [
+          0.07917698472738266,
+          0.0504390113055706,
+          -0.05154920741915703
+        ],
+        [
+          0.0981559082865715,
+          0.06376035511493683,
+          -0.04817579314112663
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Calcaneofibular_ligamentl",
+        "id": 799722469,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_l",
+        "maximumDisplacementMm": 14.07509033205742,
+        "meanDisplacementMm": 12.049658730570952
+      }
+    },
+    {
+      "id": "ZA_J_285034228",
+      "name": "右跟腓韧带",
+      "conceptId": "ZA_J_285034228",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 609228,
+      "normals": 609444,
+      "indices": 609552,
+      "vertexCount": 18,
+      "indexCount": 96,
+      "bounds": [
+        [
+          -0.09709805995225906,
+          0.050128187984228134,
+          -0.050995174795389175
+        ],
+        [
+          -0.07832066714763641,
+          0.06314302235841751,
+          -0.047737590968608856
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Calcaneofibular_ligamentr",
+        "id": 285034228,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_r",
+        "maximumDisplacementMm": 14.928592523916443,
+        "meanDisplacementMm": 13.078374376582047
+      }
+    },
+    {
+      "id": "ZA_J_398901750",
+      "name": "左胫跟韧带",
+      "conceptId": "ZA_J_398901750",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 609936,
+      "normals": 610296,
+      "indices": 610476,
+      "vertexCount": 30,
+      "indexCount": 168,
+      "bounds": [
+        [
+          0.04864789918065071,
+          0.04989110678434372,
+          -0.0234029833227396
+        ],
+        [
+          0.05806710198521614,
+          0.07730910927057266,
+          -0.008914978243410587
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Tibiocalcaneal_ligamentl",
+        "id": 398901750,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_l",
+        "maximumDisplacementMm": 19.43243410081356,
+        "meanDisplacementMm": 18.343501855040206
+      }
+    },
+    {
+      "id": "ZA_J_268562447",
+      "name": "右胫跟韧带",
+      "conceptId": "ZA_J_268562447",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 611148,
+      "normals": 611508,
+      "indices": 611688,
+      "vertexCount": 30,
+      "indexCount": 168,
+      "bounds": [
+        [
+          -0.05848829820752144,
+          0.05026942491531372,
+          -0.02351342886686325
+        ],
+        [
+          -0.048999279737472534,
+          0.07776030898094177,
+          -0.00903853215277195
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Tibiocalcaneal_ligamentr",
+        "id": 268562447,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_r",
+        "maximumDisplacementMm": 19.258357739425477,
+        "meanDisplacementMm": 18.09793762121233
+      }
+    },
+    {
+      "id": "ZA_J_703349257",
+      "name": "左胫舟韧带",
+      "conceptId": "ZA_J_703349257",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 612360,
+      "normals": 613800,
+      "indices": 614520,
+      "vertexCount": 120,
+      "indexCount": 696,
+      "bounds": [
+        [
+          0.05412513390183449,
+          0.05269905924797058,
+          -0.014435706660151482
+        ],
+        [
+          0.06086987629532814,
+          0.0822085589170456,
+          -0.0005964268930256367
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Tibionavicular_ligamentl",
+        "id": 703349257,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_l",
+        "maximumDisplacementMm": 18.2029252938847,
+        "meanDisplacementMm": 17.661439661049055
+      }
+    },
+    {
+      "id": "ZA_J_744517071",
+      "name": "右胫舟韧带",
+      "conceptId": "ZA_J_744517071",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 617304,
+      "normals": 618744,
+      "indices": 619464,
+      "vertexCount": 120,
+      "indexCount": 696,
+      "bounds": [
+        [
+          -0.06141276657581329,
+          0.053097594529390335,
+          -0.01451900415122509
+        ],
+        [
+          -0.05460220202803612,
+          0.08262328058481216,
+          -0.0009577253949828446
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Tibionavicular_ligamentr",
+        "id": 744517071,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_r",
+        "maximumDisplacementMm": 18.01401054968942,
+        "meanDisplacementMm": 17.367990969771864
+      }
+    },
+    {
+      "id": "ZA_J_92401131",
+      "name": "左胫距后韧带",
+      "conceptId": "ZA_J_92401131",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 622248,
+      "normals": 622608,
+      "indices": 622788,
+      "vertexCount": 30,
+      "indexCount": 168,
+      "bounds": [
+        [
+          0.04970187321305275,
+          0.06297618895769119,
+          -0.028164492920041084
+        ],
+        [
+          0.05450109392404556,
+          0.07677353918552399,
+          -0.015339321456849575
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Posterior_tibiotalar_ligamentl",
+        "id": 92401131,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_l",
+        "maximumDisplacementMm": 19.42811332497646,
+        "meanDisplacementMm": 18.78414260385628
+      }
+    },
+    {
+      "id": "ZA_J_62709733",
+      "name": "右胫距后韧带",
+      "conceptId": "ZA_J_62709733",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 623460,
+      "normals": 623820,
+      "indices": 624000,
+      "vertexCount": 30,
+      "indexCount": 168,
+      "bounds": [
+        [
+          -0.05481327697634697,
+          0.06338556855916977,
+          -0.028113076463341713
+        ],
+        [
+          -0.04978660121560097,
+          0.07721848040819168,
+          -0.015413578599691391
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Posterior_tibiotalar_ligamentr",
+        "id": 62709733,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_r",
+        "maximumDisplacementMm": 19.383645654628335,
+        "meanDisplacementMm": 18.65609770312539
+      }
+    },
+    {
+      "id": "ZA_J_774696201",
+      "name": "左胫腓前韧带",
+      "conceptId": "ZA_J_774696201",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 624672,
+      "normals": 626184,
+      "indices": 626940,
+      "vertexCount": 126,
+      "indexCount": 744,
+      "bounds": [
+        [
+          0.09635201096534729,
+          0.0716501846909523,
+          -0.03504711762070656
+        ],
+        [
+          0.10426878929138184,
+          0.09809264540672302,
+          -0.01753302849829197
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Anterior_tibiofibular_ligamentl",
+        "id": 774696201,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_l",
+        "maximumDisplacementMm": 8.357402266829222,
+        "meanDisplacementMm": 7.3293607844146145
+      }
+    },
+    {
+      "id": "ZA_J_995232359",
+      "name": "右胫腓前韧带",
+      "conceptId": "ZA_J_995232359",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 629916,
+      "normals": 631428,
+      "indices": 632184,
+      "vertexCount": 126,
+      "indexCount": 744,
+      "bounds": [
+        [
+          -0.10347302258014679,
+          0.0710771381855011,
+          -0.03443207964301109
+        ],
+        [
+          -0.0959993302822113,
+          0.09762663394212723,
+          -0.017312824726104736
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Anterior_tibiofibular_ligamentr",
+        "id": 995232359,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_r",
+        "maximumDisplacementMm": 8.731267957218774,
+        "meanDisplacementMm": 8.017465503471687
+      }
+    },
+    {
+      "id": "ZA_J_184571685",
+      "name": "左胫腓后韧带",
+      "conceptId": "ZA_J_184571685",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 635160,
+      "normals": 636672,
+      "indices": 637428,
+      "vertexCount": 126,
+      "indexCount": 744,
+      "bounds": [
+        [
+          0.07444048672914505,
+          0.08142011612653732,
+          -0.05065437778830528
+        ],
+        [
+          0.09051336348056793,
+          0.101626455783844,
+          -0.043760064989328384
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Posterior_tibiofibular_ligamentl",
+        "id": 184571685,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_l",
+        "maximumDisplacementMm": 14.44688846741056,
+        "meanDisplacementMm": 12.420566279700346
+      }
+    },
+    {
+      "id": "ZA_J_614802793",
+      "name": "右胫腓后韧带",
+      "conceptId": "ZA_J_614802793",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 640404,
+      "normals": 641916,
+      "indices": 642672,
+      "vertexCount": 126,
+      "indexCount": 744,
+      "bounds": [
+        [
+          -0.08933273702859879,
+          0.08090327680110931,
+          -0.04993468523025513
+        ],
+        [
+          -0.07358922809362411,
+          0.10124681890010834,
+          -0.04304372891783714
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Posterior_tibiofibular_ligamentr",
+        "id": 614802793,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "ankle_r",
+        "maximumDisplacementMm": 15.33589429498763,
+        "meanDisplacementMm": 13.700247017975046
+      }
+    },
+    {
+      "id": "ZA_J_688915021",
+      "name": "前纵韧带",
+      "conceptId": "ZA_J_688915021",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 645648,
+      "normals": 675240,
+      "indices": 690036,
+      "vertexCount": 2466,
+      "indexCount": 14784,
+      "bounds": [
+        [
+          -0.019628796726465225,
+          0.9541428685188293,
+          -0.04892653971910477
+        ],
+        [
+          0.018380871042609215,
+          1.5435277223587036,
+          0.01123396772891283
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Anterior_longitudinal_ligament",
+        "id": 688915021,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "spine",
+        "maximumDisplacementMm": 28.214751511071068,
+        "meanDisplacementMm": 15.065435220566869
+      }
+    },
+    {
+      "id": "ZA_J_337173200",
+      "name": "后纵韧带",
+      "conceptId": "ZA_J_337173200",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 749172,
+      "normals": 794412,
+      "indices": 817032,
+      "vertexCount": 3770,
+      "indexCount": 22608,
+      "bounds": [
+        [
+          -0.01402995828539133,
+          0.9819083213806152,
+          -0.07070565223693848
+        ],
+        [
+          0.012816895730793476,
+          1.5300683975219727,
+          -0.020802197977900505
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Posterior_longitudinal_ligament",
+        "id": 337173200,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "spine",
+        "maximumDisplacementMm": 24.13187941100761,
+        "meanDisplacementMm": 11.449885424030528
+      }
+    },
+    {
+      "id": "ZA_J_699782944",
+      "name": "黄韧带",
+      "conceptId": "ZA_J_699782944",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 907464,
+      "normals": 935856,
+      "indices": 950052,
+      "vertexCount": 2366,
+      "indexCount": 14184,
+      "bounds": [
+        [
+          -0.013585404492914677,
+          1.0019322633743286,
+          -0.08303344994783401
+        ],
+        [
+          0.011840252205729485,
+          1.5378726720809937,
+          -0.02951565757393837
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Ligamenta_flava",
+        "id": 699782944,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "spine",
+        "maximumDisplacementMm": 22.74538906771741,
+        "meanDisplacementMm": 10.079855082316989
+      }
+    },
+    {
+      "id": "ZA_J_312229617",
+      "name": "棘上韧带",
+      "conceptId": "ZA_J_312229617",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 1006788,
+      "normals": 1012008,
+      "indices": 1014620,
+      "vertexCount": 435,
+      "indexCount": 2616,
+      "bounds": [
+        [
+          -0.0043520876206457615,
+          1.0243029594421387,
+          -0.10143838077783585
+        ],
+        [
+          0.003154187696054578,
+          1.4510306119918823,
+          -0.0676175132393837
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Supraspinous_ligament",
+        "id": 312229617,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "spine",
+        "maximumDisplacementMm": 19.53168701358859,
+        "meanDisplacementMm": 6.523529647178154
+      }
+    },
+    {
+      "id": "ZA_J_671920604",
+      "name": "棘间韧带",
+      "conceptId": "ZA_J_671920604",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 1025084,
+      "normals": 1028612,
+      "indices": 1030376,
+      "vertexCount": 294,
+      "indexCount": 1752,
+      "bounds": [
+        [
+          -0.000881398213095963,
+          0.9784984588623047,
+          -0.10045795887708664
+        ],
+        [
+          -0.0003527281223796308,
+          1.5385864973068237,
+          -0.03723495453596115
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Interspinous_ligaments",
+        "id": 671920604,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "spine",
+        "maximumDisplacementMm": 22.938662573240162,
+        "meanDisplacementMm": 8.971491739717107
+      }
+    },
+    {
+      "id": "ZA_J_480569025",
+      "name": "项韧带",
+      "conceptId": "ZA_J_480569025",
+      "system": "connective",
+      "chunk": 16,
+      "positions": 1037384,
+      "normals": 1041296,
+      "indices": 1043252,
+      "vertexCount": 326,
+      "indexCount": 1935,
+      "bounds": [
+        [
+          -0.0008772779838182032,
+          1.4491934776306152,
+          -0.09568225592374802
+        ],
+        [
+          -0.00037632096791639924,
+          1.5803402662277222,
+          -0.04880423843860626
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Nuchal_ligament",
+        "id": 480569025,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "phase": 2
+      },
+      "registration": {
+        "region": "spine",
+        "maximumDisplacementMm": 6.974729344588025,
+        "meanDisplacementMm": 3.4558210057709324
+      }
     }
   ],
   "chunks": [
@@ -53708,9 +58620,21 @@
       "bytes": 2300452,
       "gzip": "/models/body-14.bin.gz",
       "gzipBytes": 1344908
+    },
+    {
+      "url": "/models/supplement-0.bin",
+      "bytes": 5139056,
+      "gzip": "/models/supplement-0.bin.gz",
+      "gzipBytes": 3096943
+    },
+    {
+      "url": "/models/supplement-1.bin",
+      "bytes": 1050992,
+      "gzip": "/models/supplement-1.bin.gz",
+      "gzipBytes": 558251
     }
   ],
-  "triangles": 2288268,
+  "triangles": 2533809,
   "concepts": [
     {
       "id": "FMA3710",
@@ -58958,14 +63882,14 @@
     },
     {
       "id": "FMA13336",
-      "name": "右外斜",
+      "name": "右腹外斜肌",
       "elements": [
         "FJ1452"
       ]
     },
     {
       "id": "FMA13337",
-      "name": "左外斜",
+      "name": "左腹外斜肌",
       "elements": [
         "FJ1452M"
       ]
@@ -120537,6 +125461,1541 @@
         "FJ1831",
         "FJ3199"
       ]
+    },
+    {
+      "id": "ZA_M_162944253",
+      "name": "左颞肌",
+      "elements": [
+        "ZA_M_162944253"
+      ]
+    },
+    {
+      "id": "ZA_M_952924065",
+      "name": "右颞肌",
+      "elements": [
+        "ZA_M_952924065"
+      ]
+    },
+    {
+      "id": "ZA_M_268652398",
+      "name": "左咬肌浅部",
+      "elements": [
+        "ZA_M_268652398"
+      ]
+    },
+    {
+      "id": "ZA_M_695240571",
+      "name": "右咬肌浅部",
+      "elements": [
+        "ZA_M_695240571"
+      ]
+    },
+    {
+      "id": "ZA_M_533962729",
+      "name": "左咬肌深部",
+      "elements": [
+        "ZA_M_533962729"
+      ]
+    },
+    {
+      "id": "ZA_M_331223255",
+      "name": "右咬肌深部",
+      "elements": [
+        "ZA_M_331223255"
+      ]
+    },
+    {
+      "id": "ZA_M_826208578",
+      "name": "左翼内肌",
+      "elements": [
+        "ZA_M_826208578"
+      ]
+    },
+    {
+      "id": "ZA_M_871676841",
+      "name": "右翼内肌",
+      "elements": [
+        "ZA_M_871676841"
+      ]
+    },
+    {
+      "id": "ZA_M_825659527",
+      "name": "左翼外肌上头",
+      "elements": [
+        "ZA_M_825659527"
+      ]
+    },
+    {
+      "id": "ZA_M_336574972",
+      "name": "右翼外肌上头",
+      "elements": [
+        "ZA_M_336574972"
+      ]
+    },
+    {
+      "id": "ZA_M_907972935",
+      "name": "左翼外肌下头",
+      "elements": [
+        "ZA_M_907972935"
+      ]
+    },
+    {
+      "id": "ZA_M_312701766",
+      "name": "右翼外肌下头",
+      "elements": [
+        "ZA_M_312701766"
+      ]
+    },
+    {
+      "id": "ZA_M_796791312",
+      "name": "左口轮匝肌",
+      "elements": [
+        "ZA_M_796791312"
+      ]
+    },
+    {
+      "id": "ZA_M_434972166",
+      "name": "右口轮匝肌",
+      "elements": [
+        "ZA_M_434972166"
+      ]
+    },
+    {
+      "id": "ZA_M_957288105",
+      "name": "左颊肌",
+      "elements": [
+        "ZA_M_957288105"
+      ]
+    },
+    {
+      "id": "ZA_M_489981318",
+      "name": "右颊肌",
+      "elements": [
+        "ZA_M_489981318"
+      ]
+    },
+    {
+      "id": "ZA_M_131002877",
+      "name": "左枕额肌额腹",
+      "elements": [
+        "ZA_M_131002877"
+      ]
+    },
+    {
+      "id": "ZA_M_517073369",
+      "name": "右枕额肌额腹",
+      "elements": [
+        "ZA_M_517073369"
+      ]
+    },
+    {
+      "id": "ZA_M_181104823",
+      "name": "左枕额肌枕腹",
+      "elements": [
+        "ZA_M_181104823"
+      ]
+    },
+    {
+      "id": "ZA_M_509132682",
+      "name": "右枕额肌枕腹",
+      "elements": [
+        "ZA_M_509132682"
+      ]
+    },
+    {
+      "id": "ZA_M_667750948",
+      "name": "左眼轮匝肌眶部",
+      "elements": [
+        "ZA_M_667750948"
+      ]
+    },
+    {
+      "id": "ZA_M_46005575",
+      "name": "右眼轮匝肌眶部",
+      "elements": [
+        "ZA_M_46005575"
+      ]
+    },
+    {
+      "id": "ZA_M_200305276",
+      "name": "左眼轮匝肌睑部",
+      "elements": [
+        "ZA_M_200305276"
+      ]
+    },
+    {
+      "id": "ZA_M_114442261",
+      "name": "右眼轮匝肌睑部",
+      "elements": [
+        "ZA_M_114442261"
+      ]
+    },
+    {
+      "id": "ZA_M_290510213",
+      "name": "左颧大肌",
+      "elements": [
+        "ZA_M_290510213"
+      ]
+    },
+    {
+      "id": "ZA_M_121742891",
+      "name": "右颧大肌",
+      "elements": [
+        "ZA_M_121742891"
+      ]
+    },
+    {
+      "id": "ZA_M_510329294",
+      "name": "左颧小肌",
+      "elements": [
+        "ZA_M_510329294"
+      ]
+    },
+    {
+      "id": "ZA_M_381066825",
+      "name": "右颧小肌",
+      "elements": [
+        "ZA_M_381066825"
+      ]
+    },
+    {
+      "id": "ZA_M_826115562",
+      "name": "左颏肌",
+      "elements": [
+        "ZA_M_826115562"
+      ]
+    },
+    {
+      "id": "ZA_M_662526822",
+      "name": "右颏肌",
+      "elements": [
+        "ZA_M_662526822"
+      ]
+    },
+    {
+      "id": "ZA_M_642806399",
+      "name": "左腹内斜肌",
+      "elements": [
+        "ZA_M_642806399"
+      ]
+    },
+    {
+      "id": "ZA_M_272619451",
+      "name": "右腹内斜肌",
+      "elements": [
+        "ZA_M_272619451"
+      ]
+    },
+    {
+      "id": "ZA_M_881393607",
+      "name": "左腹横肌",
+      "elements": [
+        "ZA_M_881393607"
+      ]
+    },
+    {
+      "id": "ZA_M_795120383",
+      "name": "右腹横肌",
+      "elements": [
+        "ZA_M_795120383"
+      ]
+    },
+    {
+      "id": "ZA_M_752705330",
+      "name": "左腹股沟韧带",
+      "elements": [
+        "ZA_M_752705330"
+      ]
+    },
+    {
+      "id": "ZA_M_206659969",
+      "name": "右腹股沟韧带",
+      "elements": [
+        "ZA_M_206659969"
+      ]
+    },
+    {
+      "id": "ZA_M_707966283",
+      "name": "左尺侧腕伸肌腱鞘",
+      "elements": [
+        "ZA_M_707966283"
+      ]
+    },
+    {
+      "id": "ZA_M_721817264",
+      "name": "右尺侧腕伸肌腱鞘",
+      "elements": [
+        "ZA_M_721817264"
+      ]
+    },
+    {
+      "id": "ZA_M_971929399",
+      "name": "左腕伸肌支持带",
+      "elements": [
+        "ZA_M_971929399"
+      ]
+    },
+    {
+      "id": "ZA_M_330125342",
+      "name": "右腕伸肌支持带",
+      "elements": [
+        "ZA_M_330125342"
+      ]
+    },
+    {
+      "id": "ZA_M_925501647",
+      "name": "左髌内侧支持带",
+      "elements": [
+        "ZA_M_925501647"
+      ]
+    },
+    {
+      "id": "ZA_M_344109556",
+      "name": "右髌内侧支持带",
+      "elements": [
+        "ZA_M_344109556"
+      ]
+    },
+    {
+      "id": "ZA_M_391652619",
+      "name": "左髌外侧支持带",
+      "elements": [
+        "ZA_M_391652619"
+      ]
+    },
+    {
+      "id": "ZA_M_497593817",
+      "name": "右髌外侧支持带",
+      "elements": [
+        "ZA_M_497593817"
+      ]
+    },
+    {
+      "id": "ZA_M_943998138_patellar",
+      "name": "左髌韧带",
+      "elements": [
+        "ZA_M_943998138_patellar"
+      ]
+    },
+    {
+      "id": "ZA_M_771346357_patellar",
+      "name": "右髌韧带",
+      "elements": [
+        "ZA_M_771346357_patellar"
+      ]
+    },
+    {
+      "id": "ZA_J_828042845",
+      "name": "左内侧半月板",
+      "elements": [
+        "ZA_J_828042845"
+      ]
+    },
+    {
+      "id": "ZA_J_392921810",
+      "name": "右内侧半月板",
+      "elements": [
+        "ZA_J_392921810"
+      ]
+    },
+    {
+      "id": "ZA_J_205965981",
+      "name": "左外侧半月板",
+      "elements": [
+        "ZA_J_205965981"
+      ]
+    },
+    {
+      "id": "ZA_J_678781775",
+      "name": "右外侧半月板",
+      "elements": [
+        "ZA_J_678781775"
+      ]
+    },
+    {
+      "id": "ZA_J_389538142",
+      "name": "左前交叉韧带",
+      "elements": [
+        "ZA_J_389538142"
+      ]
+    },
+    {
+      "id": "ZA_J_279508809",
+      "name": "右前交叉韧带",
+      "elements": [
+        "ZA_J_279508809"
+      ]
+    },
+    {
+      "id": "ZA_J_737636048",
+      "name": "左后交叉韧带",
+      "elements": [
+        "ZA_J_737636048"
+      ]
+    },
+    {
+      "id": "ZA_J_675812189",
+      "name": "右后交叉韧带",
+      "elements": [
+        "ZA_J_675812189"
+      ]
+    },
+    {
+      "id": "ZA_J_12008623",
+      "name": "左膝内侧副韧带浅部",
+      "elements": [
+        "ZA_J_12008623"
+      ]
+    },
+    {
+      "id": "ZA_J_193731724",
+      "name": "右膝内侧副韧带浅部",
+      "elements": [
+        "ZA_J_193731724"
+      ]
+    },
+    {
+      "id": "ZA_J_320737222",
+      "name": "左膝内侧副韧带深部",
+      "elements": [
+        "ZA_J_320737222"
+      ]
+    },
+    {
+      "id": "ZA_J_137191166",
+      "name": "右膝内侧副韧带深部",
+      "elements": [
+        "ZA_J_137191166"
+      ]
+    },
+    {
+      "id": "ZA_J_446376984",
+      "name": "左膝外侧副韧带",
+      "elements": [
+        "ZA_J_446376984"
+      ]
+    },
+    {
+      "id": "ZA_J_353278166",
+      "name": "右膝外侧副韧带",
+      "elements": [
+        "ZA_J_353278166"
+      ]
+    },
+    {
+      "id": "ZA_J_833274808",
+      "name": "左三角纤维软骨盘",
+      "elements": [
+        "ZA_J_833274808"
+      ]
+    },
+    {
+      "id": "ZA_J_283420712",
+      "name": "右三角纤维软骨盘",
+      "elements": [
+        "ZA_J_283420712"
+      ]
+    },
+    {
+      "id": "ZA_J_512570977",
+      "name": "左掌侧桡尺韧带",
+      "elements": [
+        "ZA_J_512570977"
+      ]
+    },
+    {
+      "id": "ZA_J_340094425",
+      "name": "右掌侧桡尺韧带",
+      "elements": [
+        "ZA_J_340094425"
+      ]
+    },
+    {
+      "id": "ZA_J_437991591",
+      "name": "左背侧桡尺韧带",
+      "elements": [
+        "ZA_J_437991591"
+      ]
+    },
+    {
+      "id": "ZA_J_342768763",
+      "name": "右背侧桡尺韧带",
+      "elements": [
+        "ZA_J_342768763"
+      ]
+    },
+    {
+      "id": "ZA_J_873373310",
+      "name": "左尺月韧带",
+      "elements": [
+        "ZA_J_873373310"
+      ]
+    },
+    {
+      "id": "ZA_J_86665965",
+      "name": "右尺月韧带",
+      "elements": [
+        "ZA_J_86665965"
+      ]
+    },
+    {
+      "id": "ZA_J_851077264",
+      "name": "左尺三角韧带",
+      "elements": [
+        "ZA_J_851077264"
+      ]
+    },
+    {
+      "id": "ZA_J_38623813",
+      "name": "右尺三角韧带",
+      "elements": [
+        "ZA_J_38623813"
+      ]
+    },
+    {
+      "id": "ZA_J_914386139",
+      "name": "左舟月骨间韧带",
+      "elements": [
+        "ZA_J_914386139"
+      ]
+    },
+    {
+      "id": "ZA_J_619879102",
+      "name": "右舟月骨间韧带",
+      "elements": [
+        "ZA_J_619879102"
+      ]
+    },
+    {
+      "id": "ZA_J_186541027",
+      "name": "左月三角骨间韧带",
+      "elements": [
+        "ZA_J_186541027"
+      ]
+    },
+    {
+      "id": "ZA_J_958342336",
+      "name": "右月三角骨间韧带",
+      "elements": [
+        "ZA_J_958342336"
+      ]
+    },
+    {
+      "id": "ZA_J_629211521",
+      "name": "左喙肩韧带",
+      "elements": [
+        "ZA_J_629211521"
+      ]
+    },
+    {
+      "id": "ZA_J_758236691",
+      "name": "右喙肩韧带",
+      "elements": [
+        "ZA_J_758236691"
+      ]
+    },
+    {
+      "id": "ZA_J_140384984",
+      "name": "左喙肱韧带",
+      "elements": [
+        "ZA_J_140384984"
+      ]
+    },
+    {
+      "id": "ZA_J_348735722",
+      "name": "右喙肱韧带",
+      "elements": [
+        "ZA_J_348735722"
+      ]
+    },
+    {
+      "id": "ZA_J_43325654",
+      "name": "左盂肱上韧带",
+      "elements": [
+        "ZA_J_43325654"
+      ]
+    },
+    {
+      "id": "ZA_J_538546670",
+      "name": "右盂肱上韧带",
+      "elements": [
+        "ZA_J_538546670"
+      ]
+    },
+    {
+      "id": "ZA_J_984239897",
+      "name": "左盂肱中韧带",
+      "elements": [
+        "ZA_J_984239897"
+      ]
+    },
+    {
+      "id": "ZA_J_982736080",
+      "name": "右盂肱中韧带",
+      "elements": [
+        "ZA_J_982736080"
+      ]
+    },
+    {
+      "id": "ZA_J_963848373",
+      "name": "左盂肱下韧带",
+      "elements": [
+        "ZA_J_963848373"
+      ]
+    },
+    {
+      "id": "ZA_J_303605000",
+      "name": "右盂肱下韧带",
+      "elements": [
+        "ZA_J_303605000"
+      ]
+    },
+    {
+      "id": "ZA_J_48977721",
+      "name": "左肩关节盂唇",
+      "elements": [
+        "ZA_J_48977721"
+      ]
+    },
+    {
+      "id": "ZA_J_679717148",
+      "name": "右肩关节盂唇",
+      "elements": [
+        "ZA_J_679717148"
+      ]
+    },
+    {
+      "id": "ZA_J_237453416",
+      "name": "左桡骨环状韧带",
+      "elements": [
+        "ZA_J_237453416"
+      ]
+    },
+    {
+      "id": "ZA_J_878872661",
+      "name": "右桡骨环状韧带",
+      "elements": [
+        "ZA_J_878872661"
+      ]
+    },
+    {
+      "id": "ZA_J_911773834",
+      "name": "左肘尺侧副韧带",
+      "elements": [
+        "ZA_J_911773834"
+      ]
+    },
+    {
+      "id": "ZA_J_590000818",
+      "name": "右肘尺侧副韧带",
+      "elements": [
+        "ZA_J_590000818"
+      ]
+    },
+    {
+      "id": "ZA_J_398195796",
+      "name": "左肘桡侧副韧带",
+      "elements": [
+        "ZA_J_398195796"
+      ]
+    },
+    {
+      "id": "ZA_J_657138113",
+      "name": "右肘桡侧副韧带",
+      "elements": [
+        "ZA_J_657138113"
+      ]
+    },
+    {
+      "id": "ZA_J_435759169",
+      "name": "左髂股韧带横部",
+      "elements": [
+        "ZA_J_435759169"
+      ]
+    },
+    {
+      "id": "ZA_J_318012956",
+      "name": "右髂股韧带横部",
+      "elements": [
+        "ZA_J_318012956"
+      ]
+    },
+    {
+      "id": "ZA_J_802258361",
+      "name": "左髂股韧带降部",
+      "elements": [
+        "ZA_J_802258361"
+      ]
+    },
+    {
+      "id": "ZA_J_347770529",
+      "name": "右髂股韧带降部",
+      "elements": [
+        "ZA_J_347770529"
+      ]
+    },
+    {
+      "id": "ZA_J_78988440",
+      "name": "左耻股韧带",
+      "elements": [
+        "ZA_J_78988440"
+      ]
+    },
+    {
+      "id": "ZA_J_142701643",
+      "name": "右耻股韧带",
+      "elements": [
+        "ZA_J_142701643"
+      ]
+    },
+    {
+      "id": "ZA_J_586831962",
+      "name": "左坐股韧带",
+      "elements": [
+        "ZA_J_586831962"
+      ]
+    },
+    {
+      "id": "ZA_J_731742504",
+      "name": "右坐股韧带",
+      "elements": [
+        "ZA_J_731742504"
+      ]
+    },
+    {
+      "id": "ZA_J_994182022",
+      "name": "左股骨头韧带",
+      "elements": [
+        "ZA_J_994182022"
+      ]
+    },
+    {
+      "id": "ZA_J_355794469",
+      "name": "右股骨头韧带",
+      "elements": [
+        "ZA_J_355794469"
+      ]
+    },
+    {
+      "id": "ZA_J_81695462",
+      "name": "左髋臼唇",
+      "elements": [
+        "ZA_J_81695462"
+      ]
+    },
+    {
+      "id": "ZA_J_548917746",
+      "name": "右髋臼唇",
+      "elements": [
+        "ZA_J_548917746"
+      ]
+    },
+    {
+      "id": "ZA_J_426512078",
+      "name": "左距腓前韧带",
+      "elements": [
+        "ZA_J_426512078"
+      ]
+    },
+    {
+      "id": "ZA_J_413029801",
+      "name": "右距腓前韧带",
+      "elements": [
+        "ZA_J_413029801"
+      ]
+    },
+    {
+      "id": "ZA_J_303453332",
+      "name": "左距腓后韧带",
+      "elements": [
+        "ZA_J_303453332"
+      ]
+    },
+    {
+      "id": "ZA_J_947478872",
+      "name": "右距腓后韧带",
+      "elements": [
+        "ZA_J_947478872"
+      ]
+    },
+    {
+      "id": "ZA_J_799722469",
+      "name": "左跟腓韧带",
+      "elements": [
+        "ZA_J_799722469"
+      ]
+    },
+    {
+      "id": "ZA_J_285034228",
+      "name": "右跟腓韧带",
+      "elements": [
+        "ZA_J_285034228"
+      ]
+    },
+    {
+      "id": "ZA_J_398901750",
+      "name": "左胫跟韧带",
+      "elements": [
+        "ZA_J_398901750"
+      ]
+    },
+    {
+      "id": "ZA_J_268562447",
+      "name": "右胫跟韧带",
+      "elements": [
+        "ZA_J_268562447"
+      ]
+    },
+    {
+      "id": "ZA_J_703349257",
+      "name": "左胫舟韧带",
+      "elements": [
+        "ZA_J_703349257"
+      ]
+    },
+    {
+      "id": "ZA_J_744517071",
+      "name": "右胫舟韧带",
+      "elements": [
+        "ZA_J_744517071"
+      ]
+    },
+    {
+      "id": "ZA_J_92401131",
+      "name": "左胫距后韧带",
+      "elements": [
+        "ZA_J_92401131"
+      ]
+    },
+    {
+      "id": "ZA_J_62709733",
+      "name": "右胫距后韧带",
+      "elements": [
+        "ZA_J_62709733"
+      ]
+    },
+    {
+      "id": "ZA_J_774696201",
+      "name": "左胫腓前韧带",
+      "elements": [
+        "ZA_J_774696201"
+      ]
+    },
+    {
+      "id": "ZA_J_995232359",
+      "name": "右胫腓前韧带",
+      "elements": [
+        "ZA_J_995232359"
+      ]
+    },
+    {
+      "id": "ZA_J_184571685",
+      "name": "左胫腓后韧带",
+      "elements": [
+        "ZA_J_184571685"
+      ]
+    },
+    {
+      "id": "ZA_J_614802793",
+      "name": "右胫腓后韧带",
+      "elements": [
+        "ZA_J_614802793"
+      ]
+    },
+    {
+      "id": "ZA_J_688915021",
+      "name": "前纵韧带",
+      "elements": [
+        "ZA_J_688915021"
+      ]
+    },
+    {
+      "id": "ZA_J_337173200",
+      "name": "后纵韧带",
+      "elements": [
+        "ZA_J_337173200"
+      ]
+    },
+    {
+      "id": "ZA_J_699782944",
+      "name": "黄韧带",
+      "elements": [
+        "ZA_J_699782944"
+      ]
+    },
+    {
+      "id": "ZA_J_312229617",
+      "name": "棘上韧带",
+      "elements": [
+        "ZA_J_312229617"
+      ]
+    },
+    {
+      "id": "ZA_J_671920604",
+      "name": "棘间韧带",
+      "elements": [
+        "ZA_J_671920604"
+      ]
+    },
+    {
+      "id": "ZA_J_480569025",
+      "name": "项韧带",
+      "elements": [
+        "ZA_J_480569025"
+      ]
+    },
+    {
+      "id": "ZAC_M_Temporalis_muscle",
+      "name": "颞肌",
+      "elements": [
+        "ZA_M_162944253",
+        "ZA_M_952924065"
+      ]
+    },
+    {
+      "id": "ZAC_M_Superficial_part_of_masseter",
+      "name": "咬肌浅部",
+      "elements": [
+        "ZA_M_268652398",
+        "ZA_M_695240571"
+      ]
+    },
+    {
+      "id": "ZAC_M_Deep_part_of_masseter",
+      "name": "咬肌深部",
+      "elements": [
+        "ZA_M_533962729",
+        "ZA_M_331223255"
+      ]
+    },
+    {
+      "id": "ZAC_M_Medial_pterygoid_muscle",
+      "name": "翼内肌",
+      "elements": [
+        "ZA_M_826208578",
+        "ZA_M_871676841"
+      ]
+    },
+    {
+      "id": "ZAC_M_Superior_head_of_lateral_pterygoid_muscle",
+      "name": "翼外肌上头",
+      "elements": [
+        "ZA_M_825659527",
+        "ZA_M_336574972"
+      ]
+    },
+    {
+      "id": "ZAC_M_Inferior_head_of_lateral_pterygoid_muscle",
+      "name": "翼外肌下头",
+      "elements": [
+        "ZA_M_907972935",
+        "ZA_M_312701766"
+      ]
+    },
+    {
+      "id": "ZAC_M_Orbicularis_oris_muscle",
+      "name": "口轮匝肌",
+      "elements": [
+        "ZA_M_796791312",
+        "ZA_M_434972166"
+      ]
+    },
+    {
+      "id": "ZAC_M_Bucinator",
+      "name": "颊肌",
+      "elements": [
+        "ZA_M_957288105",
+        "ZA_M_489981318"
+      ]
+    },
+    {
+      "id": "ZAC_M_Frontalis_muscle",
+      "name": "枕额肌额腹",
+      "elements": [
+        "ZA_M_131002877",
+        "ZA_M_517073369"
+      ]
+    },
+    {
+      "id": "ZAC_M_Occipitalis_muscle",
+      "name": "枕额肌枕腹",
+      "elements": [
+        "ZA_M_181104823",
+        "ZA_M_509132682"
+      ]
+    },
+    {
+      "id": "ZAC_M_Orbital_part_of_orbicularis_oculi",
+      "name": "眼轮匝肌眶部",
+      "elements": [
+        "ZA_M_667750948",
+        "ZA_M_46005575"
+      ]
+    },
+    {
+      "id": "ZAC_M_Palpebral_part_of_orbicularis_oculi",
+      "name": "眼轮匝肌睑部",
+      "elements": [
+        "ZA_M_200305276",
+        "ZA_M_114442261"
+      ]
+    },
+    {
+      "id": "ZAC_M_Zygomaticus_major_muscle",
+      "name": "颧大肌",
+      "elements": [
+        "ZA_M_290510213",
+        "ZA_M_121742891"
+      ]
+    },
+    {
+      "id": "ZAC_M_Zygomaticus_minor_muscle",
+      "name": "颧小肌",
+      "elements": [
+        "ZA_M_510329294",
+        "ZA_M_381066825"
+      ]
+    },
+    {
+      "id": "ZAC_M_Mentalis_muscle",
+      "name": "颏肌",
+      "elements": [
+        "ZA_M_826115562",
+        "ZA_M_662526822"
+      ]
+    },
+    {
+      "id": "ZAC_M_External_abdominal_oblique_muscle",
+      "name": "腹外斜肌",
+      "elements": [
+        "FJ1452M",
+        "FJ1452"
+      ]
+    },
+    {
+      "id": "ZAC_M_Internal_abdominal_oblique_muscle",
+      "name": "腹内斜肌",
+      "elements": [
+        "ZA_M_642806399",
+        "ZA_M_272619451"
+      ]
+    },
+    {
+      "id": "ZAC_M_Transversus_abdominis_muscle",
+      "name": "腹横肌",
+      "elements": [
+        "ZA_M_881393607",
+        "ZA_M_795120383"
+      ]
+    },
+    {
+      "id": "ZAC_M_Inguinal_ligament",
+      "name": "腹股沟韧带",
+      "elements": [
+        "ZA_M_752705330",
+        "ZA_M_206659969"
+      ]
+    },
+    {
+      "id": "ZAC_M_Linea_alba",
+      "name": "腹白线",
+      "elements": [
+        "FJ1448"
+      ]
+    },
+    {
+      "id": "ZAC_M_Tendon_sheath_of_extensor_carpi_ulnaris",
+      "name": "尺侧腕伸肌腱鞘",
+      "elements": [
+        "ZA_M_707966283",
+        "ZA_M_721817264"
+      ]
+    },
+    {
+      "id": "ZAC_M_Extensor_retinaculum_of_wrist",
+      "name": "腕伸肌支持带",
+      "elements": [
+        "ZA_M_971929399",
+        "ZA_M_330125342"
+      ]
+    },
+    {
+      "id": "ZAC_M_Medial_patellar_retinaculum",
+      "name": "髌内侧支持带",
+      "elements": [
+        "ZA_M_925501647",
+        "ZA_M_344109556"
+      ]
+    },
+    {
+      "id": "ZAC_M_Lateral_patellar_retinaculum",
+      "name": "髌外侧支持带",
+      "elements": [
+        "ZA_M_391652619",
+        "ZA_M_497593817"
+      ]
+    },
+    {
+      "id": "ZAC_M_Patellar_ligament",
+      "name": "髌韧带",
+      "elements": [
+        "ZA_M_943998138_patellar",
+        "ZA_M_771346357_patellar"
+      ]
+    },
+    {
+      "id": "ZAC_J_Medial_meniscus",
+      "name": "内侧半月板",
+      "elements": [
+        "ZA_J_828042845",
+        "ZA_J_392921810"
+      ]
+    },
+    {
+      "id": "ZAC_J_Lateral_meniscus",
+      "name": "外侧半月板",
+      "elements": [
+        "ZA_J_205965981",
+        "ZA_J_678781775"
+      ]
+    },
+    {
+      "id": "ZAC_J_Anterior_cruciate_ligament",
+      "name": "前交叉韧带",
+      "elements": [
+        "ZA_J_389538142",
+        "ZA_J_279508809"
+      ]
+    },
+    {
+      "id": "ZAC_J_Posterior_cruciate_ligament",
+      "name": "后交叉韧带",
+      "elements": [
+        "ZA_J_737636048",
+        "ZA_J_675812189"
+      ]
+    },
+    {
+      "id": "ZAC_J_Superficial_part_of_tibial_collateral_ligament",
+      "name": "膝内侧副韧带浅部",
+      "elements": [
+        "ZA_J_12008623",
+        "ZA_J_193731724"
+      ]
+    },
+    {
+      "id": "ZAC_J_Deep_part_of_tibial_collateral_ligament",
+      "name": "膝内侧副韧带深部",
+      "elements": [
+        "ZA_J_320737222",
+        "ZA_J_137191166"
+      ]
+    },
+    {
+      "id": "ZAC_J_Fibular_collateral_ligament",
+      "name": "膝外侧副韧带",
+      "elements": [
+        "ZA_J_446376984",
+        "ZA_J_353278166"
+      ]
+    },
+    {
+      "id": "ZAC_J_Articular_disc_of_distal_radio-ulnar_joint",
+      "name": "三角纤维软骨盘",
+      "elements": [
+        "ZA_J_833274808",
+        "ZA_J_283420712"
+      ]
+    },
+    {
+      "id": "ZAC_J_Palmar_radio-ulnar_ligament",
+      "name": "掌侧桡尺韧带",
+      "elements": [
+        "ZA_J_512570977",
+        "ZA_J_340094425"
+      ]
+    },
+    {
+      "id": "ZAC_J_Dorsal_radio-ulnar_ligament",
+      "name": "背侧桡尺韧带",
+      "elements": [
+        "ZA_J_437991591",
+        "ZA_J_342768763"
+      ]
+    },
+    {
+      "id": "ZAC_J_Ulnolunate_ligament",
+      "name": "尺月韧带",
+      "elements": [
+        "ZA_J_873373310",
+        "ZA_J_86665965"
+      ]
+    },
+    {
+      "id": "ZAC_J_Ulnotriquetral_ligament",
+      "name": "尺三角韧带",
+      "elements": [
+        "ZA_J_851077264",
+        "ZA_J_38623813"
+      ]
+    },
+    {
+      "id": "ZAC_J_Scapholunate_interosseous_ligament",
+      "name": "舟月骨间韧带",
+      "elements": [
+        "ZA_J_914386139",
+        "ZA_J_619879102"
+      ]
+    },
+    {
+      "id": "ZAC_J_Lunotriquetral_interosseous_ligament",
+      "name": "月三角骨间韧带",
+      "elements": [
+        "ZA_J_186541027",
+        "ZA_J_958342336"
+      ]
+    },
+    {
+      "id": "ZAC_J_Coraco-acromial_ligament",
+      "name": "喙肩韧带",
+      "elements": [
+        "ZA_J_629211521",
+        "ZA_J_758236691"
+      ]
+    },
+    {
+      "id": "ZAC_J_Coracohumeral_ligament",
+      "name": "喙肱韧带",
+      "elements": [
+        "ZA_J_140384984",
+        "ZA_J_348735722"
+      ]
+    },
+    {
+      "id": "ZAC_J_Superior_glenohumeral_ligament",
+      "name": "盂肱上韧带",
+      "elements": [
+        "ZA_J_43325654",
+        "ZA_J_538546670"
+      ]
+    },
+    {
+      "id": "ZAC_J_Middle_glenohumeral_ligament",
+      "name": "盂肱中韧带",
+      "elements": [
+        "ZA_J_984239897",
+        "ZA_J_982736080"
+      ]
+    },
+    {
+      "id": "ZAC_J_Inferior_glenohumeral_ligament",
+      "name": "盂肱下韧带",
+      "elements": [
+        "ZA_J_963848373",
+        "ZA_J_303605000"
+      ]
+    },
+    {
+      "id": "ZAC_J_Glenoid_labrum",
+      "name": "肩关节盂唇",
+      "elements": [
+        "ZA_J_48977721",
+        "ZA_J_679717148"
+      ]
+    },
+    {
+      "id": "ZAC_J_Annular_ligament_of_radius",
+      "name": "桡骨环状韧带",
+      "elements": [
+        "ZA_J_237453416",
+        "ZA_J_878872661"
+      ]
+    },
+    {
+      "id": "ZAC_J_Ulnar_collateral_ligament",
+      "name": "肘尺侧副韧带",
+      "elements": [
+        "ZA_J_911773834",
+        "ZA_J_590000818"
+      ]
+    },
+    {
+      "id": "ZAC_J_Radial_collateral_ligament",
+      "name": "肘桡侧副韧带",
+      "elements": [
+        "ZA_J_398195796",
+        "ZA_J_657138113"
+      ]
+    },
+    {
+      "id": "ZAC_J_Transverse_part_of_iliofemoral_ligament",
+      "name": "髂股韧带横部",
+      "elements": [
+        "ZA_J_435759169",
+        "ZA_J_318012956"
+      ]
+    },
+    {
+      "id": "ZAC_J_Descending_part_of_iliofemoral_ligament",
+      "name": "髂股韧带降部",
+      "elements": [
+        "ZA_J_802258361",
+        "ZA_J_347770529"
+      ]
+    },
+    {
+      "id": "ZAC_J_Pubofemoral_ligament",
+      "name": "耻股韧带",
+      "elements": [
+        "ZA_J_78988440",
+        "ZA_J_142701643"
+      ]
+    },
+    {
+      "id": "ZAC_J_Ischiofemoral_ligament",
+      "name": "坐股韧带",
+      "elements": [
+        "ZA_J_586831962",
+        "ZA_J_731742504"
+      ]
+    },
+    {
+      "id": "ZAC_J_Ligament_of_head_of_femur",
+      "name": "股骨头韧带",
+      "elements": [
+        "ZA_J_994182022",
+        "ZA_J_355794469"
+      ]
+    },
+    {
+      "id": "ZAC_J_Acetabular_labrum",
+      "name": "髋臼唇",
+      "elements": [
+        "ZA_J_81695462",
+        "ZA_J_548917746"
+      ]
+    },
+    {
+      "id": "ZAC_J_Anterior_talofibular_ligament",
+      "name": "距腓前韧带",
+      "elements": [
+        "ZA_J_426512078",
+        "ZA_J_413029801"
+      ]
+    },
+    {
+      "id": "ZAC_J_Posterior_talofibular_ligament",
+      "name": "距腓后韧带",
+      "elements": [
+        "ZA_J_303453332",
+        "ZA_J_947478872"
+      ]
+    },
+    {
+      "id": "ZAC_J_Calcaneofibular_ligament",
+      "name": "跟腓韧带",
+      "elements": [
+        "ZA_J_799722469",
+        "ZA_J_285034228"
+      ]
+    },
+    {
+      "id": "ZAC_J_Tibiocalcaneal_ligament",
+      "name": "胫跟韧带",
+      "elements": [
+        "ZA_J_398901750",
+        "ZA_J_268562447"
+      ]
+    },
+    {
+      "id": "ZAC_J_Tibionavicular_ligament",
+      "name": "胫舟韧带",
+      "elements": [
+        "ZA_J_703349257",
+        "ZA_J_744517071"
+      ]
+    },
+    {
+      "id": "ZAC_J_Posterior_tibiotalar_ligament",
+      "name": "胫距后韧带",
+      "elements": [
+        "ZA_J_92401131",
+        "ZA_J_62709733"
+      ]
+    },
+    {
+      "id": "ZAC_J_Anterior_tibiofibular_ligament",
+      "name": "胫腓前韧带",
+      "elements": [
+        "ZA_J_774696201",
+        "ZA_J_995232359"
+      ]
+    },
+    {
+      "id": "ZAC_J_Posterior_tibiofibular_ligament",
+      "name": "胫腓后韧带",
+      "elements": [
+        "ZA_J_184571685",
+        "ZA_J_614802793"
+      ]
+    },
+    {
+      "id": "ZAC_J_Anterior_longitudinal_ligament",
+      "name": "前纵韧带",
+      "elements": [
+        "ZA_J_688915021"
+      ]
+    },
+    {
+      "id": "ZAC_J_Posterior_longitudinal_ligament",
+      "name": "后纵韧带",
+      "elements": [
+        "ZA_J_337173200"
+      ]
+    },
+    {
+      "id": "ZAC_J_Ligamenta_flava",
+      "name": "黄韧带",
+      "elements": [
+        "ZA_J_699782944"
+      ]
+    },
+    {
+      "id": "ZAC_J_Supraspinous_ligament",
+      "name": "棘上韧带",
+      "elements": [
+        "ZA_J_312229617"
+      ]
+    },
+    {
+      "id": "ZAC_J_Interspinous_ligaments",
+      "name": "棘间韧带",
+      "elements": [
+        "ZA_J_671920604"
+      ]
+    },
+    {
+      "id": "ZAC_J_Nuchal_ligament",
+      "name": "项韧带",
+      "elements": [
+        "ZA_J_480569025"
+      ]
+    },
+    {
+      "id": "ZAC_TFCC_both",
+      "name": "TFCC 已收录组成",
+      "elements": [
+        "ZA_J_833274808",
+        "ZA_J_283420712",
+        "ZA_J_512570977",
+        "ZA_J_340094425",
+        "ZA_J_437991591",
+        "ZA_J_342768763",
+        "ZA_J_873373310",
+        "ZA_J_86665965",
+        "ZA_J_851077264",
+        "ZA_J_38623813"
+      ]
+    },
+    {
+      "id": "ZAC_TFCC_L",
+      "name": "左TFCC 已收录组成",
+      "elements": [
+        "ZA_J_833274808",
+        "ZA_J_512570977",
+        "ZA_J_437991591",
+        "ZA_J_873373310",
+        "ZA_J_851077264"
+      ]
+    },
+    {
+      "id": "ZAC_TFCC_R",
+      "name": "右TFCC 已收录组成",
+      "elements": [
+        "ZA_J_283420712",
+        "ZA_J_340094425",
+        "ZA_J_342768763",
+        "ZA_J_86665965",
+        "ZA_J_38623813"
+      ]
+    },
+    {
+      "id": "ZAC_masseter_both",
+      "name": "咬肌",
+      "elements": [
+        "ZA_M_268652398",
+        "ZA_M_695240571",
+        "ZA_M_533962729",
+        "ZA_M_331223255"
+      ]
+    },
+    {
+      "id": "ZAC_masseter_左",
+      "name": "左咬肌",
+      "elements": [
+        "ZA_M_268652398",
+        "ZA_M_533962729"
+      ]
+    },
+    {
+      "id": "ZAC_masseter_右",
+      "name": "右咬肌",
+      "elements": [
+        "ZA_M_695240571",
+        "ZA_M_331223255"
+      ]
+    },
+    {
+      "id": "ZAC_pterygoid_both",
+      "name": "翼外肌",
+      "elements": [
+        "ZA_M_825659527",
+        "ZA_M_336574972",
+        "ZA_M_907972935",
+        "ZA_M_312701766"
+      ]
+    },
+    {
+      "id": "ZAC_pterygoid_左",
+      "name": "左翼外肌",
+      "elements": [
+        "ZA_M_825659527",
+        "ZA_M_907972935"
+      ]
+    },
+    {
+      "id": "ZAC_pterygoid_右",
+      "name": "右翼外肌",
+      "elements": [
+        "ZA_M_336574972",
+        "ZA_M_312701766"
+      ]
+    },
+    {
+      "id": "ZAC_mcl_both",
+      "name": "膝内侧副韧带",
+      "elements": [
+        "ZA_J_12008623",
+        "ZA_J_193731724",
+        "ZA_J_320737222",
+        "ZA_J_137191166"
+      ]
+    },
+    {
+      "id": "ZAC_mcl_左",
+      "name": "左膝内侧副韧带",
+      "elements": [
+        "ZA_J_12008623",
+        "ZA_J_320737222"
+      ]
+    },
+    {
+      "id": "ZAC_mcl_右",
+      "name": "右膝内侧副韧带",
+      "elements": [
+        "ZA_J_193731724",
+        "ZA_J_137191166"
+      ]
     }
   ],
   "sourceTriangles": 6681030,
@@ -120547,5 +127006,23 @@
   },
   "sex": "male",
   "source": "BodyParts3D",
-  "scope": "成年男性参考解剖 · 2,234 个源网格"
+  "scope": "成年男性参考解剖 · 2,234 个源网格",
+  "supplement": {
+    "version": 1,
+    "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+    "license": "CC-BY-SA-4.0",
+    "addedMeshes": 126,
+    "replacedMeshes": 3,
+    "triangles": 295177,
+    "status": "Educational geometry registered to the base skeleton; not professionally anatomy-reviewed.",
+    "pending": [
+      "腹直肌鞘未作为独立网格分离",
+      "TFCC半月板同源体缺少独立源网格",
+      "TFCC尺侧腕伸肌腱鞘底未独立分离"
+    ],
+    "sourceFiles": {
+      "MuscularSystem100.fbx": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+      "Joints100.fbx": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823"
+    }
+  }
 }

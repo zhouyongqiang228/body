@@ -95,6 +95,8 @@ async function capture(page: Page, info: TestInfo, name: string) {
 test("desktop search, keyboard selection, canvas motion, isolation and reset", async ({
   page,
 }, info) => {
+  // Full-atlas motion plus screenshots use software WebGL in CI.
+  test.setTimeout(180_000);
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   await page.goto("/");
@@ -132,7 +134,7 @@ test("desktop search, keyboard selection, canvas motion, isolation and reset", a
   await page.mouse.move(rect.width / 2 + 80, rect.height / 2 + 20, { steps: 10 });
   await page.mouse.up();
   await expect(page.locator(".detail-sheet")).toHaveCount(0);
-  await page.getByRole("button", { name: "重置视角和图层", exact: true }).click();
+  await page.getByRole("button", { name: "组合并重置", exact: true }).click();
   await expect(page.getByRole("button", { name: "从斜前方查看人体", exact: true })).toHaveAttribute(
     "aria-pressed",
     "true",
@@ -140,7 +142,7 @@ test("desktop search, keyboard selection, canvas motion, isolation and reset", a
   await page.getByRole("slider").focus();
   await page.getByRole("slider").press("End");
   await expect(page.locator("output")).toHaveText("100%");
-  await expect(page.locator(".gesture-hint")).toContainText("拖动平移");
+  await expect(page.locator(".gesture-hint")).toContainText("左键拖动平移");
   await page.getByRole("button", { name: "组合并重置", exact: true }).click();
   await expect(page.locator("output")).toHaveText("0%");
   expect(errors).toEqual([]);

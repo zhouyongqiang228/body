@@ -174,6 +174,21 @@ export default function Home() {
     setChosen(null);
     setDetails(false);
   };
+  const abdominalNames = ["腹外斜肌", "腹内斜肌", "腹横肌"];
+  const abdominalLayers = atlas ? abdominalNames.map(name => ({
+    name,
+    checked: state.visible.includes("muscular") && atlas.parts.filter(p => p.name.endsWith(name)).every(p => !state.hidden.includes(p.id)),
+  })) : [];
+  const changeAbdominalLayer = (name: string, shown: boolean) => {
+    const ids = atlas?.parts.filter(p => p.name.endsWith(name)).map(p => p.id) ?? [];
+    setHideHistory(h => ({ past: [...h.past, state.hidden], future: [] }));
+    setState(s => ({ ...s, isolate: false, selected: [],
+      visible: shown && !s.visible.includes("muscular") ? [...s.visible, "muscular"] : s.visible,
+      hidden: shown ? s.hidden.filter(id => !ids.includes(id)) : [...new Set([...s.hidden, ...ids])],
+    }));
+    setChosen(null);
+    setDetails(false);
+  };
   const undoHide = () => {
     const previous = hideHistory.past.at(-1);
     if (!previous) return;
@@ -277,6 +292,8 @@ export default function Home() {
         </aside>
       )}
       <LayersPanel
+        abdominalLayers={abdominalLayers}
+        onAbdominalLayer={changeAbdominalLayer}
         open={panel === "layers"}
         visible={state.visible}
         counts={counts}

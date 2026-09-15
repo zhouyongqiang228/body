@@ -64,8 +64,14 @@ for i,c in concepts.items():
     if matches[i]:
         for e in c['elements']: parents[e].append(c)
 for candidates in parents.values(): candidates.sort(key=lambda c: (len(c['elements']),-len(matches[c['id']][0])))
+override_path = root / 'app/data/supplemental-descriptions.json'
+overrides = json.loads(override_path.read_text()) if override_path.exists() else {}
 rows={}; missing=[]
 for i,c in concepts.items():
+    if i in overrides:
+        assert overrides[i]['name'] == c['name'], i
+        rows[i] = {**overrides[i], 'kind':'supplemental-curation'}
+        continue
     name=c['name']; members=[parts[e] for e in c['elements']]
     match_result=matches[i]; kind='anatomical'; reference=None
     if match_result:

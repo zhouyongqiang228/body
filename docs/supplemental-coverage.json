@@ -1,0 +1,1057 @@
+{
+  "version": 1,
+  "added": 126,
+  "replaced": 3,
+  "sourceMeshes": 129,
+  "pending": [
+    "腹直肌鞘未作为独立网格分离",
+    "TFCC半月板同源体缺少独立源网格",
+    "TFCC尺侧腕伸肌腱鞘底未独立分离"
+  ],
+  "parts": [
+    {
+      "id": "ZA_M_162944253",
+      "name": "左颞肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Temporalis_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_952924065",
+      "name": "右颞肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Temporalis_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_268652398",
+      "name": "左咬肌浅部",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Superficial_part_of_masseterl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_695240571",
+      "name": "右咬肌浅部",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Superficial_part_of_masseterr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_533962729",
+      "name": "左咬肌深部",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Deep_part_of_masseterl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_331223255",
+      "name": "右咬肌深部",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Deep_part_of_masseterr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_826208578",
+      "name": "左翼内肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Medial_pterygoid_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_871676841",
+      "name": "右翼内肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Medial_pterygoid_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_825659527",
+      "name": "左翼外肌上头",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Superior_head_of_lateral_pterygoid_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_336574972",
+      "name": "右翼外肌上头",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Superior_head_of_lateral_pterygoid_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_907972935",
+      "name": "左翼外肌下头",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Inferior_head_of_lateral_pterygoid_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_312701766",
+      "name": "右翼外肌下头",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Inferior_head_of_lateral_pterygoid_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_796791312",
+      "name": "左口轮匝肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Orbicularis_oris_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_434972166",
+      "name": "右口轮匝肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Orbicularis_oris_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_957288105",
+      "name": "左颊肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Bucinatorl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_489981318",
+      "name": "右颊肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Bucinatorr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_131002877",
+      "name": "左枕额肌额腹",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Frontalis_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_517073369",
+      "name": "右枕额肌额腹",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Frontalis_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_181104823",
+      "name": "左枕额肌枕腹",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Occipitalis_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_509132682",
+      "name": "右枕额肌枕腹",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Occipitalis_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_667750948",
+      "name": "左眼轮匝肌眶部",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Orbital_part_of_orbicularis_oculil",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_46005575",
+      "name": "右眼轮匝肌眶部",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Orbital_part_of_orbicularis_oculir",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_200305276",
+      "name": "左眼轮匝肌睑部",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Palpebral_part_of_orbicularis_oculil",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_114442261",
+      "name": "右眼轮匝肌睑部",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Palpebral_part_of_orbicularis_oculir",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_290510213",
+      "name": "左颧大肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Zygomaticus_major_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_121742891",
+      "name": "右颧大肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Zygomaticus_major_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_510329294",
+      "name": "左颧小肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Zygomaticus_minor_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_381066825",
+      "name": "右颧小肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Zygomaticus_minor_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_826115562",
+      "name": "左颏肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Mentalis_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_662526822",
+      "name": "右颏肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Mentalis_muscler",
+      "derivation": null
+    },
+    {
+      "id": "FJ1452M",
+      "name": "左腹外斜肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "External_abdominal_oblique_musclel",
+      "derivation": null
+    },
+    {
+      "id": "FJ1452",
+      "name": "右腹外斜肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "External_abdominal_oblique_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_642806399",
+      "name": "左腹内斜肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Internal_abdominal_oblique_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_272619451",
+      "name": "右腹内斜肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Internal_abdominal_oblique_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_881393607",
+      "name": "左腹横肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Transversus_abdominis_musclel",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_795120383",
+      "name": "右腹横肌",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Transversus_abdominis_muscler",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_752705330",
+      "name": "左腹股沟韧带",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Inguinal_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_206659969",
+      "name": "右腹股沟韧带",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Inguinal_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "FJ1448",
+      "name": "腹白线",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Linea_alba",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_707966283",
+      "name": "左尺侧腕伸肌腱鞘",
+      "phase": 2,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Tendon_sheath_of_extensor_carpi_ulnarisl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_721817264",
+      "name": "右尺侧腕伸肌腱鞘",
+      "phase": 2,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Tendon_sheath_of_extensor_carpi_ulnarisr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_971929399",
+      "name": "左腕伸肌支持带",
+      "phase": 2,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Extensor_retinaculum_of_wristl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_330125342",
+      "name": "右腕伸肌支持带",
+      "phase": 2,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Extensor_retinaculum_of_wristr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_925501647",
+      "name": "左髌内侧支持带",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Medial_patellar_retinaculuml",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_344109556",
+      "name": "右髌内侧支持带",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Medial_patellar_retinaculumr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_391652619",
+      "name": "左髌外侧支持带",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Lateral_patellar_retinaculuml",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_497593817",
+      "name": "右髌外侧支持带",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Lateral_patellar_retinaculumr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_M_943998138_patellar",
+      "name": "左髌韧带",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Rectus_femoris_musclel",
+      "derivation": {
+        "method": "Tendon material faces distal to source patellar-ligament origin marker; triangles clipped at marker maximum Y.",
+        "marker": "Patellar_ligamentol",
+        "ceilingMeters": 0.4327673316001892
+      }
+    },
+    {
+      "id": "ZA_M_771346357_patellar",
+      "name": "右髌韧带",
+      "phase": 1,
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceMesh": "Rectus_femoris_muscler",
+      "derivation": {
+        "method": "Tendon material faces distal to source patellar-ligament origin marker; triangles clipped at marker maximum Y.",
+        "marker": "Patellar_ligamentor",
+        "ceilingMeters": 0.4327673614025116
+      }
+    },
+    {
+      "id": "ZA_J_828042845",
+      "name": "左内侧半月板",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Medial_meniscusl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_392921810",
+      "name": "右内侧半月板",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Medial_meniscusr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_205965981",
+      "name": "左外侧半月板",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Lateral_meniscusl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_678781775",
+      "name": "右外侧半月板",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Lateral_meniscusr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_389538142",
+      "name": "左前交叉韧带",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Anterior_cruciate_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_279508809",
+      "name": "右前交叉韧带",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Anterior_cruciate_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_737636048",
+      "name": "左后交叉韧带",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Posterior_cruciate_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_675812189",
+      "name": "右后交叉韧带",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Posterior_cruciate_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_12008623",
+      "name": "左膝内侧副韧带浅部",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Superficial_part_of_tibial_collateral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_193731724",
+      "name": "右膝内侧副韧带浅部",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Superficial_part_of_tibial_collateral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_320737222",
+      "name": "左膝内侧副韧带深部",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Deep_part_of_tibial_collateral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_137191166",
+      "name": "右膝内侧副韧带深部",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Deep_part_of_tibial_collateral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_446376984",
+      "name": "左膝外侧副韧带",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Fibular_collateral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_353278166",
+      "name": "右膝外侧副韧带",
+      "phase": 1,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Fibular_collateral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_833274808",
+      "name": "左三角纤维软骨盘",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Articular_disc_of_distal_radio-ulnar_jointl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_283420712",
+      "name": "右三角纤维软骨盘",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Articular_disc_of_distal_radio-ulnar_jointr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_512570977",
+      "name": "左掌侧桡尺韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Palmar_radio-ulnar_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_340094425",
+      "name": "右掌侧桡尺韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Palmar_radio-ulnar_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_437991591",
+      "name": "左背侧桡尺韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Dorsal_radio-ulnar_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_342768763",
+      "name": "右背侧桡尺韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Dorsal_radio-ulnar_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_873373310",
+      "name": "左尺月韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ulnolunate_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_86665965",
+      "name": "右尺月韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ulnolunate_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_851077264",
+      "name": "左尺三角韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ulnotriquetral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_38623813",
+      "name": "右尺三角韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ulnotriquetral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_914386139",
+      "name": "左舟月骨间韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Scapholunate_interosseous_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_619879102",
+      "name": "右舟月骨间韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Scapholunate_interosseous_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_186541027",
+      "name": "左月三角骨间韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Lunotriquetral_interosseous_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_958342336",
+      "name": "右月三角骨间韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Lunotriquetral_interosseous_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_629211521",
+      "name": "左喙肩韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Coraco-acromial_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_758236691",
+      "name": "右喙肩韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Coraco-acromial_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_140384984",
+      "name": "左喙肱韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Coracohumeral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_348735722",
+      "name": "右喙肱韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Coracohumeral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_43325654",
+      "name": "左盂肱上韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Superior_glenohumeral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_538546670",
+      "name": "右盂肱上韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Superior_glenohumeral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_984239897",
+      "name": "左盂肱中韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Middle_glenohumeral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_982736080",
+      "name": "右盂肱中韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Middle_glenohumeral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_963848373",
+      "name": "左盂肱下韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Inferior_glenohumeral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_303605000",
+      "name": "右盂肱下韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Inferior_glenohumeral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_48977721",
+      "name": "左肩关节盂唇",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Glenoid_labruml",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_679717148",
+      "name": "右肩关节盂唇",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Glenoid_labrumr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_237453416",
+      "name": "左桡骨环状韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Annular_ligament_of_radiusl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_878872661",
+      "name": "右桡骨环状韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Annular_ligament_of_radiusr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_911773834",
+      "name": "左肘尺侧副韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ulnar_collateral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_590000818",
+      "name": "右肘尺侧副韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ulnar_collateral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_398195796",
+      "name": "左肘桡侧副韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Radial_collateral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_657138113",
+      "name": "右肘桡侧副韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Radial_collateral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_435759169",
+      "name": "左髂股韧带横部",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Transverse_part_of_iliofemoral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_318012956",
+      "name": "右髂股韧带横部",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Transverse_part_of_iliofemoral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_802258361",
+      "name": "左髂股韧带降部",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Descending_part_of_iliofemoral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_347770529",
+      "name": "右髂股韧带降部",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Descending_part_of_iliofemoral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_78988440",
+      "name": "左耻股韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Pubofemoral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_142701643",
+      "name": "右耻股韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Pubofemoral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_586831962",
+      "name": "左坐股韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ischiofemoral_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_731742504",
+      "name": "右坐股韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ischiofemoral_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_994182022",
+      "name": "左股骨头韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ligament_of_head_of_femurl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_355794469",
+      "name": "右股骨头韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ligament_of_head_of_femurr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_81695462",
+      "name": "左髋臼唇",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Acetabular_labruml",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_548917746",
+      "name": "右髋臼唇",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Acetabular_labrumr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_426512078",
+      "name": "左距腓前韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Anterior_talofibular_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_413029801",
+      "name": "右距腓前韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Anterior_talofibular_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_303453332",
+      "name": "左距腓后韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Posterior_talofibular_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_947478872",
+      "name": "右距腓后韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Posterior_talofibular_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_799722469",
+      "name": "左跟腓韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Calcaneofibular_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_285034228",
+      "name": "右跟腓韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Calcaneofibular_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_398901750",
+      "name": "左胫跟韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Tibiocalcaneal_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_268562447",
+      "name": "右胫跟韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Tibiocalcaneal_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_703349257",
+      "name": "左胫舟韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Tibionavicular_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_744517071",
+      "name": "右胫舟韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Tibionavicular_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_92401131",
+      "name": "左胫距后韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Posterior_tibiotalar_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_62709733",
+      "name": "右胫距后韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Posterior_tibiotalar_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_774696201",
+      "name": "左胫腓前韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Anterior_tibiofibular_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_995232359",
+      "name": "右胫腓前韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Anterior_tibiofibular_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_184571685",
+      "name": "左胫腓后韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Posterior_tibiofibular_ligamentl",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_614802793",
+      "name": "右胫腓后韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Posterior_tibiofibular_ligamentr",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_688915021",
+      "name": "前纵韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Anterior_longitudinal_ligament",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_337173200",
+      "name": "后纵韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Posterior_longitudinal_ligament",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_699782944",
+      "name": "黄韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Ligamenta_flava",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_312229617",
+      "name": "棘上韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Supraspinous_ligament",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_671920604",
+      "name": "棘间韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Interspinous_ligaments",
+      "derivation": null
+    },
+    {
+      "id": "ZA_J_480569025",
+      "name": "项韧带",
+      "phase": 2,
+      "sourceFile": "Joints100.fbx",
+      "sourceMesh": "Nuchal_ligament",
+      "derivation": null
+    }
+  ],
+  "geometrySha256": {
+    "supplement-0.bin": "54f3cbc47bd55a200e164b9493ef9cb17eba662bf9d60b5f58bca2b000e1c80c",
+    "supplement-1.bin": "bce381a306f17e2c7e09bb1389f6ed1d5b87d6576ede172ee9a7195cbceb44ce"
+  }
+}

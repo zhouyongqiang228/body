@@ -9,13 +9,26 @@ BodyParts3D，© The Database Center for Life Science，依据 CC Attribution 4.
 - 英文名称与关系：来自同一存档中的 IS-A 与 PART-OF 概念表、元素表和包含关系表。
 - 论文：Mitsuhashi 等（2009），BodyParts3D：面向解剖学概念的三维结构数据库。https://doi.org/10.1093/nar/gkn613
 
-适配处理：将坐标轴和单位从毫米/Z-up 转换为米/Y-up；将模型平移至展台静置；使用 meshoptimizer 简化几何体，每个结构的相对误差上限为 0.2%；将法线量化为有符号 16 位整数；打包为二进制分块；并为本界面整理显示系统分组和配色。源数据包含 2,234 个独立 OBJ 网格，全部保留并得到呈现。合并后的层级结构包含 3,432 个带名称的 FMA 概念，这些概念可能对应多个网格。清单文件保留了源数据身份信息。
+适配处理：将坐标轴和单位从毫米/Z-up 转换为米/Y-up；将模型平移至展台静置；使用 meshoptimizer 简化几何体，每个结构的相对误差上限为 0.2%；将法线量化为有符号 16 位整数；打包为二进制分块；并为本界面整理显示系统分组和配色。基础源数据包含 2,234 个独立 OBJ 网格；补丁保留所有原始网格身份，左右腹外斜肌及腹白线采用下述补充几何，并在清单中保留原几何记录。合并后的层级结构包含 3,432 个带名称的 FMA 概念，这些概念可能对应多个网格。清单文件保留了源数据身份信息。
 
 源 OBJ 注释提到较早的 CC BY-SA 2.1 Japan 许可证。上方链接所指向的官方现行数据库许可证取代了该历史文本，并明确允许依据 CC BY 4.0 进行再发布和改编。
 
 BodyParts3D 以 TARO MRI 和解剖学插图修订为基础，呈现成年男性参考解剖结构。它并不涵盖所有可能的人体解剖结构或个体差异。本界面仅供教育用途，不是临床工具。
 
-## 历史资源（当前版本未包含）
+## 肌肉与关节补充数据（当前版本）
+
+Z-Anatomy — The open source atlas of anatomy，CC BY-SA 4.0。依上游要求同时保留归属：BodyParts3D — The Database Center for Life Science — CC BY-SA 2.1 Japan（上游的历史归属文字）。基础 BodyParts3D 数据的现行许可仍见本文件开头。
+
+- 固定源版本：[LluisV/Z-Anatomy / 6c7f9016bd5899ac8edafd31b9900c151df42ed6](https://github.com/LluisV/Z-Anatomy/tree/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models)。
+- 源文件：`MuscularSystem100.fbx`、`Joints100.fbx`；`SkeletalSystem100.fbx` 仅提供配准参照。
+- [上游模型许可及归属](https://github.com/LluisV/Z-Anatomy/blob/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/License.txt)。
+- [CC BY-SA 4.0 许可条款](https://creativecommons.org/licenses/by-sa/4.0/)。
+- 适配者：本项目贡献者。处理包括读取 FBX 世界坐标、厘米转米、对应骨骼及长骨两端的相似变换配准、各解剖区域共享的有界仿射变换、焊接重合顶点、重算法线、中文命名、二进制分块和 gzip 压缩。左右髌韧带从源股直肌远端肌腱材质区域分离，近端分界参考源髌韧带起点标记。
+- 衍生补充网格 `models/supplement-*.bin`、其 gzip 版本及相应衍生网格记录按 CC BY-SA 4.0 发布。每个结构在 `atlas.json` 的 `source` 字段保留源文件、网格名、源 ID、SHA-256 和许可；替换的腹外斜肌保留原几何记录。应用代码继续使用 MIT 许可证。
+- 本次新增126个独立结构，替换左右腹外斜肌和腹白线。源材料中的耳、肾等带有 NC 限制的其他资产未被引入。
+- 此补充模型用于教育展示，几何配准及局部分离尚未经过专业解剖审校。腹直肌鞘、TFCC半月板同源体和尺侧腕伸肌腱鞘底尚无独立补充网格；TFCC分组仅表示已收录的组成。
+
+## 历史女性参考资源
 
 仓库的早期版本曾包含女性参考解剖数据：Kristen Browne 和 Heidi Schlehlein，Human Reference Atlas / HuBMAP，*3D Reference Organ Set for Female v1.5*（2023）。CC BY 4.0。几何数据已针对本查看器进行适配。
 
