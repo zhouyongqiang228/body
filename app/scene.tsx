@@ -52,17 +52,16 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
     el.appendChild(renderer.domElement);
     renderer.domElement.setAttribute(
       "aria-label",
-      "可交互的人体解剖模型。左键拖动可平移，右键拖动绕人体中心轴旋转，捏合或滚动可缩放，点击结构可查看详情。",
+      "可交互的人体解剖模型。左键或中键拖动可平移，右键拖动绕人体中心轴旋转，捏合或滚动可缩放，点击结构可查看详情。",
     );
     const scene = new T.Scene(),
       camera = new T.PerspectiveCamera(34, 1, 0.005, 100),
       controls = new OrbitControls(camera, renderer.domElement);
     camera.position.set(1.4, 1.05, 3.6);
     controls.target.set(0, 0.85, 0);
-    controls.enableDamping = true;
+    controls.enableDamping = false;
     controls.zoomToCursor = true;
-    controls.mouseButtons = { LEFT: T.MOUSE.PAN, MIDDLE: undefined, RIGHT: undefined };
-    controls.dampingFactor = 0.085;
+    controls.mouseButtons = { LEFT: T.MOUSE.PAN, MIDDLE: T.MOUSE.PAN, RIGHT: undefined };
     controls.minDistance = 0.07;
     controls.maxDistance = 40;
     controls.maxPolarAngle = Math.PI * 0.96;

@@ -142,7 +142,7 @@ test("desktop search, keyboard selection, canvas motion, isolation and reset", a
   await page.getByRole("slider").focus();
   await page.getByRole("slider").press("End");
   await expect(page.locator("output")).toHaveText("100%");
-  await expect(page.locator(".gesture-hint")).toContainText("左键拖动平移");
+  await expect(page.locator(".gesture-hint")).toContainText("左键或中键拖动平移");
   await page.getByRole("button", { name: "组合并重置", exact: true }).click();
   await expect(page.locator("output")).toHaveText("0%");
   expect(errors).toEqual([]);

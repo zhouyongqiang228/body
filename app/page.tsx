@@ -409,8 +409,8 @@ export default function Home() {
           </div>
           <p className="gesture-hint">
             {state.explode >= 0.8
-              ? "左键拖动平移 · 滚轮缩放 · 点击选择"
-              : "左键平移 · 右键旋转 · 滚轮缩放"}
+              ? "左键或中键拖动平移 · 滚轮缩放 · 点击选择"
+              : "左键或中键平移 · 右键旋转 · 滚轮缩放"}
           </p>
         </div>
         <Button
@@ -426,7 +426,7 @@ export default function Home() {
       </div>
       <footer className="studio-footer">
         <span>
-          左键平移 <b>·</b> 右键旋转 <b>·</b> 滚轮 / 双指缩放 <b>·</b> 点击结构查看详情
+          左键或中键平移 <b>·</b> 右键旋转 <b>·</b> 滚轮 / 双指缩放 <b>·</b> 点击结构查看详情
         </span>
         <Button variant="ghost" onClick={openAbout}>
           来源与致谢 <ArrowUpRight size={12} />
