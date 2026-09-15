@@ -45,7 +45,7 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
       return;
     }
     renderer.setPixelRatio(Math.min(devicePixelRatio, innerWidth < 768 ? 1.5 : 2));
-    renderer.setClearColor("#f2f3f3");
+    renderer.setClearColor("#080b0c");
     renderer.outputColorSpace = T.SRGBColorSpace;
     renderer.toneMapping = T.ACESFilmicToneMapping;
     renderer.toneMappingExposure = 1.12;
@@ -84,21 +84,21 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
     scene.add(rim);
     const ground = new T.Mesh(
       new T.CircleGeometry(30, 96),
-      new T.MeshStandardMaterial({ color: 0xd5d9dc, roughness: 1 }),
+      new T.MeshBasicMaterial({ color: 0x080b0c, toneMapped: false }),
     );
     ground.rotation.x = -Math.PI / 2;
     ground.position.y = -0.019;
     scene.add(ground);
     const platform = new T.Mesh(
       new T.CylinderGeometry(0.68, 0.7, 0.028, 100),
-      new T.MeshStandardMaterial({ color: 0xeeeeec, metalness: 0.12, roughness: 0.67 }),
+      new T.MeshStandardMaterial({ color: 0x0b1310, metalness: 0.35, roughness: 0.75, envMapIntensity: 0.15 }),
     );
     platform.position.y = -0.016;
     scene.add(platform);
     const ring = new T.Mesh(
       new T.RingGeometry(0.63, 0.632, 128),
       new T.MeshBasicMaterial({
-        color: 0x8c969f,
+        color: 0x8ce8c6,
         transparent: true,
         opacity: 0.4,
         side: T.DoubleSide,
@@ -110,7 +110,7 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
     const innerRing = new T.Mesh(
       new T.RingGeometry(0.55, 0.551, 128),
       new T.MeshBasicMaterial({
-        color: 0xa4aeb8,
+        color: 0x8ce8c6,
         transparent: true,
         opacity: 0.16,
         side: T.DoubleSide,
