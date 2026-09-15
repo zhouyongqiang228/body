@@ -13,6 +13,7 @@
     "test:e2e": "playwright test",
     "validate:atlas": "node scripts/validate-atlas.mjs",
     "validate:supplemental": "node scripts/check-supplemental-coverage.mjs",
+    "validate:vascular": "node scripts/check-vascular-coverage.mjs",
     "validate:interactions": "tsx scripts/validate-interactions.mjs"
   },
   "dependencies": {

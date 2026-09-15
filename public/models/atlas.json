@@ -1,5 +1,5 @@
 {
-  "version": "BodyParts3D 4.0 + Z-Anatomy supplement 1",
+  "version": "BodyParts3D 4.0 + Z-Anatomy supplements 1 + vascular 1",
   "parts": [
     {
       "id": "FJ1252",
@@ -13392,48 +13392,180 @@
       "name": "右颈内动脉",
       "conceptId": "FMA3949",
       "system": "arterial",
-      "chunk": 5,
-      "positions": 2382200,
-      "normals": 2384840,
-      "indices": 2386160,
-      "vertexCount": 220,
-      "indexCount": 1254,
+      "chunk": 17,
+      "positions": 41696,
+      "normals": 45644,
+      "indices": 47620,
+      "vertexCount": 329,
+      "indexCount": 1800,
       "bounds": [
         [
-          -0.037465200000000004,
-          1.5126511999999999,
-          -0.005960300000000002
+          -0.0375901535153389,
+          1.4862083196640015,
+          -0.012742389924824238
         ],
         [
-          -0.00984248,
-          1.6158312,
-          0.014556
+          -0.00998624972999096,
+          1.6158112287521362,
+          0.014556000009179115
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Internal_carotid_arteryr",
+        "id": 938091094,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "source graft at existing cross-section",
+            "seamY": 1.515651205062866,
+            "overlapMm": 6,
+            "centerShiftMm": 17.418148826529162,
+            "diameterScaleXZ": [
+              0.7822961192724466,
+              0.735260837539226
+            ]
+          }
+        ],
+        "retainedVertices": 220,
+        "retainedIndices": 1254,
+        "graftVertices": 109,
+        "graftNearestVertexMm": 0.44218663630604554
+      },
+      "vascularOriginal": {
+        "id": "FJ1682",
+        "name": "右颈内动脉",
+        "conceptId": "FMA3949",
+        "system": "arterial",
+        "chunk": 5,
+        "positions": 2382200,
+        "normals": 2384840,
+        "indices": 2386160,
+        "vertexCount": 220,
+        "indexCount": 1254,
+        "bounds": [
+          [
+            -0.037465200000000004,
+            1.5126511999999999,
+            -0.005960300000000002
+          ],
+          [
+            -0.00984248,
+            1.6158312,
+            0.014556
+          ]
+        ]
+      }
     },
     {
       "id": "FJ1682M",
       "name": "左颈内动脉",
       "conceptId": "FMA4062",
       "system": "arterial",
-      "chunk": 5,
-      "positions": 2391176,
-      "normals": 2393852,
-      "indices": 2395192,
-      "vertexCount": 223,
-      "indexCount": 1266,
+      "chunk": 17,
+      "positions": 28472,
+      "normals": 32456,
+      "indices": 34448,
+      "vertexCount": 332,
+      "indexCount": 1812,
       "bounds": [
         [
-          0.00984249,
-          1.5126511999999999,
-          -0.005960199999999999
+          0.00998624972999096,
+          1.486264944076538,
+          -0.012615131214261055
         ],
         [
-          0.037465200000000004,
-          1.6158312,
-          0.014554999999999998
+          0.037492796778678894,
+          1.6158112287521362,
+          0.014554999768733978
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Internal_carotid_arteryl",
+        "id": 60068695,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "source graft at existing cross-section",
+            "seamY": 1.515651205062866,
+            "overlapMm": 6,
+            "centerShiftMm": 17.370300955424135,
+            "diameterScaleXZ": [
+              0.781388446128107,
+              0.734400935204502
+            ]
+          }
+        ],
+        "retainedVertices": 223,
+        "retainedIndices": 1266,
+        "graftVertices": 109,
+        "graftNearestVertexMm": 0.4353455829027238
+      },
+      "vascularOriginal": {
+        "id": "FJ1682M",
+        "name": "左颈内动脉",
+        "conceptId": "FMA4062",
+        "system": "arterial",
+        "chunk": 5,
+        "positions": 2391176,
+        "normals": 2393852,
+        "indices": 2395192,
+        "vertexCount": 223,
+        "indexCount": 1266,
+        "bounds": [
+          [
+            0.00984249,
+            1.5126511999999999,
+            -0.005960199999999999
+          ],
+          [
+            0.037465200000000004,
+            1.6158312,
+            0.014554999999999998
+          ]
+        ]
+      }
     },
     {
       "id": "FJ1683",
@@ -15456,48 +15588,210 @@
       "name": "右椎动脉",
       "conceptId": "FMA3958",
       "system": "arterial",
-      "chunk": 5,
-      "positions": 3406916,
-      "normals": 3410876,
-      "indices": 3412856,
-      "vertexCount": 330,
-      "indexCount": 1476,
+      "chunk": 17,
+      "positions": 77092,
+      "normals": 84160,
+      "indices": 87696,
+      "vertexCount": 589,
+      "indexCount": 2916,
       "bounds": [
         [
-          -0.0336651,
-          1.4765212,
-          -0.041425100000000006
+          -0.04220937564969063,
+          1.4264642000198364,
+          -0.04142510145902634
         ],
         [
-          0.000384026,
-          1.5841512,
-          -0.013128799999999996
+          0.00036536200786940753,
+          1.584051251411438,
+          0.0001684212766122073
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Vertebral_arteryr",
+        "id": 24829767,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "source graft at existing cross-section",
+            "seamY": 1.4795212535858153,
+            "overlapMm": 6,
+            "centerShiftMm": 3.4589800098199306,
+            "diameterScaleXZ": [
+              1.1270152636327964,
+              1.14188240589898
+            ]
+          },
+          {
+            "kind": "source inlet registered inside parent subclavian artery",
+            "parent": "FJ3579",
+            "sourceCenter": [
+              -0.0411047488451004,
+              1.4211070934931438,
+              -0.0015421256296879922
+            ],
+            "targetCenter": [
+              -0.0411047488451004,
+              1.4272612403595515,
+              -0.001041574473805321
+            ],
+            "displacementMm": 6.174469621997596
+          }
+        ],
+        "retainedVertices": 330,
+        "retainedIndices": 1476,
+        "graftVertices": 259,
+        "graftNearestVertexMm": 0.3824881019984305
+      },
+      "vascularOriginal": {
+        "id": "FJ1725",
+        "name": "右椎动脉",
+        "conceptId": "FMA3958",
+        "system": "arterial",
+        "chunk": 5,
+        "positions": 3406916,
+        "normals": 3410876,
+        "indices": 3412856,
+        "vertexCount": 330,
+        "indexCount": 1476,
+        "bounds": [
+          [
+            -0.0336651,
+            1.4765212,
+            -0.041425100000000006
+          ],
+          [
+            0.000384026,
+            1.5841512,
+            -0.013128799999999996
+          ]
+        ]
+      }
     },
     {
       "id": "FJ1725M",
       "name": "左椎动脉",
       "conceptId": "FMA4066",
       "system": "arterial",
-      "chunk": 5,
-      "positions": 3418760,
-      "normals": 3422708,
-      "indices": 3424684,
-      "vertexCount": 329,
-      "indexCount": 1482,
+      "chunk": 17,
+      "positions": 54820,
+      "normals": 61876,
+      "indices": 65404,
+      "vertexCount": 588,
+      "indexCount": 2922,
       "bounds": [
         [
-          -0.000384026,
-          1.4765212,
-          -0.041425100000000006
+          -0.00036536200786940753,
+          1.4297385215759277,
+          -0.04142510145902634
         ],
         [
-          0.0336652,
-          1.5841412,
-          -0.013128899999999999
+          0.04220935329794884,
+          1.5840811729431152,
+          0.001372031751088798
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Vertebral_arteryl",
+        "id": 112908414,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "source graft at existing cross-section",
+            "seamY": 1.4795212535858153,
+            "overlapMm": 6,
+            "centerShiftMm": 2.990125823804761,
+            "diameterScaleXZ": [
+              1.1260223929576838,
+              1.1414412499521955
+            ]
+          },
+          {
+            "kind": "source inlet registered inside parent subclavian artery",
+            "parent": "FJ3479",
+            "sourceCenter": [
+              0.041104723078509174,
+              1.4211070239543915,
+              -0.0015421148733973193
+            ],
+            "targetCenter": [
+              0.041104723078509174,
+              1.4305356601275587,
+              0.00016203614024934984
+            ],
+            "displacementMm": 9.581404425410238
+          }
+        ],
+        "retainedVertices": 329,
+        "retainedIndices": 1482,
+        "graftVertices": 259,
+        "graftNearestVertexMm": 0.3893343122577933
+      },
+      "vascularOriginal": {
+        "id": "FJ1725M",
+        "name": "左椎动脉",
+        "conceptId": "FMA4066",
+        "system": "arterial",
+        "chunk": 5,
+        "positions": 3418760,
+        "normals": 3422708,
+        "indices": 3424684,
+        "vertexCount": 329,
+        "indexCount": 1482,
+        "bounds": [
+          [
+            -0.000384026,
+            1.4765212,
+            -0.041425100000000006
+          ],
+          [
+            0.0336652,
+            1.5841412,
+            -0.013128899999999999
+          ]
+        ]
+      }
     },
     {
       "id": "FJ1726",
@@ -50592,24 +50886,90 @@
       "name": "左颈总动脉",
       "conceptId": "FMA4058",
       "system": "arterial",
-      "chunk": 14,
-      "positions": 15680,
-      "normals": 17144,
-      "indices": 17876,
-      "vertexCount": 122,
-      "indexCount": 492,
+      "chunk": 17,
+      "positions": 0,
+      "normals": 3156,
+      "indices": 4736,
+      "vertexCount": 263,
+      "indexCount": 1227,
       "bounds": [
         [
-          0.0108208,
-          1.3855012,
-          -0.003993700000000003
+          0.010820800438523293,
+          1.3855111598968506,
+          -0.011807366274297237
         ],
         [
-          0.022933000000000002,
-          1.4517912,
-          0.012223999999999999
+          0.034994032233953476,
+          1.4871952533721924,
+          0.012346016243100166
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Left_common_carotid_artery",
+        "id": 827816962,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "source graft at existing cross-section",
+            "seamY": 1.4487911672592164,
+            "overlapMm": 6,
+            "centerShiftMm": 6.373891439006716,
+            "diameterScaleXZ": [
+              0.9391469421170007,
+              0.9364839670185632
+            ]
+          }
+        ],
+        "retainedVertices": 122,
+        "retainedIndices": 492,
+        "graftVertices": 141,
+        "graftNearestVertexMm": 0.22463319207215637
+      },
+      "vascularOriginal": {
+        "id": "FJ3483",
+        "name": "左颈总动脉",
+        "conceptId": "FMA4058",
+        "system": "arterial",
+        "chunk": 14,
+        "positions": 15680,
+        "normals": 17144,
+        "indices": 17876,
+        "vertexCount": 122,
+        "indexCount": 492,
+        "bounds": [
+          [
+            0.0108208,
+            1.3855012,
+            -0.003993700000000003
+          ],
+          [
+            0.022933000000000002,
+            1.4517912,
+            0.012223999999999999
+          ]
+        ]
+      }
     },
     {
       "id": "FJ3484",
@@ -50640,24 +51000,90 @@
       "name": "左颈内静脉",
       "conceptId": "FMA4762",
       "system": "venous",
-      "chunk": 14,
-      "positions": 32672,
-      "normals": 34520,
-      "indices": 35444,
-      "vertexCount": 154,
-      "indexCount": 816,
+      "chunk": 17,
+      "positions": 99360,
+      "normals": 108912,
+      "indices": 113688,
+      "vertexCount": 796,
+      "indexCount": 4554,
       "bounds": [
         [
-          0.018107500000000002,
-          1.4155212000000001,
-          0.01170099999999999
+          0.018107499927282333,
+          1.4155211448669434,
+          -0.0337492972612381
         ],
         [
-          0.0309054,
-          1.4585412,
-          0.022113999999999995
+          0.039387136697769165,
+          1.5784295797348022,
+          0.022113999351859093
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Internal_jugular_veinl",
+        "id": 204905895,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "source graft at existing cross-section",
+            "seamY": 1.4555411548614503,
+            "overlapMm": 6,
+            "centerShiftMm": 3.829998396430687,
+            "diameterScaleXZ": [
+              1.1335251221938607,
+              1.0864804546214228
+            ]
+          }
+        ],
+        "retainedVertices": 154,
+        "retainedIndices": 816,
+        "graftVertices": 642,
+        "graftNearestVertexMm": 0.17533955824931133
+      },
+      "vascularOriginal": {
+        "id": "FJ3485",
+        "name": "左颈内静脉",
+        "conceptId": "FMA4762",
+        "system": "venous",
+        "chunk": 14,
+        "positions": 32672,
+        "normals": 34520,
+        "indices": 35444,
+        "vertexCount": 154,
+        "indexCount": 816,
+        "bounds": [
+          [
+            0.018107500000000002,
+            1.4155212000000001,
+            0.01170099999999999
+          ],
+          [
+            0.0309054,
+            1.4585412,
+            0.022113999999999995
+          ]
+        ]
+      }
     },
     {
       "id": "FJ3486",
@@ -51792,24 +52218,90 @@
       "name": "右颈总动脉",
       "conceptId": "FMA3941",
       "system": "arterial",
-      "chunk": 14,
-      "positions": 881696,
-      "normals": 885896,
-      "indices": 887996,
-      "vertexCount": 350,
-      "indexCount": 2064,
+      "chunk": 17,
+      "positions": 9644,
+      "normals": 15188,
+      "indices": 17960,
+      "vertexCount": 462,
+      "indexCount": 2628,
       "bounds": [
         [
-          -0.0212579,
-          1.4075312,
-          0.005382999999999999
+          -0.03567026928067207,
+          1.4075311422348022,
+          -0.011892292648553848
         ],
         [
-          -0.008614440000000001,
-          1.4514912,
-          0.017547999999999994
+          -0.008614440448582172,
+          1.4871560335159302,
+          0.017548000440001488
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Right_common_carotid_artery",
+        "id": 215814930,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "source graft at existing cross-section",
+            "seamY": 1.4484912366867067,
+            "overlapMm": 6,
+            "centerShiftMm": 5.421859133469098,
+            "diameterScaleXZ": [
+              0.971939298055146,
+              0.9815658307214689
+            ]
+          }
+        ],
+        "retainedVertices": 350,
+        "retainedIndices": 2064,
+        "graftVertices": 112,
+        "graftNearestVertexMm": 0.2623003141120245
+      },
+      "vascularOriginal": {
+        "id": "FJ3564",
+        "name": "右颈总动脉",
+        "conceptId": "FMA3941",
+        "system": "arterial",
+        "chunk": 14,
+        "positions": 881696,
+        "normals": 885896,
+        "indices": 887996,
+        "vertexCount": 350,
+        "indexCount": 2064,
+        "bounds": [
+          [
+            -0.0212579,
+            1.4075312,
+            0.005382999999999999
+          ],
+          [
+            -0.008614440000000001,
+            1.4514912,
+            0.017547999999999994
+          ]
+        ]
+      }
     },
     {
       "id": "FJ3565",
@@ -52296,24 +52788,90 @@
       "name": "右颈内静脉",
       "conceptId": "FMA4754",
       "system": "venous",
-      "chunk": 14,
-      "positions": 1128208,
-      "normals": 1130044,
-      "indices": 1130964,
-      "vertexCount": 153,
-      "indexCount": 678,
+      "chunk": 17,
+      "positions": 131904,
+      "normals": 141420,
+      "indices": 146180,
+      "vertexCount": 793,
+      "indexCount": 4404,
       "bounds": [
         [
-          -0.03114,
-          1.4185912,
-          0.012886999999999996
+          -0.04060174897313118,
+          1.4185911417007446,
+          -0.0339004248380661
         ],
         [
-          -0.0217121,
-          1.4598512,
-          0.022074999999999997
+          -0.021712100133299828,
+          1.5783218145370483,
+          0.022074999287724495
         ]
-      ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Internal_jugular_veinr",
+        "id": 564632339,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "source graft at existing cross-section",
+            "seamY": 1.4568511457443238,
+            "overlapMm": 6,
+            "centerShiftMm": 5.100264012301708,
+            "diameterScaleXZ": [
+              0.9286038904443977,
+              0.9609222760124357
+            ]
+          }
+        ],
+        "retainedVertices": 153,
+        "retainedIndices": 678,
+        "graftVertices": 640,
+        "graftNearestVertexMm": 0.23267609974787262
+      },
+      "vascularOriginal": {
+        "id": "FJ3585",
+        "name": "右颈内静脉",
+        "conceptId": "FMA4754",
+        "system": "venous",
+        "chunk": 14,
+        "positions": 1128208,
+        "normals": 1130044,
+        "indices": 1130964,
+        "vertexCount": 153,
+        "indexCount": 678,
+        "bounds": [
+          [
+            -0.03114,
+            1.4185912,
+            0.012886999999999996
+          ],
+          [
+            -0.0217121,
+            1.4598512,
+            0.022074999999999997
+          ]
+        ]
+      }
     },
     {
       "id": "FJ3586",
@@ -58528,6 +59086,2312 @@
         "maximumDisplacementMm": 6.974729344588025,
         "meanDisplacementMm": 3.4558210057709324
       }
+    },
+    {
+      "id": "ZA_V_211987839",
+      "name": "左颈外动脉",
+      "conceptId": "ZA_V_211987839",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 163796,
+      "normals": 168188,
+      "indices": 170384,
+      "vertexCount": 366,
+      "indexCount": 2124,
+      "bounds": [
+        [
+          0.02757374569773674,
+          1.486323595046997,
+          -0.013332821428775787
+        ],
+        [
+          0.045658618211746216,
+          1.565000295639038,
+          -0.004175386391580105
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "External_carotid_arteryl",
+        "id": 211987839,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_318012670",
+      "name": "右颈外动脉",
+      "conceptId": "ZA_V_318012670",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 178880,
+      "normals": 183272,
+      "indices": 185468,
+      "vertexCount": 366,
+      "indexCount": 2124,
+      "bounds": [
+        [
+          -0.046969689428806305,
+          1.4862675666809082,
+          -0.01348994579166174
+        ],
+        [
+          -0.028268827125430107,
+          1.5648678541183472,
+          -0.004239361733198166
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "External_carotid_arteryr",
+        "id": 318012670,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_35870854",
+      "name": "左颞浅动脉",
+      "conceptId": "ZA_V_35870854",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 193964,
+      "normals": 260192,
+      "indices": 293308,
+      "vertexCount": 5519,
+      "indexCount": 32232,
+      "bounds": [
+        [
+          0.040844619274139404,
+          1.5633625984191895,
+          -0.07164297997951508
+        ],
+        [
+          0.07444186508655548,
+          1.6936211585998535,
+          0.04447644576430321
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Superficial_temporal_arteryl",
+        "id": 35870854,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_111818568",
+      "name": "右颞浅动脉",
+      "conceptId": "ZA_V_111818568",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 422236,
+      "normals": 488464,
+      "indices": 521580,
+      "vertexCount": 5519,
+      "indexCount": 32232,
+      "bounds": [
+        [
+          -0.07561638206243515,
+          1.563218116760254,
+          -0.0718880444765091
+        ],
+        [
+          -0.042157236486673355,
+          1.6934723854064941,
+          0.04426869750022888
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Superficial_temporal_arteryr",
+        "id": 111818568,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_945904385",
+      "name": "左上颌动脉",
+      "conceptId": "ZA_V_945904385",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 650508,
+      "normals": 675072,
+      "indices": 687356,
+      "vertexCount": 2047,
+      "indexCount": 11685,
+      "bounds": [
+        [
+          0.02508411556482315,
+          1.5504933595657349,
+          -0.011965510435402393
+        ],
+        [
+          0.04448029026389122,
+          1.5811744928359985,
+          0.049920205026865005
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Maxillary_arteryl",
+        "id": 945904385,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_818106180",
+      "name": "右上颌动脉",
+      "conceptId": "ZA_V_818106180",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 734096,
+      "normals": 758660,
+      "indices": 770944,
+      "vertexCount": 2047,
+      "indexCount": 11685,
+      "bounds": [
+        [
+          -0.04579534754157066,
+          1.5504018068313599,
+          -0.012133223004639149
+        ],
+        [
+          -0.026655564084649086,
+          1.5810712575912476,
+          0.049819402396678925
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Maxillary_arteryr",
+        "id": 818106180,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_638593400",
+      "name": "左面动脉",
+      "conceptId": "ZA_V_638593400",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 817684,
+      "normals": 824200,
+      "indices": 827460,
+      "vertexCount": 543,
+      "indexCount": 3186,
+      "bounds": [
+        [
+          0.02840193547308445,
+          1.5107409954071045,
+          -0.009482067078351974
+        ],
+        [
+          0.04016830027103424,
+          1.5581353902816772,
+          0.05854877457022667
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Facial_arteryl",
+        "id": 638593400,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_801788998",
+      "name": "右面动脉",
+      "conceptId": "ZA_V_801788998",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 840204,
+      "normals": 846720,
+      "indices": 849980,
+      "vertexCount": 543,
+      "indexCount": 3186,
+      "bounds": [
+        [
+          -0.04164866358041763,
+          1.5106492042541504,
+          -0.00961635448038578
+        ],
+        [
+          -0.03001207672059536,
+          1.558038353919983,
+          0.05843130499124527
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Facial_arteryr",
+        "id": 801788998,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_483475934",
+      "name": "左枕动脉",
+      "conceptId": "ZA_V_483475934",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 862724,
+      "normals": 897248,
+      "indices": 914512,
+      "vertexCount": 2877,
+      "indexCount": 16644,
+      "bounds": [
+        [
+          0.030815793201327324,
+          1.556402564048767,
+          -0.11903724074363708
+        ],
+        [
+          0.06314412504434586,
+          1.686793327331543,
+          -0.009544890373945236
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Occipital_arteryl",
+        "id": 483475934,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_420681135",
+      "name": "右枕动脉",
+      "conceptId": "ZA_V_420681135",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 981088,
+      "normals": 1015612,
+      "indices": 1032876,
+      "vertexCount": 2877,
+      "indexCount": 16644,
+      "bounds": [
+        [
+          -0.06415627151727676,
+          1.556266188621521,
+          -0.11916027963161469
+        ],
+        [
+          -0.03163326531648636,
+          1.6866815090179443,
+          -0.009713573381304741
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Occipital_arteryr",
+        "id": 420681135,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_793438682",
+      "name": "左咽升动脉",
+      "conceptId": "ZA_V_793438682",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 1099452,
+      "normals": 1108920,
+      "indices": 1113656,
+      "vertexCount": 789,
+      "indexCount": 7437,
+      "bounds": [
+        [
+          0.012218144722282887,
+          1.524326205253601,
+          -0.010931646451354027
+        ],
+        [
+          0.04079876467585564,
+          1.5554423332214355,
+          0.039537716656923294
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Ascending_pharyngeal_arteryl",
+        "id": 793438682,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_564654772",
+      "name": "右咽升动脉",
+      "conceptId": "ZA_V_564654772",
+      "system": "arterial",
+      "chunk": 17,
+      "positions": 1143404,
+      "normals": 1152872,
+      "indices": 1157608,
+      "vertexCount": 789,
+      "indexCount": 7437,
+      "bounds": [
+        [
+          -0.042121030390262604,
+          1.524219036102295,
+          -0.011090202257037163
+        ],
+        [
+          -0.013694106601178646,
+          1.5553480386734009,
+          0.03947620093822479
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Ascending_pharyngeal_arteryr",
+        "id": 564654772,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_522387428",
+      "name": "左颈外静脉",
+      "conceptId": "ZA_V_522387428",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1187356,
+      "normals": 1192456,
+      "indices": 1195008,
+      "vertexCount": 425,
+      "indexCount": 2478,
+      "bounds": [
+        [
+          0.030075399205088615,
+          1.4259259700775146,
+          -0.016470376402139664
+        ],
+        [
+          0.0509805791079998,
+          1.5389881134033203,
+          0.015576808713376522
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "External_jugular_veinl",
+        "id": 522387428,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "source inlet registered inside parent subclavian vein",
+            "parent": "FJ3486",
+            "sourceCenter": [
+              0.032302772626280785,
+              1.4097291628519695,
+              0.016126581157247227
+            ],
+            "targetCenter": [
+              0.032302772626280785,
+              1.4272001330034785,
+              0.013235603875915224
+            ],
+            "displacementMm": 17.708544482144664
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZA_V_797954444",
+      "name": "右颈外静脉",
+      "conceptId": "ZA_V_797954444",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1204920,
+      "normals": 1210020,
+      "indices": 1212572,
+      "vertexCount": 425,
+      "indexCount": 2478,
+      "bounds": [
+        [
+          -0.052285000681877136,
+          1.4234153032302856,
+          -0.016666164621710777
+        ],
+        [
+          -0.03007541224360466,
+          1.5388263463974,
+          0.018514931201934814
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "External_jugular_veinr",
+        "id": 797954444,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "source inlet registered inside parent subclavian vein",
+            "parent": "FJ3587",
+            "sourceCenter": [
+              -0.032302784423033394,
+              1.4097290734450023,
+              0.016126570524647832
+            ],
+            "targetCenter": [
+              -0.032302784423033394,
+              1.4246893306293162,
+              0.0161737267944796
+            ],
+            "displacementMm": 14.960331504836416
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZA_V_517851933",
+      "name": "左面总静脉",
+      "conceptId": "ZA_V_517851933",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1222484,
+      "normals": 1224044,
+      "indices": 1224824,
+      "vertexCount": 130,
+      "indexCount": 708,
+      "bounds": [
+        [
+          0.026981404051184654,
+          1.524510145187378,
+          -0.012182118371129036
+        ],
+        [
+          0.03394477069377899,
+          1.533384919166565,
+          -0.0033230488188564777
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Common_facial_veinl",
+        "id": 517851933,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_655719699",
+      "name": "右面总静脉",
+      "conceptId": "ZA_V_655719699",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1227656,
+      "normals": 1229216,
+      "indices": 1229996,
+      "vertexCount": 130,
+      "indexCount": 708,
+      "bounds": [
+        [
+          -0.03529500588774681,
+          1.5244191884994507,
+          -0.012292925268411636
+        ],
+        [
+          -0.028286926448345184,
+          1.5332801342010498,
+          -0.0034495436120778322
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Common_facial_veinr",
+        "id": 655719699,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_735490060",
+      "name": "左面静脉",
+      "conceptId": "ZA_V_735490060",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1232828,
+      "normals": 1241468,
+      "indices": 1245788,
+      "vertexCount": 720,
+      "indexCount": 4248,
+      "bounds": [
+        [
+          0.027262885123491287,
+          1.5097252130508423,
+          -0.004729100968688726
+        ],
+        [
+          0.03729719668626785,
+          1.557839035987854,
+          0.05956031009554863
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Facial_veinl",
+        "id": 735490060,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_996067247",
+      "name": "右面静脉",
+      "conceptId": "ZA_V_996067247",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1262780,
+      "normals": 1271420,
+      "indices": 1275740,
+      "vertexCount": 720,
+      "indexCount": 4248,
+      "bounds": [
+        [
+          -0.03875945508480072,
+          1.5096399784088135,
+          -0.004862596746534109
+        ],
+        [
+          -0.028879066929221153,
+          1.5577460527420044,
+          0.05944782495498657
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Facial_veinr",
+        "id": 996067247,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_18511079",
+      "name": "左下颌后静脉",
+      "conceptId": "ZA_V_18511079",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1292732,
+      "normals": 1294292,
+      "indices": 1295072,
+      "vertexCount": 130,
+      "indexCount": 708,
+      "bounds": [
+        [
+          0.03969023376703262,
+          1.5521050691604614,
+          -0.008078685030341148
+        ],
+        [
+          0.04959181696176529,
+          1.5674692392349243,
+          -0.005417208652943373
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Retromandibular_veinl",
+        "id": 18511079,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_407243580",
+      "name": "右下颌后静脉",
+      "conceptId": "ZA_V_407243580",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1297904,
+      "normals": 1299464,
+      "indices": 1300244,
+      "vertexCount": 130,
+      "indexCount": 708,
+      "bounds": [
+        [
+          -0.05092094466090202,
+          1.551971673965454,
+          -0.008244111202657223
+        ],
+        [
+          -0.0410248301923275,
+          1.5673162937164307,
+          -0.0055784909054636955
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Retromandibular_veinr",
+        "id": 407243580,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_320264752",
+      "name": "左下颌后静脉前支",
+      "conceptId": "ZA_V_320264752",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1303076,
+      "normals": 1304636,
+      "indices": 1305416,
+      "vertexCount": 130,
+      "indexCount": 708,
+      "bounds": [
+        [
+          0.031708043068647385,
+          1.5315912961959839,
+          -0.007854286581277847
+        ],
+        [
+          0.04191160574555397,
+          1.553116798400879,
+          -0.0028178065549582243
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Anterior_division_of_retromandibular_veinl",
+        "id": 320264752,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_198837312",
+      "name": "右下颌后静脉前支",
+      "conceptId": "ZA_V_198837312",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1308248,
+      "normals": 1309808,
+      "indices": 1310588,
+      "vertexCount": 130,
+      "indexCount": 708,
+      "bounds": [
+        [
+          -0.043247487396001816,
+          1.5314825773239136,
+          -0.008015863597393036
+        ],
+        [
+          -0.03306031972169876,
+          1.5529896020889282,
+          -0.002947103464975953
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Anterior_division_of_retromandibular_veinr",
+        "id": 198837312,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_916122849",
+      "name": "左下颌后静脉后支",
+      "conceptId": "ZA_V_916122849",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1313420,
+      "normals": 1314980,
+      "indices": 1315760,
+      "vertexCount": 130,
+      "indexCount": 708,
+      "bounds": [
+        [
+          0.04013870283961296,
+          1.538558006286621,
+          -0.016354873776435852
+        ],
+        [
+          0.050741299986839294,
+          1.553279995918274,
+          -0.005977947264909744
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Posterior_division_of_retromandibular_veinl",
+        "id": 916122849,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_596949047",
+      "name": "右下颌后静脉后支",
+      "conceptId": "ZA_V_596949047",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1318592,
+      "normals": 1320152,
+      "indices": 1320932,
+      "vertexCount": 130,
+      "indexCount": 708,
+      "bounds": [
+        [
+          -0.05204325541853905,
+          1.538404107093811,
+          -0.016548311337828636
+        ],
+        [
+          -0.04147207364439964,
+          1.5531485080718994,
+          -0.0061401668936014175
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Posterior_division_of_retromandibular_veinr",
+        "id": 596949047,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_301305010",
+      "name": "左颞浅静脉",
+      "conceptId": "ZA_V_301305010",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1323764,
+      "normals": 1332476,
+      "indices": 1336832,
+      "vertexCount": 726,
+      "indexCount": 4248,
+      "bounds": [
+        [
+          0.047951553016901016,
+          1.5662586688995361,
+          -0.0331050306558609
+        ],
+        [
+          0.0788891613483429,
+          1.6794297695159912,
+          0.010569985024631023
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Superficial_temporal_veinsl",
+        "id": 301305010,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_728548917",
+      "name": "右颞浅静脉",
+      "conceptId": "ZA_V_728548917",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1353824,
+      "normals": 1362536,
+      "indices": 1366892,
+      "vertexCount": 726,
+      "indexCount": 4248,
+      "bounds": [
+        [
+          -0.08015380054712296,
+          1.5661005973815918,
+          -0.033372312784194946
+        ],
+        [
+          -0.049280524253845215,
+          1.6792128086090088,
+          0.010289309546351433
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Superficial_temporal_veinsr",
+        "id": 728548917,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_651678106",
+      "name": "左上颌静脉",
+      "conceptId": "ZA_V_651678106",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1383884,
+      "normals": 1391108,
+      "indices": 1394720,
+      "vertexCount": 602,
+      "indexCount": 3540,
+      "bounds": [
+        [
+          0.027770858258008957,
+          1.5486140251159668,
+          -0.007927426137030125
+        ],
+        [
+          0.043991126120090485,
+          1.5594655275344849,
+          0.056478969752788544
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Maxillary_veinsl",
+        "id": 651678106,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_619900417",
+      "name": "右上颌静脉",
+      "conceptId": "ZA_V_619900417",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1408880,
+      "normals": 1416104,
+      "indices": 1419716,
+      "vertexCount": 602,
+      "indexCount": 3540,
+      "bounds": [
+        [
+          -0.04532332718372345,
+          1.5485115051269531,
+          -0.008098511956632137
+        ],
+        [
+          -0.029223371297121048,
+          1.5593279600143433,
+          0.056352611631155014
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Maxillary_veinsr",
+        "id": 619900417,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_94412611",
+      "name": "上矢状窦",
+      "conceptId": "ZA_V_94412611",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1433876,
+      "normals": 1449584,
+      "indices": 1457440,
+      "vertexCount": 1309,
+      "indexCount": 7788,
+      "bounds": [
+        [
+          -0.002823531161993742,
+          1.5840176343917847,
+          -0.1140078455209732
+        ],
+        [
+          0.001582498662173748,
+          1.7103642225265503,
+          0.069760762155056
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Superior_sagittal_sinus",
+        "id": 94412611,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_438338688",
+      "name": "下矢状窦",
+      "conceptId": "ZA_V_438338688",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1488592,
+      "normals": 1497232,
+      "indices": 1501552,
+      "vertexCount": 720,
+      "indexCount": 4248,
+      "bounds": [
+        [
+          -0.001598551170900464,
+          1.6139894723892212,
+          -0.05856761336326599
+        ],
+        [
+          0.00046620663488283753,
+          1.6602991819381714,
+          0.02916322648525238
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Inferior_sagittal_sinus",
+        "id": 438338688,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_80298761",
+      "name": "左横窦",
+      "conceptId": "ZA_V_80298761",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1518544,
+      "normals": 1523644,
+      "indices": 1526196,
+      "vertexCount": 425,
+      "indexCount": 2478,
+      "bounds": [
+        [
+          -0.0008979540434665978,
+          1.5838212966918945,
+          -0.09646700322628021
+        ],
+        [
+          0.06048569828271866,
+          1.5990917682647705,
+          -0.053199589252471924
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Transverse_sinusl",
+        "id": 80298761,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_835632266",
+      "name": "右横窦",
+      "conceptId": "ZA_V_835632266",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1536108,
+      "normals": 1541208,
+      "indices": 1543760,
+      "vertexCount": 425,
+      "indexCount": 2478,
+      "bounds": [
+        [
+          -0.06159354746341705,
+          1.583821415901184,
+          -0.09653061628341675
+        ],
+        [
+          -0.00004439287295099348,
+          1.5989038944244385,
+          -0.05343596637248993
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Transverse_sinusr",
+        "id": 835632266,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_625388270",
+      "name": "左乙状窦",
+      "conceptId": "ZA_V_625388270",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1553672,
+      "normals": 1555940,
+      "indices": 1557076,
+      "vertexCount": 189,
+      "indexCount": 1062,
+      "bounds": [
+        [
+          0.03803357109427452,
+          1.5732145309448242,
+          -0.05499933660030365
+        ],
+        [
+          0.060871753841638565,
+          1.5986329317092896,
+          -0.03196243941783905
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Sigmoid_sinusl",
+        "id": 625388270,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "sigmoid outlet aligned to superior jugular source ring",
+            "sourceCenter": [
+              0.045368404809900585,
+              1.5715796049316584,
+              -0.03586004885235275
+            ],
+            "targetCenter": [
+              0.038750746099240264,
+              1.574207752113918,
+              -0.032733177279325475
+            ],
+            "displacementMm": 7.776753195042477
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZA_V_503241573",
+      "name": "右乙状窦",
+      "conceptId": "ZA_V_503241573",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1561324,
+      "normals": 1563592,
+      "indices": 1564728,
+      "vertexCount": 189,
+      "indexCount": 1062,
+      "bounds": [
+        [
+          -0.061986591666936874,
+          1.5730904340744019,
+          -0.05523030087351799
+        ],
+        [
+          -0.03924385458230972,
+          1.5984480381011963,
+          -0.03211739659309387
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Sigmoid_sinusr",
+        "id": 503241573,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": [
+          {
+            "kind": "sigmoid outlet aligned to superior jugular source ring",
+            "sourceCenter": [
+              -0.04656923594774165,
+              1.5714349541035855,
+              -0.036038399031721124
+            ],
+            "targetCenter": [
+              -0.039964173719041284,
+              1.5740839053874225,
+              -0.03288587472366017
+            ],
+            "displacementMm": 7.783456781023535
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZA_V_730023868",
+      "name": "左海绵窦",
+      "conceptId": "ZA_V_730023868",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1568976,
+      "normals": 1588956,
+      "indices": 1598948,
+      "vertexCount": 1665,
+      "indexCount": 11964,
+      "bounds": [
+        [
+          0.004406473133713007,
+          1.5920284986495972,
+          -0.008310277946293354
+        ],
+        [
+          0.017769791185855865,
+          1.6095490455627441,
+          0.012261408381164074
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Cavernous_sinusl",
+        "id": 730023868,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_245201876",
+      "name": "右海绵窦",
+      "conceptId": "ZA_V_245201876",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1646804,
+      "normals": 1666688,
+      "indices": 1676632,
+      "vertexCount": 1657,
+      "indexCount": 11964,
+      "bounds": [
+        [
+          -0.019138136878609657,
+          1.5919890403747559,
+          -0.008359703235328197
+        ],
+        [
+          -0.0057566966861486435,
+          1.6095311641693115,
+          0.01220090501010418
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Cavernous_sinusr",
+        "id": 245201876,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_124854029",
+      "name": "左岩上窦",
+      "conceptId": "ZA_V_124854029",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1724488,
+      "normals": 1728868,
+      "indices": 1731060,
+      "vertexCount": 365,
+      "indexCount": 2121,
+      "bounds": [
+        [
+          0.012999226339161396,
+          1.5933761596679688,
+          -0.053652338683605194
+        ],
+        [
+          0.06038935109972954,
+          1.6020112037658691,
+          -0.00702095590531826
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Superior_petrosal_sinusl",
+        "id": 124854029,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_113580104",
+      "name": "右岩上窦",
+      "conceptId": "ZA_V_113580104",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1739544,
+      "normals": 1743924,
+      "indices": 1746116,
+      "vertexCount": 365,
+      "indexCount": 2121,
+      "bounds": [
+        [
+          -0.061505235731601715,
+          1.5933077335357666,
+          -0.0538812056183815
+        ],
+        [
+          -0.01431445311754942,
+          1.6018389463424683,
+          -0.007077009882777929
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Superior_petrosal_sinusr",
+        "id": 113580104,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_61179854",
+      "name": "左岩下窦",
+      "conceptId": "ZA_V_61179854",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1754600,
+      "normals": 1758992,
+      "indices": 1761188,
+      "vertexCount": 366,
+      "indexCount": 2124,
+      "bounds": [
+        [
+          0.007697248365730047,
+          1.5704426765441895,
+          -0.036633118987083435
+        ],
+        [
+          0.046080898493528366,
+          1.59523344039917,
+          -0.004616454243659973
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Inferior_petrosal_sinusl",
+        "id": 61179854,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_407612440",
+      "name": "右岩下窦",
+      "conceptId": "ZA_V_407612440",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1769684,
+      "normals": 1774076,
+      "indices": 1776272,
+      "vertexCount": 366,
+      "indexCount": 2124,
+      "bounds": [
+        [
+          -0.04728465899825096,
+          1.5703004598617554,
+          -0.036808986216783524
+        ],
+        [
+          -0.00900393258780241,
+          1.5952003002166748,
+          -0.004656855016946793
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Inferior_petrosal_sinusr",
+        "id": 407612440,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_680059017",
+      "name": "前海绵间窦",
+      "conceptId": "ZA_V_680059017",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1784768,
+      "normals": 1786328,
+      "indices": 1787108,
+      "vertexCount": 130,
+      "indexCount": 708,
+      "bounds": [
+        [
+          -0.005313849542289972,
+          1.6099600791931152,
+          0.004543231800198555
+        ],
+        [
+          0.0039473832584917545,
+          1.6141413450241089,
+          0.007489960640668869
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Anterior_intercavernous_sinus",
+        "id": 680059017,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_548412580",
+      "name": "后海绵间窦",
+      "conceptId": "ZA_V_548412580",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1789940,
+      "normals": 1793624,
+      "indices": 1795468,
+      "vertexCount": 307,
+      "indexCount": 1770,
+      "bounds": [
+        [
+          -0.006544563453644514,
+          1.6032909154891968,
+          -0.0037577105686068535
+        ],
+        [
+          0.005189504940062761,
+          1.6151750087738037,
+          0.0062530613504350185
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Posterior_intercavernous_sinus",
+        "id": 548412580,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_115760150",
+      "name": "奇静脉",
+      "conceptId": "ZA_V_115760150",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1802548,
+      "normals": 1816144,
+      "indices": 1822944,
+      "vertexCount": 1133,
+      "indexCount": 6726,
+      "bounds": [
+        [
+          -0.01790606416761875,
+          1.1510357856750488,
+          -0.038327284157276154
+        ],
+        [
+          -0.005718650296330452,
+          1.3661044836044312,
+          0.014526532962918282
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Azygos_vein",
+        "id": 115760150,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "ZA_V_831159924",
+      "name": "半奇静脉",
+      "conceptId": "ZA_V_831159924",
+      "system": "venous",
+      "chunk": 17,
+      "positions": 1849848,
+      "normals": 1858488,
+      "indices": 1862808,
+      "vertexCount": 720,
+      "indexCount": 4248,
+      "bounds": [
+        [
+          -0.015862708911299706,
+          1.1469526290893555,
+          -0.04311542212963104
+        ],
+        [
+          0.023913465440273285,
+          1.2487677335739136,
+          -0.02216392196714878
+        ]
+      ],
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "CardioVascular41.fbx",
+        "mesh": "Hemi-azygos_vein",
+        "id": 831159924,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+        "phase": 2
+      },
+      "registration": {
+        "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+        "headAnchors": [
+          "Temporal_bonel",
+          "Temporal_boner",
+          "Zygomatic_bonel",
+          "Zygomatic_boner",
+          "Maxillal",
+          "Maxillar",
+          "Parietal_bonel",
+          "Parietal_boner",
+          "Mandible",
+          "Frontal_bone",
+          "Occipital_bone",
+          "Sphenoid_bone"
+        ],
+        "adjustments": []
+      }
     }
   ],
   "chunks": [
@@ -58632,9 +61496,15 @@
       "bytes": 1050992,
       "gzip": "/models/supplement-1.bin.gz",
       "gzipBytes": 558251
+    },
+    {
+      "url": "/models/vascular-0.bin",
+      "bytes": 1879800,
+      "gzip": "/models/vascular-0.bin.gz",
+      "gzipBytes": 1058456
     }
   ],
-  "triangles": 2533809,
+  "triangles": 2620152,
   "concepts": [
     {
       "id": "FMA3710",
@@ -126996,6 +129866,704 @@
         "ZA_J_193731724",
         "ZA_J_137191166"
       ]
+    },
+    {
+      "id": "ZA_V_211987839",
+      "name": "左颈外动脉",
+      "elements": [
+        "ZA_V_211987839"
+      ]
+    },
+    {
+      "id": "ZA_V_318012670",
+      "name": "右颈外动脉",
+      "elements": [
+        "ZA_V_318012670"
+      ]
+    },
+    {
+      "id": "ZA_V_35870854",
+      "name": "左颞浅动脉",
+      "elements": [
+        "ZA_V_35870854"
+      ]
+    },
+    {
+      "id": "ZA_V_111818568",
+      "name": "右颞浅动脉",
+      "elements": [
+        "ZA_V_111818568"
+      ]
+    },
+    {
+      "id": "ZA_V_945904385",
+      "name": "左上颌动脉",
+      "elements": [
+        "ZA_V_945904385"
+      ]
+    },
+    {
+      "id": "ZA_V_818106180",
+      "name": "右上颌动脉",
+      "elements": [
+        "ZA_V_818106180"
+      ]
+    },
+    {
+      "id": "ZA_V_638593400",
+      "name": "左面动脉",
+      "elements": [
+        "ZA_V_638593400"
+      ]
+    },
+    {
+      "id": "ZA_V_801788998",
+      "name": "右面动脉",
+      "elements": [
+        "ZA_V_801788998"
+      ]
+    },
+    {
+      "id": "ZA_V_483475934",
+      "name": "左枕动脉",
+      "elements": [
+        "ZA_V_483475934"
+      ]
+    },
+    {
+      "id": "ZA_V_420681135",
+      "name": "右枕动脉",
+      "elements": [
+        "ZA_V_420681135"
+      ]
+    },
+    {
+      "id": "ZA_V_793438682",
+      "name": "左咽升动脉",
+      "elements": [
+        "ZA_V_793438682"
+      ]
+    },
+    {
+      "id": "ZA_V_564654772",
+      "name": "右咽升动脉",
+      "elements": [
+        "ZA_V_564654772"
+      ]
+    },
+    {
+      "id": "ZA_V_522387428",
+      "name": "左颈外静脉",
+      "elements": [
+        "ZA_V_522387428"
+      ]
+    },
+    {
+      "id": "ZA_V_797954444",
+      "name": "右颈外静脉",
+      "elements": [
+        "ZA_V_797954444"
+      ]
+    },
+    {
+      "id": "ZA_V_517851933",
+      "name": "左面总静脉",
+      "elements": [
+        "ZA_V_517851933"
+      ]
+    },
+    {
+      "id": "ZA_V_655719699",
+      "name": "右面总静脉",
+      "elements": [
+        "ZA_V_655719699"
+      ]
+    },
+    {
+      "id": "ZA_V_735490060",
+      "name": "左面静脉",
+      "elements": [
+        "ZA_V_735490060"
+      ]
+    },
+    {
+      "id": "ZA_V_996067247",
+      "name": "右面静脉",
+      "elements": [
+        "ZA_V_996067247"
+      ]
+    },
+    {
+      "id": "ZA_V_18511079",
+      "name": "左下颌后静脉",
+      "elements": [
+        "ZA_V_18511079"
+      ]
+    },
+    {
+      "id": "ZA_V_407243580",
+      "name": "右下颌后静脉",
+      "elements": [
+        "ZA_V_407243580"
+      ]
+    },
+    {
+      "id": "ZA_V_320264752",
+      "name": "左下颌后静脉前支",
+      "elements": [
+        "ZA_V_320264752"
+      ]
+    },
+    {
+      "id": "ZA_V_198837312",
+      "name": "右下颌后静脉前支",
+      "elements": [
+        "ZA_V_198837312"
+      ]
+    },
+    {
+      "id": "ZA_V_916122849",
+      "name": "左下颌后静脉后支",
+      "elements": [
+        "ZA_V_916122849"
+      ]
+    },
+    {
+      "id": "ZA_V_596949047",
+      "name": "右下颌后静脉后支",
+      "elements": [
+        "ZA_V_596949047"
+      ]
+    },
+    {
+      "id": "ZA_V_301305010",
+      "name": "左颞浅静脉",
+      "elements": [
+        "ZA_V_301305010"
+      ]
+    },
+    {
+      "id": "ZA_V_728548917",
+      "name": "右颞浅静脉",
+      "elements": [
+        "ZA_V_728548917"
+      ]
+    },
+    {
+      "id": "ZA_V_651678106",
+      "name": "左上颌静脉",
+      "elements": [
+        "ZA_V_651678106"
+      ]
+    },
+    {
+      "id": "ZA_V_619900417",
+      "name": "右上颌静脉",
+      "elements": [
+        "ZA_V_619900417"
+      ]
+    },
+    {
+      "id": "ZA_V_94412611",
+      "name": "上矢状窦",
+      "elements": [
+        "ZA_V_94412611"
+      ]
+    },
+    {
+      "id": "ZA_V_438338688",
+      "name": "下矢状窦",
+      "elements": [
+        "ZA_V_438338688"
+      ]
+    },
+    {
+      "id": "ZA_V_80298761",
+      "name": "左横窦",
+      "elements": [
+        "ZA_V_80298761"
+      ]
+    },
+    {
+      "id": "ZA_V_835632266",
+      "name": "右横窦",
+      "elements": [
+        "ZA_V_835632266"
+      ]
+    },
+    {
+      "id": "ZA_V_625388270",
+      "name": "左乙状窦",
+      "elements": [
+        "ZA_V_625388270"
+      ]
+    },
+    {
+      "id": "ZA_V_503241573",
+      "name": "右乙状窦",
+      "elements": [
+        "ZA_V_503241573"
+      ]
+    },
+    {
+      "id": "ZA_V_730023868",
+      "name": "左海绵窦",
+      "elements": [
+        "ZA_V_730023868"
+      ]
+    },
+    {
+      "id": "ZA_V_245201876",
+      "name": "右海绵窦",
+      "elements": [
+        "ZA_V_245201876"
+      ]
+    },
+    {
+      "id": "ZA_V_124854029",
+      "name": "左岩上窦",
+      "elements": [
+        "ZA_V_124854029"
+      ]
+    },
+    {
+      "id": "ZA_V_113580104",
+      "name": "右岩上窦",
+      "elements": [
+        "ZA_V_113580104"
+      ]
+    },
+    {
+      "id": "ZA_V_61179854",
+      "name": "左岩下窦",
+      "elements": [
+        "ZA_V_61179854"
+      ]
+    },
+    {
+      "id": "ZA_V_407612440",
+      "name": "右岩下窦",
+      "elements": [
+        "ZA_V_407612440"
+      ]
+    },
+    {
+      "id": "ZA_V_680059017",
+      "name": "前海绵间窦",
+      "elements": [
+        "ZA_V_680059017"
+      ]
+    },
+    {
+      "id": "ZA_V_548412580",
+      "name": "后海绵间窦",
+      "elements": [
+        "ZA_V_548412580"
+      ]
+    },
+    {
+      "id": "ZA_V_115760150",
+      "name": "奇静脉",
+      "elements": [
+        "ZA_V_115760150"
+      ]
+    },
+    {
+      "id": "ZA_V_831159924",
+      "name": "半奇静脉",
+      "elements": [
+        "ZA_V_831159924"
+      ]
+    },
+    {
+      "id": "ZAV_External_carotid_artery",
+      "name": "颈外动脉",
+      "elements": [
+        "ZA_V_211987839",
+        "ZA_V_318012670"
+      ]
+    },
+    {
+      "id": "ZAV_Superficial_temporal_artery",
+      "name": "颞浅动脉",
+      "elements": [
+        "ZA_V_35870854",
+        "ZA_V_111818568"
+      ]
+    },
+    {
+      "id": "ZAV_Maxillary_artery",
+      "name": "上颌动脉",
+      "elements": [
+        "ZA_V_945904385",
+        "ZA_V_818106180"
+      ]
+    },
+    {
+      "id": "ZAV_Facial_artery",
+      "name": "面动脉",
+      "elements": [
+        "ZA_V_638593400",
+        "ZA_V_801788998"
+      ]
+    },
+    {
+      "id": "ZAV_Occipital_artery",
+      "name": "枕动脉",
+      "elements": [
+        "ZA_V_483475934",
+        "ZA_V_420681135"
+      ]
+    },
+    {
+      "id": "ZAV_Ascending_pharyngeal_artery",
+      "name": "咽升动脉",
+      "elements": [
+        "ZA_V_793438682",
+        "ZA_V_564654772"
+      ]
+    },
+    {
+      "id": "ZAV_External_jugular_vein",
+      "name": "颈外静脉",
+      "elements": [
+        "ZA_V_522387428",
+        "ZA_V_797954444"
+      ]
+    },
+    {
+      "id": "ZAV_Common_facial_vein",
+      "name": "面总静脉",
+      "elements": [
+        "ZA_V_517851933",
+        "ZA_V_655719699"
+      ]
+    },
+    {
+      "id": "ZAV_Facial_vein",
+      "name": "面静脉",
+      "elements": [
+        "ZA_V_735490060",
+        "ZA_V_996067247"
+      ]
+    },
+    {
+      "id": "ZAV_Retromandibular_vein",
+      "name": "下颌后静脉",
+      "elements": [
+        "ZA_V_18511079",
+        "ZA_V_407243580"
+      ]
+    },
+    {
+      "id": "ZAV_Anterior_division_of_retromandibular_vein",
+      "name": "下颌后静脉前支",
+      "elements": [
+        "ZA_V_320264752",
+        "ZA_V_198837312"
+      ]
+    },
+    {
+      "id": "ZAV_Posterior_division_of_retromandibular_vein",
+      "name": "下颌后静脉后支",
+      "elements": [
+        "ZA_V_916122849",
+        "ZA_V_596949047"
+      ]
+    },
+    {
+      "id": "ZAV_Superficial_temporal_veins",
+      "name": "颞浅静脉",
+      "elements": [
+        "ZA_V_301305010",
+        "ZA_V_728548917"
+      ]
+    },
+    {
+      "id": "ZAV_Maxillary_veins",
+      "name": "上颌静脉",
+      "elements": [
+        "ZA_V_651678106",
+        "ZA_V_619900417"
+      ]
+    },
+    {
+      "id": "ZAV_Transverse_sinus",
+      "name": "横窦",
+      "elements": [
+        "ZA_V_80298761",
+        "ZA_V_835632266"
+      ]
+    },
+    {
+      "id": "ZAV_Sigmoid_sinus",
+      "name": "乙状窦",
+      "elements": [
+        "ZA_V_625388270",
+        "ZA_V_503241573"
+      ]
+    },
+    {
+      "id": "ZAV_Cavernous_sinus",
+      "name": "海绵窦",
+      "elements": [
+        "ZA_V_730023868",
+        "ZA_V_245201876"
+      ]
+    },
+    {
+      "id": "ZAV_Superior_petrosal_sinus",
+      "name": "岩上窦",
+      "elements": [
+        "ZA_V_124854029",
+        "ZA_V_113580104"
+      ]
+    },
+    {
+      "id": "ZAV_Inferior_petrosal_sinus",
+      "name": "岩下窦",
+      "elements": [
+        "ZA_V_61179854",
+        "ZA_V_407612440"
+      ]
+    },
+    {
+      "id": "ZAV_head_neck_arteries",
+      "name": "头颈主要动脉",
+      "elements": [
+        "FJ1654",
+        "FJ1654M",
+        "FJ1655",
+        "FJ1656",
+        "FJ1656M",
+        "FJ1657",
+        "FJ1657M",
+        "FJ1658",
+        "FJ1658M",
+        "FJ1659",
+        "FJ1659M",
+        "FJ1660",
+        "FJ1660M",
+        "FJ1661",
+        "FJ1661M",
+        "FJ1662",
+        "FJ1662M",
+        "FJ1663",
+        "FJ1663M",
+        "FJ1664",
+        "FJ1664M",
+        "FJ1665",
+        "FJ1665M",
+        "FJ1666",
+        "FJ1666M",
+        "FJ1667",
+        "FJ1667M",
+        "FJ1668",
+        "FJ1668M",
+        "FJ1669",
+        "FJ1669M",
+        "FJ1670",
+        "FJ1670M",
+        "FJ1671",
+        "FJ1671M",
+        "FJ1672",
+        "FJ1673",
+        "FJ1673M",
+        "FJ1674",
+        "FJ1674M",
+        "FJ1675",
+        "FJ1675M",
+        "FJ1676",
+        "FJ1676M",
+        "FJ1677",
+        "FJ1677M",
+        "FJ1678",
+        "FJ1678M",
+        "FJ1679",
+        "FJ1679M",
+        "FJ1680",
+        "FJ1680M",
+        "FJ1681",
+        "FJ1681M",
+        "FJ1682",
+        "FJ1682M",
+        "FJ1683",
+        "FJ1683M",
+        "FJ1684",
+        "FJ1684M",
+        "FJ1685",
+        "FJ1685M",
+        "FJ1686",
+        "FJ1686M",
+        "FJ1687",
+        "FJ1687M",
+        "FJ1688",
+        "FJ1688M",
+        "FJ1689",
+        "FJ1689M",
+        "FJ1690",
+        "FJ1690M",
+        "FJ1691",
+        "FJ1691M",
+        "FJ1692",
+        "FJ1692M",
+        "FJ1693",
+        "FJ1693M",
+        "FJ1694",
+        "FJ1694M",
+        "FJ1695",
+        "FJ1695M",
+        "FJ1696",
+        "FJ1696M",
+        "FJ1697",
+        "FJ1697M",
+        "FJ1698",
+        "FJ1698M",
+        "FJ1699",
+        "FJ1699M",
+        "FJ1700",
+        "FJ1700M",
+        "FJ1701",
+        "FJ1701M",
+        "FJ1702",
+        "FJ1702M",
+        "FJ1703",
+        "FJ1703M",
+        "FJ1704",
+        "FJ1704M",
+        "FJ1705",
+        "FJ1705M",
+        "FJ1706",
+        "FJ1706M",
+        "FJ1707",
+        "FJ1707M",
+        "FJ1708",
+        "FJ1708M",
+        "FJ1709",
+        "FJ1709M",
+        "FJ1710",
+        "FJ1710M",
+        "FJ1711",
+        "FJ1711M",
+        "FJ1712",
+        "FJ1712M",
+        "FJ1713",
+        "FJ1713M",
+        "FJ1714",
+        "FJ1714M",
+        "FJ1715",
+        "FJ1715M",
+        "FJ1716",
+        "FJ1716M",
+        "FJ1717",
+        "FJ1717M",
+        "FJ1718",
+        "FJ1718M",
+        "FJ1719",
+        "FJ1719M",
+        "FJ1720",
+        "FJ1720M",
+        "FJ1721",
+        "FJ1721M",
+        "FJ1722",
+        "FJ1722M",
+        "FJ1723",
+        "FJ1723M",
+        "FJ1724",
+        "FJ1724M",
+        "FJ1725",
+        "FJ1725M",
+        "FJ1726",
+        "FJ1726M",
+        "FJ1727",
+        "FJ1727M",
+        "FJ1728",
+        "FJ1728M",
+        "FJ1729",
+        "FJ1729M",
+        "FJ1844",
+        "FJ3483",
+        "FJ3564",
+        "ZA_V_211987839",
+        "ZA_V_318012670",
+        "ZA_V_35870854",
+        "ZA_V_111818568",
+        "ZA_V_945904385",
+        "ZA_V_818106180",
+        "ZA_V_638593400",
+        "ZA_V_801788998",
+        "ZA_V_483475934",
+        "ZA_V_420681135",
+        "ZA_V_793438682",
+        "ZA_V_564654772"
+      ]
+    },
+    {
+      "id": "ZAV_head_neck_veins",
+      "name": "头颈主要静脉",
+      "elements": [
+        "FJ3485",
+        "FJ3585",
+        "ZA_V_522387428",
+        "ZA_V_797954444",
+        "ZA_V_517851933",
+        "ZA_V_655719699",
+        "ZA_V_735490060",
+        "ZA_V_996067247",
+        "ZA_V_18511079",
+        "ZA_V_407243580",
+        "ZA_V_320264752",
+        "ZA_V_198837312",
+        "ZA_V_916122849",
+        "ZA_V_596949047",
+        "ZA_V_301305010",
+        "ZA_V_728548917",
+        "ZA_V_651678106",
+        "ZA_V_619900417",
+        "ZA_V_94412611",
+        "ZA_V_438338688",
+        "ZA_V_80298761",
+        "ZA_V_835632266",
+        "ZA_V_625388270",
+        "ZA_V_503241573",
+        "ZA_V_730023868",
+        "ZA_V_245201876",
+        "ZA_V_124854029",
+        "ZA_V_113580104",
+        "ZA_V_61179854",
+        "ZA_V_407612440",
+        "ZA_V_680059017",
+        "ZA_V_548412580"
+      ]
+    },
+    {
+      "id": "ZAV_dural_sinuses",
+      "name": "颅内静脉窦（已收录）",
+      "elements": [
+        "ZA_V_94412611",
+        "ZA_V_438338688",
+        "ZA_V_80298761",
+        "ZA_V_835632266",
+        "ZA_V_625388270",
+        "ZA_V_503241573",
+        "ZA_V_730023868",
+        "ZA_V_245201876",
+        "ZA_V_124854029",
+        "ZA_V_113580104",
+        "ZA_V_61179854",
+        "ZA_V_407612440",
+        "ZA_V_680059017",
+        "ZA_V_548412580"
+      ]
+    },
+    {
+      "id": "ZAV_azygos",
+      "name": "胸部奇静脉系统（已收录）",
+      "elements": [
+        "ZA_V_115760150",
+        "ZA_V_831159924",
+        "FJ1981"
+      ]
     }
   ],
   "sourceTriangles": 6681030,
@@ -127024,5 +130592,78 @@
       "MuscularSystem100.fbx": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
       "Joints100.fbx": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823"
     }
+  },
+  "vascular": {
+    "version": 1,
+    "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+    "license": "CC-BY-SA-4.0",
+    "addedMeshes": 44,
+    "extendedMeshes": 8,
+    "importedIds": [
+      "FJ3483",
+      "FJ3564",
+      "FJ1682M",
+      "FJ1682",
+      "FJ1725M",
+      "FJ1725",
+      "FJ3485",
+      "FJ3585",
+      "ZA_V_211987839",
+      "ZA_V_318012670",
+      "ZA_V_35870854",
+      "ZA_V_111818568",
+      "ZA_V_945904385",
+      "ZA_V_818106180",
+      "ZA_V_638593400",
+      "ZA_V_801788998",
+      "ZA_V_483475934",
+      "ZA_V_420681135",
+      "ZA_V_793438682",
+      "ZA_V_564654772",
+      "ZA_V_522387428",
+      "ZA_V_797954444",
+      "ZA_V_517851933",
+      "ZA_V_655719699",
+      "ZA_V_735490060",
+      "ZA_V_996067247",
+      "ZA_V_18511079",
+      "ZA_V_407243580",
+      "ZA_V_320264752",
+      "ZA_V_198837312",
+      "ZA_V_916122849",
+      "ZA_V_596949047",
+      "ZA_V_301305010",
+      "ZA_V_728548917",
+      "ZA_V_651678106",
+      "ZA_V_619900417",
+      "ZA_V_94412611",
+      "ZA_V_438338688",
+      "ZA_V_80298761",
+      "ZA_V_835632266",
+      "ZA_V_625388270",
+      "ZA_V_503241573",
+      "ZA_V_730023868",
+      "ZA_V_245201876",
+      "ZA_V_124854029",
+      "ZA_V_113580104",
+      "ZA_V_61179854",
+      "ZA_V_407612440",
+      "ZA_V_680059017",
+      "ZA_V_548412580",
+      "ZA_V_115760150",
+      "ZA_V_831159924"
+    ],
+    "sourceSha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+    "geometrySha256": {
+      "vascular-0.bin": "ba529d6fd704cf25fa05700576dceab6eda74a68e8d6652259a0d00563632477"
+    },
+    "limitations": [
+      "非全身全部血管图谱；未覆盖全部细小分支和个体变异。",
+      "直窦补充源存在约42毫米连接偏差，未采用；大脑大静脉与独立窦汇无可用源网格。",
+      "深部脑静脉回流及下矢状窦后续通路未补齐。",
+      "奇静脉、半奇静脉下端与腰升静脉之间仍有源模型缺段。左右耳后静脉因源模型约28毫米的连接缺口未导入。",
+      "源片段与原主干采用重叠配准，连接处不是已验证的密闭血管腔；不适用于血流模拟。",
+      "乙状窦出口按颈内静脉上端对齐；配准、接合区域与全部软组织关系尚未经专业解剖审校。"
+    ]
   }
 }

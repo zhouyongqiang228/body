@@ -1,0 +1,2101 @@
+{
+  "method": "Nearest mesh-vertex separation screens for large missing segments. It is not a lumen-continuity or anatomical-validity proof. Measurements include every referenced mesh, not only the first part of a concept.",
+  "families": [
+    {
+      "name": "升主动脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ3413"
+      ]
+    },
+    {
+      "name": "主动脉弓",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ3411"
+      ]
+    },
+    {
+      "name": "降胸主动脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ1931"
+      ]
+    },
+    {
+      "name": "腹主动脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ1932"
+      ]
+    },
+    {
+      "name": "头臂干",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ3417"
+      ]
+    },
+    {
+      "name": "上腔静脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ3645"
+      ]
+    },
+    {
+      "name": "下腔静脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ3441",
+        "FJ3659"
+      ]
+    },
+    {
+      "name": "肺干",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ2966"
+      ]
+    },
+    {
+      "name": "腹腔干",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ3421"
+      ]
+    },
+    {
+      "name": "上肠系膜动脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ1928",
+        "FJ2011"
+      ]
+    },
+    {
+      "name": "下肠系膜动脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ3442"
+      ]
+    },
+    {
+      "name": "肝门静脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ1853"
+      ]
+    },
+    {
+      "name": "上肠系膜静脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ3647"
+      ]
+    },
+    {
+      "name": "下肠系膜静脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ3443"
+      ]
+    },
+    {
+      "name": "脾静脉",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ3641"
+      ]
+    },
+    {
+      "name": "冠状窦",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ2655"
+      ]
+    },
+    {
+      "name": "左冠状动脉干",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ2737"
+      ]
+    },
+    {
+      "name": "右冠状动脉干",
+      "region": "胸腹",
+      "status": "represented",
+      "parts": [
+        "FJ2723"
+      ]
+    },
+    {
+      "name": "左颈总动脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "FJ3483"
+      ]
+    },
+    {
+      "name": "右颈总动脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "FJ3564"
+      ]
+    },
+    {
+      "name": "左颈内动脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "FJ1682M"
+      ]
+    },
+    {
+      "name": "右颈内动脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "FJ1682"
+      ]
+    },
+    {
+      "name": "左椎动脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "FJ1725M"
+      ]
+    },
+    {
+      "name": "右椎动脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "FJ1725"
+      ]
+    },
+    {
+      "name": "左颈内静脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "FJ3485"
+      ]
+    },
+    {
+      "name": "右颈内静脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "FJ3585"
+      ]
+    },
+    {
+      "name": "左颈外动脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "ZA_V_211987839"
+      ]
+    },
+    {
+      "name": "右颈外动脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "ZA_V_318012670"
+      ]
+    },
+    {
+      "name": "左颈外静脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "ZA_V_522387428"
+      ]
+    },
+    {
+      "name": "右颈外静脉",
+      "region": "头颈",
+      "status": "represented",
+      "parts": [
+        "ZA_V_797954444"
+      ]
+    },
+    {
+      "name": "左锁骨下动脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ3479"
+      ]
+    },
+    {
+      "name": "右锁骨下动脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ3579"
+      ]
+    },
+    {
+      "name": "左腋动脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2216"
+      ]
+    },
+    {
+      "name": "右腋动脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2268"
+      ]
+    },
+    {
+      "name": "左肱动脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2219"
+      ]
+    },
+    {
+      "name": "右肱动脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2271"
+      ]
+    },
+    {
+      "name": "左桡动脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2242"
+      ]
+    },
+    {
+      "name": "右桡动脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2294"
+      ]
+    },
+    {
+      "name": "左尺动脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2258"
+      ]
+    },
+    {
+      "name": "右尺动脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2310"
+      ]
+    },
+    {
+      "name": "左锁骨下静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ3486"
+      ]
+    },
+    {
+      "name": "右锁骨下静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ3587"
+      ]
+    },
+    {
+      "name": "左腋静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2217"
+      ]
+    },
+    {
+      "name": "右腋静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2269"
+      ]
+    },
+    {
+      "name": "左肱静脉内侧支",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2313"
+      ]
+    },
+    {
+      "name": "右肱静脉内侧支",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2341"
+      ]
+    },
+    {
+      "name": "左桡静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2244"
+      ]
+    },
+    {
+      "name": "右桡静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2296"
+      ]
+    },
+    {
+      "name": "左尺静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2260"
+      ]
+    },
+    {
+      "name": "右尺静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2312"
+      ]
+    },
+    {
+      "name": "左头静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2220"
+      ]
+    },
+    {
+      "name": "右头静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2272"
+      ]
+    },
+    {
+      "name": "左贵要静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2218"
+      ]
+    },
+    {
+      "name": "右贵要静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ2270"
+      ]
+    },
+    {
+      "name": "左头臂静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ3482"
+      ]
+    },
+    {
+      "name": "右头臂静脉",
+      "region": "上肢",
+      "status": "represented",
+      "parts": [
+        "FJ3583"
+      ]
+    },
+    {
+      "name": "左髂总动脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3464"
+      ]
+    },
+    {
+      "name": "右髂总动脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3565"
+      ]
+    },
+    {
+      "name": "左髂外动脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3466"
+      ]
+    },
+    {
+      "name": "右髂外动脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3567"
+      ]
+    },
+    {
+      "name": "左髂内动脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3468"
+      ]
+    },
+    {
+      "name": "右髂内动脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3569"
+      ]
+    },
+    {
+      "name": "左髂总静脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3465"
+      ]
+    },
+    {
+      "name": "右髂总静脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3566"
+      ]
+    },
+    {
+      "name": "左髂外静脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3484",
+        "FJ3522",
+        "FJ3523",
+        "FJ3524"
+      ]
+    },
+    {
+      "name": "右髂外静脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3568"
+      ]
+    },
+    {
+      "name": "左髂内静脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3469",
+        "FJ3470",
+        "FJ3471"
+      ]
+    },
+    {
+      "name": "右髂内静脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3570",
+        "FJ3571",
+        "FJ3572",
+        "FJ3607",
+        "FJ3608",
+        "FJ3609"
+      ]
+    },
+    {
+      "name": "左肾动脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ2046"
+      ]
+    },
+    {
+      "name": "右肾动脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ2038"
+      ]
+    },
+    {
+      "name": "左肾静脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3477",
+        "FJ3478"
+      ]
+    },
+    {
+      "name": "右肾静脉",
+      "region": "腹盆",
+      "status": "represented",
+      "parts": [
+        "FJ3577",
+        "FJ3578"
+      ]
+    },
+    {
+      "name": "左股动脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2074"
+      ]
+    },
+    {
+      "name": "右股动脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2143"
+      ]
+    },
+    {
+      "name": "左腘动脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2086"
+      ]
+    },
+    {
+      "name": "右腘动脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2170"
+      ]
+    },
+    {
+      "name": "左胫前动脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2065"
+      ]
+    },
+    {
+      "name": "右胫前动脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2130"
+      ]
+    },
+    {
+      "name": "左胫后动脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2087"
+      ]
+    },
+    {
+      "name": "右胫后动脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2172"
+      ]
+    },
+    {
+      "name": "左足背动脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2073"
+      ]
+    },
+    {
+      "name": "右足背动脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2055"
+      ]
+    },
+    {
+      "name": "左股静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2102"
+      ]
+    },
+    {
+      "name": "右股静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2144"
+      ]
+    },
+    {
+      "name": "左腘静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2117"
+      ]
+    },
+    {
+      "name": "右腘静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2171"
+      ]
+    },
+    {
+      "name": "左胫前静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2097",
+        "FJ2183"
+      ]
+    },
+    {
+      "name": "右胫前静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2132",
+        "FJ2193"
+      ]
+    },
+    {
+      "name": "左胫后静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2118"
+      ]
+    },
+    {
+      "name": "右胫后静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2173"
+      ]
+    },
+    {
+      "name": "左腓静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2184",
+        "FJ2187"
+      ]
+    },
+    {
+      "name": "右腓静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2190",
+        "FJ2194",
+        "FJ2200"
+      ]
+    },
+    {
+      "name": "左大隐静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2103"
+      ]
+    },
+    {
+      "name": "右大隐静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2145"
+      ]
+    },
+    {
+      "name": "左小隐静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2121"
+      ]
+    },
+    {
+      "name": "右小隐静脉",
+      "region": "下肢",
+      "status": "represented",
+      "parts": [
+        "FJ2176"
+      ]
+    },
+    {
+      "name": "基底动脉",
+      "region": "颅内",
+      "status": "represented",
+      "parts": [
+        "FJ1672",
+        "FJ1844"
+      ]
+    },
+    {
+      "name": "上矢状窦",
+      "region": "颅内",
+      "status": "represented",
+      "parts": [
+        "ZA_V_94412611"
+      ]
+    },
+    {
+      "name": "下矢状窦",
+      "region": "颅内",
+      "status": "represented",
+      "parts": [
+        "ZA_V_438338688"
+      ]
+    },
+    {
+      "name": "直窦",
+      "region": "颅内",
+      "status": "missing",
+      "parts": []
+    },
+    {
+      "name": "大脑大静脉",
+      "region": "颅内",
+      "status": "missing",
+      "parts": []
+    },
+    {
+      "name": "窦汇",
+      "region": "颅内",
+      "status": "missing",
+      "parts": []
+    },
+    {
+      "name": "左横窦",
+      "region": "颅内",
+      "status": "represented",
+      "parts": [
+        "ZA_V_80298761"
+      ]
+    },
+    {
+      "name": "右横窦",
+      "region": "颅内",
+      "status": "represented",
+      "parts": [
+        "ZA_V_835632266"
+      ]
+    },
+    {
+      "name": "左乙状窦",
+      "region": "颅内",
+      "status": "represented",
+      "parts": [
+        "ZA_V_625388270"
+      ]
+    },
+    {
+      "name": "右乙状窦",
+      "region": "颅内",
+      "status": "represented",
+      "parts": [
+        "ZA_V_503241573"
+      ]
+    },
+    {
+      "name": "左海绵窦",
+      "region": "颅内",
+      "status": "represented",
+      "parts": [
+        "ZA_V_730023868"
+      ]
+    },
+    {
+      "name": "右海绵窦",
+      "region": "颅内",
+      "status": "represented",
+      "parts": [
+        "ZA_V_245201876"
+      ]
+    },
+    {
+      "name": "奇静脉",
+      "region": "胸部",
+      "status": "represented",
+      "parts": [
+        "ZA_V_115760150"
+      ]
+    },
+    {
+      "name": "半奇静脉",
+      "region": "胸部",
+      "status": "represented",
+      "parts": [
+        "ZA_V_831159924"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "a": [
+        "FJ3413"
+      ],
+      "b": [
+        "FJ3411"
+      ],
+      "label": "升主动脉 → 主动脉弓",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.49690079418633787,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3411"
+      ],
+      "b": [
+        "FJ1931"
+      ],
+      "label": "主动脉弓 → 降胸主动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.9107575803409735,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ1931"
+      ],
+      "b": [
+        "FJ1932"
+      ],
+      "label": "降胸主动脉 → 腹主动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.3654859735533084,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3411"
+      ],
+      "b": [
+        "FJ3417"
+      ],
+      "label": "主动脉弓 → 头臂干",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.8369475910666242,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3417"
+      ],
+      "b": [
+        "FJ3564"
+      ],
+      "label": "头臂干 → 右颈总动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.4935228564075025,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3411"
+      ],
+      "b": [
+        "FJ3483"
+      ],
+      "label": "主动脉弓 → 左颈总动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 2.308110561363793,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3417"
+      ],
+      "b": [
+        "FJ3579"
+      ],
+      "label": "头臂干 → 右锁骨下动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.100303440084946,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3411"
+      ],
+      "b": [
+        "FJ3479"
+      ],
+      "label": "主动脉弓 → 左锁骨下动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.0097734608471582,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3564"
+      ],
+      "b": [
+        "FJ1682"
+      ],
+      "label": "右颈总动脉 → 右颈内动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.05895230854978989,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3483"
+      ],
+      "b": [
+        "FJ1682M"
+      ],
+      "label": "左颈总动脉 → 左颈内动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.9812621855826256,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3579"
+      ],
+      "b": [
+        "FJ1725"
+      ],
+      "label": "右锁骨下动脉 → 右椎动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.9391521995652851,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3479"
+      ],
+      "b": [
+        "FJ1725M"
+      ],
+      "label": "左锁骨下动脉 → 左椎动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.87512784018992,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ1725"
+      ],
+      "b": [
+        "FJ1672"
+      ],
+      "label": "右椎动脉 → 基底动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.23830751593901947,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ1725M"
+      ],
+      "b": [
+        "FJ1672"
+      ],
+      "label": "左椎动脉 → 基底动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.06699908503599772,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3479"
+      ],
+      "b": [
+        "FJ2216"
+      ],
+      "label": "左锁骨下动脉 → 左腋动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.6330595345170524,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3579"
+      ],
+      "b": [
+        "FJ2268"
+      ],
+      "label": "右锁骨下动脉 → 右腋动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.3985564046220257,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2216"
+      ],
+      "b": [
+        "FJ2219"
+      ],
+      "label": "左腋动脉 → 左肱动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.31588091497609333,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2268"
+      ],
+      "b": [
+        "FJ2271"
+      ],
+      "label": "右腋动脉 → 右肱动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.12373388065960295,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2219"
+      ],
+      "b": [
+        "FJ2242"
+      ],
+      "label": "左肱动脉 → 左桡动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.16974163094643124,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2219"
+      ],
+      "b": [
+        "FJ2258"
+      ],
+      "label": "左肱动脉 → 左尺动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.2831736373517358,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2271"
+      ],
+      "b": [
+        "FJ2294"
+      ],
+      "label": "右肱动脉 → 右桡动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.15077539987766878,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2271"
+      ],
+      "b": [
+        "FJ2310"
+      ],
+      "label": "右肱动脉 → 右尺动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.17007801292333527,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ1932"
+      ],
+      "b": [
+        "FJ3464"
+      ],
+      "label": "腹主动脉 → 左髂总动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.4927303647579178,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ1932"
+      ],
+      "b": [
+        "FJ3565"
+      ],
+      "label": "腹主动脉 → 右髂总动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.2800035072498157,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3464"
+      ],
+      "b": [
+        "FJ3466"
+      ],
+      "label": "左髂总动脉 → 左髂外动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.23868301510004084,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3565"
+      ],
+      "b": [
+        "FJ3567"
+      ],
+      "label": "右髂总动脉 → 右髂外动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.15229202629771196,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3466"
+      ],
+      "b": [
+        "FJ2074"
+      ],
+      "label": "左髂外动脉 → 左股动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.902368770128831,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3567"
+      ],
+      "b": [
+        "FJ2143"
+      ],
+      "label": "右髂外动脉 → 右股动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.9288780660334292,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2074"
+      ],
+      "b": [
+        "FJ2086"
+      ],
+      "label": "左股动脉 → 左腘动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.19598503271235618,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2143"
+      ],
+      "b": [
+        "FJ2170"
+      ],
+      "label": "右股动脉 → 右腘动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.14828830674111795,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2086"
+      ],
+      "b": [
+        "FJ2065"
+      ],
+      "label": "左腘动脉 → 左胫前动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.11054130409351065,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2086"
+      ],
+      "b": [
+        "FJ2087"
+      ],
+      "label": "左腘动脉 → 左胫后动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.5023778326879611,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2170"
+      ],
+      "b": [
+        "FJ2130"
+      ],
+      "label": "右腘动脉 → 右胫前动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.11006815228323202,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2170"
+      ],
+      "b": [
+        "FJ2172"
+      ],
+      "label": "右腘动脉 → 右胫后动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.5008487126485597,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3485"
+      ],
+      "b": [
+        "FJ3482"
+      ],
+      "label": "左颈内静脉 → 左头臂静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.18938472074486212,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3585"
+      ],
+      "b": [
+        "FJ3583"
+      ],
+      "label": "右颈内静脉 → 右头臂静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.1810578575232978,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3486"
+      ],
+      "b": [
+        "FJ3482"
+      ],
+      "label": "左锁骨下静脉 → 左头臂静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.9460225095568618,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3587"
+      ],
+      "b": [
+        "FJ3583"
+      ],
+      "label": "右锁骨下静脉 → 右头臂静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.19033126006937517,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3482"
+      ],
+      "b": [
+        "FJ3645"
+      ],
+      "label": "左头臂静脉 → 上腔静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.21405199141868653,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3583"
+      ],
+      "b": [
+        "FJ3645"
+      ],
+      "label": "右头臂静脉 → 上腔静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.6541825452730118,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3465"
+      ],
+      "b": [
+        "FJ3659"
+      ],
+      "label": "左髂总静脉 → 下腔静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.4799772585227155,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3566"
+      ],
+      "b": [
+        "FJ3659"
+      ],
+      "label": "右髂总静脉 → 下腔静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.4546870322531175,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3484"
+      ],
+      "b": [
+        "FJ3465"
+      ],
+      "label": "左髂外静脉 → 左髂总静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.16243305489666204,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3568"
+      ],
+      "b": [
+        "FJ3566"
+      ],
+      "label": "右髂外静脉 → 右髂总静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.40627101671331467,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2102"
+      ],
+      "b": [
+        "FJ3484"
+      ],
+      "label": "左股静脉 → 左髂外静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.892893472813524,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2144"
+      ],
+      "b": [
+        "FJ3568"
+      ],
+      "label": "右股静脉 → 右髂外静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.0028619722120682,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2117"
+      ],
+      "b": [
+        "FJ2102"
+      ],
+      "label": "左腘静脉 → 左股静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.42200422701343127,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ2171"
+      ],
+      "b": [
+        "FJ2144"
+      ],
+      "label": "右腘静脉 → 右股静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.5371975523220246,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3483"
+      ],
+      "b": [
+        "ZA_V_211987839"
+      ],
+      "label": "左颈总动脉 → 左颈外动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.0473947796670777,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_211987839"
+      ],
+      "b": [
+        "ZA_V_638593400"
+      ],
+      "label": "左颈外动脉 → 左面动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.2110631747004779,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_211987839"
+      ],
+      "b": [
+        "ZA_V_945904385"
+      ],
+      "label": "左颈外动脉 → 左上颌动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.26643245722785475,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_211987839"
+      ],
+      "b": [
+        "ZA_V_35870854"
+      ],
+      "label": "左颈外动脉 → 左颞浅动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.2779429350303977,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_211987839"
+      ],
+      "b": [
+        "ZA_V_483475934"
+      ],
+      "label": "左颈外动脉 → 左枕动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.1834361423852728,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_211987839"
+      ],
+      "b": [
+        "ZA_V_793438682"
+      ],
+      "label": "左颈外动脉 → 左咽升动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.5155379786741259,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_80298761"
+      ],
+      "b": [
+        "ZA_V_625388270"
+      ],
+      "label": "左横窦 → 左乙状窦",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.22125127787721008,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_625388270"
+      ],
+      "b": [
+        "FJ3485"
+      ],
+      "label": "左乙状窦 → 左颈内静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.12707809846690474,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_730023868"
+      ],
+      "b": [
+        "ZA_V_124854029"
+      ],
+      "label": "左海绵窦 → 左岩上窦",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.5574449424462062,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_730023868"
+      ],
+      "b": [
+        "ZA_V_61179854"
+      ],
+      "label": "左海绵窦 → 左岩下窦",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.07620704665700852,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_61179854"
+      ],
+      "b": [
+        "FJ3485"
+      ],
+      "label": "左岩下窦 → 左颈内静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.22036952103003316,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_124854029"
+      ],
+      "b": [
+        "ZA_V_80298761"
+      ],
+      "label": "左岩上窦 → 左横窦",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.2582040095168255,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_522387428"
+      ],
+      "b": [
+        "FJ3486"
+      ],
+      "label": "左颈外静脉 → 左锁骨下静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.33744142610235967,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_735490060"
+      ],
+      "b": [
+        "ZA_V_517851933"
+      ],
+      "label": "左面静脉 → 左面总静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.070098705949979,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_517851933"
+      ],
+      "b": [
+        "FJ3485"
+      ],
+      "label": "左面总静脉 → 左颈内静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.8148674375821067,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_18511079"
+      ],
+      "b": [
+        "ZA_V_320264752"
+      ],
+      "label": "左下颌后静脉 → 左下颌后静脉前支",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.2807112930818004,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_18511079"
+      ],
+      "b": [
+        "ZA_V_916122849"
+      ],
+      "label": "左下颌后静脉 → 左下颌后静脉后支",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.4817404473248011,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_320264752"
+      ],
+      "b": [
+        "ZA_V_517851933"
+      ],
+      "label": "左下颌后静脉前支 → 左面总静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.09971449240266135,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_916122849"
+      ],
+      "b": [
+        "ZA_V_522387428"
+      ],
+      "label": "左下颌后静脉后支 → 左颈外静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.21601790663365222,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_301305010"
+      ],
+      "b": [
+        "ZA_V_18511079"
+      ],
+      "label": "左颞浅静脉 → 左下颌后静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 4.6566128730773926e-7,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_651678106"
+      ],
+      "b": [
+        "ZA_V_18511079"
+      ],
+      "label": "左上颌静脉 → 左下颌后静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.10350960534784949,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_94412611"
+      ],
+      "b": [
+        "ZA_V_80298761"
+      ],
+      "label": "上矢状窦 → 左横窦",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.27578373521490984,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "FJ3564"
+      ],
+      "b": [
+        "ZA_V_318012670"
+      ],
+      "label": "右颈总动脉 → 右颈外动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.503133951735088,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_318012670"
+      ],
+      "b": [
+        "ZA_V_801788998"
+      ],
+      "label": "右颈外动脉 → 右面动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.211753366100876,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_318012670"
+      ],
+      "b": [
+        "ZA_V_818106180"
+      ],
+      "label": "右颈外动脉 → 右上颌动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.26667215181972964,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_318012670"
+      ],
+      "b": [
+        "ZA_V_111818568"
+      ],
+      "label": "右颈外动脉 → 右颞浅动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.278102215450274,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_318012670"
+      ],
+      "b": [
+        "ZA_V_420681135"
+      ],
+      "label": "右颈外动脉 → 右枕动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.184763068634088,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_318012670"
+      ],
+      "b": [
+        "ZA_V_564654772"
+      ],
+      "label": "右颈外动脉 → 右咽升动脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.5164149667925483,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_835632266"
+      ],
+      "b": [
+        "ZA_V_503241573"
+      ],
+      "label": "右横窦 → 右乙状窦",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.2213638540858566,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_503241573"
+      ],
+      "b": [
+        "FJ3585"
+      ],
+      "label": "右乙状窦 → 右颈内静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.1269565230520042,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_245201876"
+      ],
+      "b": [
+        "ZA_V_113580104"
+      ],
+      "label": "右海绵窦 → 右岩上窦",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.5572999224093708,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_245201876"
+      ],
+      "b": [
+        "ZA_V_407612440"
+      ],
+      "label": "右海绵窦 → 右岩下窦",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.07618978968737898,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_407612440"
+      ],
+      "b": [
+        "FJ3585"
+      ],
+      "label": "右岩下窦 → 右颈内静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.2202574633075231,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_113580104"
+      ],
+      "b": [
+        "ZA_V_835632266"
+      ],
+      "label": "右岩上窦 → 右横窦",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.2585776660636299,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_797954444"
+      ],
+      "b": [
+        "FJ3587"
+      ],
+      "label": "右颈外静脉 → 右锁骨下静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.6021120395765758,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_996067247"
+      ],
+      "b": [
+        "ZA_V_655719699"
+      ],
+      "label": "右面静脉 → 右面总静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.07001831701244278,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_655719699"
+      ],
+      "b": [
+        "FJ3585"
+      ],
+      "label": "右面总静脉 → 右颈内静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.8147174689233148,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_407243580"
+      ],
+      "b": [
+        "ZA_V_198837312"
+      ],
+      "label": "右下颌后静脉 → 右下颌后静脉前支",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.28097248759905613,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_407243580"
+      ],
+      "b": [
+        "ZA_V_596949047"
+      ],
+      "label": "右下颌后静脉 → 右下颌后静脉后支",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.48178662473737155,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_198837312"
+      ],
+      "b": [
+        "ZA_V_655719699"
+      ],
+      "label": "右下颌后静脉前支 → 右面总静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.09967823254363677,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_596949047"
+      ],
+      "b": [
+        "ZA_V_797954444"
+      ],
+      "label": "右下颌后静脉后支 → 右颈外静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.21596378128812377,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_728548917"
+      ],
+      "b": [
+        "ZA_V_407243580"
+      ],
+      "label": "右颞浅静脉 → 右下颌后静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 4.6566128730773926e-7,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_619900417"
+      ],
+      "b": [
+        "ZA_V_407243580"
+      ],
+      "label": "右上颌静脉 → 右下颌后静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.10348097217372924,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_94412611"
+      ],
+      "b": [
+        "ZA_V_835632266"
+      ],
+      "label": "上矢状窦 → 右横窦",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.2755566493104084,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_115760150"
+      ],
+      "b": [
+        "FJ3645"
+      ],
+      "label": "奇静脉 → 上腔静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 1.2536985015502518,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_115760150"
+      ],
+      "b": [
+        "ZA_V_831159924"
+      ],
+      "label": "奇静脉 → 半奇静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.3907274394272415,
+      "status": "within-screening-tolerance"
+    },
+    {
+      "a": [
+        "ZA_V_115760150"
+      ],
+      "b": [
+        "FJ1981"
+      ],
+      "label": "奇静脉 → 副半奇静脉",
+      "maximumMm": 5,
+      "nearestVertexMm": 0.4982527642313169,
+      "status": "within-screening-tolerance"
+    }
+  ],
+  "knownIncompleteConnections": [
+    {
+      "a": [
+        "ZA_V_115760150"
+      ],
+      "b": [
+        "FJ3589"
+      ],
+      "label": "右腰升静脉 → 奇静脉",
+      "maximumMm": 5,
+      "reason": "来源下端缺段；未用推测管道连接。",
+      "nearestVertexMm": 37.30604825396256,
+      "status": "gap"
+    },
+    {
+      "a": [
+        "ZA_V_831159924"
+      ],
+      "b": [
+        "FJ3493"
+      ],
+      "label": "左腰升静脉 → 半奇静脉",
+      "maximumMm": 5,
+      "reason": "来源下端缺段；未用推测管道连接。",
+      "nearestVertexMm": 35.467782087141785,
+      "status": "gap"
+    }
+  ],
+  "sourceExclusions": [
+    {
+      "name": "直窦",
+      "reason": "来源模型至横窦约42毫米间隔，位置无法可靠采用。"
+    },
+    {
+      "name": "大脑大静脉",
+      "reason": "补充源中未找到独立网格。"
+    },
+    {
+      "name": "独立窦汇网格",
+      "reason": "源文件只含无顶点标记；已收录上矢状窦与横窦的汇合区域。"
+    },
+    {
+      "name": "左右耳后静脉",
+      "reason": "源模型距颈外静脉约28毫米；未导入悬空片段。"
+    }
+  ],
+  "missing": [
+    "直窦",
+    "大脑大静脉",
+    "窦汇"
+  ],
+  "gaps": [],
+  "limitations": [
+    "非全身全部血管图谱；未覆盖全部细小分支和个体变异。",
+    "直窦补充源存在约42毫米连接偏差，未采用；大脑大静脉与独立窦汇无可用源网格。",
+    "深部脑静脉回流及下矢状窦后续通路未补齐。",
+    "奇静脉、半奇静脉下端与腰升静脉之间仍有源模型缺段。左右耳后静脉因源模型约28毫米的连接缺口未导入。",
+    "源片段与原主干采用重叠配准，连接处不是已验证的密闭血管腔；不适用于血流模拟。",
+    "乙状窦出口按颈内静脉上端对齐；配准、接合区域与全部软组织关系尚未经专业解剖审校。"
+  ]
+}

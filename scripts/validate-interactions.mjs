@@ -41,7 +41,10 @@ assert.equal(createExplosionLayout([]).cells.size,0);
 console.log('Tap, drag, multitouch, cancellation, and empty-view checks passed.');
 
 const catalog = JSON.parse(await readFile(new URL('../public/models/atlas.json', import.meta.url)));
-const descriptions = JSON.parse(await readFile(new URL('../app/data/structure-descriptions.json', import.meta.url)));
+const descriptions = {
+  ...JSON.parse(await readFile(new URL('../app/data/structure-descriptions.json', import.meta.url))),
+  ...JSON.parse(await readFile(new URL('../app/data/vascular-descriptions.json', import.meta.url))),
+};
 for (const concept of catalog.concepts) {
   assert.equal(descriptions[concept.id]?.name, concept.name, `Description identity: ${concept.id}`);
   assert.ok(descriptions[concept.id].description.length >= 40, `Detailed text missing: ${concept.id}`);

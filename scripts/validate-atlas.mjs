@@ -7,7 +7,7 @@ assert.equal(atlas.concepts.filter(c=>!c.id.startsWith('ZA')).length,3432,'Origi
 const ids=new Set(atlas.parts.map(p=>p.id));assert.equal(ids.size,atlas.parts.length);
 assert.equal(new Set(atlas.concepts.map(c=>c.id)).size,atlas.concepts.length);
 if(atlas.supplement){
- assert.equal(atlas.parts.filter(p=>p.id.startsWith('ZA_')).length,atlas.supplement.addedMeshes);
+ assert.equal(atlas.parts.filter(p=>/^ZA_[MJ]_/.test(p.id)).length,atlas.supplement.addedMeshes);
  assert.equal(atlas.parts.filter(p=>p.originalPart).length,atlas.supplement.replacedMeshes);
  for(const p of atlas.parts.filter(p=>p.source?.dataset==='Z-Anatomy')){
   assert.equal(p.source.license,'CC-BY-SA-4.0');assert.match(p.source.sha256,/^[a-f0-9]{64}$/);

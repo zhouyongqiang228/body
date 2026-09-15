@@ -28,6 +28,16 @@ Z-Anatomy — The open source atlas of anatomy，CC BY-SA 4.0。依上游要求�
 - 本次新增126个独立结构，替换左右腹外斜肌和腹白线。源材料中的耳、肾等带有 NC 限制的其他资产未被引入。
 - 此补充模型用于教育展示，几何配准及局部分离尚未经过专业解剖审校。腹直肌鞘、TFCC半月板同源体和尺侧腕伸肌腱鞘底尚无独立补充网格；TFCC分组仅表示已收录的组成。
 
+## 重要血管补充数据
+
+本次从同一固定版本 Z-Anatomy 的 `Resources/Models/FBX/CardioVascular41.fbx` 提取44个新增血管网格及8条主干的补充片段。源 Git blob 为 `aa5bbcb63ae6e9ace8051111b3a85ea87f00c4f3`，SHA-256 为 `ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680`。
+
+- 归属：Z-Anatomy — The open source atlas of anatomy — CC-BY-SA 4.0；BodyParts3D — The Database Center for Life Science — CC-BY-SA 2.1 Japan（上游要求的历史归属文字）。
+- 来源：[固定版本的心血管模型](https://github.com/LluisV/Z-Anatomy/blob/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/CardioVascular41.fbx)。
+- 适配：FBX 世界坐标提取、厘米转米、重合顶点合并、头颈区域配准、源片段截取及横断面对齐、局部端部适配、重算法线、中文命名、二进制与 gzip 打包。旧主干几何记录在 `vascularOriginal` 字段保存。
+- 衍生几何 `models/vascular-*.bin` 及 gzip、补充清单和几何配准记录按 CC BY-SA 4.0 发布。包含原主干的组合网格作为整体按该许可发布；其他基础模型与应用代码许可不变。
+- 没有导入此源包之外的耳、肾等 NC 资源。模型接合使用重叠表面，未验证血管腔连续性，未经过专业解剖审校；明确缺失及方法见 [血管补丁说明](../docs/vascular-supplement.md)。
+
 ## 历史女性参考资源
 
 仓库的早期版本曾包含女性参考解剖数据：Kristen Browne 和 Heidi Schlehlein，Human Reference Atlas / HuBMAP，*3D Reference Organ Set for Female v1.5*（2023）。CC BY 4.0。几何数据已针对本查看器进行适配。

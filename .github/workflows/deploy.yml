@@ -31,6 +31,7 @@ jobs:
         run: |
           npm run check
           npm run validate:atlas
+          npm run validate:vascular
           npm run validate:interactions
       - name: 安装浏览器测试环境
         run: npx playwright install --with-deps chromium

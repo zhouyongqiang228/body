@@ -1,0 +1,1729 @@
+{
+  "headField": {
+    "linear": [
+      [
+        1.0078005147182374,
+        0.0015856310623718927,
+        0.001955036055812644
+      ],
+      [
+        0.0001530743963139245,
+        1.0369350445547658,
+        0.01703132911844935
+      ],
+      [
+        -0.0022456717224846254,
+        0.014501118995077444,
+        1.0352634005031016
+      ]
+    ],
+    "translation": [
+      -0.0008893723969853244,
+      -0.05373834389741994,
+      -0.04005315935293448
+    ],
+    "anchors": [
+      "Temporal_bonel",
+      "Temporal_boner",
+      "Zygomatic_bonel",
+      "Zygomatic_boner",
+      "Maxillal",
+      "Maxillar",
+      "Parietal_bonel",
+      "Parietal_boner",
+      "Mandible",
+      "Frontal_bone",
+      "Occipital_bone",
+      "Sphenoid_bone"
+    ],
+    "fitRmsMm": 2.625216059640453
+  },
+  "parts": [
+    {
+      "id": "FJ3483",
+      "name": "左颈总动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "source graft at existing cross-section",
+          "seamY": 1.4487911672592164,
+          "overlapMm": 6,
+          "centerShiftMm": 6.373891439006716,
+          "diameterScaleXZ": [
+            0.9391469421170007,
+            0.9364839670185632
+          ]
+        }
+      ],
+      "retainedVertices": 122,
+      "retainedIndices": 492,
+      "graftVertices": 141,
+      "graftNearestVertexMm": 0.22463319207215637
+    },
+    {
+      "id": "FJ3564",
+      "name": "右颈总动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "source graft at existing cross-section",
+          "seamY": 1.4484912366867067,
+          "overlapMm": 6,
+          "centerShiftMm": 5.421859133469098,
+          "diameterScaleXZ": [
+            0.971939298055146,
+            0.9815658307214689
+          ]
+        }
+      ],
+      "retainedVertices": 350,
+      "retainedIndices": 2064,
+      "graftVertices": 112,
+      "graftNearestVertexMm": 0.2623003141120245
+    },
+    {
+      "id": "FJ1682M",
+      "name": "左颈内动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "source graft at existing cross-section",
+          "seamY": 1.515651205062866,
+          "overlapMm": 6,
+          "centerShiftMm": 17.370300955424135,
+          "diameterScaleXZ": [
+            0.781388446128107,
+            0.734400935204502
+          ]
+        }
+      ],
+      "retainedVertices": 223,
+      "retainedIndices": 1266,
+      "graftVertices": 109,
+      "graftNearestVertexMm": 0.4353455829027238
+    },
+    {
+      "id": "FJ1682",
+      "name": "右颈内动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "source graft at existing cross-section",
+          "seamY": 1.515651205062866,
+          "overlapMm": 6,
+          "centerShiftMm": 17.418148826529162,
+          "diameterScaleXZ": [
+            0.7822961192724466,
+            0.735260837539226
+          ]
+        }
+      ],
+      "retainedVertices": 220,
+      "retainedIndices": 1254,
+      "graftVertices": 109,
+      "graftNearestVertexMm": 0.44218663630604554
+    },
+    {
+      "id": "FJ1725M",
+      "name": "左椎动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "source graft at existing cross-section",
+          "seamY": 1.4795212535858153,
+          "overlapMm": 6,
+          "centerShiftMm": 2.990125823804761,
+          "diameterScaleXZ": [
+            1.1260223929576838,
+            1.1414412499521955
+          ]
+        },
+        {
+          "kind": "source inlet registered inside parent subclavian artery",
+          "parent": "FJ3479",
+          "sourceCenter": [
+            0.041104723078509174,
+            1.4211070239543915,
+            -0.0015421148733973193
+          ],
+          "targetCenter": [
+            0.041104723078509174,
+            1.4305356601275587,
+            0.00016203614024934984
+          ],
+          "displacementMm": 9.581404425410238
+        }
+      ],
+      "retainedVertices": 329,
+      "retainedIndices": 1482,
+      "graftVertices": 259,
+      "graftNearestVertexMm": 0.3893343122577933
+    },
+    {
+      "id": "FJ1725",
+      "name": "右椎动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "source graft at existing cross-section",
+          "seamY": 1.4795212535858153,
+          "overlapMm": 6,
+          "centerShiftMm": 3.4589800098199306,
+          "diameterScaleXZ": [
+            1.1270152636327964,
+            1.14188240589898
+          ]
+        },
+        {
+          "kind": "source inlet registered inside parent subclavian artery",
+          "parent": "FJ3579",
+          "sourceCenter": [
+            -0.0411047488451004,
+            1.4211070934931438,
+            -0.0015421256296879922
+          ],
+          "targetCenter": [
+            -0.0411047488451004,
+            1.4272612403595515,
+            -0.001041574473805321
+          ],
+          "displacementMm": 6.174469621997596
+        }
+      ],
+      "retainedVertices": 330,
+      "retainedIndices": 1476,
+      "graftVertices": 259,
+      "graftNearestVertexMm": 0.3824881019984305
+    },
+    {
+      "id": "FJ3485",
+      "name": "左颈内静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "source graft at existing cross-section",
+          "seamY": 1.4555411548614503,
+          "overlapMm": 6,
+          "centerShiftMm": 3.829998396430687,
+          "diameterScaleXZ": [
+            1.1335251221938607,
+            1.0864804546214228
+          ]
+        }
+      ],
+      "retainedVertices": 154,
+      "retainedIndices": 816,
+      "graftVertices": 642,
+      "graftNearestVertexMm": 0.17533955824931133
+    },
+    {
+      "id": "FJ3585",
+      "name": "右颈内静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "source graft at existing cross-section",
+          "seamY": 1.4568511457443238,
+          "overlapMm": 6,
+          "centerShiftMm": 5.100264012301708,
+          "diameterScaleXZ": [
+            0.9286038904443977,
+            0.9609222760124357
+          ]
+        }
+      ],
+      "retainedVertices": 153,
+      "retainedIndices": 678,
+      "graftVertices": 640,
+      "graftNearestVertexMm": 0.23267609974787262
+    },
+    {
+      "id": "ZA_V_211987839",
+      "name": "左颈外动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_318012670",
+      "name": "右颈外动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_35870854",
+      "name": "左颞浅动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_111818568",
+      "name": "右颞浅动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_945904385",
+      "name": "左上颌动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_818106180",
+      "name": "右上颌动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_638593400",
+      "name": "左面动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_801788998",
+      "name": "右面动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_483475934",
+      "name": "左枕动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_420681135",
+      "name": "右枕动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_793438682",
+      "name": "左咽升动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_564654772",
+      "name": "右咽升动脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_522387428",
+      "name": "左颈外静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "source inlet registered inside parent subclavian vein",
+          "parent": "FJ3486",
+          "sourceCenter": [
+            0.032302772626280785,
+            1.4097291628519695,
+            0.016126581157247227
+          ],
+          "targetCenter": [
+            0.032302772626280785,
+            1.4272001330034785,
+            0.013235603875915224
+          ],
+          "displacementMm": 17.708544482144664
+        }
+      ]
+    },
+    {
+      "id": "ZA_V_797954444",
+      "name": "右颈外静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "source inlet registered inside parent subclavian vein",
+          "parent": "FJ3587",
+          "sourceCenter": [
+            -0.032302784423033394,
+            1.4097290734450023,
+            0.016126570524647832
+          ],
+          "targetCenter": [
+            -0.032302784423033394,
+            1.4246893306293162,
+            0.0161737267944796
+          ],
+          "displacementMm": 14.960331504836416
+        }
+      ]
+    },
+    {
+      "id": "ZA_V_517851933",
+      "name": "左面总静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_655719699",
+      "name": "右面总静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_735490060",
+      "name": "左面静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_996067247",
+      "name": "右面静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_18511079",
+      "name": "左下颌后静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_407243580",
+      "name": "右下颌后静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_320264752",
+      "name": "左下颌后静脉前支",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_198837312",
+      "name": "右下颌后静脉前支",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_916122849",
+      "name": "左下颌后静脉后支",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_596949047",
+      "name": "右下颌后静脉后支",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_301305010",
+      "name": "左颞浅静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_728548917",
+      "name": "右颞浅静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_651678106",
+      "name": "左上颌静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_619900417",
+      "name": "右上颌静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_94412611",
+      "name": "上矢状窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_438338688",
+      "name": "下矢状窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_80298761",
+      "name": "左横窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_835632266",
+      "name": "右横窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_625388270",
+      "name": "左乙状窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "sigmoid outlet aligned to superior jugular source ring",
+          "sourceCenter": [
+            0.045368404809900585,
+            1.5715796049316584,
+            -0.03586004885235275
+          ],
+          "targetCenter": [
+            0.038750746099240264,
+            1.574207752113918,
+            -0.032733177279325475
+          ],
+          "displacementMm": 7.776753195042477
+        }
+      ]
+    },
+    {
+      "id": "ZA_V_503241573",
+      "name": "右乙状窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": [
+        {
+          "kind": "sigmoid outlet aligned to superior jugular source ring",
+          "sourceCenter": [
+            -0.04656923594774165,
+            1.5714349541035855,
+            -0.036038399031721124
+          ],
+          "targetCenter": [
+            -0.039964173719041284,
+            1.5740839053874225,
+            -0.03288587472366017
+          ],
+          "displacementMm": 7.783456781023535
+        }
+      ]
+    },
+    {
+      "id": "ZA_V_730023868",
+      "name": "左海绵窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_245201876",
+      "name": "右海绵窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_124854029",
+      "name": "左岩上窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_113580104",
+      "name": "右岩上窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_61179854",
+      "name": "左岩下窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_407612440",
+      "name": "右岩下窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_680059017",
+      "name": "前海绵间窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_548412580",
+      "name": "后海绵间窦",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_115760150",
+      "name": "奇静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    },
+    {
+      "id": "ZA_V_831159924",
+      "name": "半奇静脉",
+      "method": "Shared head/neck field with source-section grafts and bounded endpoint alignment",
+      "headAnchors": [
+        "Temporal_bonel",
+        "Temporal_boner",
+        "Zygomatic_bonel",
+        "Zygomatic_boner",
+        "Maxillal",
+        "Maxillar",
+        "Parietal_bonel",
+        "Parietal_boner",
+        "Mandible",
+        "Frontal_bone",
+        "Occipital_bone",
+        "Sphenoid_bone"
+      ],
+      "adjustments": []
+    }
+  ],
+  "triangleQa": [
+    {
+      "name": "左颈总动脉",
+      "checked": 472,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.7964941452292098,
+      "maximumAreaRatio": 1.3530212898514555
+    },
+    {
+      "name": "右颈总动脉",
+      "checked": 354,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.3826851271195411,
+      "maximumAreaRatio": 1.4909003898599933
+    },
+    {
+      "name": "左颈内动脉",
+      "checked": 1180,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.4121618477524036,
+      "maximumAreaRatio": 3.221110355622316
+    },
+    {
+      "name": "右颈内动脉",
+      "checked": 1180,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.38683464531299755,
+      "maximumAreaRatio": 3.233442501330293
+    },
+    {
+      "name": "左椎动脉",
+      "checked": 2006,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.48974644905215664,
+      "maximumAreaRatio": 1.3609989033155963
+    },
+    {
+      "name": "右椎动脉",
+      "checked": 2006,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.6696849800970037,
+      "maximumAreaRatio": 1.387014316904108
+    },
+    {
+      "name": "左颈内静脉",
+      "checked": 1416,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.9397914799544108,
+      "maximumAreaRatio": 1.2537176245543964
+    },
+    {
+      "name": "右颈内静脉",
+      "checked": 1416,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.894233263858918,
+      "maximumAreaRatio": 1.195165758058898
+    },
+    {
+      "name": "左颈外动脉",
+      "checked": 708,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.015307026669642,
+      "maximumAreaRatio": 1.0993206292282731
+    },
+    {
+      "name": "右颈外动脉",
+      "checked": 708,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.013382561365272,
+      "maximumAreaRatio": 1.0993116615090681
+    },
+    {
+      "name": "左颞浅动脉",
+      "checked": 10744,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.028277774994962,
+      "maximumAreaRatio": 1.0733039028688836
+    },
+    {
+      "name": "右颞浅动脉",
+      "checked": 10744,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0282792981753057,
+      "maximumAreaRatio": 1.0732573927587759
+    },
+    {
+      "name": "左上颌动脉",
+      "checked": 3895,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0282988070059538,
+      "maximumAreaRatio": 1.073297283523758
+    },
+    {
+      "name": "右上颌动脉",
+      "checked": 3895,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.028269011216561,
+      "maximumAreaRatio": 1.0732815513217213
+    },
+    {
+      "name": "左面动脉",
+      "checked": 1062,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.9961640730622361,
+      "maximumAreaRatio": 1.107414814319333
+    },
+    {
+      "name": "右面动脉",
+      "checked": 1062,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.9936423872500446,
+      "maximumAreaRatio": 1.1120771378002363
+    },
+    {
+      "name": "左枕动脉",
+      "checked": 5548,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.028346104452785,
+      "maximumAreaRatio": 1.0732947569728848
+    },
+    {
+      "name": "右枕动脉",
+      "checked": 5548,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0283936569585235,
+      "maximumAreaRatio": 1.0732658897560086
+    },
+    {
+      "name": "左咽升动脉",
+      "checked": 2479,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.9661013120693647,
+      "maximumAreaRatio": 1.1786364852558608
+    },
+    {
+      "name": "右咽升动脉",
+      "checked": 2479,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.9717061463409645,
+      "maximumAreaRatio": 1.1740184751640195
+    },
+    {
+      "name": "左颈外静脉",
+      "checked": 826,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.13393682318704392,
+      "maximumAreaRatio": 1.142387551411846
+    },
+    {
+      "name": "右颈外静脉",
+      "checked": 826,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.2276175266776552,
+      "maximumAreaRatio": 1.1430626504138717
+    },
+    {
+      "name": "左面总静脉",
+      "checked": 236,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0339240559243368,
+      "maximumAreaRatio": 1.0832301928690302
+    },
+    {
+      "name": "右面总静脉",
+      "checked": 236,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0337290159328554,
+      "maximumAreaRatio": 1.0834538072741495
+    },
+    {
+      "name": "左面静脉",
+      "checked": 1416,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.9977801680891343,
+      "maximumAreaRatio": 1.1171975516083459
+    },
+    {
+      "name": "右面静脉",
+      "checked": 1416,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.9965563191438322,
+      "maximumAreaRatio": 1.118722075967058
+    },
+    {
+      "name": "左下颌后静脉",
+      "checked": 236,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0386711533193445,
+      "maximumAreaRatio": 1.0715866482502796
+    },
+    {
+      "name": "右下颌后静脉",
+      "checked": 236,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0386144369994978,
+      "maximumAreaRatio": 1.0703697625092228
+    },
+    {
+      "name": "左下颌后静脉前支",
+      "checked": 236,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0412157236035673,
+      "maximumAreaRatio": 1.0722062736571134
+    },
+    {
+      "name": "右下颌后静脉前支",
+      "checked": 236,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0410023888969613,
+      "maximumAreaRatio": 1.0713839797410971
+    },
+    {
+      "name": "左下颌后静脉后支",
+      "checked": 236,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0459992531159124,
+      "maximumAreaRatio": 1.0725195508500296
+    },
+    {
+      "name": "右下颌后静脉后支",
+      "checked": 236,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.046027954790949,
+      "maximumAreaRatio": 1.0729062005314824
+    },
+    {
+      "name": "左颞浅静脉",
+      "checked": 1416,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0282686843005098,
+      "maximumAreaRatio": 1.073301396759586
+    },
+    {
+      "name": "右颞浅静脉",
+      "checked": 1416,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0282866479391737,
+      "maximumAreaRatio": 1.0732302444982496
+    },
+    {
+      "name": "左上颌静脉",
+      "checked": 1180,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.030233680118788,
+      "maximumAreaRatio": 1.0727941581569267
+    },
+    {
+      "name": "右上颌静脉",
+      "checked": 1180,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0299127332054416,
+      "maximumAreaRatio": 1.0723580595810063
+    },
+    {
+      "name": "上矢状窦",
+      "checked": 2596,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.030434220133196,
+      "maximumAreaRatio": 1.0727943383747327
+    },
+    {
+      "name": "下矢状窦",
+      "checked": 1416,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0294200339900932,
+      "maximumAreaRatio": 1.072842350569866
+    },
+    {
+      "name": "左横窦",
+      "checked": 826,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0282913996100174,
+      "maximumAreaRatio": 1.0732880369929494
+    },
+    {
+      "name": "右横窦",
+      "checked": 826,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0282958469596228,
+      "maximumAreaRatio": 1.0732154814081742
+    },
+    {
+      "name": "左乙状窦",
+      "checked": 354,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0284064651589986,
+      "maximumAreaRatio": 1.072947264794834
+    },
+    {
+      "name": "右乙状窦",
+      "checked": 354,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0284314783330473,
+      "maximumAreaRatio": 1.0726610708120266
+    },
+    {
+      "name": "左海绵窦",
+      "checked": 3988,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.028958106392896,
+      "maximumAreaRatio": 1.0732923220144786
+    },
+    {
+      "name": "右海绵窦",
+      "checked": 3988,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0291879002314939,
+      "maximumAreaRatio": 1.0732492224866486
+    },
+    {
+      "name": "左岩上窦",
+      "checked": 707,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0296113968382916,
+      "maximumAreaRatio": 1.071710761388346
+    },
+    {
+      "name": "右岩上窦",
+      "checked": 707,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0296823713615793,
+      "maximumAreaRatio": 1.0706770019418317
+    },
+    {
+      "name": "左岩下窦",
+      "checked": 708,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0315228707130366,
+      "maximumAreaRatio": 1.0732343298521785
+    },
+    {
+      "name": "右岩下窦",
+      "checked": 708,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.032049220699708,
+      "maximumAreaRatio": 1.0730050529539437
+    },
+    {
+      "name": "前海绵间窦",
+      "checked": 236,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0285397077967764,
+      "maximumAreaRatio": 1.0664983965962735
+    },
+    {
+      "name": "后海绵间窦",
+      "checked": 590,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.032627908515743,
+      "maximumAreaRatio": 1.07328526604505
+    },
+    {
+      "name": "奇静脉",
+      "checked": 2242,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0,
+      "maximumAreaRatio": 1.0
+    },
+    {
+      "name": "半奇静脉",
+      "checked": 1416,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 1.0,
+      "maximumAreaRatio": 1.0
+    },
+    {
+      "name": "左乙状窦出口接合",
+      "checked": 354,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.9421917834083968,
+      "maximumAreaRatio": 1.2601819168370494
+    },
+    {
+      "name": "右乙状窦出口接合",
+      "checked": 354,
+      "sourceDegenerates": 0,
+      "flipped": 0,
+      "minimumAreaRatio": 0.9428699207485324,
+      "maximumAreaRatio": 1.2600684597970209
+    }
+  ]
+}

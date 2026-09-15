@@ -1,7 +1,8 @@
 import descriptions from "./data/structure-descriptions.json";
+import vascularDescriptions from "./data/vascular-descriptions.json";
 
 /** Each FMA concept has its own materialized row, independent of display-system colors. */
-const table: Record<string, { name: string; description: string }> = descriptions;
+const table: Record<string, { name: string; description: string }> = { ...descriptions, ...vascularDescriptions };
 export function structureDescription(id: string) {
   return table[id]?.description ?? "";
 }

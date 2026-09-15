@@ -46,10 +46,12 @@ def fetch_range(job):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--workers', type=int, default=4, choices=range(1, 9))
+    parser.add_argument('--vascular', action='store_true', help='Fetch the pinned cardiovascular source instead of muscles/joints.')
     args = parser.parse_args()
     (DEST / 'ranges').mkdir(parents=True, exist_ok=True)
     pending = []
-    for name, size, sha in SOURCES:
+    sources = [('CardioVascular41', 64889388, 'aa5bbcb63ae6e9ace8051111b3a85ea87f00c4f3')] if args.vascular else SOURCES
+    for name, size, sha in sources:
         target = DEST / f'{name}.fbx'
         if target.exists() and target.stat().st_size == size and identity(target) == sha:
             print(f'Verified cached {target.name}', flush=True)

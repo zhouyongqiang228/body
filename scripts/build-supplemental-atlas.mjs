@@ -6,6 +6,7 @@ import { BufferGeometry, Float32BufferAttribute, Uint32BufferAttribute } from 't
 const root = new URL('../',import.meta.url), path = s=>new URL(s,root);
 const atlasPath=path('public/models/atlas.json'), descriptionPath=path('app/data/structure-descriptions.json');
 const atlas=JSON.parse(fs.readFileSync(atlasPath)), descriptions=JSON.parse(fs.readFileSync(descriptionPath));
+if(atlas.vascular)throw new Error('Rebuild the base atlas before the muscle/joint overlay, then reapply the vascular overlay. Refusing to discard vascular changes.');
 const source=JSON.parse(fs.readFileSync(path('work/z-anatomy/supplement-registered.json')));
 const blob=fs.readFileSync(path('work/z-anatomy/supplement-registered.bin'));
 atlas.parts=atlas.parts.filter(p=>!p.id.startsWith('ZA_')).map(p=>p.originalPart??p);

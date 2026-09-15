@@ -1,0 +1,31 @@
+# source mesh stem (paired l/r when no exact mesh)	Chinese name	system	replace L / single	replace R	description
+Left_common_carotid_artery	左颈总动脉	arterial	FJ3483		自主动脉弓发出，在颈部上行后分为颈内、颈外动脉。
+Right_common_carotid_artery	右颈总动脉	arterial	FJ3564		自头臂干发出，在颈部上行后分为颈内、颈外动脉。
+Internal_carotid_artery	颈内动脉	arterial	FJ1682M	FJ1682	起于颈总动脉分叉，经颈动脉管入颅，参与脑与眼的供血；颈段通常不发出分支。
+Vertebral_artery	椎动脉	arterial	FJ1725M	FJ1725	起于锁骨下动脉，沿颈椎横突孔上行，经枕骨大孔入颅，两侧汇合形成基底动脉。
+Internal_jugular_vein	颈内静脉	venous	FJ3485	FJ3585	在颈静脉孔处续接乙状窦，汇集脑和头颈深部静脉血，下端与锁骨下静脉汇成头臂静脉。
+External_carotid_artery	颈外动脉	arterial			起于颈总动脉分叉，主要供应头颈外部组织，终末分为颞浅动脉和上颌动脉。
+Superficial_temporal_artery	颞浅动脉	arterial			颈外动脉终支之一，在耳前上行，供应头皮颞部及邻近区域。
+Maxillary_artery	上颌动脉	arterial			颈外动脉终支之一，主要供应面部深层、牙、鼻腔及部分硬脑膜。
+Facial_artery	面动脉	arterial			由颈外动脉发出，绕下颌骨下缘至面部，供应面部浅层组织。
+Occipital_artery	枕动脉	arterial			颈外动脉的分支，向后上方走行，供应枕部头皮及邻近肌肉。
+Ascending_pharyngeal_artery	咽升动脉	arterial			颈外动脉的细小内侧分支，供应咽壁、椎前区及部分颅底硬脑膜。
+External_jugular_vein	颈外静脉	venous			汇集部分头皮与面部浅层静脉血，通常沿胸锁乳突肌表面下行，注入锁骨下静脉。
+Common_facial_vein	面总静脉	venous			面静脉与下颌后静脉前支汇合形成的短静脉干，通常注入颈内静脉。
+Facial_vein	面静脉	venous			收集面部浅层静脉血，经面总静脉等通路流入颈内静脉。
+Retromandibular_vein	下颌后静脉	venous			颞浅静脉与上颌静脉在腮腺内汇合形成，下行后分为前、后支。
+Anterior_division_of_retromandibular_vein	下颌后静脉前支	venous			与面静脉汇合参与形成面总静脉，回流至颈内静脉。
+Posterior_division_of_retromandibular_vein	下颌后静脉后支	venous			与耳后静脉汇合参与形成颈外静脉。
+Superficial_temporal_veins	颞浅静脉	venous			收集颞部头皮静脉血，与上颌静脉汇合形成下颌后静脉。
+Maxillary_veins	上颌静脉	venous			汇集翼静脉丛的血液，与颞浅静脉汇合形成下颌后静脉。
+Superior_sagittal_sinus	上矢状窦	venous			沿大脑镰上缘走行，收集大脑表面静脉血，后方汇入窦汇及横窦通路。
+Inferior_sagittal_sinus	下矢状窦	venous			沿大脑镰下缘走行，正常与大脑大静脉汇合形成直窦。当前尚缺可靠配准的直窦及大脑大静脉，深部回流通路未补齐。
+Transverse_sinus	横窦	venous			自窦汇向两侧走行，沿小脑幕附着缘延伸，续为乙状窦。
+Sigmoid_sinus	乙状窦	venous			续接横窦，呈弯曲走行至颈静脉孔，续为颈内静脉。
+Cavernous_sinus	海绵窦	venous			位于蝶鞍两侧的硬脑膜静脉窦，通过岩上窦、岩下窦等途径回流。
+Superior_petrosal_sinus	岩上窦	venous			沿颞骨岩部上缘走行，连接海绵窦与横窦、乙状窦交界区域。
+Inferior_petrosal_sinus	岩下窦	venous			沿岩枕裂走行，将海绵窦的静脉血引流至颈内静脉上端。
+Anterior_intercavernous_sinus	前海绵间窦	venous			从垂体前方连接左右海绵窦。
+Posterior_intercavernous_sinus	后海绵间窦	venous			从垂体后方连接左右海绵窦。
+Azygos_vein	奇静脉	venous			沿脊柱右侧上行，形成奇静脉弓后汇入上腔静脉，参与胸壁回流及上下腔静脉间的侧支循环。当前下端与右腰升静脉的连续连接尚未补齐。
+Hemi-azygos_vein	半奇静脉	venous			沿胸椎左侧上行，在下胸段跨越中线注入奇静脉，收集部分左侧胸壁静脉血。当前下端与左腰升静脉的连续连接尚未补齐。
