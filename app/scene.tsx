@@ -260,7 +260,8 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
         g.setIndex(new T.BufferAttribute(new Uint32Array(buffer, p.indices, p.indexCount), 1));
         g.boundingBox = bounds[i].clone();
         g.computeBoundingSphere();
-        const pick = new T.Mesh(g);
+        // 与渲染共用双面材质，避免可见背面被拾取射线穿透而选中后方结构。
+        const pick = new T.Mesh(g, mats.get(p.system));
         pick.matrixAutoUpdate = false;
         pickers[i] = pick;
         geometries.push(g);

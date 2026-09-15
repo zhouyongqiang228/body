@@ -1,5 +1,31 @@
 import { test, expect } from '@playwright/test';
 
+test('visible temporalis surfaces can be selected directly from either side', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('/');
+  await expect(page.locator('.loading')).toHaveCount(0, { timeout: 60_000 });
+  const canvas = page.locator('canvas');
+  const expectTemporalis = async (side: string, x: number, y: number) => {
+    await canvas.click({ position: { x, y } });
+    await expect(page.locator('.structure-title')).toHaveText(`颞肌${side}`);
+    await expect(page.locator('.structure-description')).toContainText('咀嚼肌');
+    await page.getByRole('button', { name: '清除选择', exact: true }).click();
+  };
+
+  // These points lie on the visible muscle surface in the shipped atlas.
+  // Single-sided picking incorrectly selects skull bones behind the left muscle.
+  await expectTemporalis('左', 740, 94);
+  await page.getByRole('button', { name: '从侧面查看人体', exact: true }).click();
+  await expectTemporalis('左', 728, 89);
+
+  // Turn half a revolution to expose the right temple, using the actual canvas controls.
+  await page.mouse.move(300, 450);
+  await page.mouse.down({ button: 'right' });
+  await page.mouse.move(1020, 450, { steps: 12 });
+  await page.mouse.up({ button: 'right' });
+  await expectTemporalis('右', 712, 89);
+});
+
 test('supplemental muscles and TFCC are searchable, rendered, and describe partial coverage', async ({ page }) => {
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
