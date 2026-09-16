@@ -45,27 +45,35 @@ test('supplemental muscles and TFCC are searchable, rendered, and describe parti
   expect(errors).toEqual([]);
 });
 
-test('abdominal layers can be peeled and restored with hide history', async ({ page }) => {
+test('muscles use shared search, hide history and toolbar reset', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('.loading')).toHaveCount(0, { timeout: 60_000 });
-  await page.locator('.abdominal-layers summary').click();
-  const outer = page.getByRole('switch', { name: '显示腹外斜肌', exact: true });
-  const inner = page.getByRole('switch', { name: '显示腹内斜肌', exact: true });
-  const deep = page.getByRole('switch', { name: '显示腹横肌', exact: true });
-  await expect(outer).toBeChecked();
-  await outer.click();
-  await inner.click();
-  await expect(outer).not.toBeChecked();
-  await expect(inner).not.toBeChecked();
-  await expect(deep).toBeChecked();
+  const count = () => page.locator('.panel-foot').innerText();
+  const initialCount = await count();
+  for (const query of ['腹外斜肌', '腹内斜肌']) {
+    await page.getByRole('button', { name: '搜索解剖结构', exact: true }).click();
+    await page.getByRole('combobox').fill(query);
+    await page.getByRole('option').first().click();
+    await page.getByRole('button', { name: '隐藏此结构', exact: true }).click();
+  }
+  const hiddenCount = await count();
+  expect(hiddenCount).not.toBe(initialCount);
   await page.getByRole('button', { name: '撤销隐藏', exact: true }).click();
-  await expect(inner).toBeChecked();
-  await page.getByRole('button', { name: '组合并重置', exact: true }).click();
-  await expect(outer).toBeChecked();
-  await expect(inner).toBeChecked();
+  expect(await count()).not.toBe(hiddenCount);
+  await page.getByRole('button', { name: '重做隐藏', exact: true }).click();
+  expect(await count()).toBe(hiddenCount);
+  await page.getByRole('button', { name: '重置模型', exact: true }).click();
+  expect(await count()).toBe(initialCount);
+  await expect(page.getByRole('button', { name: '撤销隐藏', exact: true })).toBeDisabled();
+  await expect(page.getByRole('button', { name: '重做隐藏', exact: true })).toBeDisabled();
   await page.setViewportSize({ width: 390, height: 844 });
   await page.getByRole('button', { name: '打开系统图层' }).click();
-  await expect(outer).toBeVisible();
-  await outer.click();
-  await expect(outer).not.toBeChecked();
+  await expect(page.getByRole('switch', { name: '显示肌肉', exact: true })).toBeVisible();
+  await expect(page.locator('.abdominal-layers')).toHaveCount(0);
+  await page.getByRole('button', { name: '全部显示', exact: true }).click();
+  await expect(page.getByRole('switch', { name: '显示体表', exact: true })).toBeChecked();
+  await page.getByRole('button', { name: '全部隐藏', exact: true }).click();
+  await expect(page.locator('.panel-foot')).toHaveText('当前显示 0 个结构');
+  await page.getByRole('button', { name: '全部显示', exact: true }).click();
+  await expect(page.getByRole('switch', { name: '显示肌肉', exact: true })).toBeChecked();
 });

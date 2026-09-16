@@ -73,7 +73,6 @@ async function assertDetailLayout(page: Page) {
       header: rect(".detail-header"),
       scroll: rect(".detail-scroll"),
       actions: rect(".detail-actions"),
-      dock: rect(".bottom-dock"),
       w: innerWidth,
       h: innerHeight,
     };
@@ -85,7 +84,6 @@ async function assertDetailLayout(page: Page) {
   expect(boxes.scroll.bottom).toBeLessThanOrEqual(boxes.actions.y + 1);
   expect(boxes.actions.bottom).toBeLessThanOrEqual(boxes.sheet.bottom);
   expect(boxes.scroll.height).toBeGreaterThanOrEqual(24);
-  expect(boxes.sheet.bottom <= boxes.dock.y || boxes.sheet.x >= boxes.dock.right).toBeTruthy();
 }
 
 async function capture(page: Page, info: TestInfo, name: string) {
@@ -134,17 +132,15 @@ test("desktop search, keyboard selection, canvas motion, isolation and reset", a
   await page.mouse.move(rect.width / 2 + 80, rect.height / 2 + 20, { steps: 10 });
   await page.mouse.up();
   await expect(page.locator(".detail-sheet")).toHaveCount(0);
-  await page.getByRole("button", { name: "组合并重置", exact: true }).click();
+  await page.getByRole("button", { name: "重置模型", exact: true }).click();
   await expect(page.getByRole("button", { name: "从斜前方查看人体", exact: true })).toHaveAttribute(
     "aria-pressed",
     "true",
   );
-  await page.getByRole("slider").focus();
-  await page.getByRole("slider").press("End");
-  await expect(page.locator("output")).toHaveText("100%");
-  await expect(page.locator(".gesture-hint")).toContainText("左键或中键拖动平移");
-  await page.getByRole("button", { name: "组合并重置", exact: true }).click();
-  await expect(page.locator("output")).toHaveText("0%");
+  await expect(page.getByRole("slider")).toHaveCount(0);
+  await expect(page.locator(".bottom-dock, .abdominal-layers")).toHaveCount(0);
+  await expect(page.getByRole("navigation", { name: "模型工具栏" })
+    .getByRole("button", { name: "重置模型" })).toBeVisible();
   expect(errors).toEqual([]);
 });
 
@@ -170,8 +166,8 @@ for (const viewport of [
       await page.getByRole("button", { name: "打开系统图层", exact: true }).click();
       await expect(page.locator(".layers-panel")).toBeVisible();
       await page
-        .locator(".layer-presets")
-        .getByRole("button", { name: "骨骼", exact: true })
+        .locator(".system-list")
+        .getByRole("button", { name: "仅显示骨骼", exact: true })
         .click();
       await page.getByRole("button", { name: "关闭系统面板", exact: true }).click();
       await expect(page.locator(".layers-panel")).toBeHidden();
@@ -186,8 +182,11 @@ for (const viewport of [
         .getByRole("button", { name: "关闭", exact: true })
         .click();
       await expect(page.locator(".detail-sheet")).toHaveCount(0);
-      await page.getByRole("button", { name: "组合并重置", exact: true }).click();
-      await expect(page.locator("output")).toHaveText("0%");
+      await page.getByRole("button", { name: "重置模型", exact: true }).click();
+      await expect(page.getByRole("button", { name: "从斜前方查看人体" })).toHaveAttribute("aria-pressed", "true");
+      const resetBox = (await page.getByRole("button", { name: "重置模型" }).boundingBox())!;
+      expect(resetBox.x).toBeGreaterThanOrEqual(0);
+      expect(resetBox.x + resetBox.width).toBeLessThanOrEqual(viewport.width);
     } finally {
       await context.close();
     }
@@ -213,14 +212,14 @@ test("failed model and catalog requests can retry without navigation or losing s
   await expect(page.getByRole("alert")).toContainText("目录");
   await page.getByRole("button", { name: "重试模型加载", exact: true }).click();
   await expect(page.getByRole("alert")).toContainText("模型文件");
-  await page.locator(".layer-presets").getByRole("button", { name: "骨骼", exact: true }).click();
+  await page.locator(".system-list").getByRole("button", { name: "仅显示骨骼", exact: true }).click();
   await page.getByRole("button", { name: "搜索解剖结构", exact: true }).click();
   await page.getByRole("combobox").fill("股骨");
   await page.getByRole("combobox").press("Escape");
   await page.getByRole("button", { name: "重试模型加载", exact: true }).click();
   await ready(page);
   await expect(
-    page.locator(".layer-presets").getByRole("button", { name: "骨骼", exact: true }),
+    page.locator(".system-list").getByRole("button", { name: "仅显示骨骼", exact: true }),
   ).toHaveAttribute("aria-pressed", "true");
   await page.getByRole("button", { name: "搜索解剖结构", exact: true }).click();
   await expect(page.getByRole("combobox")).toHaveValue("股骨");

@@ -13,7 +13,6 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Slider } from "@/components/ui/slider";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { registerAtlasTools } from "./agent-tools";
 import {
@@ -174,21 +173,6 @@ export default function Home() {
     setChosen(null);
     setDetails(false);
   };
-  const abdominalNames = ["腹外斜肌", "腹内斜肌", "腹横肌"];
-  const abdominalLayers = atlas ? abdominalNames.map(name => ({
-    name,
-    checked: state.visible.includes("muscular") && atlas.parts.filter(p => p.name.endsWith(name)).every(p => !state.hidden.includes(p.id)),
-  })) : [];
-  const changeAbdominalLayer = (name: string, shown: boolean) => {
-    const ids = atlas?.parts.filter(p => p.name.endsWith(name)).map(p => p.id) ?? [];
-    setHideHistory(h => ({ past: [...h.past, state.hidden], future: [] }));
-    setState(s => ({ ...s, isolate: false, selected: [],
-      visible: shown && !s.visible.includes("muscular") ? [...s.visible, "muscular"] : s.visible,
-      hidden: shown ? s.hidden.filter(id => !ids.includes(id)) : [...new Set([...s.hidden, ...ids])],
-    }));
-    setChosen(null);
-    setDetails(false);
-  };
   const undoHide = () => {
     const previous = hideHistory.past.at(-1);
     if (!previous) return;
@@ -268,6 +252,16 @@ export default function Home() {
       </header>
       <nav className="top-actions" aria-label="探索面板">
         <Button
+          ref={layersButton}
+          variant="ghost"
+          className="mobile-only icon-button"
+          onClick={() => openPanel("layers")}
+          aria-label="打开系统图层"
+          aria-expanded={panel === "layers"}
+        >
+          <Layers3 size={18} />
+        </Button>
+        <Button
           ref={searchButton}
           variant="ghost"
           className={panel === "search" ? "active" : ""}
@@ -292,8 +286,6 @@ export default function Home() {
         </aside>
       )}
       <LayersPanel
-        abdominalLayers={abdominalLayers}
-        onAbdominalLayer={changeAbdominalLayer}
         open={panel === "layers"}
         visible={state.visible}
         counts={counts}
@@ -311,7 +303,7 @@ export default function Home() {
         />
       )}
       <TooltipProvider delay={300}>
-        <nav className="view-controls glass" aria-label="视角控制">
+        <nav className="view-controls glass" aria-label="模型工具栏">
           {views.map((v) => (
             <Tooltip key={v.id}>
               <TooltipTrigger
@@ -320,7 +312,6 @@ export default function Home() {
                     variant="ghost"
                     className={state.view === v.id ? "active" : ""}
                     aria-pressed={state.view === v.id}
-                    disabled={state.explode >= 0.8 && v.id !== "front"}
                     onClick={() =>
                       setState((s) => ({ ...s, view: v.id, reset: s.reset + 1, rotate: false }))
                     }
@@ -352,77 +343,30 @@ export default function Home() {
           >
             <Redo2 size={18} />
           </Button>
+          <Tooltip>
+            <TooltipTrigger
+              render={
+                <Button
+                  variant="ghost"
+                  className="toolbar-reset"
+                  onClick={reset}
+                  aria-label="重置模型"
+                />
+              }
+            >
+              <RotateCcw size={16} />
+              <span>重置</span>
+            </TooltipTrigger>
+            <TooltipContent>重置视角、图层并恢复所有已隐藏结构</TooltipContent>
+          </Tooltip>
         </nav>
       </TooltipProvider>
       <div className="scene-caption">
         <span className="caption-line" />
         <span>
-          {state.isolate
-            ? (chosen?.name ?? "选定结构")
-            : state.explode > 0.95
-              ? "解剖结构总览"
-              : state.explode > 0.05
-                ? "分离显示的结构"
-                : "成年男性 · 人体"}
+          {state.isolate ? (chosen?.name ?? "选定结构") : "成年男性 · 人体"}
         </span>
         <span className="caption-line" />
-      </div>
-      <div className="bottom-dock glass">
-        <Button
-          ref={layersButton}
-          variant="ghost"
-          className="mobile-only dock-layers"
-          onClick={() => openPanel("layers")}
-          aria-label="打开系统图层"
-          aria-expanded={panel === "layers"}
-        >
-          <Layers3 size={20} />
-          <span>系统</span>
-        </Button>
-        <div className="explode-control">
-          <div className="explode-label">
-            <label id="explode-label">展开解剖结构</label>
-            <output>
-              {Math.round(state.explode * 100)}
-              <span>%</span>
-            </output>
-          </div>
-          <Slider
-            aria-labelledby="explode-label"
-            min={0}
-            max={100}
-            step={1}
-            value={[state.explode * 100]}
-            onValueChange={(v) => {
-              const value = Array.isArray(v) ? v[0] : v;
-              setState((s) => ({
-                ...s,
-                explode: value / 100,
-                view: value >= 80 ? "front" : s.view,
-                rotate: false,
-              }));
-            }}
-          />
-          <div className="slider-endpoints">
-            <span>组合状态</span>
-            <span>展开可见结构</span>
-          </div>
-          <p className="gesture-hint">
-            {state.explode >= 0.8
-              ? "左键或中键拖动平移 · 滚轮缩放 · 点击选择"
-              : "左键或中键平移 · 右键旋转 · 滚轮缩放"}
-          </p>
-        </div>
-        <Button
-          variant="ghost"
-          className="dock-reset"
-          onClick={reset}
-          aria-label="组合并重置"
-          title="重置视角、图层并恢复所有已隐藏结构"
-        >
-          <RotateCcw size={18} />
-          <span>重置</span>
-        </Button>
       </div>
       <footer className="studio-footer">
         <span>

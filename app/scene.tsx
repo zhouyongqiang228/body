@@ -585,11 +585,10 @@ export default function AnatomyScene({ atlas, state, onSelect, onProgress, onErr
               h = el.clientHeight,
               mobile = w < 768,
               landscape = w > h && h <= 600;
-            const dock = document.querySelector(".bottom-dock")?.getBoundingClientRect();
             let left = 20,
               right = w - 20,
               top = mobile ? 175 : 110,
-              bottom = (dock?.top ?? h - 170) - 16;
+              bottom = h - 76;
             if (s.inspectorOpen) {
               if (landscape) {
                 right = (inspector?.getBoundingClientRect().left ?? w - 335) - 16;
