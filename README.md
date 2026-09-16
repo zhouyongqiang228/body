@@ -73,6 +73,8 @@ npm run test:e2e
 
 仓库已包含可直接用于浏览器的几何数据。重建是可选的：获取官方 BodyParts3D OBJ 存档和英文元数据表，整理合并后的概念及显示系统映射，运行 `scripts/convert-anatomy.py`，然后依次运行 `node scripts/optimize-anatomy.mjs` 和 `node scripts/compress-models.mjs`。每个结构的简化相对误差上限为 0.2%。
 
+全部补充包构建完成后，运行 `node scripts/fit-intestines.mjs`，将肠道及相关系膜的67个网格围绕共同中心等比例缩至84%，向腹腔后方内收12毫米，以适配补入的腹壁肌肉。脚本同步更新拾取/聚焦使用的包围盒和压缩模型，重复运行不会继续缩小；调整记录保存在图谱的 `intestinalFit` 字段。这是跨来源模型的显示配准，不代表真实器官尺寸测量。
+
 ## 部署
 
 将此仓库作为 Vite 项目导入 Vercel。随附的 `vercel.json` 会配置 `npm ci`、`npm run build` 和 `dist` 输出目录。也可以使用静态托管服务部署。
