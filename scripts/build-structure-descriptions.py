@@ -66,6 +66,9 @@ for i,c in concepts.items():
 for candidates in parents.values(): candidates.sort(key=lambda c: (len(c['elements']),-len(matches[c['id']][0])))
 override_path = root / 'app/data/supplemental-descriptions.json'
 overrides = json.loads(override_path.read_text()) if override_path.exists() else {}
+for filename in ['corrected-descriptions.json', 'completion-descriptions.json', 'vascular-descriptions.json']:
+    path = root / 'app/data' / filename
+    if path.exists(): overrides.update(json.loads(path.read_text()))
 rows={}; missing=[]
 for i,c in concepts.items():
     if i in overrides:

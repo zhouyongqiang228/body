@@ -38,6 +38,24 @@ Z-Anatomy — The open source atlas of anatomy，CC BY-SA 4.0。依上游要求�
 - 衍生几何 `models/vascular-*.bin` 及 gzip、补充清单和几何配准记录按 CC BY-SA 4.0 发布。包含原主干的组合网格作为整体按该许可发布；其他基础模型与应用代码许可不变。
 - 没有导入此源包之外的耳、肾等 NC 资源。模型接合使用重叠表面，未验证血管腔连续性，未经过专业解剖审校；明确缺失及方法见 [血管补丁说明](../docs/vascular-supplement.md)。
 
+## 神经、淋巴、腺体与肌肉筋膜补充（2026-09-16）
+
+新增187个网格，仍采用上述固定版本Z-Anatomy。补充包 `models/completion-*.bin`、gzip及衍生网格记录按CC BY-SA 4.0发布；保留全部既有模型身份和原许可。
+
+| 源文件 | Git blob | SHA-256 |
+| --- | --- | --- |
+| MuscularSystem100.fbx | 2477e1b6caf97d7174762b5eec6cf1c80db64eed | 4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279 |
+| Joints100.fbx | 9db06d20217f4f42999dcfdf31b1f6af78dc7794 | f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823 |
+| NervousSystem100.fbx | 4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02 | 3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1 |
+| LymphoidOrgans100.fbx | fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e | 310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609 |
+| VisceralSystem100.fbx | 355770ae46123044c85deca03de3fb880b8f7301 | 22b301c93327929c9a14ee582d1848b550a950376e221a6d1078c7256bb83d0e |
+
+- 归属：Z-Anatomy — The open source atlas of anatomy — CC-BY-SA 4.0；BodyParts3D — The Database Center for Life Science — CC-BY-SA 2.1 Japan（上游历史归属文字）。
+- 同时保留上游神经相关资源致谢：**Cranial Nerves and Foramina — University of Dundee, CAHID — CC-BY 4.0**；**“Brainder” and “White matter” — University of Washington**，见上述固定版本的原始License.txt。
+- 适配：明确命名网格提取、厘米转米、焊接重复顶点、现有骨骼参照下的共享区域仿射变换；长神经等使用骨骼拟合参照点驱动的共享平滑位移场；重算法线、中文名称及说明、二进制分块与gzip。
+- 每个网格的 `source` 字段保留文件、网格名、源ID、固定提交、Git blob、SHA-256及许可。排除注释方盒、空网格，以及耳、肾等明确具有其他非商业许可的资产。
+- 此次配准未经过专业解剖审校，完整范围与保留的来源缺口见[补充说明](../docs/anatomy-completion.md)。应用代码继续按MIT发布。
+
 ## 历史女性参考资源
 
 仓库的早期版本曾包含女性参考解剖数据：Kristen Browne 和 Heidi Schlehlein，Human Reference Atlas / HuBMAP，*3D Reference Organ Set for Female v1.5*（2023）。CC BY 4.0。几何数据已针对本查看器进行适配。

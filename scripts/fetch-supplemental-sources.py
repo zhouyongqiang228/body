@@ -47,10 +47,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--workers', type=int, default=4, choices=range(1, 9))
     parser.add_argument('--vascular', action='store_true', help='Fetch the pinned cardiovascular source instead of muscles/joints.')
+    parser.add_argument('--completion', action='store_true', help='Fetch pinned nervous, lymphoid and visceral sources for the completion overlay.')
     args = parser.parse_args()
     (DEST / 'ranges').mkdir(parents=True, exist_ok=True)
     pending = []
     sources = [('CardioVascular41', 64889388, 'aa5bbcb63ae6e9ace8051111b3a85ea87f00c4f3')] if args.vascular else SOURCES
+    if args.completion:
+        sources = [('NervousSystem100', 53887724, '4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02'),
+                   ('LymphoidOrgans100', 2130876, 'fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e'),
+                   ('VisceralSystem100', 18401708, '355770ae46123044c85deca03de3fb880b8f7301')]
     for name, size, sha in sources:
         target = DEST / f'{name}.fbx'
         if target.exists() and target.stat().st_size == size and identity(target) == sha:

@@ -1,0 +1,173 @@
+{
+  "method": "Minimum sampled vertex distance for selected major nerve branches. Proximity does not prove continuous or anatomically correct fibres. No gap-filling geometry is fabricated.",
+  "connections": [
+    {
+      "from": "左坐骨神经",
+      "to": "左胫神经",
+      "sourceDistanceMm": 0.39022076613882106,
+      "registeredDistanceMm": 0.3654653368265993,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左坐骨神经",
+      "to": "左腓总神经",
+      "sourceDistanceMm": 1.5126582898445915,
+      "registeredDistanceMm": 1.4153665656902559,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左腓总神经",
+      "to": "左腓浅神经",
+      "sourceDistanceMm": 0.042685648275133437,
+      "registeredDistanceMm": 0.041919583859693035,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左腓总神经",
+      "to": "左腓深神经",
+      "sourceDistanceMm": 0.0018075452492311616,
+      "registeredDistanceMm": 0.0017778028311662953,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左胫神经",
+      "to": "左足底内侧神经",
+      "sourceDistanceMm": 0.06932680219819279,
+      "registeredDistanceMm": 0.06631696049194508,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左胫神经",
+      "to": "左足底外侧神经",
+      "sourceDistanceMm": 0.06932680219819279,
+      "registeredDistanceMm": 0.06631696049194508,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左股神经",
+      "to": "左隐神经",
+      "sourceDistanceMm": 0.4294498642265287,
+      "registeredDistanceMm": 0.4149354582361977,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左臂丛根",
+      "to": "左臂丛上干",
+      "sourceDistanceMm": 0.3448482147030446,
+      "registeredDistanceMm": 0.31897711035860016,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左臂丛根",
+      "to": "左臂丛中干",
+      "sourceDistanceMm": 0.15072745067542961,
+      "registeredDistanceMm": 0.14014658783777353,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左臂丛根",
+      "to": "左臂丛下干",
+      "sourceDistanceMm": 0.1600012646899063,
+      "registeredDistanceMm": 0.14551615356693443,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左臂丛后束",
+      "to": "左桡神经",
+      "sourceDistanceMm": 0.015038767620623467,
+      "registeredDistanceMm": 0.015274328166334849,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "左臂丛后束",
+      "to": "左腋神经",
+      "sourceDistanceMm": 7.318610542826262,
+      "registeredDistanceMm": 7.496485794379169,
+      "gapOver5Mm": true
+    },
+    {
+      "from": "右坐骨神经",
+      "to": "右胫神经",
+      "sourceDistanceMm": 0.3902155144298477,
+      "registeredDistanceMm": 0.36503503086083705,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右坐骨神经",
+      "to": "右腓总神经",
+      "sourceDistanceMm": 1.512658633596936,
+      "registeredDistanceMm": 1.4133007372413502,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右腓总神经",
+      "to": "右腓浅神经",
+      "sourceDistanceMm": 0.04267665331799779,
+      "registeredDistanceMm": 0.04231438773047786,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右腓总神经",
+      "to": "右腓深神经",
+      "sourceDistanceMm": 0.0018244188496552678,
+      "registeredDistanceMm": 0.0017958835949292704,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右胫神经",
+      "to": "右足底内侧神经",
+      "sourceDistanceMm": 0.06933367721408872,
+      "registeredDistanceMm": 0.0662664349356596,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右胫神经",
+      "to": "右足底外侧神经",
+      "sourceDistanceMm": 0.06933367721408872,
+      "registeredDistanceMm": 0.0662664349356596,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右股神经",
+      "to": "右隐神经",
+      "sourceDistanceMm": 0.4291845122649764,
+      "registeredDistanceMm": 0.41844597727987687,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右臂丛根",
+      "to": "右臂丛上干",
+      "sourceDistanceMm": 0.34487305504134624,
+      "registeredDistanceMm": 0.3184318875322281,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右臂丛根",
+      "to": "右臂丛中干",
+      "sourceDistanceMm": 0.15077858692898552,
+      "registeredDistanceMm": 0.13957020776294887,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右臂丛根",
+      "to": "右臂丛下干",
+      "sourceDistanceMm": 0.1600253876021004,
+      "registeredDistanceMm": 0.14586320994537819,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右臂丛后束",
+      "to": "右桡神经",
+      "sourceDistanceMm": 0.015037795418484776,
+      "registeredDistanceMm": 0.014891152168264376,
+      "gapOver5Mm": false
+    },
+    {
+      "from": "右臂丛后束",
+      "to": "右腋神经",
+      "sourceDistanceMm": 7.318645646037006,
+      "registeredDistanceMm": 7.452748642265099,
+      "gapOver5Mm": true
+    }
+  ]
+}

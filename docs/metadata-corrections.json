@@ -1,0 +1,728 @@
+{
+  "parts": {
+    "FJ1409": {
+      "before": {
+        "name": "右腓骨短肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "右腓骨短肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1409M": {
+      "before": {
+        "name": "左腓骨短肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "左腓骨短肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1410": {
+      "before": {
+        "name": "右腓骨长肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "右腓骨长肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1410M": {
+      "before": {
+        "name": "左腓骨长肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "左腓骨长肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1411": {
+      "before": {
+        "name": "右第3腓骨肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "右第三腓骨肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1411M": {
+      "before": {
+        "name": "左第3腓骨肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "左第三腓骨肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1438": {
+      "before": {
+        "name": "右阔筋膜张肌",
+        "system": "connective"
+      },
+      "after": {
+        "name": "右阔筋膜张肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1438M": {
+      "before": {
+        "name": "左阔筋膜张肌",
+        "system": "connective"
+      },
+      "after": {
+        "name": "左阔筋膜张肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1439": {
+      "before": {
+        "name": "右胫骨前肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "右胫骨前肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1439M": {
+      "before": {
+        "name": "左胫骨前肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "左胫骨前肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1440": {
+      "before": {
+        "name": "右胫骨后肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "右胫骨后肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1440M": {
+      "before": {
+        "name": "左胫骨后肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "左胫骨后肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1504": {
+      "before": {
+        "name": "右肩胛下肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "右肩胛下肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1504M": {
+      "before": {
+        "name": "左肩胛下肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "左肩胛下肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1532": {
+      "before": {
+        "name": "右肩胛提肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "右肩胛提肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1532M": {
+      "before": {
+        "name": "左肩胛提肌",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "左肩胛提肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2740": {
+      "before": {
+        "name": "左咽下缩肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "左咽下缩肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2742": {
+      "before": {
+        "name": "右咽中缩肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "右咽中缩肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2743": {
+      "before": {
+        "name": "左腭咽肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "左腭咽肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2745": {
+      "before": {
+        "name": "左咽鼓管咽肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "左咽鼓管咽肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2746": {
+      "before": {
+        "name": "左茎突咽肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "左茎突咽肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2747": {
+      "before": {
+        "name": "左咽上缩肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "左咽上缩肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2752": {
+      "before": {
+        "name": "右咽下缩肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "右咽下缩肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2754": {
+      "before": {
+        "name": "左咽中缩肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "左咽中缩肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2755": {
+      "before": {
+        "name": "右腭咽肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "右腭咽肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2757": {
+      "before": {
+        "name": "右咽鼓管咽肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "右咽鼓管咽肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2758": {
+      "before": {
+        "name": "右茎突咽肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "右茎突咽肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2759": {
+      "before": {
+        "name": "右咽上缩肌",
+        "system": "respiratory"
+      },
+      "after": {
+        "name": "右咽上缩肌",
+        "system": "muscular"
+      }
+    },
+    "FJ1471": {
+      "before": {
+        "name": "右腕屈肌支持带",
+        "system": "sensory"
+      },
+      "after": {
+        "name": "右腕屈肌支持带",
+        "system": "connective"
+      }
+    },
+    "FJ1471M": {
+      "before": {
+        "name": "左腕屈肌支持带",
+        "system": "sensory"
+      },
+      "after": {
+        "name": "左腕屈肌支持带",
+        "system": "connective"
+      }
+    },
+    "FJ1423": {
+      "before": {
+        "name": "右髂胫束",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "右髂胫束",
+        "system": "connective"
+      }
+    },
+    "FJ1423M": {
+      "before": {
+        "name": "左髂胫束",
+        "system": "skeletal"
+      },
+      "after": {
+        "name": "左髂胫束",
+        "system": "connective"
+      }
+    },
+    "FJ1755": {
+      "before": {
+        "name": "脉络膜丛大脑半球",
+        "system": "sensory"
+      },
+      "after": {
+        "name": "脉络膜丛大脑半球",
+        "system": "nervous"
+      }
+    },
+    "FJ1803": {
+      "before": {
+        "name": "脉络膜丛大脑半球",
+        "system": "sensory"
+      },
+      "after": {
+        "name": "脉络膜丛大脑半球",
+        "system": "nervous"
+      }
+    },
+    "FJ2418": {
+      "before": {
+        "name": "左心室外侧乳头肌前外侧头",
+        "system": "muscular"
+      },
+      "after": {
+        "name": "左心室外侧乳头肌前外侧头",
+        "system": "cardiac"
+      }
+    },
+    "FJ2419": {
+      "before": {
+        "name": "右心室前乳头肌",
+        "system": "muscular"
+      },
+      "after": {
+        "name": "右心室前乳头肌",
+        "system": "cardiac"
+      }
+    },
+    "FJ2429": {
+      "before": {
+        "name": "左心室外侧乳头肌",
+        "system": "muscular"
+      },
+      "after": {
+        "name": "左心室外侧乳头肌",
+        "system": "cardiac"
+      }
+    },
+    "FJ2430": {
+      "before": {
+        "name": "右心室后乳头肌",
+        "system": "muscular"
+      },
+      "after": {
+        "name": "右心室后乳头肌",
+        "system": "cardiac"
+      }
+    },
+    "FJ2437": {
+      "before": {
+        "name": "右心室隔侧乳头肌",
+        "system": "muscular"
+      },
+      "after": {
+        "name": "右心室隔侧乳头肌",
+        "system": "cardiac"
+      }
+    },
+    "FJ3265": {
+      "before": {
+        "name": "左泪骨",
+        "system": "sensory"
+      },
+      "after": {
+        "name": "左泪骨",
+        "system": "skeletal"
+      }
+    },
+    "FJ3371": {
+      "before": {
+        "name": "右泪骨",
+        "system": "sensory"
+      },
+      "after": {
+        "name": "右泪骨",
+        "system": "skeletal"
+      }
+    },
+    "FJ1768": {
+      "before": {
+        "name": "乳头体体",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "乳头体",
+        "system": "nervous"
+      }
+    },
+    "FJ1815": {
+      "before": {
+        "name": "乳头体体",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "乳头体",
+        "system": "nervous"
+      }
+    },
+    "FJ1795": {
+      "before": {
+        "name": "神经轴室周器官",
+        "system": "endocrine"
+      },
+      "after": {
+        "name": "松果体",
+        "system": "endocrine"
+      }
+    },
+    "FJ1776": {
+      "before": {
+        "name": "左壳",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "左壳核",
+        "system": "nervous"
+      }
+    },
+    "FJ1823": {
+      "before": {
+        "name": "右壳",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "右壳核",
+        "system": "nervous"
+      }
+    },
+    "FJ1734": {
+      "before": {
+        "name": "神经轴细胞群",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "前连合",
+        "system": "nervous"
+      }
+    },
+    "FJ1742": {
+      "before": {
+        "name": "结构胼胝体",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "胼胝体",
+        "system": "nervous"
+      }
+    },
+    "FJ1760": {
+      "before": {
+        "name": "神经轴器官成分",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "左下丘脑",
+        "system": "nervous"
+      }
+    },
+    "FJ1808": {
+      "before": {
+        "name": "神经轴器官成分",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "右下丘脑",
+        "system": "nervous"
+      }
+    },
+    "FJ1764": {
+      "before": {
+        "name": "神经轴白质段",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "终板左部",
+        "system": "nervous"
+      }
+    },
+    "FJ1812": {
+      "before": {
+        "name": "神经轴白质段",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "终板右部",
+        "system": "nervous"
+      }
+    },
+    "FJ1774": {
+      "before": {
+        "name": "神经轴白质段",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "左大脑脚",
+        "system": "nervous"
+      }
+    },
+    "FJ1821": {
+      "before": {
+        "name": "神经轴白质段",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "右大脑脚",
+        "system": "nervous"
+      }
+    },
+    "FJ1780": {
+      "before": {
+        "name": "结构",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "灰结节左部",
+        "system": "nervous"
+      }
+    },
+    "FJ1828": {
+      "before": {
+        "name": "结构",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "灰结节右部",
+        "system": "nervous"
+      }
+    },
+    "FJ1781": {
+      "before": {
+        "name": "神经轴段",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "左小脑半球",
+        "system": "nervous"
+      }
+    },
+    "FJ1830": {
+      "before": {
+        "name": "神经轴段",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "右小脑半球",
+        "system": "nervous"
+      }
+    },
+    "FJ1825": {
+      "before": {
+        "name": "神经轴白质段",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "右终纹",
+        "system": "nervous"
+      }
+    },
+    "FJ1843": {
+      "before": {
+        "name": "硬脑膜细分部",
+        "system": "nervous"
+      },
+      "after": {
+        "name": "小脑幕",
+        "system": "nervous"
+      }
+    },
+    "FJ2561": {
+      "before": {
+        "name": "皮髓质器官",
+        "system": "lymphatic"
+      },
+      "after": {
+        "name": "脾",
+        "system": "lymphatic"
+      }
+    },
+    "FJ2739": {
+      "before": {
+        "name": "左解舌肌",
+        "system": "muscular"
+      },
+      "after": {
+        "name": "左舌骨舌肌",
+        "system": "muscular"
+      }
+    },
+    "FJ2751": {
+      "before": {
+        "name": "右解舌肌",
+        "system": "muscular"
+      },
+      "after": {
+        "name": "右舌骨舌肌",
+        "system": "muscular"
+      }
+    }
+  },
+  "concepts": {
+    "FMA22539": {
+      "before": "腓骨肌长肌",
+      "after": "腓骨长肌"
+    },
+    "FMA22552": {
+      "before": "右腓骨肌长肌",
+      "after": "右腓骨长肌"
+    },
+    "FMA22553": {
+      "before": "左腓骨肌长肌",
+      "after": "左腓骨长肌"
+    },
+    "FMA22540": {
+      "before": "腓骨肌短肌",
+      "after": "腓骨短肌"
+    },
+    "FMA22554": {
+      "before": "右腓骨肌短肌",
+      "after": "右腓骨短肌"
+    },
+    "FMA22555": {
+      "before": "左腓骨肌短肌",
+      "after": "左腓骨短肌"
+    },
+    "FMA22538": {
+      "before": "腓骨肌",
+      "after": "第三腓骨肌"
+    },
+    "FMA22550": {
+      "before": "右腓骨肌",
+      "after": "右第三腓骨肌"
+    },
+    "FMA22551": {
+      "before": "左腓骨肌",
+      "after": "左第三腓骨肌"
+    },
+    "FMA22532": {
+      "before": "胫肌前",
+      "after": "胫骨前肌"
+    },
+    "FMA22544": {
+      "before": "右胫肌前",
+      "after": "右胫骨前肌"
+    },
+    "FMA22545": {
+      "before": "左胫肌前",
+      "after": "左胫骨前肌"
+    },
+    "FMA51099": {
+      "before": "胫肌后",
+      "after": "胫骨后肌"
+    },
+    "FMA65018": {
+      "before": "右胫肌后",
+      "after": "右胫骨后肌"
+    },
+    "FMA65019": {
+      "before": "左胫肌后",
+      "after": "左胫骨后肌"
+    },
+    "FMA39988": {
+      "before": "屈肌支持带腕",
+      "after": "腕屈肌支持带"
+    },
+    "FMA40120": {
+      "before": "屈肌支持带右腕",
+      "after": "右腕屈肌支持带"
+    },
+    "FMA40121": {
+      "before": "屈肌支持带左腕",
+      "after": "左腕屈肌支持带"
+    },
+    "FMA74877": {
+      "before": "乳头体体",
+      "after": "乳头体"
+    },
+    "FMA62033": {
+      "before": "松果体体",
+      "after": "松果体"
+    },
+    "FMA72829": {
+      "before": "左壳",
+      "after": "左壳核"
+    },
+    "FMA72828": {
+      "before": "右壳",
+      "after": "右壳核"
+    },
+    "FMA62394": {
+      "before": "脚中脑",
+      "after": "大脑脚"
+    }
+  }
+}

@@ -1,0 +1,3003 @@
+{
+  "added": 187,
+  "parts": [
+    {
+      "id": "ZA_C_MuscularSystem100_473516794",
+      "name": "左腹直肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Rectus_abdominis_musclel",
+        "id": 473516794,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "abdomen"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_811540614",
+      "name": "右腹直肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Rectus_abdominis_muscler",
+        "id": 811540614,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "abdomen"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_817053160",
+      "name": "左背阔肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Latissimus_dorsi_musclel",
+        "id": 817053160,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "torso"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_172472462",
+      "name": "右背阔肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Latissimus_dorsi_muscler",
+        "id": 172472462,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "torso"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_235254145",
+      "name": "左腰方肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Quadratus_lumborum_musclel",
+        "id": 235254145,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "abdomen"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_421310032",
+      "name": "右腰方肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Quadratus_lumborum_muscler",
+        "id": 421310032,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "abdomen"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_726335290",
+      "name": "左皱眉肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Corrugator_superciliil",
+        "id": 726335290,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_23602413",
+      "name": "右皱眉肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Corrugator_superciliir",
+        "id": 23602413,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_247885239",
+      "name": "左鼻肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Nasalis_musclel",
+        "id": 247885239,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_897633611",
+      "name": "右鼻肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Nasalis_muscler",
+        "id": 897633611,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_890613983",
+      "name": "左提上唇肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Levator_labii_superiorisl",
+        "id": 890613983,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_412064368",
+      "name": "右提上唇肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Levator_labii_superiorisr",
+        "id": 412064368,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_415043050",
+      "name": "左降口角肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Depressor_anguli_orisl",
+        "id": 415043050,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_763323912",
+      "name": "右降口角肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Depressor_anguli_orisr",
+        "id": 763323912,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_783619419",
+      "name": "左降下唇肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Depressor_labii_inferiorisl",
+        "id": 783619419,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_977642170",
+      "name": "右降下唇肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Depressor_labii_inferiorisr",
+        "id": 977642170,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_495262934",
+      "name": "左笑肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Risorius_musclel",
+        "id": 495262934,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_998988858",
+      "name": "右笑肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Risorius_muscler",
+        "id": 998988858,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_63420266",
+      "name": "左鼻根肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Procerus_musclel",
+        "id": 63420266,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_907127900",
+      "name": "右鼻根肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Procerus_muscler",
+        "id": 907127900,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_833854523",
+      "name": "左提口角肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Levator_anguli_orisl",
+        "id": 833854523,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_926940655",
+      "name": "右提口角肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Levator_anguli_orisr",
+        "id": 926940655,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_899759535",
+      "name": "左趾短伸肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Extensor_digitorum_brevisl",
+        "id": 899759535,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "ankle_l"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_660006931",
+      "name": "右趾短伸肌",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Extensor_digitorum_brevisr",
+        "id": 660006931,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "ankle_r"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_787452513",
+      "name": "左胸腰筋膜前层",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Anterior_layer_of_thoracolumbar_fascial",
+        "id": 787452513,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "abdomen"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_351561331",
+      "name": "右胸腰筋膜前层",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Anterior_layer_of_thoracolumbar_fasciar",
+        "id": 351561331,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "abdomen"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_286507229",
+      "name": "左胸腰筋膜中层",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Middle_layer_of_thoracolumbar_fascial",
+        "id": 286507229,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "abdomen"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_258389767",
+      "name": "右胸腰筋膜中层",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Middle_layer_of_thoracolumbar_fasciar",
+        "id": 258389767,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "abdomen"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_655962380",
+      "name": "左胸腰筋膜后层",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Posterior_layer_of_thoracolumbar_fascial",
+        "id": 655962380,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "abdomen"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_390108657",
+      "name": "右胸腰筋膜后层",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Posterior_layer_of_thoracolumbar_fasciar",
+        "id": 390108657,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "abdomen"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_375911140",
+      "name": "左足底腱膜",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Plantar_aponeurosisl",
+        "id": 375911140,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "ankle_l"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_753149753",
+      "name": "右足底腱膜",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Plantar_aponeurosisr",
+        "id": 753149753,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "ankle_r"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_675376731",
+      "name": "左掌腱膜",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Palmar_aponeurosisl",
+        "id": 675376731,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "wrist_l"
+    },
+    {
+      "id": "ZA_C_MuscularSystem100_547570908",
+      "name": "右掌腱膜",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "MuscularSystem100.fbx",
+        "mesh": "Palmar_aponeurosisr",
+        "id": 547570908,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+        "gitBlob": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "wrist_r"
+    },
+    {
+      "id": "ZA_C_Joints100_403329975",
+      "name": "左膝关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_knee_jointl",
+        "id": 403329975,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "knee_l"
+    },
+    {
+      "id": "ZA_C_Joints100_356912233",
+      "name": "右膝关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_knee_jointr",
+        "id": 356912233,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "knee_r"
+    },
+    {
+      "id": "ZA_C_Joints100_289058344",
+      "name": "左髋关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_hip_jointl",
+        "id": 289058344,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "hip_l"
+    },
+    {
+      "id": "ZA_C_Joints100_50434999",
+      "name": "右髋关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_hip_jointr",
+        "id": 50434999,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "hip_r"
+    },
+    {
+      "id": "ZA_C_Joints100_141466139",
+      "name": "左肘关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_elbow_jointl",
+        "id": 141466139,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "elbow_l"
+    },
+    {
+      "id": "ZA_C_Joints100_569988606",
+      "name": "右肘关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_elbow_jointr",
+        "id": 569988606,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "elbow_r"
+    },
+    {
+      "id": "ZA_C_Joints100_697105266",
+      "name": "左肩关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_glenohumeral_jointl",
+        "id": 697105266,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "shoulder_l"
+    },
+    {
+      "id": "ZA_C_Joints100_558719528",
+      "name": "右肩关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_glenohumeral_jointr",
+        "id": 558719528,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "shoulder_r"
+    },
+    {
+      "id": "ZA_C_Joints100_222858263",
+      "name": "左桡腕关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_radiocarpal_jointl",
+        "id": 222858263,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "wrist_l"
+    },
+    {
+      "id": "ZA_C_Joints100_773412423",
+      "name": "右桡腕关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_radiocarpal_jointr",
+        "id": 773412423,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "wrist_r"
+    },
+    {
+      "id": "ZA_C_Joints100_938671767",
+      "name": "左颞下颌关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_temporomandibular_jointl",
+        "id": 938671767,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_Joints100_85522490",
+      "name": "右颞下颌关节囊",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "Joints100.fbx",
+        "mesh": "Articular_capsule_of_temporomandibular_jointr",
+        "id": 85522490,
+        "sha256": "f4ba7a910cdaef99e31530f368628780d9f06b5d77853f8b721f47f67137e823",
+        "gitBlob": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "head"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_191242368",
+      "name": "脊髓白质",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "White_matter_of_spinal_cord",
+        "id": 191242368,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_154705191",
+      "name": "脊髓前角",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Anterior_horn_of_spinal_cord",
+        "id": 154705191,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_301888098",
+      "name": "脊髓后角",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_horn_of_spinal_cord",
+        "id": 301888098,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_929879093",
+      "name": "脊髓外侧中间质",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Lateral_intermediate_substance",
+        "id": 929879093,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_701778379",
+      "name": "硬脊膜",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Spinal_dura",
+        "id": 701778379,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_733539646",
+      "name": "马尾",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Cauda_equina",
+        "id": 733539646,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_922291677",
+      "name": "左脊神经前根群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Anterior_root_of_spinal_nervel",
+        "id": 922291677,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_67860681",
+      "name": "右脊神经前根群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Anterior_root_of_spinal_nerver",
+        "id": 67860681,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_64151471",
+      "name": "左脊神经后根群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_root_of_spinal_nervel",
+        "id": 64151471,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_836986210",
+      "name": "右脊神经后根群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_root_of_spinal_nerver",
+        "id": 836986210,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_229509708",
+      "name": "左脊神经节群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Spinal_ganglionl",
+        "id": 229509708,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_352741008",
+      "name": "右脊神经节群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Spinal_ganglionr",
+        "id": 352741008,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_577428885",
+      "name": "左嗅神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Olfactory_nerve_(I)l",
+        "id": 577428885,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_78580746",
+      "name": "右嗅神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Olfactory_nerve_(I)r",
+        "id": 78580746,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_347944056",
+      "name": "左三叉神经主干",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Trigeminal_nerve_(V)l",
+        "id": 347944056,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_146160816",
+      "name": "右三叉神经主干",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Trigeminal_nerve_(V)r",
+        "id": 146160816,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_238192397",
+      "name": "左上颌神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Maxillary_nervel",
+        "id": 238192397,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_269094747",
+      "name": "右上颌神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Maxillary_nerver",
+        "id": 269094747,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_54576339",
+      "name": "左展神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Abducens_nerve_(VI)l",
+        "id": 54576339,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_959291254",
+      "name": "右展神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Abducens_nerve_(VI)r",
+        "id": 959291254,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_786987420",
+      "name": "左面神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Facial_nerve_(VII)l",
+        "id": 786987420,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_601119600",
+      "name": "右面神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Facial_nerve_(VII)r",
+        "id": 601119600,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_693922123",
+      "name": "左前庭蜗神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Vestibulocochlear_nerve_(VIII)l",
+        "id": 693922123,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_721126004",
+      "name": "右前庭蜗神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Vestibulocochlear_nerve_(VIII)r",
+        "id": 721126004,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_605394122",
+      "name": "左舌咽神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Glossopharyngeal_nerve_(IX)l",
+        "id": 605394122,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_484462188",
+      "name": "右舌咽神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Glossopharyngeal_nerve_(IX)r",
+        "id": 484462188,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_495043956",
+      "name": "左迷走神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Vagus_nerve_(X)l",
+        "id": 495043956,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_807336202",
+      "name": "右迷走神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Vagus_nerve_(X)r",
+        "id": 807336202,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_162690283",
+      "name": "左副神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Accessory_nerve_(XI)l",
+        "id": 162690283,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_463124001",
+      "name": "右副神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Accessory_nerve_(XI)r",
+        "id": 463124001,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_84641712",
+      "name": "左舌下神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Hypoglossal_nerve_(XII)l",
+        "id": 84641712,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_213766160",
+      "name": "右舌下神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Hypoglossal_nerve_(XII)r",
+        "id": 213766160,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_460356588",
+      "name": "左交感干",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Sympathetic_trunkl",
+        "id": 460356588,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_478001266",
+      "name": "右交感干",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Sympathetic_trunkr",
+        "id": 478001266,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_586537821",
+      "name": "左交感干神经节群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Ganglia_of_sympathetic_trunkl",
+        "id": 586537821,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_572192471",
+      "name": "右交感干神经节群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Ganglia_of_sympathetic_trunkr",
+        "id": 572192471,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_237508656",
+      "name": "左肋间神经群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Intercostal_nervesl",
+        "id": 237508656,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_720596488",
+      "name": "右肋间神经群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Intercostal_nervesr",
+        "id": 720596488,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_83601616",
+      "name": "左桡神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Radial_nervel",
+        "id": 83601616,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_41491164",
+      "name": "右桡神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Radial_nerver",
+        "id": 41491164,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_498796664",
+      "name": "左正中神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Median_nervel",
+        "id": 498796664,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_874085510",
+      "name": "右正中神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Median_nerver",
+        "id": 874085510,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_877192689",
+      "name": "左尺神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Ulnar_nervel",
+        "id": 877192689,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_649745495",
+      "name": "右尺神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Ulnar_nerver",
+        "id": 649745495,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_190377147",
+      "name": "左肌皮神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Musculocutaneous_nervel",
+        "id": 190377147,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_122786892",
+      "name": "右肌皮神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Musculocutaneous_nerver",
+        "id": 122786892,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_550528658",
+      "name": "左腋神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Axillary_nervel",
+        "id": 550528658,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_168765396",
+      "name": "右腋神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Axillary_nerver",
+        "id": 168765396,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_583098546",
+      "name": "左胸背神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Thoracodorsal_nervel",
+        "id": 583098546,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_602370931",
+      "name": "右胸背神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Thoracodorsal_nerver",
+        "id": 602370931,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_818295912",
+      "name": "左胸长神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Long_thoracic_nervel",
+        "id": 818295912,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_512424127",
+      "name": "右胸长神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Long_thoracic_nerver",
+        "id": 512424127,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_689431685",
+      "name": "左肩胛上神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Suprascapular_nervel",
+        "id": 689431685,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_114726656",
+      "name": "右肩胛上神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Suprascapular_nerver",
+        "id": 114726656,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_836789433",
+      "name": "左股神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Femoral_nervel",
+        "id": 836789433,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_728835402",
+      "name": "右股神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Femoral_nerver",
+        "id": 728835402,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_901954279",
+      "name": "左闭孔神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Obturator_nervel",
+        "id": 901954279,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_285921066",
+      "name": "右闭孔神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Obturator_nerver",
+        "id": 285921066,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_873554455",
+      "name": "左隐神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Saphenous_nervel",
+        "id": 873554455,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_895453984",
+      "name": "右隐神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Saphenous_nerver",
+        "id": 895453984,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_12512128",
+      "name": "左股外侧皮神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Lateral_femoral_cutaneous_nervel",
+        "id": 12512128,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_724837128",
+      "name": "右股外侧皮神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Lateral_femoral_cutaneous_nerver",
+        "id": 724837128,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_472420027",
+      "name": "左坐骨神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Sciatic_nervel",
+        "id": 472420027,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_809851269",
+      "name": "右坐骨神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Sciatic_nerver",
+        "id": 809851269,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_380553564",
+      "name": "左胫神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Tibial_nervel",
+        "id": 380553564,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_85997353",
+      "name": "右胫神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Tibial_nerver",
+        "id": 85997353,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_389033561",
+      "name": "左腓总神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Common_fibular_nervel",
+        "id": 389033561,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_713806063",
+      "name": "右腓总神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Common_fibular_nerver",
+        "id": 713806063,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_54873856",
+      "name": "左腓浅神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Superficial_fibular_nervel",
+        "id": 54873856,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_649582416",
+      "name": "右腓浅神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Superficial_fibular_nerver",
+        "id": 649582416,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_640738843",
+      "name": "左腓深神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Deep_fibular_nervel",
+        "id": 640738843,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_804557147",
+      "name": "右腓深神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Deep_fibular_nerver",
+        "id": 804557147,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_968069445",
+      "name": "左腓肠神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Sural_nervel",
+        "id": 968069445,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_627998463",
+      "name": "右腓肠神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Sural_nerver",
+        "id": 627998463,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_443450730",
+      "name": "左足底内侧神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Medial_plantar_nervel",
+        "id": 443450730,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_473222863",
+      "name": "右足底内侧神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Medial_plantar_nerver",
+        "id": 473222863,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_117896034",
+      "name": "左足底外侧神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Lateral_plantar_nervel",
+        "id": 117896034,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_356827246",
+      "name": "右足底外侧神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Lateral_plantar_nerver",
+        "id": 356827246,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_736400610",
+      "name": "左阴部神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Pudendal_nervel",
+        "id": 736400610,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_623096950",
+      "name": "右阴部神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Pudendal_nerver",
+        "id": 623096950,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_443336714",
+      "name": "左臀上神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Superior_gluteal_nervel",
+        "id": 443336714,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_905776914",
+      "name": "右臀上神经",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Superior_gluteal_nerver",
+        "id": 905776914,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_750578364",
+      "name": "左臂丛根",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Roots_of_brachial_plexusl",
+        "id": 750578364,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_680949521",
+      "name": "右臂丛根",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Roots_of_brachial_plexusr",
+        "id": 680949521,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_451035696",
+      "name": "左臂丛上干",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Superior_trunk_of_brachial_plexusl",
+        "id": 451035696,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_443613078",
+      "name": "右臂丛上干",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Superior_trunk_of_brachial_plexusr",
+        "id": 443613078,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_104757744",
+      "name": "左臂丛中干",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Middle_trunk_of_brachial_plexusl",
+        "id": 104757744,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_373690407",
+      "name": "右臂丛中干",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Middle_trunk_of_brachial_plexusr",
+        "id": 373690407,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_143717930",
+      "name": "左臂丛下干",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Inferior_trunk_of_brachial_plexusl",
+        "id": 143717930,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_208648482",
+      "name": "右臂丛下干",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Inferior_trunk_of_brachial_plexusr",
+        "id": 208648482,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_241201147",
+      "name": "左臂丛后束",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_cord_of_brachial_plexusl",
+        "id": 241201147,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_978614789",
+      "name": "右臂丛后束",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_cord_of_brachial_plexusr",
+        "id": 978614789,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_498134673",
+      "name": "左臂丛上干前股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Anterior_division_of_superior_trunk_of_brachial_plexusl",
+        "id": 498134673,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_420017778",
+      "name": "右臂丛上干前股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Anterior_division_of_superior_trunk_of_brachial_plexusr",
+        "id": 420017778,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_975254458",
+      "name": "左臂丛上干后股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_division_of_superior_trunk_of_brachial_plexusl",
+        "id": 975254458,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_350342407",
+      "name": "右臂丛上干后股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_division_of_superior_trunk_of_brachial_plexusr",
+        "id": 350342407,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_672509789",
+      "name": "左臂丛中干前股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Anterior_division_of_middle_trunk_of_brachial_plexusl",
+        "id": 672509789,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_680798551",
+      "name": "右臂丛中干前股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Anterior_division_of_middle_trunk_of_brachial_plexusr",
+        "id": 680798551,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_664884397",
+      "name": "左臂丛中干后股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_division_of_middle_trunk_of_brachial_plexusl",
+        "id": 664884397,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_828702681",
+      "name": "右臂丛中干后股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_division_of_middle_trunk_of_brachial_plexusr",
+        "id": 828702681,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_51760265",
+      "name": "左臂丛下干前股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Anterior_division_of_inferior_trunk_of_brachial_plexusl",
+        "id": 51760265,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_413748403",
+      "name": "右臂丛下干前股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Anterior_division_of_inferior_trunk_of_brachial_plexusr",
+        "id": 413748403,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_889582750",
+      "name": "左臂丛下干后股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_division_of_inferior_trunk_of_brachial_plexusl",
+        "id": 889582750,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_NervousSystem100_150925922",
+      "name": "右臂丛下干后股",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "NervousSystem100.fbx",
+        "mesh": "Posterior_division_of_inferior_trunk_of_brachial_plexusr",
+        "id": 150925922,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_731375313",
+      "name": "左下颌下淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Submandibular_nodesl",
+        "id": 731375313,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_901498846",
+      "name": "右下颌下淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Submandibular_nodesr",
+        "id": 901498846,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_39442650",
+      "name": "左颏下淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Submental_nodesl",
+        "id": 39442650,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_542540733",
+      "name": "右颏下淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Submental_nodesr",
+        "id": 542540733,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_164160207",
+      "name": "左颈外侧浅淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Superficial_lateral_cervical_nodesl",
+        "id": 164160207,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_921183981",
+      "name": "右颈外侧浅淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Superficial_lateral_cervical_nodesr",
+        "id": 921183981,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_713806769",
+      "name": "左颈外侧下深淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Inferior_deep_lateral_cervical_nodesl",
+        "id": 713806769,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_189392022",
+      "name": "右颈外侧下深淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Inferior_deep_lateral_cervical_nodesr",
+        "id": 189392022,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_109126971",
+      "name": "左腋前淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Anterior_axillary_nodesl",
+        "id": 109126971,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_169200815",
+      "name": "右腋前淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Anterior_axillary_nodesr",
+        "id": 169200815,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_344142083",
+      "name": "左腋后淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Posterior_axillary_nodesl",
+        "id": 344142083,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_533935658",
+      "name": "右腋后淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Posterior_axillary_nodesr",
+        "id": 533935658,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_236392027",
+      "name": "左腋外侧淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Lateral_axillary_nodesl",
+        "id": 236392027,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_122716142",
+      "name": "右腋外侧淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Lateral_axillary_nodesr",
+        "id": 122716142,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_754284653",
+      "name": "左腋中央淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Central_axillary_nodesl",
+        "id": 754284653,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_941815259",
+      "name": "右腋中央淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Central_axillary_nodesr",
+        "id": 941815259,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_351695550",
+      "name": "左腋尖淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Apical_axillary_nodesl",
+        "id": 351695550,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_601817331",
+      "name": "右腋尖淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Apical_axillary_nodesr",
+        "id": 601817331,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_165365808",
+      "name": "左腹股沟浅下淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Inferior_superficial_inguinal_nodesl",
+        "id": 165365808,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_20822974",
+      "name": "右腹股沟浅下淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Inferior_superficial_inguinal_nodesr",
+        "id": 20822974,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_265279673",
+      "name": "左腹股沟浅上内侧淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Superomedial_superficial_inguinal_nodesl",
+        "id": 265279673,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_739885103",
+      "name": "右腹股沟浅上内侧淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Superomedial_superficial_inguinal_nodesr",
+        "id": 739885103,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_880491053",
+      "name": "左腹股沟浅上外侧淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Superolateral_superficial_inguinal_nodesl",
+        "id": 880491053,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_981344202",
+      "name": "右腹股沟浅上外侧淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Superolateral_superficial_inguinal_nodesr",
+        "id": 981344202,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_751967705",
+      "name": "左腘深淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Deep_popliteal_nodesl",
+        "id": 751967705,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_554474889",
+      "name": "右腘深淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Deep_popliteal_nodesr",
+        "id": 554474889,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_773461880",
+      "name": "左闭孔淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Obturator_nodesl",
+        "id": 773461880,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_721810674",
+      "name": "右闭孔淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Obturator_nodesr",
+        "id": 721810674,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_13446026",
+      "name": "腹腔淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Coeliac_nodes",
+        "id": 13446026,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_691255533",
+      "name": "肠旁肠系膜淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Juxta-intestinal_mesenteric_nodes",
+        "id": 691255533,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_255096591",
+      "name": "胸气管旁淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Paratracheal_thoracic_nodes",
+        "id": 255096591,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_LymphoidOrgans100_358466091",
+      "name": "气管支气管下淋巴结群",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "LymphoidOrgans100.fbx",
+        "mesh": "Inferior_tracheobronchial_nodes",
+        "id": 358466091,
+        "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+        "gitBlob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_VisceralSystem100_417351908",
+      "name": "甲状腺",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "VisceralSystem100.fbx",
+        "mesh": "Thyroid_gland",
+        "id": 417351908,
+        "sha256": "22b301c93327929c9a14ee582d1848b550a950376e221a6d1078c7256bb83d0e",
+        "gitBlob": "355770ae46123044c85deca03de3fb880b8f7301",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_VisceralSystem100_990285616",
+      "name": "左上甲状旁腺",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "VisceralSystem100.fbx",
+        "mesh": "Superior_parathyroid_glandl",
+        "id": 990285616,
+        "sha256": "22b301c93327929c9a14ee582d1848b550a950376e221a6d1078c7256bb83d0e",
+        "gitBlob": "355770ae46123044c85deca03de3fb880b8f7301",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_VisceralSystem100_30845073",
+      "name": "右上甲状旁腺",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "VisceralSystem100.fbx",
+        "mesh": "Superior_parathyroid_glandr",
+        "id": 30845073,
+        "sha256": "22b301c93327929c9a14ee582d1848b550a950376e221a6d1078c7256bb83d0e",
+        "gitBlob": "355770ae46123044c85deca03de3fb880b8f7301",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_VisceralSystem100_584507121",
+      "name": "左下甲状旁腺",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "VisceralSystem100.fbx",
+        "mesh": "Inferior_parathyroid_glandl",
+        "id": 584507121,
+        "sha256": "22b301c93327929c9a14ee582d1848b550a950376e221a6d1078c7256bb83d0e",
+        "gitBlob": "355770ae46123044c85deca03de3fb880b8f7301",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    },
+    {
+      "id": "ZA_C_VisceralSystem100_842142624",
+      "name": "右下甲状旁腺",
+      "source": {
+        "dataset": "Z-Anatomy",
+        "license": "CC-BY-SA-4.0",
+        "file": "VisceralSystem100.fbx",
+        "mesh": "Inferior_parathyroid_glandr",
+        "id": 842142624,
+        "sha256": "22b301c93327929c9a14ee582d1848b550a950376e221a6d1078c7256bb83d0e",
+        "gitBlob": "355770ae46123044c85deca03de3fb880b8f7301",
+        "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+        "phase": 3
+      },
+      "region": "body"
+    }
+  ],
+  "geometrySha256": {
+    "completion-0.bin": "a1180a2c0672ab62958361ea8e8614bb06f8ad7a2c0e806b79755c018f839da0",
+    "completion-1.bin": "9a60fc77a1e3ab037070ca49f8b600773d0675f16e3bb0c1a50929d5b64141b4",
+    "completion-2.bin": "fe2cca596614b6aa0b91056c92773a1c837b15728c66c74ecd41d185da38d4d1",
+    "completion-3.bin": "a4f42435108f2bc128e499dd60aff0c86dd4e50711cbfb99bbd16db6ee224735"
+  }
+}
